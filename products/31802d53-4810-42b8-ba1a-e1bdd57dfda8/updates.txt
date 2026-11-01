@@ -1,0 +1,12 @@
+Life Style product image uploads
+Imported [0b3f4f59-0ec8-486e-98fa-58ed8414d4c7] main | IMG_20260926_215810.jpg | github:products/31802d53-4810-42b8-ba1a-e1bdd57dfda8/main/ed90023d-6ca9-4495-836e-d2a1069a7a02.webp
+Imported [95e0e565-9b39-4700-8528-639a14ec6e08] color | IMG_20260926_221255.jpg | github:products/31802d53-4810-42b8-ba1a-e1bdd57dfda8/colors/46fb65fe-734f-46df-b870-ac2b35fac2b3.webp
+Imported [1e0e7c4b-2a58-4e82-8719-e0d72cc97ae9] color | IMG_20260926_221235.jpg | github:products/31802d53-4810-42b8-ba1a-e1bdd57dfda8/colors/45227232-5fa3-4246-8424-ae7cdfe8128f.webp
+Imported [4530a819-c0bd-41c3-bc97-00dd9fc1264c] color | IMG_20260926_221206.jpg | github:products/31802d53-4810-42b8-ba1a-e1bdd57dfda8/colors/71915e21-162d-4298-9b04-a3e7718c1d21.webp
+Imported [b947938e-05f8-42e8-bdff-8f0a763ce58c] color | IMG_20260926_221143.jpg | github:products/31802d53-4810-42b8-ba1a-e1bdd57dfda8/colors/cf99b4b2-aab5-44d5-8139-b63314eafeef.webp
+Imported [665443fc-bd92-4b0f-8612-1ec635c058c6] color | IMG_20260926_220932.jpg | github:products/31802d53-4810-42b8-ba1a-e1bdd57dfda8/colors/56671fae-af1d-4e08-8f32-a6ef235293dc.webp
+Imported [d8b4574a-9df6-4f5a-8daf-5676f78b5900] color | IMG_20260926_220758.jpg | github:products/31802d53-4810-42b8-ba1a-e1bdd57dfda8/colors/6fdf60d2-0ee3-4abd-86e2-eda257d995e9.webp
+Imported [19970b26-b1b4-45f0-9a76-44b95f802116] color | IMG_20260926_220624.jpg | github:products/31802d53-4810-42b8-ba1a-e1bdd57dfda8/colors/6f7ee639-d0b0-4025-a081-db03fde5bebe.webp
+Imported [63b7ec66-b575-44a7-ace2-9e11d86da780] color | IMG_20260926_220422.jpg | github:products/31802d53-4810-42b8-ba1a-e1bdd57dfda8/colors/9bbe8063-d0f0-4afb-9419-4944cf14d150.webp
+Imported [30041a53-5d40-47b6-9940-ff680477074a] color | IMG_20260926_220308.jpg | github:products/31802d53-4810-42b8-ba1a-e1bdd57dfda8/colors/b0a50681-f5c1-45de-9233-cdf322b3a44a.webp
+Imported [7ca3647a-8523-42cd-84dc-d94ac6d8bd53] color | IMG_20260926_220142.jpg | github:products/31802d53-4810-42b8-ba1a-e1bdd57dfda8/colors/6772ad0c-6d54-446a-84f7-6edd68dd6f3c.webp

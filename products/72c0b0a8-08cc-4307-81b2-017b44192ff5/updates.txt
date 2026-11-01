@@ -1,0 +1,5 @@
+Life Style product image uploads
+Imported [6808d3da-386c-4364-94ed-49c255c436b9] main | 1000056543.jpg | github:products/72c0b0a8-08cc-4307-81b2-017b44192ff5/main/f20b8f98-1176-4bb8-9360-db59dedb79b1.webp
+Imported [403bf0ea-ca5b-4626-b58d-51197ff53bc0] main | 1000056541.jpg | github:products/72c0b0a8-08cc-4307-81b2-017b44192ff5/main/2d374c74-b995-4241-9c8c-5804eaf228df.webp
+Imported [6f64b7e5-2018-40f7-855c-5edc03a921b6] main | 1000056542.jpg | github:products/72c0b0a8-08cc-4307-81b2-017b44192ff5/main/4758b79c-7be1-40ae-afaf-17cf5de6c928.webp
+Imported [e1e21eab-8504-4905-b19e-72959a23ad92] main | 1000056545.jpg | github:products/72c0b0a8-08cc-4307-81b2-017b44192ff5/main/ef01c3a4-9220-406c-b146-d8970558c92c.webp

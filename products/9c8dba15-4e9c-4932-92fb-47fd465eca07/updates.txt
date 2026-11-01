@@ -1,0 +1,13 @@
+Life Style product image uploads
+Imported [3f122ac2-7941-4755-8c19-00f7662df320] main | IMG_20260926_215810.jpg | github:products/9c8dba15-4e9c-4932-92fb-47fd465eca07/main/c41d8cc5-b505-4941-b9b8-0acbc962e080.webp
+Imported [b648253d-83a3-416e-a200-5881733146dc] color | IMG_20260926_221255.jpg | github:products/9c8dba15-4e9c-4932-92fb-47fd465eca07/colors/952f5250-e05d-47fb-ab89-2ccf657e4ee3.webp
+Imported [5a7451f8-dea8-4346-851a-8506290c73cc] color | IMG_20260926_221235.jpg | github:products/9c8dba15-4e9c-4932-92fb-47fd465eca07/colors/2a367b4e-3383-4619-b155-c0fbcacc453e.webp
+Imported [afc7bc63-ae78-473e-8581-173a8e0e7e8c] color | IMG_20260926_221206.jpg | github:products/9c8dba15-4e9c-4932-92fb-47fd465eca07/colors/05663aa4-16de-4b00-b0f8-bcc321cad52b.webp
+Imported [8eafa5f3-04db-40db-af20-bbbfc0f5519d] color | IMG_20260926_221143.jpg | github:products/9c8dba15-4e9c-4932-92fb-47fd465eca07/colors/dc999f18-ad29-4b01-940c-fbf43ac3e253.webp
+Imported [506928cf-3c36-42d8-98df-ca18d9c0300a] color | IMG_20260926_220932.jpg | github:products/9c8dba15-4e9c-4932-92fb-47fd465eca07/colors/806f2909-de67-4d31-b61b-630a9ed9577b.webp
+Imported [97dbbca8-6240-4c17-880e-3c19e661cb58] color | IMG_20260926_220758.jpg | github:products/9c8dba15-4e9c-4932-92fb-47fd465eca07/colors/00c33ec4-9fe4-493e-bc5b-480d07b64151.webp
+Imported [a58e8d53-e820-473e-86ea-fe54b0a479b5] color | IMG_20260926_220624.jpg | github:products/9c8dba15-4e9c-4932-92fb-47fd465eca07/colors/475e1aac-d488-4575-932a-06810984481a.webp
+Imported [b6ade936-25e0-4e05-9bfc-a27db6634c11] color | IMG_20260926_220422.jpg | github:products/9c8dba15-4e9c-4932-92fb-47fd465eca07/colors/7704623c-09e1-4a9e-ba71-009fbfb21927.webp
+Imported [17802861-acb7-4c84-9bf6-1538c5b1ae13] color | IMG_20260926_220308.jpg | github:products/9c8dba15-4e9c-4932-92fb-47fd465eca07/colors/bda49b1f-26ea-4c96-a8d6-ce4ab0811251.webp
+Imported [e721d1bc-221d-481f-8bd3-96e5302db41b] color | IMG_20260926_220142.jpg | github:products/9c8dba15-4e9c-4932-92fb-47fd465eca07/colors/53cb6c69-01a9-4fa2-b546-e2bcbcb25b34.webp
+Imported [1ddd68ff-2483-42c6-9ec8-9fee4ea4137f] color | IMG_20260926_215810.jpg | github:products/9c8dba15-4e9c-4932-92fb-47fd465eca07/colors/1109f403-b6a9-4528-922e-f4e0364d35d4.webp

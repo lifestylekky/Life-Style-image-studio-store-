@@ -1,0 +1,6 @@
+Life Style product image uploads
+Imported [f5c6ccf2-13b0-418f-8a3d-09684848392f] main | IMG_20261026_211858.jpg | github:products/8d21a508-9cff-4a75-93a2-3305dd32c17e/main/0051b1b3-6497-485e-9f77-5ba18284590f.webp
+Imported [049cbe17-b97c-4a3a-89ea-e846a6d2b4c2] color | IMG_20261026_211936.jpg | github:products/8d21a508-9cff-4a75-93a2-3305dd32c17e/colors/35d1a8e4-73ce-4b4c-8b2e-7a2054129cb6.webp
+Imported [5defc9f6-74f5-45a8-9bb6-13e9194d2b38] color | IMG_20261026_211928.jpg | github:products/8d21a508-9cff-4a75-93a2-3305dd32c17e/colors/f7143c40-908f-432f-b2ae-09210f4c9075.webp
+Imported [6956fb67-e129-44ec-9f4d-346e905d004f] color | IMG_20261026_211920.jpg | github:products/8d21a508-9cff-4a75-93a2-3305dd32c17e/colors/e2604572-1ee3-464a-b3f0-b34cdd818f21.webp
+Imported [8cfa5642-666a-453f-8730-552a55fe3906] color | IMG_20261026_211910.jpg | github:products/8d21a508-9cff-4a75-93a2-3305dd32c17e/colors/498afea8-3889-4eb3-861c-c90dfdc2e8f3.webp
