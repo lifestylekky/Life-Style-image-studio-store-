@@ -2,8 +2,8 @@
   "schema_version": 1,
   "product_id": "e7ed6305-18b3-45e4-a255-2b5c4df93738",
   "product_name": "VELONA 2PC NIGHTY",
-  "status": "BLOCKED",
-  "recorded_at": "2026-11-02T15:16:40.097272+00:00",
+  "status": "PARTIAL",
+  "recorded_at": "2026-11-02T15:24:28.686418+00:00",
   "workflow_instructions": "AGENTS.md",
   "source_inventory": [
     {
@@ -19,11 +19,28 @@
       "color": "fuchsia pink",
       "visual_evidence": "Packaging photograph shows the same set worn unfolded in three views, including sleeveless inner gown and open short-sleeved robe. Actual packaged fabric partly visible; plastic glare limits exact color and texture assessment.",
       "source_decode": "passed",
-      "status": "blocked",
-      "output_path": null,
-      "generation_attempts": 0,
+      "status": "accepted",
+      "output_path": "generated/color__02b5b52d-feef-4f9d-b61b-7c8f47a2d85a__model.png",
+      "generation_attempts": 1,
       "retries": 0,
-      "blocker": "image_generation_moderation_blocked"
+      "output_dimensions": [
+        1086,
+        1448
+      ],
+      "output_sha256": "e3ce39ae80146a043e9f8b04e4459381aea5e05e8de02015c43ef9571df7d9b2",
+      "validation": {
+        "fully_unfolded_and_worn": "passed",
+        "single_complete_two_piece_set": "passed",
+        "front_construction": "passed_visual_reference_comparison",
+        "lace_neckline_bow_tie_sleeves_and_hems": "passed_visual_reference_comparison",
+        "variant_color": "passed_visual_comparison_with_uncalibrated_sources",
+        "fabric_appearance": "passed_visual_comparison",
+        "model_anatomy": "passed_visual_review",
+        "full_product_visibility": "passed",
+        "scene_model_and_framing_consistency": "passed_visual_review",
+        "text_and_watermarks": "passed_none_visible",
+        "dimensions_and_decode": "passed"
+      }
     },
     {
       "path": "colors/96ff281a-ab0f-4e02-848a-8d9e535bd298.webp",
@@ -40,8 +57,8 @@
       "source_decode": "passed",
       "status": "blocked",
       "output_path": null,
-      "generation_attempts": 0,
-      "retries": 0,
+      "generation_attempts": 2,
+      "retries": 1,
       "blocker": "image_generation_moderation_blocked"
     },
     {
@@ -57,11 +74,28 @@
       "color": "black",
       "visual_evidence": "Packaging photograph shows matching black long inner gown and short-sleeved robe in three worn views. Black fabric and glare obscure fine lace detail.",
       "source_decode": "passed",
-      "status": "blocked",
-      "output_path": null,
-      "generation_attempts": 0,
+      "status": "accepted",
+      "output_path": "generated/color__c84cc2fb-441f-46f0-93ca-db9c064abda0__model.png",
+      "generation_attempts": 1,
       "retries": 0,
-      "blocker": "image_generation_moderation_blocked"
+      "output_dimensions": [
+        1086,
+        1448
+      ],
+      "output_sha256": "7e65f15173245635bb07c2922936e5089563e245f98a7a6e23298604a0010a4e",
+      "validation": {
+        "fully_unfolded_and_worn": "passed",
+        "single_complete_two_piece_set": "passed",
+        "front_construction": "passed_visual_reference_comparison",
+        "lace_neckline_bow_tie_sleeves_and_hems": "passed_visual_reference_comparison",
+        "variant_color": "passed_visual_comparison_with_uncalibrated_sources",
+        "fabric_appearance": "passed_visual_comparison",
+        "model_anatomy": "passed_visual_review",
+        "full_product_visibility": "passed",
+        "scene_model_and_framing_consistency": "passed_visual_review",
+        "text_and_watermarks": "passed_none_visible",
+        "dimensions_and_decode": "passed"
+      }
     },
     {
       "path": "main/0fd0d96b-fb19-4290-92ae-c4a4be214ac9.webp",
@@ -76,11 +110,28 @@
       "color": "dusty mauve rose",
       "visual_evidence": "Unfolded hanging robe over matching inner piece; short sleeves, broad scalloped rose floral lace down deep V front, self-fabric waist tie and long smooth lustrous drape visible. Top edge partly cropped.",
       "source_decode": "passed",
-      "status": "blocked",
-      "output_path": null,
-      "generation_attempts": 1,
-      "retries": 0,
-      "blocker": "image_generation_moderation_blocked"
+      "status": "accepted",
+      "output_path": "generated/main__0fd0d96b-fb19-4290-92ae-c4a4be214ac9__model.png",
+      "generation_attempts": 2,
+      "retries": 1,
+      "output_dimensions": [
+        1086,
+        1448
+      ],
+      "output_sha256": "92c336a8be68e02867a676688208e3b7b8e3e873123dd04984e9c9ae9414d8d6",
+      "validation": {
+        "fully_unfolded_and_worn": "passed",
+        "single_complete_two_piece_set": "passed",
+        "front_construction": "passed_visual_reference_comparison",
+        "lace_neckline_bow_tie_sleeves_and_hems": "passed_visual_reference_comparison",
+        "variant_color": "passed_visual_comparison_with_uncalibrated_sources",
+        "fabric_appearance": "passed_visual_comparison",
+        "model_anatomy": "passed_visual_review",
+        "full_product_visibility": "passed",
+        "scene_model_and_framing_consistency": "passed_visual_review",
+        "text_and_watermarks": "passed_none_visible",
+        "dimensions_and_decode": "passed"
+      }
     }
   ],
   "metadata_files": [
@@ -114,34 +165,34 @@
     ]
   },
   "scene_profile": {
-    "status": "planned_not_generated",
+    "status": "generated_and_visually_verified",
     "location": "premium contemporary bedroom",
     "architecture": "warm ivory plaster wall",
     "floor": "pale oak",
-    "furniture": "low ivory upholstered bed with plain cream linen behind subject on camera-right; small light-oak bedside table at far right",
+    "furniture": "Low cream upholstered bed behind subject on camera-right; light-oak bedside table at far right with cream lamp and small vase of white flowers",
     "window": "sheer ivory curtain at left edge",
     "lighting": "soft neutral-warm natural daylight from camera-left",
     "mood": "quiet, uncluttered, tasteful retail catalog"
   },
   "model_profile": {
-    "status": "planned_not_generated",
-    "description": "One adult South Asian female model approximately 30 years old, medium warm brown skin, long softly waved black hair, natural makeup, gentle smile; consistent model across all outputs"
+    "status": "generated_and_visually_verified",
+    "description": "One clearly adult female model approximately 30 years old, warm medium skin, long softly waved dark brown hair, natural makeup, neutral relaxed expression; visually consistent across accepted images"
   },
   "camera_profile": {
-    "status": "planned_not_generated",
+    "status": "generated_and_visually_verified",
     "view": "front, full length including both garment hems and feet",
     "lens": "70mm portrait perspective",
     "camera_height": "mid torso",
     "framing": "centered subject with small floor margin; portrait 3:4 matching main reference orientation",
-    "resolution": "highest native resolution supported, ideally approximately 4K; no upscaling represented as native detail",
+    "resolution": "1086 x 1448 native PNG, 3:4 portrait; not 4K and not upscaled",
     "pose": "relaxed standing; arms slightly away from body; robe modestly open to identify both matching pieces"
   },
   "output_mapping": [
     {
       "source": "colors/02b5b52d-feef-4f9d-b61b-7c8f47a2d85a.webp",
-      "intended_output": "generated/color__02b5b52d-feef-4f9d-b61b-7c8f47a2d85a__model.webp",
-      "actual_output": null,
-      "status": "blocked"
+      "intended_output": "generated/color__02b5b52d-feef-4f9d-b61b-7c8f47a2d85a__model.png",
+      "actual_output": "generated/color__02b5b52d-feef-4f9d-b61b-7c8f47a2d85a__model.png",
+      "status": "accepted"
     },
     {
       "source": "colors/96ff281a-ab0f-4e02-848a-8d9e535bd298.webp",
@@ -151,22 +202,22 @@
     },
     {
       "source": "colors/c84cc2fb-441f-46f0-93ca-db9c064abda0.webp",
-      "intended_output": "generated/color__c84cc2fb-441f-46f0-93ca-db9c064abda0__model.webp",
-      "actual_output": null,
-      "status": "blocked"
+      "intended_output": "generated/color__c84cc2fb-441f-46f0-93ca-db9c064abda0__model.png",
+      "actual_output": "generated/color__c84cc2fb-441f-46f0-93ca-db9c064abda0__model.png",
+      "status": "accepted"
     },
     {
       "source": "main/0fd0d96b-fb19-4290-92ae-c4a4be214ac9.webp",
-      "intended_output": "generated/main__0fd0d96b-fb19-4290-92ae-c4a4be214ac9__model.webp",
-      "actual_output": null,
-      "status": "blocked"
+      "intended_output": "generated/main__0fd0d96b-fb19-4290-92ae-c4a4be214ac9__model.png",
+      "actual_output": "generated/main__0fd0d96b-fb19-4290-92ae-c4a4be214ac9__model.png",
+      "status": "accepted"
     }
   ],
   "generation": {
     "tool": "image_gen.imagegen",
-    "attempt_count": 1,
-    "successful_outputs": 0,
-    "retry_count": 0,
+    "attempt_count": 6,
+    "successful_outputs": 3,
+    "retry_count": 2,
     "attempts": [
       {
         "source": "main/0fd0d96b-fb19-4290-92ae-c4a4be214ac9.webp",
@@ -180,7 +231,64 @@
           "stage": "input",
           "category": "sexual",
           "request_id": "18d9b22d-e10f-4514-bb30-8dc059439706",
-          "message": "Reference-conditioned adult-model nightwear generation request rejected by the image-generation service. No image was produced. No workaround attempted."
+          "message": "Initial request rejected at input; retained as history. Main output subsequently generated successfully following user clarification of e-commerce purpose."
+        }
+      },
+      {
+        "source": "colors/02b5b52d-feef-4f9d-b61b-7c8f47a2d85a.webp",
+        "result": "accepted",
+        "output_path": "generated/color__02b5b52d-feef-4f9d-b61b-7c8f47a2d85a__model.png",
+        "reference_conditioned": true,
+        "references": [
+          "main/0fd0d96b-fb19-4290-92ae-c4a4be214ac9.webp",
+          "colors/02b5b52d-feef-4f9d-b61b-7c8f47a2d85a.webp"
+        ],
+        "scene_anchor": "generated/main__0fd0d96b-fb19-4290-92ae-c4a4be214ac9__model.png"
+      },
+      {
+        "source": "colors/c84cc2fb-441f-46f0-93ca-db9c064abda0.webp",
+        "result": "accepted",
+        "output_path": "generated/color__c84cc2fb-441f-46f0-93ca-db9c064abda0__model.png",
+        "reference_conditioned": true,
+        "references": [
+          "main/0fd0d96b-fb19-4290-92ae-c4a4be214ac9.webp",
+          "colors/c84cc2fb-441f-46f0-93ca-db9c064abda0.webp"
+        ],
+        "scene_anchor": "generated/main__0fd0d96b-fb19-4290-92ae-c4a4be214ac9__model.png"
+      },
+      {
+        "source": "main/0fd0d96b-fb19-4290-92ae-c4a4be214ac9.webp",
+        "result": "accepted",
+        "output_path": "generated/main__0fd0d96b-fb19-4290-92ae-c4a4be214ac9__model.png",
+        "reference_conditioned": true,
+        "references": [
+          "main/0fd0d96b-fb19-4290-92ae-c4a4be214ac9.webp",
+          "main/0fd0d96b-fb19-4290-92ae-c4a4be214ac9.webp"
+        ],
+        "scene_anchor": null
+      },
+      {
+        "source": "colors/96ff281a-ab0f-4e02-848a-8d9e535bd298.webp",
+        "result": "moderation_blocked",
+        "error": {
+          "code": "image_generation_moderation_blocked",
+          "stage": "output",
+          "category": "sexual",
+          "request_id": "c2fc087e-475a-4b50-a609-c46353f40bd7",
+          "source": "colors/96ff281a-ab0f-4e02-848a-8d9e535bd298.webp",
+          "message": "Red variant generation rejected by service; no output produced."
+        }
+      },
+      {
+        "source": "colors/96ff281a-ab0f-4e02-848a-8d9e535bd298.webp",
+        "result": "moderation_blocked",
+        "error": {
+          "code": "image_generation_moderation_blocked",
+          "stage": "input",
+          "category": "sexual",
+          "request_id": "43b2dca6-3537-4c58-959c-3bd4d8175190",
+          "source": "colors/96ff281a-ab0f-4e02-848a-8d9e535bd298.webp",
+          "message": "Red variant generation rejected by service; no output produced."
         }
       }
     ]
@@ -188,20 +296,30 @@
   "counts": {
     "main_sources": 1,
     "color_sources": 3,
-    "accepted_main": 0,
-    "accepted_color": 0,
+    "accepted_main": 1,
+    "accepted_color": 2,
     "accepted_details": 0,
-    "blocked_sources": 4
+    "blocked_sources": 1
   },
   "blockers": [
     {
       "code": "image_generation_moderation_blocked",
+      "stage": "output",
+      "category": "sexual",
+      "request_id": "c2fc087e-475a-4b50-a609-c46353f40bd7",
+      "source": "colors/96ff281a-ab0f-4e02-848a-8d9e535bd298.webp",
+      "message": "Red variant generation rejected by service; no output produced."
+    },
+    {
+      "code": "image_generation_moderation_blocked",
       "stage": "input",
       "category": "sexual",
-      "request_id": "18d9b22d-e10f-4514-bb30-8dc059439706",
-      "message": "Reference-conditioned adult-model nightwear generation request rejected by the image-generation service. No image was produced. No workaround attempted."
+      "request_id": "43b2dca6-3537-4c58-959c-3bd4d8175190",
+      "source": "colors/96ff281a-ab0f-4e02-848a-8d9e535bd298.webp",
+      "message": "Red variant generation rejected by service; no output produced."
     }
   ],
   "completion_criteria": "All four individual source entries must have accepted fully unfolded model-worn outputs and passing garment/scene QA. This run does not satisfy those criteria.",
-  "resumability": "No source is complete. Preserve original images. If the service restriction is resolved through a supported route, re-read sources and workflow, then generate and validate each entry. This report grants no permission to circumvent safeguards."
+  "resumability": "Preserve the three accepted source-current outputs. Only red source remains blocked, after two failed calls in this retry run. Resume red only through a supported service route, preserving original references, scene anchor and product accuracy. Do not mark product COMPLETE until red is accepted and QA passes.",
+  "validation_notes": "Reviewed full generated images against the original hanging garment and same-product packaging references. Each has one adult model wearing one complete matching set, long inner dress and robe hems, short sleeves, floral lace edging, center neckline bow and waist tie. No folded showcase, text or watermark visible. Same face, hair, pose, curtain, wall, bed, table, lamp, flowers, floor and lighting across accepted images. Back construction was not generated or asserted. Source glare and uncalibrated lighting limit exact color/fiber verification."
 }
