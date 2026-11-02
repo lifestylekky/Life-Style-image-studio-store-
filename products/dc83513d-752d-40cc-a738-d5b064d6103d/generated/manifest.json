@@ -1,0 +1,656 @@
+{
+  "schema_version": 1,
+  "product_id": "dc83513d-752d-40cc-a738-d5b064d6103d",
+  "product_name": "VELONA SLEEVELESS NIGHTY",
+  "status": "COMPLETE",
+  "recorded_at": "2026-11-02T17:07:20.844408+00:00",
+  "workflow_instructions": "AGENTS.md",
+  "counts": {
+    "main_sources": 1,
+    "color_sources": 10,
+    "generated_images": 11,
+    "accepted_main": 1,
+    "accepted_color": 10,
+    "blocked_or_failed": 0,
+    "retries": 2,
+    "rejected_attempts": 2
+  },
+  "garment_spec": {
+    "piece_count": 1,
+    "construction": "Sleeveless broad shoulders, round neck, embroidered matching floral mesh bib with central daisy-shaped point, gathered loose A-line body, polka-dot satin-like appearance.",
+    "length": "Long main and reconstructed folded variants; grey worn reference explicitly retained at shorter below-knee length."
+  },
+  "scene_profile": {
+    "location": "premium ivory bedroom",
+    "wall": "pale beige plaster",
+    "floor": "light oak",
+    "window": "sheer ivory curtain camera-left",
+    "furniture": "low cream bed behind at right with rectangular upholstered headboard and one pillow; round oak bedside table far right with single ivory vase",
+    "lighting": "soft neutral daylight from camera-left",
+    "anchor": "generated/main__c2880b1e-b32e-4dee-8c79-8081984b55c5__model.png"
+  },
+  "model_camera_profile": {
+    "model": "Same adult South Asian woman about 32, medium brown skin, dark low bun, neutral gentle smile",
+    "pose": "relaxed frontal standing, hands beside body, bare feet",
+    "camera": "mid-torso height 70mm-style frontal full-length",
+    "aspect_ratio": "3:4"
+  },
+  "source_inventory": [
+    {
+      "path": "colors/4856aad9-8af8-4783-b299-b40155194272.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "sha256": "29e1f8c8cc3b28f284af74bef0c34c4e1eaaff8a771abedf3e8d04111f866562",
+      "spec": "Bright fuchsia pink satin-like ground with matching fuchsia floral bib/yoke and white polka dots.",
+      "presentation": "folded",
+      "retries": 0,
+      "structural_references": [
+        "main/c2880b1e-b32e-4dee-8c79-8081984b55c5.webp",
+        "colors/6c185eb7-6307-415c-818f-0b7d2e7ff1de.webp"
+      ],
+      "rejected_attempt": null,
+      "aspect_ratio": "3:4",
+      "role": "color",
+      "visually_inspected": true,
+      "decode": "passed",
+      "output_path": "generated/color__4856aad9-8af8-4783-b299-b40155194272__model.png",
+      "status": "accepted",
+      "output_dimensions": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "path": "colors/6c185eb7-6307-415c-818f-0b7d2e7ff1de.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "sha256": "c8dec54b5364645665ad5f62ace30bf936ed8d9e39fafffb90ba763f9bb6146e",
+      "spec": "Deep hot rose pink/fuchsia long gown as its hanging photo, matching pink embroidered floral bib/yoke, dense tiny white polka dots. Preserve this source's full long silhouette, distinct dot scale from folded bright pink.",
+      "presentation": "unfolded_hanging",
+      "retries": 0,
+      "structural_references": [
+        "main/c2880b1e-b32e-4dee-8c79-8081984b55c5.webp",
+        "colors/6c185eb7-6307-415c-818f-0b7d2e7ff1de.webp"
+      ],
+      "rejected_attempt": null,
+      "aspect_ratio": "3:4",
+      "role": "color",
+      "visually_inspected": true,
+      "decode": "passed",
+      "output_path": "generated/color__6c185eb7-6307-415c-818f-0b7d2e7ff1de__model.png",
+      "status": "accepted",
+      "output_dimensions": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "path": "colors/76e73f99-41a1-4b38-b3f4-b0019b56b86a.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "sha256": "bc4075c13bd2319becdf513f868301bb5459b92295f8d95e30cb678f4744f900",
+      "spec": "Golden ochre/caramel satin-like ground, matching gold floral bib/yoke and small white polka dots.",
+      "presentation": "folded",
+      "retries": 1,
+      "correction": "gold",
+      "structural_references": [
+        "main/c2880b1e-b32e-4dee-8c79-8081984b55c5.webp",
+        "colors/6c185eb7-6307-415c-818f-0b7d2e7ff1de.webp"
+      ],
+      "rejected_attempt": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-e756e077-4cc0-4f10-af0b-636d87833003.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "aspect_ratio": "3:4",
+      "role": "color",
+      "visually_inspected": true,
+      "decode": "passed",
+      "output_path": "generated/color__76e73f99-41a1-4b38-b3f4-b0019b56b86a__model.png",
+      "status": "accepted",
+      "output_dimensions": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "path": "colors/79488eed-cac3-448d-9892-305fa609061c.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "sha256": "7046ccf4ea723729e40354d105b8a2d1c488005f66789e0cd5fc52c6c4980987",
+      "spec": "Light lavender purple satin-like ground, matching lavender floral bib/yoke, small white polka dots.",
+      "presentation": "folded",
+      "retries": 0,
+      "structural_references": [
+        "main/c2880b1e-b32e-4dee-8c79-8081984b55c5.webp",
+        "colors/6c185eb7-6307-415c-818f-0b7d2e7ff1de.webp"
+      ],
+      "rejected_attempt": null,
+      "aspect_ratio": "3:4",
+      "role": "color",
+      "visually_inspected": true,
+      "decode": "passed",
+      "output_path": "generated/color__79488eed-cac3-448d-9892-305fa609061c__model.png",
+      "status": "accepted",
+      "output_dimensions": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "path": "colors/b345ce95-f2ce-4c31-83bd-eab18db8aabe.jpg",
+      "dimensions": [
+        853,
+        1280
+      ],
+      "sha256": "e9ee5604bfbd4639c9b793f585b81716a35d3718dbccf82d6bc2a7222318a967",
+      "spec": "Slate charcoal grey with tiny white dots and matching charcoal floral lace neckline. IMPORTANT: this unfolded worn source explicitly shows a shorter BELOW-KNEE hem, unlike long main. Preserve THIS source's shorter length and its exact lace neckline rather than long anchor hem. Only room and adult model come from first reference.",
+      "presentation": "unfolded_worn",
+      "retries": 1,
+      "correction": "grey",
+      "structural_references": [
+        "main/c2880b1e-b32e-4dee-8c79-8081984b55c5.webp",
+        "colors/6c185eb7-6307-415c-818f-0b7d2e7ff1de.webp"
+      ],
+      "rejected_attempt": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-3484b0ae-560b-4599-b853-784f9a11dc51.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "aspect_ratio": "853:1280",
+      "role": "color",
+      "visually_inspected": true,
+      "decode": "passed",
+      "output_path": "generated/color__b345ce95-f2ce-4c31-83bd-eab18db8aabe__model.png",
+      "status": "accepted",
+      "output_dimensions": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "path": "colors/b9d89e5d-f992-4062-825d-c708633b3845.webp",
+      "dimensions": [
+        2200,
+        1012
+      ],
+      "sha256": "7ed293e02be8e80551d8069bda671d084be1fce964684b75b93405ebd056a3d4",
+      "spec": "Royal cobalt blue satin-like ground, matching blue floral bib/yoke and small regularly spaced white polka dots.",
+      "presentation": "folded",
+      "retries": 0,
+      "structural_references": [
+        "main/c2880b1e-b32e-4dee-8c79-8081984b55c5.webp",
+        "colors/6c185eb7-6307-415c-818f-0b7d2e7ff1de.webp"
+      ],
+      "rejected_attempt": null,
+      "aspect_ratio": "50:23",
+      "role": "color",
+      "visually_inspected": true,
+      "decode": "passed",
+      "output_path": "generated/color__b9d89e5d-f992-4062-825d-c708633b3845__model.png",
+      "status": "accepted",
+      "output_dimensions": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "path": "colors/be50432c-7ca8-4758-8c2b-bf18da8bba3a.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "sha256": "15e6408e6a2ddb7fd2afc7e79e95d6f08ce3a27ebf07238ec7aba46682076c42",
+      "spec": "Dark aubergine burgundy plum satin-like ground, matching dark plum floral bib/yoke and white polka dots.",
+      "presentation": "folded",
+      "retries": 0,
+      "structural_references": [
+        "main/c2880b1e-b32e-4dee-8c79-8081984b55c5.webp",
+        "colors/6c185eb7-6307-415c-818f-0b7d2e7ff1de.webp"
+      ],
+      "rejected_attempt": null,
+      "aspect_ratio": "3:4",
+      "role": "color",
+      "visually_inspected": true,
+      "decode": "passed",
+      "output_path": "generated/color__be50432c-7ca8-4758-8c2b-bf18da8bba3a__model.png",
+      "status": "accepted",
+      "output_dimensions": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "path": "colors/c088055d-8da4-410d-81c8-327ccaa2824d.webp",
+      "dimensions": [
+        2200,
+        1650
+      ],
+      "sha256": "4e4a00c8c3cbd54359c75959cb3943718d187b32c2e374662fcd4f8ac294dbd3",
+      "spec": "Deep navy blue satin-like ground, matching navy floral bib/yoke, white polka dots.",
+      "presentation": "folded",
+      "retries": 0,
+      "structural_references": [
+        "main/c2880b1e-b32e-4dee-8c79-8081984b55c5.webp",
+        "colors/6c185eb7-6307-415c-818f-0b7d2e7ff1de.webp"
+      ],
+      "rejected_attempt": null,
+      "aspect_ratio": "4:3",
+      "role": "color",
+      "visually_inspected": true,
+      "decode": "passed",
+      "output_path": "generated/color__c088055d-8da4-410d-81c8-327ccaa2824d__model.png",
+      "status": "accepted",
+      "output_dimensions": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "path": "colors/de7bb465-a9b7-4b53-963b-90cdf5d723ea.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "sha256": "2661131a3255a5ab1a7b9f5b0a82574e9a7a959ed87233883a91ca76ba82322c",
+      "spec": "Deep warm wine-red satin-like ground, matching wine floral bib/yoke and white polka dots.",
+      "presentation": "folded",
+      "retries": 0,
+      "structural_references": [
+        "main/c2880b1e-b32e-4dee-8c79-8081984b55c5.webp",
+        "colors/6c185eb7-6307-415c-818f-0b7d2e7ff1de.webp"
+      ],
+      "rejected_attempt": null,
+      "aspect_ratio": "3:4",
+      "role": "color",
+      "visually_inspected": true,
+      "decode": "passed",
+      "output_path": "generated/color__de7bb465-a9b7-4b53-963b-90cdf5d723ea__model.png",
+      "status": "accepted",
+      "output_dimensions": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "path": "colors/e68238a5-298c-4e45-b81c-a07cac766549.webp",
+      "dimensions": [
+        2200,
+        1650
+      ],
+      "sha256": "20e960a512bd3f85fcedb691a06e71c3dcb8b65a1f388739f38f9cc660a62a2f",
+      "spec": "Coral rose pink satin-like ground, matching coral floral bib/yoke, small regularly spaced white polka dots.",
+      "presentation": "folded",
+      "retries": 0,
+      "structural_references": [
+        "main/c2880b1e-b32e-4dee-8c79-8081984b55c5.webp",
+        "colors/6c185eb7-6307-415c-818f-0b7d2e7ff1de.webp"
+      ],
+      "rejected_attempt": null,
+      "aspect_ratio": "4:3",
+      "role": "color",
+      "visually_inspected": true,
+      "decode": "passed",
+      "output_path": "generated/color__e68238a5-298c-4e45-b81c-a07cac766549__model.png",
+      "status": "accepted",
+      "output_dimensions": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "path": "main/c2880b1e-b32e-4dee-8c79-8081984b55c5.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "sha256": "c75f4bab35832665cdfe70c0d2a1f7961a3cb66270268bf1032933311d8eb20b",
+      "presentation": "unfolded_mannequin",
+      "spec": "Purple, small white dots, broad floral bib/yoke, full long loose silhouette.",
+      "retries": 0,
+      "structural_references": [
+        "main/c2880b1e-b32e-4dee-8c79-8081984b55c5.webp",
+        "colors/6c185eb7-6307-415c-818f-0b7d2e7ff1de.webp"
+      ],
+      "rejected_attempt": null,
+      "aspect_ratio": "3:4",
+      "role": "main",
+      "visually_inspected": true,
+      "decode": "passed",
+      "output_path": "generated/main__c2880b1e-b32e-4dee-8c79-8081984b55c5__model.png",
+      "status": "accepted",
+      "output_dimensions": [
+        1086,
+        1448
+      ]
+    }
+  ],
+  "output_mapping": [
+    {
+      "source": "colors/4856aad9-8af8-4783-b299-b40155194272.webp",
+      "output": "generated/color__4856aad9-8af8-4783-b299-b40155194272__model.png",
+      "status": "accepted"
+    },
+    {
+      "source": "colors/6c185eb7-6307-415c-818f-0b7d2e7ff1de.webp",
+      "output": "generated/color__6c185eb7-6307-415c-818f-0b7d2e7ff1de__model.png",
+      "status": "accepted"
+    },
+    {
+      "source": "colors/76e73f99-41a1-4b38-b3f4-b0019b56b86a.webp",
+      "output": "generated/color__76e73f99-41a1-4b38-b3f4-b0019b56b86a__model.png",
+      "status": "accepted"
+    },
+    {
+      "source": "colors/79488eed-cac3-448d-9892-305fa609061c.webp",
+      "output": "generated/color__79488eed-cac3-448d-9892-305fa609061c__model.png",
+      "status": "accepted"
+    },
+    {
+      "source": "colors/b345ce95-f2ce-4c31-83bd-eab18db8aabe.jpg",
+      "output": "generated/color__b345ce95-f2ce-4c31-83bd-eab18db8aabe__model.png",
+      "status": "accepted"
+    },
+    {
+      "source": "colors/b9d89e5d-f992-4062-825d-c708633b3845.webp",
+      "output": "generated/color__b9d89e5d-f992-4062-825d-c708633b3845__model.png",
+      "status": "accepted"
+    },
+    {
+      "source": "colors/be50432c-7ca8-4758-8c2b-bf18da8bba3a.webp",
+      "output": "generated/color__be50432c-7ca8-4758-8c2b-bf18da8bba3a__model.png",
+      "status": "accepted"
+    },
+    {
+      "source": "colors/c088055d-8da4-410d-81c8-327ccaa2824d.webp",
+      "output": "generated/color__c088055d-8da4-410d-81c8-327ccaa2824d__model.png",
+      "status": "accepted"
+    },
+    {
+      "source": "colors/de7bb465-a9b7-4b53-963b-90cdf5d723ea.webp",
+      "output": "generated/color__de7bb465-a9b7-4b53-963b-90cdf5d723ea__model.png",
+      "status": "accepted"
+    },
+    {
+      "source": "colors/e68238a5-298c-4e45-b81c-a07cac766549.webp",
+      "output": "generated/color__e68238a5-298c-4e45-b81c-a07cac766549__model.png",
+      "status": "accepted"
+    },
+    {
+      "source": "main/c2880b1e-b32e-4dee-8c79-8081984b55c5.webp",
+      "output": "generated/main__c2880b1e-b32e-4dee-8c79-8081984b55c5__model.png",
+      "status": "accepted"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "generated/color__4856aad9-8af8-4783-b299-b40155194272__model.png",
+      "source": "colors/4856aad9-8af8-4783-b299-b40155194272.webp",
+      "sha256": "6114a0b0ab87a79f4eee637ed05c00b031378dcfca50b962ea707f031be43db3",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_correct_piece_count": "passed_visual_review",
+        "neckline_sleeves_straps_seams_hem": "passed_visual_reference_comparison",
+        "silhouette_length_and_drape": "passed_visual_reference_comparison",
+        "color_print_and_fabric_appearance": "passed_visual_reference_comparison",
+        "model_anatomy": "passed_visual_review",
+        "full_product_visibility": "passed_visual_review",
+        "scene_model_lighting_and_framing": "passed_visual_review",
+        "added_promotional_text_or_watermarks": "passed_none_visible",
+        "file_decode": "passed"
+      }
+    },
+    {
+      "path": "generated/color__6c185eb7-6307-415c-818f-0b7d2e7ff1de__model.png",
+      "source": "colors/6c185eb7-6307-415c-818f-0b7d2e7ff1de.webp",
+      "sha256": "9ccc27c0f462cf4d24754b70dd5e2869e2a3eda0362fd02f4825208cd390f935",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_correct_piece_count": "passed_visual_review",
+        "neckline_sleeves_straps_seams_hem": "passed_visual_reference_comparison",
+        "silhouette_length_and_drape": "passed_visual_reference_comparison",
+        "color_print_and_fabric_appearance": "passed_visual_reference_comparison",
+        "model_anatomy": "passed_visual_review",
+        "full_product_visibility": "passed_visual_review",
+        "scene_model_lighting_and_framing": "passed_visual_review",
+        "added_promotional_text_or_watermarks": "passed_none_visible",
+        "file_decode": "passed"
+      }
+    },
+    {
+      "path": "generated/color__76e73f99-41a1-4b38-b3f4-b0019b56b86a__model.png",
+      "source": "colors/76e73f99-41a1-4b38-b3f4-b0019b56b86a.webp",
+      "sha256": "47d9b7ec5b225ee5c6bfe4bb5d971f72e7a36ee497df95194de751a605a4a91d",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_correct_piece_count": "passed_visual_review",
+        "neckline_sleeves_straps_seams_hem": "passed_visual_reference_comparison",
+        "silhouette_length_and_drape": "passed_visual_reference_comparison",
+        "color_print_and_fabric_appearance": "passed_visual_reference_comparison",
+        "model_anatomy": "passed_visual_review",
+        "full_product_visibility": "passed_visual_review",
+        "scene_model_lighting_and_framing": "passed_visual_review",
+        "added_promotional_text_or_watermarks": "passed_none_visible",
+        "file_decode": "passed"
+      }
+    },
+    {
+      "path": "generated/color__79488eed-cac3-448d-9892-305fa609061c__model.png",
+      "source": "colors/79488eed-cac3-448d-9892-305fa609061c.webp",
+      "sha256": "d6ef4ccc692f77b7dfae2a3a4b1bf39b3db1bbb05c7e2450a9b69243e380f352",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_correct_piece_count": "passed_visual_review",
+        "neckline_sleeves_straps_seams_hem": "passed_visual_reference_comparison",
+        "silhouette_length_and_drape": "passed_visual_reference_comparison",
+        "color_print_and_fabric_appearance": "passed_visual_reference_comparison",
+        "model_anatomy": "passed_visual_review",
+        "full_product_visibility": "passed_visual_review",
+        "scene_model_lighting_and_framing": "passed_visual_review",
+        "added_promotional_text_or_watermarks": "passed_none_visible",
+        "file_decode": "passed"
+      }
+    },
+    {
+      "path": "generated/color__b345ce95-f2ce-4c31-83bd-eab18db8aabe__model.png",
+      "source": "colors/b345ce95-f2ce-4c31-83bd-eab18db8aabe.jpg",
+      "sha256": "1c2d8c4d873bbad9206a4dffff79b6ca9d551dc6f1e9fd04045907afb9580caa",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_correct_piece_count": "passed_visual_review",
+        "neckline_sleeves_straps_seams_hem": "passed_visual_reference_comparison",
+        "silhouette_length_and_drape": "passed_visual_reference_comparison",
+        "color_print_and_fabric_appearance": "passed_visual_reference_comparison",
+        "model_anatomy": "passed_visual_review",
+        "full_product_visibility": "passed_visual_review",
+        "scene_model_lighting_and_framing": "passed_visual_review",
+        "added_promotional_text_or_watermarks": "passed_none_visible",
+        "file_decode": "passed"
+      }
+    },
+    {
+      "path": "generated/color__b9d89e5d-f992-4062-825d-c708633b3845__model.png",
+      "source": "colors/b9d89e5d-f992-4062-825d-c708633b3845.webp",
+      "sha256": "edb5f26d324f4cd148001b97511ee06d44cec7b3f872ed59f96b66189e0a928b",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_correct_piece_count": "passed_visual_review",
+        "neckline_sleeves_straps_seams_hem": "passed_visual_reference_comparison",
+        "silhouette_length_and_drape": "passed_visual_reference_comparison",
+        "color_print_and_fabric_appearance": "passed_visual_reference_comparison",
+        "model_anatomy": "passed_visual_review",
+        "full_product_visibility": "passed_visual_review",
+        "scene_model_lighting_and_framing": "passed_visual_review",
+        "added_promotional_text_or_watermarks": "passed_none_visible",
+        "file_decode": "passed"
+      }
+    },
+    {
+      "path": "generated/color__be50432c-7ca8-4758-8c2b-bf18da8bba3a__model.png",
+      "source": "colors/be50432c-7ca8-4758-8c2b-bf18da8bba3a.webp",
+      "sha256": "f4ed013e1a30fefb916403f5b888ac6954007735ee3920a6df1c7ee00a33d8e7",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_correct_piece_count": "passed_visual_review",
+        "neckline_sleeves_straps_seams_hem": "passed_visual_reference_comparison",
+        "silhouette_length_and_drape": "passed_visual_reference_comparison",
+        "color_print_and_fabric_appearance": "passed_visual_reference_comparison",
+        "model_anatomy": "passed_visual_review",
+        "full_product_visibility": "passed_visual_review",
+        "scene_model_lighting_and_framing": "passed_visual_review",
+        "added_promotional_text_or_watermarks": "passed_none_visible",
+        "file_decode": "passed"
+      }
+    },
+    {
+      "path": "generated/color__c088055d-8da4-410d-81c8-327ccaa2824d__model.png",
+      "source": "colors/c088055d-8da4-410d-81c8-327ccaa2824d.webp",
+      "sha256": "cd36a75f65506429bbf360e44b8ca40480bec7a92b919a34b8f6587b0df294aa",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_correct_piece_count": "passed_visual_review",
+        "neckline_sleeves_straps_seams_hem": "passed_visual_reference_comparison",
+        "silhouette_length_and_drape": "passed_visual_reference_comparison",
+        "color_print_and_fabric_appearance": "passed_visual_reference_comparison",
+        "model_anatomy": "passed_visual_review",
+        "full_product_visibility": "passed_visual_review",
+        "scene_model_lighting_and_framing": "passed_visual_review",
+        "added_promotional_text_or_watermarks": "passed_none_visible",
+        "file_decode": "passed"
+      }
+    },
+    {
+      "path": "generated/color__de7bb465-a9b7-4b53-963b-90cdf5d723ea__model.png",
+      "source": "colors/de7bb465-a9b7-4b53-963b-90cdf5d723ea.webp",
+      "sha256": "adcdde91ee5648c5162e3dc2ec080dde90a159982df8aa7bf42cb41274da1ff7",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_correct_piece_count": "passed_visual_review",
+        "neckline_sleeves_straps_seams_hem": "passed_visual_reference_comparison",
+        "silhouette_length_and_drape": "passed_visual_reference_comparison",
+        "color_print_and_fabric_appearance": "passed_visual_reference_comparison",
+        "model_anatomy": "passed_visual_review",
+        "full_product_visibility": "passed_visual_review",
+        "scene_model_lighting_and_framing": "passed_visual_review",
+        "added_promotional_text_or_watermarks": "passed_none_visible",
+        "file_decode": "passed"
+      }
+    },
+    {
+      "path": "generated/color__e68238a5-298c-4e45-b81c-a07cac766549__model.png",
+      "source": "colors/e68238a5-298c-4e45-b81c-a07cac766549.webp",
+      "sha256": "1622cc58a1761df0d73c2180ff15c65d50d8472761c60f45b7d0e0b261e168a2",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_correct_piece_count": "passed_visual_review",
+        "neckline_sleeves_straps_seams_hem": "passed_visual_reference_comparison",
+        "silhouette_length_and_drape": "passed_visual_reference_comparison",
+        "color_print_and_fabric_appearance": "passed_visual_reference_comparison",
+        "model_anatomy": "passed_visual_review",
+        "full_product_visibility": "passed_visual_review",
+        "scene_model_lighting_and_framing": "passed_visual_review",
+        "added_promotional_text_or_watermarks": "passed_none_visible",
+        "file_decode": "passed"
+      }
+    },
+    {
+      "path": "generated/main__c2880b1e-b32e-4dee-8c79-8081984b55c5__model.png",
+      "source": "main/c2880b1e-b32e-4dee-8c79-8081984b55c5.webp",
+      "sha256": "b48910fcbaae72cd71fcc0c51fe4f0563e07a7c1407b0c96bbefb120f4549d0f",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_correct_piece_count": "passed_visual_review",
+        "neckline_sleeves_straps_seams_hem": "passed_visual_reference_comparison",
+        "silhouette_length_and_drape": "passed_visual_reference_comparison",
+        "color_print_and_fabric_appearance": "passed_visual_reference_comparison",
+        "model_anatomy": "passed_visual_review",
+        "full_product_visibility": "passed_visual_review",
+        "scene_model_lighting_and_framing": "passed_visual_review",
+        "added_promotional_text_or_watermarks": "passed_none_visible",
+        "file_decode": "passed"
+      }
+    }
+  ],
+  "generation": {
+    "tool": "image_gen.imagegen",
+    "reference_conditioned": true,
+    "prompt": "ONE photorealistic nonsexual e-commerce catalog photograph, portrait 3:4 same native dimensions as FIRST image. FIRST image is locked product-specific scene/model anchor: keep exact adult woman about 32, same face, low dark bun, body proportions, relaxed front pose, bare feet, camera framing, ivory bedroom wall, curtain at left, cream bed with one pillow at right, round oak table and ivory vase, same soft left daylight. SECOND image is the actual variant authority for garment color, white-dot size/spacing and embroidered lace geometry; THIRD is this same product's unfolded main structural reference. VARIANT. Reconstruct folded garment fully unfolded and naturally worn from same-product structure: ONE sleeveless long flowing loose A-line opaque nightdress, broad shoulders, rounded neck with wide matching floral embroidered mesh bib/yoke and prominent central daisy-shaped lower point. Preserve every visible floral, leaf and circular embroidery motif and source's neck binding/backing; do not substitute rose lace or add unsupported trim. Gathers under bib, satin-like smooth lustre, natural soft folds, full hem visible, normally ankle length as unfolded main EXCEPT when variant specification explicitly identifies shorter source length. Exact original white polka-dot pattern, not enlarged. Hands beside body without covering garment. No robes, extra garments, slit, buttons, belt, collage, folded display, labels, marketing text or watermark. Highest supported native resolution. Keep adult model and complete head-to-feet framing consistent even for shorter source.",
+    "attempts": 13,
+    "retries": 2
+  },
+  "validation_notes": [
+    "Visual QA compares visible source evidence, not calibrated color or a pixel-exact embroidery measurement. Original lighting, blur, folds and glare limit fine detail verification.",
+    "Fiber composition, physical measurements and unseen back construction remain unverified; no back views or extra garment parts generated.",
+    "Native output dimensions are recorded per file. Outputs are not upscaled or represented as 4K when native size is smaller.",
+    "Folded variants reconstructed using unfolded references within this same folder. No duplicate color entries deduplicated.",
+    "Gold embroidery spelling and grey hem corrected once each; rejected attempts retained outside product generated directory, not approved outputs.",
+    "Long folded-variant length follows same-folder long main; grey worn photo is separate shorter length evidence."
+  ],
+  "blockers": [],
+  "metadata_versions": [
+    {
+      "path": "description.txt",
+      "sha256": "8ca1b015dc202d6c29d4e4365f51c8183c011fcaca1aa39a381ede5b91ac98fd"
+    },
+    {
+      "path": "updates.txt",
+      "sha256": "01a01ca5b09bb18250be8f2f0c3f3d06f932bfa2a204b947c8c36f053f6b28e6"
+    }
+  ],
+  "resumability": "Preserve accepted outputs when source hashes are current. Rescan each source individually. Regenerate missing, failed or stale entries; do not treat blocked entries as complete."
+}
