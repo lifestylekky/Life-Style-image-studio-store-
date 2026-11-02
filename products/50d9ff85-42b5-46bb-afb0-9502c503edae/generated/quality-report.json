@@ -1,0 +1,320 @@
+{
+  "schema_version": 1,
+  "product_id": "50d9ff85-42b5-46bb-afb0-9502c503edae",
+  "status": "COMPLETE",
+  "source_inventory_check": {
+    "main": 1,
+    "colors": 13,
+    "all_14_sources_readable_and_visually_inspected": true,
+    "all_sources_reconciled": true,
+    "source_hashes_unchanged": true,
+    "duplicate_source_accounted_for": true
+  },
+  "generation_check": {
+    "generated": 13,
+    "accepted_unique_images": 13,
+    "accepted_source_entries": 14,
+    "explicitly_reused_source_entries": 1,
+    "failed": 0,
+    "blocked": 0,
+    "retries": 0
+  },
+  "scene_consistency": "passed_visual_review_all_outputs",
+  "per_output": [
+    {
+      "path": "generated/main__846c5c08-d062-4b79-8d77-fbf67dcfef8f__model.png",
+      "source": "main/846c5c08-d062-4b79-8d77-fbf67dcfef8f.jpg",
+      "checks": {
+        "fully_unfolded_model_worn": "passed",
+        "one_complete_matching_two_piece_set": "passed",
+        "full_garment_visibility": "passed",
+        "round_neck_short_sleeves_top_hem": "passed_visual_comparison",
+        "trouser_silhouette": "passed_visual_comparison",
+        "color_and_print_identity": "passed_visual_comparison",
+        "print_geometry_scale_and_density": "passed_visual_comparison",
+        "fabric_appearance": "passed_visual_comparison",
+        "model_anatomy_and_drape": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "added_text_watermark_promotional_graphics": "passed_none_visible",
+        "image_decode_and_dimensions": "passed"
+      },
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "generated/color__10528c06-116c-41a0-96cf-d921c5c18ef9__model.png",
+      "source": "colors/10528c06-116c-41a0-96cf-d921c5c18ef9.jpg",
+      "checks": {
+        "fully_unfolded_model_worn": "passed",
+        "one_complete_matching_two_piece_set": "passed",
+        "full_garment_visibility": "passed",
+        "round_neck_short_sleeves_top_hem": "passed_visual_comparison",
+        "trouser_silhouette": "passed_visual_comparison",
+        "color_and_print_identity": "passed_visual_comparison",
+        "print_geometry_scale_and_density": "passed_visual_comparison",
+        "fabric_appearance": "passed_visual_comparison",
+        "model_anatomy_and_drape": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "added_text_watermark_promotional_graphics": "passed_none_visible",
+        "image_decode_and_dimensions": "passed"
+      },
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "generated/color__5bded9e3-28a3-4461-9feb-221908630adb__model.png",
+      "source": "colors/5bded9e3-28a3-4461-9feb-221908630adb.jpg",
+      "checks": {
+        "fully_unfolded_model_worn": "passed",
+        "one_complete_matching_two_piece_set": "passed",
+        "full_garment_visibility": "passed",
+        "round_neck_short_sleeves_top_hem": "passed_visual_comparison",
+        "trouser_silhouette": "passed_visual_comparison",
+        "color_and_print_identity": "passed_visual_comparison",
+        "print_geometry_scale_and_density": "passed_visual_comparison",
+        "fabric_appearance": "passed_visual_comparison",
+        "model_anatomy_and_drape": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "added_text_watermark_promotional_graphics": "passed_none_visible",
+        "image_decode_and_dimensions": "passed"
+      },
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "generated/color__746cf88b-0808-45b6-b8a0-54a6d70cdc3e__model.png",
+      "source": "colors/746cf88b-0808-45b6-b8a0-54a6d70cdc3e.jpg",
+      "checks": {
+        "fully_unfolded_model_worn": "passed",
+        "one_complete_matching_two_piece_set": "passed",
+        "full_garment_visibility": "passed",
+        "round_neck_short_sleeves_top_hem": "passed_visual_comparison",
+        "trouser_silhouette": "passed_visual_comparison",
+        "color_and_print_identity": "passed_visual_comparison",
+        "print_geometry_scale_and_density": "passed_visual_comparison",
+        "fabric_appearance": "passed_visual_comparison",
+        "model_anatomy_and_drape": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "added_text_watermark_promotional_graphics": "passed_none_visible",
+        "image_decode_and_dimensions": "passed"
+      },
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "generated/color__7db3719c-6bf4-459c-bf64-568d78489152__model.png",
+      "source": "colors/7db3719c-6bf4-459c-bf64-568d78489152.jpg",
+      "checks": {
+        "fully_unfolded_model_worn": "passed",
+        "one_complete_matching_two_piece_set": "passed",
+        "full_garment_visibility": "passed",
+        "round_neck_short_sleeves_top_hem": "passed_visual_comparison",
+        "trouser_silhouette": "passed_visual_comparison",
+        "color_and_print_identity": "passed_visual_comparison",
+        "print_geometry_scale_and_density": "passed_visual_comparison",
+        "fabric_appearance": "passed_visual_comparison",
+        "model_anatomy_and_drape": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "added_text_watermark_promotional_graphics": "passed_none_visible",
+        "image_decode_and_dimensions": "passed"
+      },
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "generated/color__8911309f-eaa3-48a9-b65c-52e6c43c66be__model.png",
+      "source": "colors/8911309f-eaa3-48a9-b65c-52e6c43c66be.jpg",
+      "checks": {
+        "fully_unfolded_model_worn": "passed",
+        "one_complete_matching_two_piece_set": "passed",
+        "full_garment_visibility": "passed",
+        "round_neck_short_sleeves_top_hem": "passed_visual_comparison",
+        "trouser_silhouette": "passed_visual_comparison",
+        "color_and_print_identity": "passed_visual_comparison",
+        "print_geometry_scale_and_density": "passed_visual_comparison",
+        "fabric_appearance": "passed_visual_comparison",
+        "model_anatomy_and_drape": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "added_text_watermark_promotional_graphics": "passed_none_visible",
+        "image_decode_and_dimensions": "passed"
+      },
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "generated/color__94268472-e209-40e5-8cb5-4ad099a0dd6a__model.png",
+      "source": "colors/94268472-e209-40e5-8cb5-4ad099a0dd6a.jpg",
+      "checks": {
+        "fully_unfolded_model_worn": "passed",
+        "one_complete_matching_two_piece_set": "passed",
+        "full_garment_visibility": "passed",
+        "round_neck_short_sleeves_top_hem": "passed_visual_comparison",
+        "trouser_silhouette": "passed_visual_comparison",
+        "color_and_print_identity": "passed_visual_comparison",
+        "print_geometry_scale_and_density": "passed_visual_comparison",
+        "fabric_appearance": "passed_visual_comparison",
+        "model_anatomy_and_drape": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "added_text_watermark_promotional_graphics": "passed_none_visible",
+        "image_decode_and_dimensions": "passed"
+      },
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "generated/color__9b47d282-bcd5-489e-8c8f-fe78d8781446__model.png",
+      "source": "colors/9b47d282-bcd5-489e-8c8f-fe78d8781446.jpg",
+      "checks": {
+        "fully_unfolded_model_worn": "passed",
+        "one_complete_matching_two_piece_set": "passed",
+        "full_garment_visibility": "passed",
+        "round_neck_short_sleeves_top_hem": "passed_visual_comparison",
+        "trouser_silhouette": "passed_visual_comparison",
+        "color_and_print_identity": "passed_visual_comparison",
+        "print_geometry_scale_and_density": "passed_visual_comparison",
+        "fabric_appearance": "passed_visual_comparison",
+        "model_anatomy_and_drape": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "added_text_watermark_promotional_graphics": "passed_none_visible",
+        "image_decode_and_dimensions": "passed"
+      },
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "generated/color__9eabaf73-8200-40c1-9df1-789871d20eb5__model.png",
+      "source": "colors/9eabaf73-8200-40c1-9df1-789871d20eb5.jpg",
+      "checks": {
+        "fully_unfolded_model_worn": "passed",
+        "one_complete_matching_two_piece_set": "passed",
+        "full_garment_visibility": "passed",
+        "round_neck_short_sleeves_top_hem": "passed_visual_comparison",
+        "trouser_silhouette": "passed_visual_comparison",
+        "color_and_print_identity": "passed_visual_comparison",
+        "print_geometry_scale_and_density": "passed_visual_comparison",
+        "fabric_appearance": "passed_visual_comparison",
+        "model_anatomy_and_drape": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "added_text_watermark_promotional_graphics": "passed_none_visible",
+        "image_decode_and_dimensions": "passed"
+      },
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "generated/color__a278f69a-94a6-4758-9e01-f8192a1e2f00__model.png",
+      "source": "colors/a278f69a-94a6-4758-9e01-f8192a1e2f00.jpg",
+      "checks": {
+        "fully_unfolded_model_worn": "passed",
+        "one_complete_matching_two_piece_set": "passed",
+        "full_garment_visibility": "passed",
+        "round_neck_short_sleeves_top_hem": "passed_visual_comparison",
+        "trouser_silhouette": "passed_visual_comparison",
+        "color_and_print_identity": "passed_visual_comparison",
+        "print_geometry_scale_and_density": "passed_visual_comparison",
+        "fabric_appearance": "passed_visual_comparison",
+        "model_anatomy_and_drape": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "added_text_watermark_promotional_graphics": "passed_none_visible",
+        "image_decode_and_dimensions": "passed"
+      },
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "generated/color__b1b4229f-0559-40ff-8356-4b8c6a5ff596__model.png",
+      "source": "colors/b1b4229f-0559-40ff-8356-4b8c6a5ff596.jpg",
+      "checks": {
+        "fully_unfolded_model_worn": "passed",
+        "one_complete_matching_two_piece_set": "passed",
+        "full_garment_visibility": "passed",
+        "round_neck_short_sleeves_top_hem": "passed_visual_comparison",
+        "trouser_silhouette": "passed_visual_comparison",
+        "color_and_print_identity": "passed_visual_comparison",
+        "print_geometry_scale_and_density": "passed_visual_comparison",
+        "fabric_appearance": "passed_visual_comparison",
+        "model_anatomy_and_drape": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "added_text_watermark_promotional_graphics": "passed_none_visible",
+        "image_decode_and_dimensions": "passed"
+      },
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "generated/color__c2bc03d3-5811-4ef6-ae99-5d7c0cc70544__model.png",
+      "source": "colors/c2bc03d3-5811-4ef6-ae99-5d7c0cc70544.jpg",
+      "checks": {
+        "fully_unfolded_model_worn": "passed",
+        "one_complete_matching_two_piece_set": "passed",
+        "full_garment_visibility": "passed",
+        "round_neck_short_sleeves_top_hem": "passed_visual_comparison",
+        "trouser_silhouette": "passed_visual_comparison",
+        "color_and_print_identity": "passed_visual_comparison",
+        "print_geometry_scale_and_density": "passed_visual_comparison",
+        "fabric_appearance": "passed_visual_comparison",
+        "model_anatomy_and_drape": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "added_text_watermark_promotional_graphics": "passed_none_visible",
+        "image_decode_and_dimensions": "passed"
+      },
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "generated/color__c8d6d45e-d589-4359-933e-02d937f27c9c__model.png",
+      "source": "colors/c8d6d45e-d589-4359-933e-02d937f27c9c.jpg",
+      "checks": {
+        "fully_unfolded_model_worn": "passed",
+        "one_complete_matching_two_piece_set": "passed",
+        "full_garment_visibility": "passed",
+        "round_neck_short_sleeves_top_hem": "passed_visual_comparison",
+        "trouser_silhouette": "passed_visual_comparison",
+        "color_and_print_identity": "passed_visual_comparison",
+        "print_geometry_scale_and_density": "passed_visual_comparison",
+        "fabric_appearance": "passed_visual_comparison",
+        "model_anatomy_and_drape": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "added_text_watermark_promotional_graphics": "passed_none_visible",
+        "image_decode_and_dimensions": "passed"
+      },
+      "dimensions": [
+        1024,
+        1536
+      ]
+    }
+  ],
+  "notes": [
+    "All source and output images individually viewed. Visual comparisons assess front construction, motif identity, relative scale/density, color appearance and consistency; not a pixel-exact textile or calibrated color measurement.",
+    "Fiber composition, hidden back construction, physical measurements and actual size fit cannot be verified from these images. No unseen back views or material claims generated.",
+    "Color sources depict children; user expressly requested adult female presentation. Designs rendered on the same existing adult scene model, preserving visible construction and slim silhouette; this does not certify adult sizing.",
+    "Native generated resolution 1024 x 1536, 2:3 portrait, not 4K and not upscaled.",
+    "Source-native print/artwork retained, including botanical linework on sage variant; no marketing text or watermark added."
+  ],
+  "blockers": [],
+  "conclusion": "All 14 individual source entries reconciled to 13 accepted full-length adult-model images; one explicit duplicate yellow-floral screenshot reuses its canonical output. Original files preserved. COMPLETE against visible-reference workflow criteria; documented resolution and source-evidence limits apply."
+}

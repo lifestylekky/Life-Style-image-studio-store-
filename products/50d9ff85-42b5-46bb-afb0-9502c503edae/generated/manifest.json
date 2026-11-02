@@ -1,0 +1,823 @@
+{
+  "schema_version": 1,
+  "product_id": "50d9ff85-42b5-46bb-afb0-9502c503edae",
+  "product_name": "PIJAMA",
+  "status": "COMPLETE",
+  "recorded_at": "2026-11-02T16:02:37.740196+00:00",
+  "workflow_instructions": "AGENTS.md",
+  "counts": {
+    "main_sources": 1,
+    "color_sources": 13,
+    "unique_variants": 13,
+    "generated_main": 1,
+    "generated_color": 12,
+    "reused_color_entries": 1,
+    "accepted_unique_images": 13,
+    "accepted_source_entries": 14,
+    "detail_images": 0,
+    "failed": 0,
+    "blocked": 0
+  },
+  "source_inventory": [
+    {
+      "path": "main/846c5c08-d062-4b79-8d77-fbf67dcfef8f.jpg",
+      "role": "main",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "4fc371da74694e963a6270557801140847794997fa2d584e08adf43f59954bea",
+      "aspect_ratio": "2:3",
+      "presentation": "unfolded_model_worn",
+      "folded": false,
+      "source_decode": "passed",
+      "visually_inspected": true,
+      "status": "accepted",
+      "output_path": "generated/main__846c5c08-d062-4b79-8d77-fbf67dcfef8f__model.png",
+      "generation_attempts": 1,
+      "retries": 0,
+      "variant": "beige teddy bears",
+      "visual_evidence": "Adult model wearing short-sleeve round-neck beige teddy-print top and matching loose straight-leg long trousers; both pieces and hems visible.",
+      "structural_reference": "main/846c5c08-d062-4b79-8d77-fbf67dcfef8f.jpg",
+      "print_spec": "Cream and taupe large teddy bears with red bows/face dots on beige ground."
+    },
+    {
+      "path": "colors/10528c06-116c-41a0-96cf-d921c5c18ef9.jpg",
+      "role": "color",
+      "dimensions": [
+        1080,
+        2044
+      ],
+      "sha256": "01b71b1c129f4eacc659bad70048566932a788fc97a56b0263d989dba68ce149",
+      "aspect_ratio": "270:511",
+      "presentation": "unfolded_model_worn",
+      "folded": false,
+      "source_decode": "passed",
+      "visually_inspected": true,
+      "status": "accepted",
+      "output_path": "generated/color__10528c06-116c-41a0-96cf-d921c5c18ef9__model.png",
+      "generation_attempts": 1,
+      "retries": 0,
+      "variant": "olive small motifs",
+      "print_spec": "Muted dark olive-green ground with dense small black decorative leaf/rosette motifs arranged in staggered spaced rows. Small repeat, not large flowers.",
+      "visual_evidence": "Unfolded worn short-sleeve round-neck straight-hem top and matching slim ankle-length pants; front design and print visible. Source person is a child; only garment evidence used for adult rendering.",
+      "structural_reference": "colors/10528c06-116c-41a0-96cf-d921c5c18ef9.jpg"
+    },
+    {
+      "path": "colors/5bded9e3-28a3-4461-9feb-221908630adb.jpg",
+      "role": "color",
+      "dimensions": [
+        1053,
+        1625
+      ],
+      "sha256": "2e338a867221519c038de53bd99bb1b89f73dc1256972680f824c787cac971ea",
+      "aspect_ratio": "81:125",
+      "presentation": "unfolded_model_worn",
+      "folded": false,
+      "source_decode": "passed",
+      "visually_inspected": true,
+      "status": "accepted",
+      "output_path": "generated/color__5bded9e3-28a3-4461-9feb-221908630adb__model.png",
+      "generation_attempts": 1,
+      "retries": 0,
+      "variant": "pink Christmas",
+      "print_spec": "Pink ground with large illustrated Santa figures, reindeer with green scarves, white polar bears in green scarves, decorated green Christmas trees and holiday animal motifs in mixed rotations. Preserve exact cartoon motif vocabulary, scale, colors and density.",
+      "visual_evidence": "Unfolded worn short-sleeve round-neck straight-hem top and matching slim ankle-length pants; front design and print visible. Source person is a child; only garment evidence used for adult rendering.",
+      "structural_reference": "colors/5bded9e3-28a3-4461-9feb-221908630adb.jpg"
+    },
+    {
+      "path": "colors/746cf88b-0808-45b6-b8a0-54a6d70cdc3e.jpg",
+      "role": "color",
+      "dimensions": [
+        1080,
+        2110
+      ],
+      "sha256": "05f289de3c35ef30e8673529b700f85c5fd4059ea2b988aaa098501d2948e9f2",
+      "aspect_ratio": "108:211",
+      "presentation": "unfolded_model_worn",
+      "folded": false,
+      "source_decode": "passed",
+      "visually_inspected": true,
+      "status": "accepted",
+      "output_path": "generated/color__746cf88b-0808-45b6-b8a0-54a6d70cdc3e__model.png",
+      "generation_attempts": 1,
+      "retries": 0,
+      "variant": "blue Dalmatians",
+      "print_spec": "Powder blue ground with large white Dalmatian dogs with black spots and black outlines, sitting and standing in mixed rotations. Preserve dogs' silhouettes, black spots, spacing and scale.",
+      "visual_evidence": "Unfolded worn short-sleeve round-neck straight-hem top and matching slim ankle-length pants; front design and print visible. Source person is a child; only garment evidence used for adult rendering.",
+      "structural_reference": "colors/746cf88b-0808-45b6-b8a0-54a6d70cdc3e.jpg"
+    },
+    {
+      "path": "colors/7db3719c-6bf4-459c-bf64-568d78489152.jpg",
+      "role": "color",
+      "dimensions": [
+        1052,
+        1905
+      ],
+      "sha256": "23ada828fad7810204864a8a3c1e8e0af9f65c8062217a679066dc356de57110",
+      "aspect_ratio": "1052:1905",
+      "presentation": "unfolded_model_worn",
+      "folded": false,
+      "source_decode": "passed",
+      "visually_inspected": true,
+      "status": "accepted",
+      "output_path": "generated/color__7db3719c-6bf4-459c-bf64-568d78489152__model.png",
+      "generation_attempts": 1,
+      "retries": 0,
+      "variant": "pastel dense flowers",
+      "print_spec": "Dense all-over closely packed outlined pastel flowers: light blue, pink and bright yellow daisies and larger blue blooms with pale mint leaves and fine dark outlines. Match exact motif scale and density; no sparse empty ground.",
+      "visual_evidence": "Unfolded worn short-sleeve round-neck straight-hem top and matching slim ankle-length pants; front design and print visible. Source person is a child; only garment evidence used for adult rendering.",
+      "structural_reference": "colors/7db3719c-6bf4-459c-bf64-568d78489152.jpg"
+    },
+    {
+      "path": "colors/8911309f-eaa3-48a9-b65c-52e6c43c66be.jpg",
+      "role": "color",
+      "dimensions": [
+        1080,
+        1898
+      ],
+      "sha256": "d77a4edf4f6ba97695aeefcc036f0c64bc25d8a770452ab75ce0b8d1aabcc2f9",
+      "aspect_ratio": "540:949",
+      "presentation": "unfolded_model_worn",
+      "folded": false,
+      "source_decode": "passed",
+      "visually_inspected": true,
+      "status": "accepted",
+      "output_path": "generated/color__8911309f-eaa3-48a9-b65c-52e6c43c66be__model.png",
+      "generation_attempts": 1,
+      "retries": 0,
+      "variant": "sage botanical",
+      "print_spec": "Light yellowish sage-green ground, large pink/magenta and pale lavender rose-like blooms, white blossom clusters on fine dark branches, faint vintage botanical linework. Match the source artwork and scale; do not add readable text.",
+      "visual_evidence": "Unfolded worn short-sleeve round-neck straight-hem top and matching slim ankle-length pants; front design and print visible. Source person is a child; only garment evidence used for adult rendering.",
+      "structural_reference": "colors/8911309f-eaa3-48a9-b65c-52e6c43c66be.jpg"
+    },
+    {
+      "path": "colors/94268472-e209-40e5-8cb5-4ad099a0dd6a.jpg",
+      "role": "color",
+      "dimensions": [
+        1080,
+        1685
+      ],
+      "sha256": "0291e4d87b46e2e7d758f98a70542021dba80d27a4a9f392bbc730f71b9cb922",
+      "aspect_ratio": "216:337",
+      "presentation": "unfolded_model_worn",
+      "folded": false,
+      "source_decode": "passed",
+      "visually_inspected": true,
+      "status": "accepted",
+      "output_path": "generated/color__94268472-e209-40e5-8cb5-4ad099a0dd6a__model.png",
+      "generation_attempts": 1,
+      "retries": 0,
+      "variant": "yellow rose",
+      "print_spec": "Soft lemon-yellow ground with scattered coral peach roses, small buds, thin grey-green leafy stems. Match exact rose shapes, spacing and scale.",
+      "visual_evidence": "Unfolded worn short-sleeve round-neck straight-hem top and matching slim ankle-length pants; front design and print visible. Source person is a child; only garment evidence used for adult rendering.",
+      "structural_reference": "colors/94268472-e209-40e5-8cb5-4ad099a0dd6a.jpg"
+    },
+    {
+      "path": "colors/9b47d282-bcd5-489e-8c8f-fe78d8781446.jpg",
+      "role": "color",
+      "dimensions": [
+        1080,
+        1658
+      ],
+      "sha256": "82a9343bfb3d5511bc3a2c64c85e6df85c67809d9c15c93242c694457f805b7c",
+      "aspect_ratio": "540:829",
+      "presentation": "unfolded_model_worn",
+      "folded": false,
+      "source_decode": "passed",
+      "visually_inspected": true,
+      "status": "accepted",
+      "output_path": "generated/color__9b47d282-bcd5-489e-8c8f-fe78d8781446__model.png",
+      "generation_attempts": 1,
+      "retries": 0,
+      "variant": "lavender oranges",
+      "print_spec": "Pale lavender ground with large orange citrus circular cross sections and wedge slices, cream segment lines, small vivid light-green leaves. Preserve motif size and spacing.",
+      "visual_evidence": "Unfolded worn short-sleeve round-neck straight-hem top and matching slim ankle-length pants; front design and print visible. Source person is a child; only garment evidence used for adult rendering.",
+      "structural_reference": "colors/9b47d282-bcd5-489e-8c8f-fe78d8781446.jpg"
+    },
+    {
+      "path": "colors/9eabaf73-8200-40c1-9df1-789871d20eb5.jpg",
+      "role": "color",
+      "dimensions": [
+        963,
+        1465
+      ],
+      "sha256": "887d32383810609ac4b08558b1d0e1e2eae09f2357aea8d09fce827f79edd9a1",
+      "aspect_ratio": "963:1465",
+      "presentation": "unfolded_model_worn",
+      "folded": false,
+      "source_decode": "passed",
+      "visually_inspected": true,
+      "status": "accepted",
+      "output_path": "generated/color__9eabaf73-8200-40c1-9df1-789871d20eb5__model.png",
+      "generation_attempts": 1,
+      "retries": 0,
+      "variant": "pink black cats",
+      "print_spec": "Very pale blush pink ground with large black cartoon cats wearing coral pink neck bows, some cats inverted, interspersed small black and coral stars. Match actual cat silhouettes, scale and spacing.",
+      "visual_evidence": "Unfolded worn short-sleeve round-neck straight-hem top and matching slim ankle-length pants; front design and print visible. Source person is a child; only garment evidence used for adult rendering.",
+      "structural_reference": "colors/9eabaf73-8200-40c1-9df1-789871d20eb5.jpg"
+    },
+    {
+      "path": "colors/a278f69a-94a6-4758-9e01-f8192a1e2f00.jpg",
+      "role": "color",
+      "dimensions": [
+        1080,
+        1964
+      ],
+      "sha256": "000a856a0905eee92ab14f8411e3e721bd6b18d99d302c08b9721b556529e64a",
+      "aspect_ratio": "270:491",
+      "presentation": "unfolded_model_worn",
+      "folded": false,
+      "source_decode": "passed",
+      "visually_inspected": true,
+      "status": "accepted",
+      "output_path": "generated/color__a278f69a-94a6-4758-9e01-f8192a1e2f00__model.png",
+      "generation_attempts": 1,
+      "retries": 0,
+      "variant": "mint floral",
+      "print_spec": "Very pale mint/aqua ground, scattered soft pink and lilac flowers with dark pink buds and delicate thin dark-green curving stems and leaves; preserve source scale and spacing.",
+      "visual_evidence": "Unfolded worn short-sleeve round-neck straight-hem top and matching slim ankle-length pants; front design and print visible. Source person is a child; only garment evidence used for adult rendering.",
+      "structural_reference": "colors/a278f69a-94a6-4758-9e01-f8192a1e2f00.jpg"
+    },
+    {
+      "path": "colors/b1b4229f-0559-40ff-8356-4b8c6a5ff596.jpg",
+      "role": "color",
+      "dimensions": [
+        1054,
+        1886
+      ],
+      "sha256": "e0d53fa85fcb0d8e17143118238007fd943d65c62e1579d6a6ab044ab7ed67e3",
+      "aspect_ratio": "527:943",
+      "presentation": "unfolded_model_worn",
+      "folded": false,
+      "source_decode": "passed",
+      "visually_inspected": true,
+      "status": "accepted",
+      "output_path": "generated/color__b1b4229f-0559-40ff-8356-4b8c6a5ff596__model.png",
+      "generation_attempts": 1,
+      "retries": 0,
+      "variant": "green dinosaurs",
+      "print_spec": "Bright emerald green ground with large yellow-orange, light blue and cream cartoon dinosaurs in mixed orientations, small dark palm trees, fine outlined plants, white cloud-like shapes. Match the actual source characters, their scale and density.",
+      "visual_evidence": "Unfolded worn short-sleeve round-neck straight-hem top and matching slim ankle-length pants; front design and print visible. Source person is a child; only garment evidence used for adult rendering.",
+      "structural_reference": "colors/b1b4229f-0559-40ff-8356-4b8c6a5ff596.jpg"
+    },
+    {
+      "path": "colors/c2bc03d3-5811-4ef6-ae99-5d7c0cc70544.jpg",
+      "role": "color",
+      "dimensions": [
+        872,
+        1566
+      ],
+      "sha256": "5c331a63ca4a7f547f682de8067b18790e0c477e05632507a878d359efb5bb0d",
+      "aspect_ratio": "436:783",
+      "presentation": "unfolded_model_worn",
+      "folded": false,
+      "source_decode": "passed",
+      "visually_inspected": true,
+      "status": "accepted",
+      "output_path": "generated/color__c2bc03d3-5811-4ef6-ae99-5d7c0cc70544__model.png",
+      "generation_attempts": 1,
+      "retries": 0,
+      "variant": "tropical leaves",
+      "print_spec": "White ground with very large overlapping dark navy and grey-blue tropical monstera and palm leaves and vivid orange bird-of-paradise flowers. Match leaf shapes, density, scale and directions.",
+      "visual_evidence": "Unfolded worn short-sleeve round-neck straight-hem top and matching slim ankle-length pants; front design and print visible. Source person is a child; only garment evidence used for adult rendering.",
+      "structural_reference": "colors/c2bc03d3-5811-4ef6-ae99-5d7c0cc70544.jpg"
+    },
+    {
+      "path": "colors/c8d6d45e-d589-4359-933e-02d937f27c9c.jpg",
+      "role": "color",
+      "dimensions": [
+        994,
+        1764
+      ],
+      "sha256": "4bf7018d7b03e440fbfbef1372cc949ab2c28e4f58f585b8b6dc96f6a8269270",
+      "aspect_ratio": "71:126",
+      "presentation": "unfolded_model_worn",
+      "folded": false,
+      "source_decode": "passed",
+      "visually_inspected": true,
+      "status": "accepted",
+      "output_path": "generated/color__c8d6d45e-d589-4359-933e-02d937f27c9c__model.png",
+      "generation_attempts": 1,
+      "retries": 0,
+      "variant": "navy daisies",
+      "print_spec": "Dark navy blue ground densely scattered with irregular white daisy/aster floral silhouettes in mixed sizes and orientations, with pale blue small areas as reference. No yellow centers.",
+      "visual_evidence": "Unfolded worn short-sleeve round-neck straight-hem top and matching slim ankle-length pants; front design and print visible. Source person is a child; only garment evidence used for adult rendering.",
+      "structural_reference": "colors/c8d6d45e-d589-4359-933e-02d937f27c9c.jpg"
+    },
+    {
+      "path": "colors/ef15bbd4-c448-4c1f-b561-1a1c90b6349b.jpg",
+      "role": "color",
+      "dimensions": [
+        1080,
+        2340
+      ],
+      "sha256": "9301692fcee7c6b8f832a74065c85e0124ab246bee33a5d69408f76fe0a80d59",
+      "aspect_ratio": "6:13",
+      "presentation": "screenshot_of_unfolded_model_worn",
+      "folded": false,
+      "source_decode": "passed",
+      "visually_inspected": true,
+      "status": "accepted_reuse",
+      "output_path": "generated/color__94268472-e209-40e5-8cb5-4ad099a0dd6a__model.png",
+      "generation_attempts": 0,
+      "retries": 0,
+      "variant": "yellow rose",
+      "print_spec": "Soft lemon-yellow ground with scattered coral peach roses, small buds, thin grey-green leafy stems. Match exact rose shapes, spacing and scale.",
+      "visual_evidence": "Unfolded worn short-sleeve round-neck straight-hem top and matching slim ankle-length pants; front design and print visible. Source person is a child; only garment evidence used for adult rendering.",
+      "structural_reference": "colors/94268472-e209-40e5-8cb5-4ad099a0dd6a.jpg",
+      "deduplicated_to": "colors/94268472-e209-40e5-8cb5-4ad099a0dd6a.jpg",
+      "deduplication_reason": "Same yellow rose garment photograph and pose shown in a larger phone screenshot crop, including phone UI. Same commercial variant and construction; output explicitly reused."
+    }
+  ],
+  "metadata_files": [
+    {
+      "path": "description.txt",
+      "sha256": "5a1072fe81ed103846c907429f8231085cf10ae029160fd71d0187f367f9804a"
+    },
+    {
+      "path": "updates.txt",
+      "sha256": "5f9a089fb8993d7587b06d05f0b2e964c094578127fb597fbb9db18200c5736a"
+    }
+  ],
+  "garment_spec": {
+    "piece_count": 2,
+    "top": "Matte jersey-like pullover, bound round neck, short regular sleeves, straight hip-length hem, untucked.",
+    "bottom": "Matching full-length pants; loose straight-leg main variant and slim color-variant silhouettes retained from respective references. Waist concealed by untucked top; no unsupported closures or pockets introduced.",
+    "print_rule": "Every design uses its own source print, not a recolor of another variant.",
+    "unfolded_construction_references": [
+      "main/846c5c08-d062-4b79-8d77-fbf67dcfef8f.jpg",
+      "colors/10528c06-116c-41a0-96cf-d921c5c18ef9.jpg",
+      "colors/5bded9e3-28a3-4461-9feb-221908630adb.jpg",
+      "colors/746cf88b-0808-45b6-b8a0-54a6d70cdc3e.jpg",
+      "colors/7db3719c-6bf4-459c-bf64-568d78489152.jpg",
+      "colors/8911309f-eaa3-48a9-b65c-52e6c43c66be.jpg",
+      "colors/94268472-e209-40e5-8cb5-4ad099a0dd6a.jpg",
+      "colors/9b47d282-bcd5-489e-8c8f-fe78d8781446.jpg",
+      "colors/9eabaf73-8200-40c1-9df1-789871d20eb5.jpg",
+      "colors/a278f69a-94a6-4758-9e01-f8192a1e2f00.jpg",
+      "colors/b1b4229f-0559-40ff-8356-4b8c6a5ff596.jpg",
+      "colors/c2bc03d3-5811-4ef6-ae99-5d7c0cc70544.jpg",
+      "colors/c8d6d45e-d589-4359-933e-02d937f27c9c.jpg",
+      "colors/94268472-e209-40e5-8cb5-4ad099a0dd6a.jpg"
+    ],
+    "material": "Only appearance verified; fiber composition not specified."
+  },
+  "scene_profile": {
+    "location": "premium contemporary ivory bedroom",
+    "wall": "warm ivory plaster",
+    "floor": "pale oak",
+    "window": "tall sheer ivory curtain on camera-left",
+    "furniture": "Low cream upholstered bed behind at camera-right with plain cream duvet; small light-oak bedside table at far right with single ivory ceramic lamp.",
+    "lighting": "soft natural neutral-warm daylight from camera-left",
+    "mood": "quiet uncluttered retail catalog",
+    "anchor_output": "generated/main__846c5c08-d062-4b79-8d77-fbf67dcfef8f__model.png"
+  },
+  "model_profile": {
+    "description": "Same clearly adult South Asian female model about 30, medium warm skin, long softly waved dark brown hair behind shoulders, natural makeup, gentle closed-mouth smile.",
+    "pose": "front standing, relaxed arms beside thighs, barefoot",
+    "consistency": "visually verified in all 13 outputs"
+  },
+  "camera_profile": {
+    "perspective": "level waist-height 70mm-style portrait perspective",
+    "framing": "centered full length, head through feet, all garment hems visible",
+    "aspect_ratio": "2:3",
+    "resolution": [
+      1024,
+      1536
+    ],
+    "resolution_reason": "Matches main source aspect ratio and generator native output; no 4K result supplied.",
+    "depth_of_field": "garment sharp throughout; room softly rendered"
+  },
+  "output_mapping": [
+    {
+      "source": "main/846c5c08-d062-4b79-8d77-fbf67dcfef8f.jpg",
+      "output": "generated/main__846c5c08-d062-4b79-8d77-fbf67dcfef8f__model.png",
+      "status": "accepted"
+    },
+    {
+      "source": "colors/10528c06-116c-41a0-96cf-d921c5c18ef9.jpg",
+      "output": "generated/color__10528c06-116c-41a0-96cf-d921c5c18ef9__model.png",
+      "status": "accepted"
+    },
+    {
+      "source": "colors/5bded9e3-28a3-4461-9feb-221908630adb.jpg",
+      "output": "generated/color__5bded9e3-28a3-4461-9feb-221908630adb__model.png",
+      "status": "accepted"
+    },
+    {
+      "source": "colors/746cf88b-0808-45b6-b8a0-54a6d70cdc3e.jpg",
+      "output": "generated/color__746cf88b-0808-45b6-b8a0-54a6d70cdc3e__model.png",
+      "status": "accepted"
+    },
+    {
+      "source": "colors/7db3719c-6bf4-459c-bf64-568d78489152.jpg",
+      "output": "generated/color__7db3719c-6bf4-459c-bf64-568d78489152__model.png",
+      "status": "accepted"
+    },
+    {
+      "source": "colors/8911309f-eaa3-48a9-b65c-52e6c43c66be.jpg",
+      "output": "generated/color__8911309f-eaa3-48a9-b65c-52e6c43c66be__model.png",
+      "status": "accepted"
+    },
+    {
+      "source": "colors/94268472-e209-40e5-8cb5-4ad099a0dd6a.jpg",
+      "output": "generated/color__94268472-e209-40e5-8cb5-4ad099a0dd6a__model.png",
+      "status": "accepted"
+    },
+    {
+      "source": "colors/9b47d282-bcd5-489e-8c8f-fe78d8781446.jpg",
+      "output": "generated/color__9b47d282-bcd5-489e-8c8f-fe78d8781446__model.png",
+      "status": "accepted"
+    },
+    {
+      "source": "colors/9eabaf73-8200-40c1-9df1-789871d20eb5.jpg",
+      "output": "generated/color__9eabaf73-8200-40c1-9df1-789871d20eb5__model.png",
+      "status": "accepted"
+    },
+    {
+      "source": "colors/a278f69a-94a6-4758-9e01-f8192a1e2f00.jpg",
+      "output": "generated/color__a278f69a-94a6-4758-9e01-f8192a1e2f00__model.png",
+      "status": "accepted"
+    },
+    {
+      "source": "colors/b1b4229f-0559-40ff-8356-4b8c6a5ff596.jpg",
+      "output": "generated/color__b1b4229f-0559-40ff-8356-4b8c6a5ff596__model.png",
+      "status": "accepted"
+    },
+    {
+      "source": "colors/c2bc03d3-5811-4ef6-ae99-5d7c0cc70544.jpg",
+      "output": "generated/color__c2bc03d3-5811-4ef6-ae99-5d7c0cc70544__model.png",
+      "status": "accepted"
+    },
+    {
+      "source": "colors/c8d6d45e-d589-4359-933e-02d937f27c9c.jpg",
+      "output": "generated/color__c8d6d45e-d589-4359-933e-02d937f27c9c__model.png",
+      "status": "accepted"
+    },
+    {
+      "source": "colors/ef15bbd4-c448-4c1f-b561-1a1c90b6349b.jpg",
+      "output": "generated/color__94268472-e209-40e5-8cb5-4ad099a0dd6a__model.png",
+      "status": "accepted_reuse"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "generated/main__846c5c08-d062-4b79-8d77-fbf67dcfef8f__model.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "PNG",
+      "sha256": "875c8c7a73ea99c50a43e4963fa0b6b9c6ae5e30fa363ea8af2c0b87031e39b0",
+      "status": "accepted",
+      "visual_checks": {
+        "fully_unfolded_model_worn": "passed",
+        "one_complete_matching_two_piece_set": "passed",
+        "full_garment_visibility": "passed",
+        "round_neck_short_sleeves_top_hem": "passed_visual_comparison",
+        "trouser_silhouette": "passed_visual_comparison",
+        "color_and_print_identity": "passed_visual_comparison",
+        "print_geometry_scale_and_density": "passed_visual_comparison",
+        "fabric_appearance": "passed_visual_comparison",
+        "model_anatomy_and_drape": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "added_text_watermark_promotional_graphics": "passed_none_visible",
+        "image_decode_and_dimensions": "passed"
+      },
+      "retries": 0,
+      "source": "main/846c5c08-d062-4b79-8d77-fbf67dcfef8f.jpg"
+    },
+    {
+      "path": "generated/color__10528c06-116c-41a0-96cf-d921c5c18ef9__model.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "PNG",
+      "sha256": "5d21060bb060ad964afb7dd6ee944b347577bc4f534461d558e9fc625d65ab0c",
+      "status": "accepted",
+      "visual_checks": {
+        "fully_unfolded_model_worn": "passed",
+        "one_complete_matching_two_piece_set": "passed",
+        "full_garment_visibility": "passed",
+        "round_neck_short_sleeves_top_hem": "passed_visual_comparison",
+        "trouser_silhouette": "passed_visual_comparison",
+        "color_and_print_identity": "passed_visual_comparison",
+        "print_geometry_scale_and_density": "passed_visual_comparison",
+        "fabric_appearance": "passed_visual_comparison",
+        "model_anatomy_and_drape": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "added_text_watermark_promotional_graphics": "passed_none_visible",
+        "image_decode_and_dimensions": "passed"
+      },
+      "retries": 0,
+      "source": "colors/10528c06-116c-41a0-96cf-d921c5c18ef9.jpg"
+    },
+    {
+      "path": "generated/color__5bded9e3-28a3-4461-9feb-221908630adb__model.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "PNG",
+      "sha256": "bea757d9bea62c0441737a568c5414f7dafbe139f5a16c6ddc28a7c3b2f24dc4",
+      "status": "accepted",
+      "visual_checks": {
+        "fully_unfolded_model_worn": "passed",
+        "one_complete_matching_two_piece_set": "passed",
+        "full_garment_visibility": "passed",
+        "round_neck_short_sleeves_top_hem": "passed_visual_comparison",
+        "trouser_silhouette": "passed_visual_comparison",
+        "color_and_print_identity": "passed_visual_comparison",
+        "print_geometry_scale_and_density": "passed_visual_comparison",
+        "fabric_appearance": "passed_visual_comparison",
+        "model_anatomy_and_drape": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "added_text_watermark_promotional_graphics": "passed_none_visible",
+        "image_decode_and_dimensions": "passed"
+      },
+      "retries": 0,
+      "source": "colors/5bded9e3-28a3-4461-9feb-221908630adb.jpg"
+    },
+    {
+      "path": "generated/color__746cf88b-0808-45b6-b8a0-54a6d70cdc3e__model.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "PNG",
+      "sha256": "2f43d8acc39b16949456757939023af33cb3010d6fc3cfea9a132e2b81fe2658",
+      "status": "accepted",
+      "visual_checks": {
+        "fully_unfolded_model_worn": "passed",
+        "one_complete_matching_two_piece_set": "passed",
+        "full_garment_visibility": "passed",
+        "round_neck_short_sleeves_top_hem": "passed_visual_comparison",
+        "trouser_silhouette": "passed_visual_comparison",
+        "color_and_print_identity": "passed_visual_comparison",
+        "print_geometry_scale_and_density": "passed_visual_comparison",
+        "fabric_appearance": "passed_visual_comparison",
+        "model_anatomy_and_drape": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "added_text_watermark_promotional_graphics": "passed_none_visible",
+        "image_decode_and_dimensions": "passed"
+      },
+      "retries": 0,
+      "source": "colors/746cf88b-0808-45b6-b8a0-54a6d70cdc3e.jpg"
+    },
+    {
+      "path": "generated/color__7db3719c-6bf4-459c-bf64-568d78489152__model.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "PNG",
+      "sha256": "aaf51ec510f7ba10c4841573a17db3f4a92491c791b95c2b8c0bd96a87f4b185",
+      "status": "accepted",
+      "visual_checks": {
+        "fully_unfolded_model_worn": "passed",
+        "one_complete_matching_two_piece_set": "passed",
+        "full_garment_visibility": "passed",
+        "round_neck_short_sleeves_top_hem": "passed_visual_comparison",
+        "trouser_silhouette": "passed_visual_comparison",
+        "color_and_print_identity": "passed_visual_comparison",
+        "print_geometry_scale_and_density": "passed_visual_comparison",
+        "fabric_appearance": "passed_visual_comparison",
+        "model_anatomy_and_drape": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "added_text_watermark_promotional_graphics": "passed_none_visible",
+        "image_decode_and_dimensions": "passed"
+      },
+      "retries": 0,
+      "source": "colors/7db3719c-6bf4-459c-bf64-568d78489152.jpg"
+    },
+    {
+      "path": "generated/color__8911309f-eaa3-48a9-b65c-52e6c43c66be__model.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "PNG",
+      "sha256": "013875430da6c75bb5efe3990a55c8c53d24862834b2c8fb0148af23c383e56b",
+      "status": "accepted",
+      "visual_checks": {
+        "fully_unfolded_model_worn": "passed",
+        "one_complete_matching_two_piece_set": "passed",
+        "full_garment_visibility": "passed",
+        "round_neck_short_sleeves_top_hem": "passed_visual_comparison",
+        "trouser_silhouette": "passed_visual_comparison",
+        "color_and_print_identity": "passed_visual_comparison",
+        "print_geometry_scale_and_density": "passed_visual_comparison",
+        "fabric_appearance": "passed_visual_comparison",
+        "model_anatomy_and_drape": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "added_text_watermark_promotional_graphics": "passed_none_visible",
+        "image_decode_and_dimensions": "passed"
+      },
+      "retries": 0,
+      "source": "colors/8911309f-eaa3-48a9-b65c-52e6c43c66be.jpg"
+    },
+    {
+      "path": "generated/color__94268472-e209-40e5-8cb5-4ad099a0dd6a__model.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "PNG",
+      "sha256": "c42904e68ea040be970c444c36fea4307d56a3c010223169b004749459da23de",
+      "status": "accepted",
+      "visual_checks": {
+        "fully_unfolded_model_worn": "passed",
+        "one_complete_matching_two_piece_set": "passed",
+        "full_garment_visibility": "passed",
+        "round_neck_short_sleeves_top_hem": "passed_visual_comparison",
+        "trouser_silhouette": "passed_visual_comparison",
+        "color_and_print_identity": "passed_visual_comparison",
+        "print_geometry_scale_and_density": "passed_visual_comparison",
+        "fabric_appearance": "passed_visual_comparison",
+        "model_anatomy_and_drape": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "added_text_watermark_promotional_graphics": "passed_none_visible",
+        "image_decode_and_dimensions": "passed"
+      },
+      "retries": 0,
+      "source": "colors/94268472-e209-40e5-8cb5-4ad099a0dd6a.jpg"
+    },
+    {
+      "path": "generated/color__9b47d282-bcd5-489e-8c8f-fe78d8781446__model.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "PNG",
+      "sha256": "7e1241e61d7a501591d4a0f236e95dcfd6ef55fa284d92d4637505d9416e2fe9",
+      "status": "accepted",
+      "visual_checks": {
+        "fully_unfolded_model_worn": "passed",
+        "one_complete_matching_two_piece_set": "passed",
+        "full_garment_visibility": "passed",
+        "round_neck_short_sleeves_top_hem": "passed_visual_comparison",
+        "trouser_silhouette": "passed_visual_comparison",
+        "color_and_print_identity": "passed_visual_comparison",
+        "print_geometry_scale_and_density": "passed_visual_comparison",
+        "fabric_appearance": "passed_visual_comparison",
+        "model_anatomy_and_drape": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "added_text_watermark_promotional_graphics": "passed_none_visible",
+        "image_decode_and_dimensions": "passed"
+      },
+      "retries": 0,
+      "source": "colors/9b47d282-bcd5-489e-8c8f-fe78d8781446.jpg"
+    },
+    {
+      "path": "generated/color__9eabaf73-8200-40c1-9df1-789871d20eb5__model.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "PNG",
+      "sha256": "1210154f1bc587a1362ed50b9f6a9648f26bbdc2f684f8cafdcdaaeb9993ab7d",
+      "status": "accepted",
+      "visual_checks": {
+        "fully_unfolded_model_worn": "passed",
+        "one_complete_matching_two_piece_set": "passed",
+        "full_garment_visibility": "passed",
+        "round_neck_short_sleeves_top_hem": "passed_visual_comparison",
+        "trouser_silhouette": "passed_visual_comparison",
+        "color_and_print_identity": "passed_visual_comparison",
+        "print_geometry_scale_and_density": "passed_visual_comparison",
+        "fabric_appearance": "passed_visual_comparison",
+        "model_anatomy_and_drape": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "added_text_watermark_promotional_graphics": "passed_none_visible",
+        "image_decode_and_dimensions": "passed"
+      },
+      "retries": 0,
+      "source": "colors/9eabaf73-8200-40c1-9df1-789871d20eb5.jpg"
+    },
+    {
+      "path": "generated/color__a278f69a-94a6-4758-9e01-f8192a1e2f00__model.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "PNG",
+      "sha256": "4043970f6061d0891d59ac137e6dadb69977d6c0fab8ef2a0df5fac63c93d89b",
+      "status": "accepted",
+      "visual_checks": {
+        "fully_unfolded_model_worn": "passed",
+        "one_complete_matching_two_piece_set": "passed",
+        "full_garment_visibility": "passed",
+        "round_neck_short_sleeves_top_hem": "passed_visual_comparison",
+        "trouser_silhouette": "passed_visual_comparison",
+        "color_and_print_identity": "passed_visual_comparison",
+        "print_geometry_scale_and_density": "passed_visual_comparison",
+        "fabric_appearance": "passed_visual_comparison",
+        "model_anatomy_and_drape": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "added_text_watermark_promotional_graphics": "passed_none_visible",
+        "image_decode_and_dimensions": "passed"
+      },
+      "retries": 0,
+      "source": "colors/a278f69a-94a6-4758-9e01-f8192a1e2f00.jpg"
+    },
+    {
+      "path": "generated/color__b1b4229f-0559-40ff-8356-4b8c6a5ff596__model.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "PNG",
+      "sha256": "b33e8ab4ca7c4b3a6e1992f427dad2ef2d2bbf9a5410c26ce1ea311face1d02f",
+      "status": "accepted",
+      "visual_checks": {
+        "fully_unfolded_model_worn": "passed",
+        "one_complete_matching_two_piece_set": "passed",
+        "full_garment_visibility": "passed",
+        "round_neck_short_sleeves_top_hem": "passed_visual_comparison",
+        "trouser_silhouette": "passed_visual_comparison",
+        "color_and_print_identity": "passed_visual_comparison",
+        "print_geometry_scale_and_density": "passed_visual_comparison",
+        "fabric_appearance": "passed_visual_comparison",
+        "model_anatomy_and_drape": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "added_text_watermark_promotional_graphics": "passed_none_visible",
+        "image_decode_and_dimensions": "passed"
+      },
+      "retries": 0,
+      "source": "colors/b1b4229f-0559-40ff-8356-4b8c6a5ff596.jpg"
+    },
+    {
+      "path": "generated/color__c2bc03d3-5811-4ef6-ae99-5d7c0cc70544__model.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "PNG",
+      "sha256": "9f318add6adb77a02f647eddda9ac13e2caac5f1c346c50c08244d5d6dff0216",
+      "status": "accepted",
+      "visual_checks": {
+        "fully_unfolded_model_worn": "passed",
+        "one_complete_matching_two_piece_set": "passed",
+        "full_garment_visibility": "passed",
+        "round_neck_short_sleeves_top_hem": "passed_visual_comparison",
+        "trouser_silhouette": "passed_visual_comparison",
+        "color_and_print_identity": "passed_visual_comparison",
+        "print_geometry_scale_and_density": "passed_visual_comparison",
+        "fabric_appearance": "passed_visual_comparison",
+        "model_anatomy_and_drape": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "added_text_watermark_promotional_graphics": "passed_none_visible",
+        "image_decode_and_dimensions": "passed"
+      },
+      "retries": 0,
+      "source": "colors/c2bc03d3-5811-4ef6-ae99-5d7c0cc70544.jpg"
+    },
+    {
+      "path": "generated/color__c8d6d45e-d589-4359-933e-02d937f27c9c__model.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "PNG",
+      "sha256": "376f182bf5ce2ab3ad00a60b0af8e5a9e719c8abb887b7a116a9f8197d43e1f5",
+      "status": "accepted",
+      "visual_checks": {
+        "fully_unfolded_model_worn": "passed",
+        "one_complete_matching_two_piece_set": "passed",
+        "full_garment_visibility": "passed",
+        "round_neck_short_sleeves_top_hem": "passed_visual_comparison",
+        "trouser_silhouette": "passed_visual_comparison",
+        "color_and_print_identity": "passed_visual_comparison",
+        "print_geometry_scale_and_density": "passed_visual_comparison",
+        "fabric_appearance": "passed_visual_comparison",
+        "model_anatomy_and_drape": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "added_text_watermark_promotional_graphics": "passed_none_visible",
+        "image_decode_and_dimensions": "passed"
+      },
+      "retries": 0,
+      "source": "colors/c8d6d45e-d589-4359-933e-02d937f27c9c.jpg"
+    }
+  ],
+  "generation": {
+    "tool": "image_gen.imagegen",
+    "reference_conditioned": true,
+    "calls": 13,
+    "successful_calls": 13,
+    "retries": 0,
+    "color_prompt_template": "Create ONE professional photorealistic e-commerce catalog photograph, 2:3 portrait at exactly the same native dimensions/framing as FIRST reference. FIRST reference locks the scene and adult model ONLY: identical adult South Asian woman age 30, face, softly waved brown hair, neutral gentle smile, front standing pose, bare feet, proportions, camera, ivory bedroom wall, sheer curtain at left, pale oak floor, cream bed and oak bedside table with ivory lamp at right, daylight from left. Keep ALL background details exactly consistent. SECOND reference is the authoritative garment design and print reference, not a model or location reference. Transfer ONLY its complete two-piece pajama garment onto the adult model from FIRST reference. Do NOT reproduce or age-transform the child from second reference; use the already adult woman in first reference. Preserve source garment's simple round bound neckline, regular short sleeves, untucked hip-length straight top, slim full-length ankle trousers/leggings with simple hems, matching print on both pieces. These color variants have SLIM legs unlike the loose trousers in first reference; retain second reference's slim silhouette. No added pockets, piping, lace, buttons or drawstring, and do not introduce teddy prints from first reference. Preserve matte jersey fabric appearance, true base color, exact printed motifs, their geometry, relative scale, density, spacing, rotations and secondary colors from SECOND reference. VARIANT_SPEC. Complete top and bottom fully unfolded, naturally worn and fully visible, all hems and feet within frame, hands beside thighs without hiding print. Opaque ordinary pajamas, neutral retail pose. ONE adult model wearing ONE complete authentic matching set. No collateral garments, collage, duplicate people, folded products, added text, prices, watermarks or graphics. Preserve genuine print elements only.",
+    "color_references": "Generated main scene anchor plus each variant original; no other product used.",
+    "main_reference": "main/846c5c08-d062-4b79-8d77-fbf67dcfef8f.jpg"
+  },
+  "validation_notes": [
+    "All source and output images individually viewed. Visual comparisons assess front construction, motif identity, relative scale/density, color appearance and consistency; not a pixel-exact textile or calibrated color measurement.",
+    "Fiber composition, hidden back construction, physical measurements and actual size fit cannot be verified from these images. No unseen back views or material claims generated.",
+    "Color sources depict children; user expressly requested adult female presentation. Designs rendered on the same existing adult scene model, preserving visible construction and slim silhouette; this does not certify adult sizing.",
+    "Native generated resolution 1024 x 1536, 2:3 portrait, not 4K and not upscaled.",
+    "Source-native print/artwork retained, including botanical linework on sage variant; no marketing text or watermark added."
+  ],
+  "blockers": [],
+  "resumability": "Preserve accepted outputs when source hashes are current. Reconcile each source individually on rerun, including explicit duplicate yellow source reuse. Regenerate only missing, failed or stale entries."
+}
