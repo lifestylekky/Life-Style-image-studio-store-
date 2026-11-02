@@ -1,0 +1,414 @@
+{
+  "schema_version": 1,
+  "product_id": "c5e95606-6c21-44df-9525-789c2d0ebad0",
+  "product_name": "VELONA SHORT MODEL NIGHTY",
+  "status": "PARTIAL",
+  "recorded_at": "2026-11-02T17:15:34.997897+00:00",
+  "workflow_instructions": "AGENTS.md",
+  "counts": {
+    "main_sources": 1,
+    "color_sources": 9,
+    "generated_images": 1,
+    "accepted_main": 0,
+    "accepted_color": 1,
+    "blocked_or_failed": 9,
+    "retries": 1,
+    "rejected_attempts": 1
+  },
+  "garment_spec": {
+    "piece_count": 1,
+    "construction": "Thin black straps, gathered matching V-neck ruffle, black floral lace under-bust band and center bow, loose plain satin-like flared body, narrow black hem binding.",
+    "length": "Short-model garment inferred from unfolded mannequin proportions; physical measurements and worn-length scale unverified."
+  },
+  "scene_profile": {
+    "location": "premium taupe and cream bedroom",
+    "wall": "cream",
+    "floor": "medium oak",
+    "window": "sheer curtain camera-right",
+    "furniture": "beige linen bed at left, oak slatted headboard, oak nightstand with cream lamp and small white plant pot",
+    "lighting": "soft daylight from camera-right",
+    "anchor": "generated/color__c4753038-b788-4bb4-89ae-ceea26203146__model.png"
+  },
+  "model_camera_profile": {
+    "model": "Adult female model about 35, medium warm skin, straight dark brown hair",
+    "pose": "relaxed frontal standing, arms beside body, bare feet",
+    "camera": "mid torso 70mm-style frontal head-to-feet",
+    "aspect_ratio": "3:4"
+  },
+  "source_inventory": [
+    {
+      "path": "colors/04d7a4bb-e493-4c61-9041-f12ce35ec054.jpg",
+      "dimensions": [
+        1840,
+        4000
+      ],
+      "sha256": "576688e3f03d3305fba866e3136c406cf71a7e7416e6ffbddf0496a0a6b23d30",
+      "spec": "Bright saturated hot fuchsia pink as this full unfolded hanging garment; black straps, lace band, bow and hem binding.",
+      "presentation": "unfolded_hanging",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID bdcc4b4a-7cdb-4e6b-a330-b0b988ac7e50. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "blocked": true,
+      "retries": 0,
+      "structural_references": [
+        "main/0c3e2825-de35-46b2-830f-26b3aa3f8d42.jpg",
+        "colors/04d7a4bb-e493-4c61-9041-f12ce35ec054.jpg"
+      ],
+      "aspect_ratio": "23:50",
+      "role": "color",
+      "visually_inspected": true,
+      "decode": "passed",
+      "output_path": null,
+      "status": "blocked"
+    },
+    {
+      "path": "colors/0ccb755b-05fc-4e47-a830-eb81e63f9427.webp",
+      "dimensions": [
+        2200,
+        1012
+      ],
+      "sha256": "97b37c6b4d81c19d601286a9cdbda3075000d1575d9ca12247ed08244cefd79a",
+      "spec": "Deep teal/petrol blue ground, black trim; distinguish from cobalt and navy.",
+      "presentation": "folded",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 3d09dd51-e43f-446c-aa33-e7498ce41171. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "blocked": true,
+      "retries": 0,
+      "structural_references": [
+        "main/0c3e2825-de35-46b2-830f-26b3aa3f8d42.jpg",
+        "colors/04d7a4bb-e493-4c61-9041-f12ce35ec054.jpg"
+      ],
+      "aspect_ratio": "50:23",
+      "role": "color",
+      "visually_inspected": true,
+      "decode": "passed",
+      "output_path": null,
+      "status": "blocked"
+    },
+    {
+      "path": "colors/104b7d7b-ed5d-4927-bb62-f86bff22123c.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "sha256": "128c4a0269c01ed50102ad1ad9a4821f0a32136f3f869ce79abf806727f8a04e",
+      "spec": "Soft medium baby pink ground; exact shade from source, black trim.",
+      "presentation": "folded",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID e92ec24e-454d-4db3-8415-8b7f2be9edd0. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "blocked": true,
+      "retries": 0,
+      "structural_references": [
+        "main/0c3e2825-de35-46b2-830f-26b3aa3f8d42.jpg",
+        "colors/04d7a4bb-e493-4c61-9041-f12ce35ec054.jpg"
+      ],
+      "aspect_ratio": "3:4",
+      "role": "color",
+      "visually_inspected": true,
+      "decode": "passed",
+      "output_path": null,
+      "status": "blocked"
+    },
+    {
+      "path": "colors/3d5598da-ea8a-4323-a171-b936adfc7d1c.webp",
+      "dimensions": [
+        1012,
+        2200
+      ],
+      "sha256": "4d1964357f4c6a8096113354e8f466031d88eb263a2b91bdcf588edbe0190fb8",
+      "spec": "Warm salmon rose pink ground with black trim, distinctly warmer pink than medium baby pink.",
+      "presentation": "folded",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID b8e92fc4-f31c-4314-af83-8268219b4b74. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "blocked": true,
+      "retries": 0,
+      "structural_references": [
+        "main/0c3e2825-de35-46b2-830f-26b3aa3f8d42.jpg",
+        "colors/04d7a4bb-e493-4c61-9041-f12ce35ec054.jpg"
+      ],
+      "aspect_ratio": "23:50",
+      "role": "color",
+      "visually_inspected": true,
+      "decode": "passed",
+      "output_path": null,
+      "status": "blocked"
+    },
+    {
+      "path": "colors/4efe14ba-1b4f-404f-98fa-3595ba889c1c.jpg",
+      "dimensions": [
+        1840,
+        4000
+      ],
+      "sha256": "1f0b242d81721e981d8e3ce43fafc2f33add0f1211c357f97105a8025cec3ce2",
+      "spec": "Very pale peach blush ground, black trim; noticeably paler and warmer than medium pink.",
+      "presentation": "folded",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID de3aecd8-f78e-4281-a7ee-d20709053082. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "blocked": true,
+      "retries": 0,
+      "structural_references": [
+        "main/0c3e2825-de35-46b2-830f-26b3aa3f8d42.jpg",
+        "colors/04d7a4bb-e493-4c61-9041-f12ce35ec054.jpg"
+      ],
+      "aspect_ratio": "23:50",
+      "role": "color",
+      "visually_inspected": true,
+      "decode": "passed",
+      "output_path": null,
+      "status": "blocked"
+    },
+    {
+      "path": "colors/5c88356a-44b4-49f9-b72c-a3a0c1eaf6fc.webp",
+      "dimensions": [
+        2200,
+        1012
+      ],
+      "sha256": "17693e291b4451a6f980e173193d85e28a60409b48445f552a2dba2e1055b7ae",
+      "spec": "Dark navy indigo blue ground with black trim.",
+      "presentation": "folded",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 5d5b9411-c635-4ece-a5a8-18e35a461152. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "blocked": true,
+      "retries": 0,
+      "structural_references": [
+        "main/0c3e2825-de35-46b2-830f-26b3aa3f8d42.jpg",
+        "colors/04d7a4bb-e493-4c61-9041-f12ce35ec054.jpg"
+      ],
+      "aspect_ratio": "50:23",
+      "role": "color",
+      "visually_inspected": true,
+      "decode": "passed",
+      "output_path": null,
+      "status": "blocked"
+    },
+    {
+      "path": "colors/c4753038-b788-4bb4-89ae-ceea26203146.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "sha256": "8da3e5b27de7ffa10fc7db090d3cfb13ce94dd30e3d05ff3f8622aa11bd321ee",
+      "spec": "Purple plain satin-like fabric, black trim.",
+      "presentation": "folded",
+      "blocked": false,
+      "retries": 0,
+      "structural_references": [
+        "main/0c3e2825-de35-46b2-830f-26b3aa3f8d42.jpg",
+        "colors/04d7a4bb-e493-4c61-9041-f12ce35ec054.jpg"
+      ],
+      "aspect_ratio": "3:4",
+      "role": "color",
+      "visually_inspected": true,
+      "decode": "passed",
+      "output_path": "generated/color__c4753038-b788-4bb4-89ae-ceea26203146__model.png",
+      "status": "accepted",
+      "output_dimensions": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "path": "colors/c61fbefc-dace-4705-ba95-4480d344e48c.webp",
+      "dimensions": [
+        1012,
+        2200
+      ],
+      "sha256": "9c73ccdc69c71bae9ed4b118b8d2bfc9474998997ff5e80735836731e457a0cf",
+      "spec": "Golden caramel ochre ground with black trim.",
+      "presentation": "folded",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 231c0b84-42f0-46ad-9aaa-925f1c5349a6. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "blocked": true,
+      "retries": 0,
+      "structural_references": [
+        "main/0c3e2825-de35-46b2-830f-26b3aa3f8d42.jpg",
+        "colors/04d7a4bb-e493-4c61-9041-f12ce35ec054.jpg"
+      ],
+      "aspect_ratio": "23:50",
+      "role": "color",
+      "visually_inspected": true,
+      "decode": "passed",
+      "output_path": null,
+      "status": "blocked"
+    },
+    {
+      "path": "colors/e3e583bd-069e-417c-8fba-def18e51f7d2.webp",
+      "dimensions": [
+        1012,
+        2200
+      ],
+      "sha256": "a0c2a84f8a91edffc96e8bce3eeb26f5233f057a7cf05f3142dea492dc3974be",
+      "spec": "Bright royal cobalt blue ground with black trim.",
+      "presentation": "folded",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 2d9d0413-8dc7-42e5-bffb-c1b87b3bfa6d. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "blocked": true,
+      "retries": 0,
+      "structural_references": [
+        "main/0c3e2825-de35-46b2-830f-26b3aa3f8d42.jpg",
+        "colors/04d7a4bb-e493-4c61-9041-f12ce35ec054.jpg"
+      ],
+      "aspect_ratio": "23:50",
+      "role": "color",
+      "visually_inspected": true,
+      "decode": "passed",
+      "output_path": null,
+      "status": "blocked"
+    },
+    {
+      "path": "main/0c3e2825-de35-46b2-830f-26b3aa3f8d42.jpg",
+      "dimensions": [
+        1840,
+        4000
+      ],
+      "sha256": "7db68026158835e56e21e2e49afec797540b79850c84b727da70a39a2ed80191",
+      "spec": "Dark mauve-magenta rose fabric with black straps, lace band, bow and hem binding, as first original mannequin source.",
+      "presentation": "unfolded_mannequin",
+      "retries": 1,
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 19a74998-3a49-47d1-8263-e28da8e86f15. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "blocked": true,
+      "structural_references": [
+        "main/0c3e2825-de35-46b2-830f-26b3aa3f8d42.jpg",
+        "colors/04d7a4bb-e493-4c61-9041-f12ce35ec054.jpg"
+      ],
+      "initial_main_failure": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID b9b71dc1-ad2e-4347-89b0-02164cbc89fd. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "aspect_ratio": "23:50",
+      "role": "main",
+      "visually_inspected": true,
+      "decode": "passed",
+      "output_path": null,
+      "status": "blocked"
+    }
+  ],
+  "output_mapping": [
+    {
+      "source": "colors/04d7a4bb-e493-4c61-9041-f12ce35ec054.jpg",
+      "output": null,
+      "status": "blocked"
+    },
+    {
+      "source": "colors/0ccb755b-05fc-4e47-a830-eb81e63f9427.webp",
+      "output": null,
+      "status": "blocked"
+    },
+    {
+      "source": "colors/104b7d7b-ed5d-4927-bb62-f86bff22123c.webp",
+      "output": null,
+      "status": "blocked"
+    },
+    {
+      "source": "colors/3d5598da-ea8a-4323-a171-b936adfc7d1c.webp",
+      "output": null,
+      "status": "blocked"
+    },
+    {
+      "source": "colors/4efe14ba-1b4f-404f-98fa-3595ba889c1c.jpg",
+      "output": null,
+      "status": "blocked"
+    },
+    {
+      "source": "colors/5c88356a-44b4-49f9-b72c-a3a0c1eaf6fc.webp",
+      "output": null,
+      "status": "blocked"
+    },
+    {
+      "source": "colors/c4753038-b788-4bb4-89ae-ceea26203146.webp",
+      "output": "generated/color__c4753038-b788-4bb4-89ae-ceea26203146__model.png",
+      "status": "accepted"
+    },
+    {
+      "source": "colors/c61fbefc-dace-4705-ba95-4480d344e48c.webp",
+      "output": null,
+      "status": "blocked"
+    },
+    {
+      "source": "colors/e3e583bd-069e-417c-8fba-def18e51f7d2.webp",
+      "output": null,
+      "status": "blocked"
+    },
+    {
+      "source": "main/0c3e2825-de35-46b2-830f-26b3aa3f8d42.jpg",
+      "output": null,
+      "status": "blocked"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "generated/color__c4753038-b788-4bb4-89ae-ceea26203146__model.png",
+      "source": "colors/c4753038-b788-4bb4-89ae-ceea26203146.webp",
+      "sha256": "6fee506643ed2fd8f866c294bb96f23809c21c90d4db1d4bc2ee4fbe88a6f3b7",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_correct_piece_count": "passed_visual_review",
+        "neckline_sleeves_straps_seams_hem": "passed_visual_reference_comparison",
+        "silhouette_length_and_drape": "passed_visual_reference_comparison",
+        "color_print_and_fabric_appearance": "passed_visual_reference_comparison",
+        "model_anatomy": "passed_visual_review",
+        "full_product_visibility": "passed_visual_review",
+        "scene_model_lighting_and_framing": "passed_visual_review",
+        "added_promotional_text_or_watermarks": "passed_none_visible",
+        "file_decode": "passed"
+      }
+    }
+  ],
+  "generation": {
+    "tool": "image_gen.imagegen",
+    "reference_conditioned": true,
+    "prompt": "ONE professional nonsexual e-commerce product photograph, portrait 3:4 at same native dimensions as FIRST image. FIRST reference is locked adult female model/scene reference: preserve exact adult woman age about 35, face, hair behind shoulders, pose, proportions, bare feet, cream/taupe bedroom, oak floor and slatted headboard, bed and two pillows at left, left oak nightstand with cream lamp and small white plant pot, sheer curtain at right, soft right daylight, camera framing and centered head-to-feet subject. SECOND original source is garment variant authority for exact color and details. THIRD is same-product fully unfolded original for construction and shoulder-to-hem proportions. VARIANT. Show ONE single-piece nightdress fully unfolded naturally worn by same adult model: narrow BLACK straps, matching fabric ruffled crossover V neckline, plain smooth opaque satin-like softly lustrous fabric, authentic under-bust BLACK floral lace band with scalloped bottom, small center BLACK ribbon bow, loose flared skirt, narrow BLACK hem binding. Match original source lace pattern, no invented additional trim, no buttons, pockets, slit, robe or other garment. Preserve shorter style and entire hem in view; use source proportions and scene anchor hem near knees. Neutral front standing catalog pose, hands beside body. Keep background, model, lighting and framing exactly fixed. No folds-as-showcase, collage, duplicate people, labels, marketing text or watermarks. Highest supported native resolution.",
+    "attempts": 11,
+    "retries": 1
+  },
+  "validation_notes": [
+    "Visual QA compares visible source evidence, not calibrated color or a pixel-exact embroidery measurement. Original lighting, blur, folds and glare limit fine detail verification.",
+    "Fiber composition, physical measurements and unseen back construction remain unverified; no back views or extra garment parts generated.",
+    "Native output dimensions are recorded per file. Outputs are not upscaled or represented as 4K when native size is smaller.",
+    "Only purple output accepted. Main had one output-stage moderation rejection and one input-stage rejection on retry; all other eight colors blocked at input. Full errors and request IDs recorded per source.",
+    "No ungenerated source marked accepted. Scene consistency across variants cannot be tested with only one accepted output.",
+    "All source files viewed; folded colors have unfolded same-product construction references. No extra garment details inferred from other products."
+  ],
+  "blockers": [
+    {
+      "source": "colors/04d7a4bb-e493-4c61-9041-f12ce35ec054.jpg",
+      "reason": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID bdcc4b4a-7cdb-4e6b-a330-b0b988ac7e50. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "source": "colors/0ccb755b-05fc-4e47-a830-eb81e63f9427.webp",
+      "reason": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 3d09dd51-e43f-446c-aa33-e7498ce41171. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "source": "colors/104b7d7b-ed5d-4927-bb62-f86bff22123c.webp",
+      "reason": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID e92ec24e-454d-4db3-8415-8b7f2be9edd0. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "source": "colors/3d5598da-ea8a-4323-a171-b936adfc7d1c.webp",
+      "reason": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID b8e92fc4-f31c-4314-af83-8268219b4b74. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "source": "colors/4efe14ba-1b4f-404f-98fa-3595ba889c1c.jpg",
+      "reason": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID de3aecd8-f78e-4281-a7ee-d20709053082. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "source": "colors/5c88356a-44b4-49f9-b72c-a3a0c1eaf6fc.webp",
+      "reason": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 5d5b9411-c635-4ece-a5a8-18e35a461152. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "source": "colors/c61fbefc-dace-4705-ba95-4480d344e48c.webp",
+      "reason": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 231c0b84-42f0-46ad-9aaa-925f1c5349a6. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "source": "colors/e3e583bd-069e-417c-8fba-def18e51f7d2.webp",
+      "reason": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 2d9d0413-8dc7-42e5-bffb-c1b87b3bfa6d. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "source": "main/0c3e2825-de35-46b2-830f-26b3aa3f8d42.jpg",
+      "reason": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 19a74998-3a49-47d1-8263-e28da8e86f15. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    }
+  ],
+  "metadata_versions": [
+    {
+      "path": "description.txt",
+      "sha256": "e3bb1009c48ed8478057113a85929ca37a5f9e9553d08b6bbd44c02215315b71"
+    },
+    {
+      "path": "updates.txt",
+      "sha256": "5e58466dbe5e41380e868fd12a79849ff9340d3f96cd0860b6373d5188d89657"
+    }
+  ],
+  "resumability": "Preserve accepted outputs when source hashes are current. Rescan each source individually. Regenerate missing, failed or stale entries; do not treat blocked entries as complete."
+}

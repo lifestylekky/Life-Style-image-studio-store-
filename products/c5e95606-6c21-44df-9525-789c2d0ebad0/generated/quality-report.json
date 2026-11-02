@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "product_id": "c5e95606-6c21-44df-9525-789c2d0ebad0",
+  "status": "PARTIAL",
+  "counts": {
+    "main_sources": 1,
+    "color_sources": 9,
+    "generated_images": 1,
+    "accepted_main": 0,
+    "accepted_color": 1,
+    "blocked_or_failed": 9,
+    "retries": 1,
+    "rejected_attempts": 1
+  },
+  "source_reconciliation": {
+    "all_sources_accounted_for": true,
+    "all_sources_decoded_and_viewed": true,
+    "original_hashes_unchanged": true
+  },
+  "per_output": [
+    {
+      "path": "generated/color__c4753038-b788-4bb4-89ae-ceea26203146__model.png",
+      "source": "colors/c4753038-b788-4bb4-89ae-ceea26203146.webp",
+      "sha256": "6fee506643ed2fd8f866c294bb96f23809c21c90d4db1d4bc2ee4fbe88a6f3b7",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_correct_piece_count": "passed_visual_review",
+        "neckline_sleeves_straps_seams_hem": "passed_visual_reference_comparison",
+        "silhouette_length_and_drape": "passed_visual_reference_comparison",
+        "color_print_and_fabric_appearance": "passed_visual_reference_comparison",
+        "model_anatomy": "passed_visual_review",
+        "full_product_visibility": "passed_visual_review",
+        "scene_model_lighting_and_framing": "passed_visual_review",
+        "added_promotional_text_or_watermarks": "passed_none_visible",
+        "file_decode": "passed"
+      }
+    }
+  ],
+  "validation_notes": [
+    "Visual QA compares visible source evidence, not calibrated color or a pixel-exact embroidery measurement. Original lighting, blur, folds and glare limit fine detail verification.",
+    "Fiber composition, physical measurements and unseen back construction remain unverified; no back views or extra garment parts generated.",
+    "Native output dimensions are recorded per file. Outputs are not upscaled or represented as 4K when native size is smaller.",
+    "Only purple output accepted. Main had one output-stage moderation rejection and one input-stage rejection on retry; all other eight colors blocked at input. Full errors and request IDs recorded per source.",
+    "No ungenerated source marked accepted. Scene consistency across variants cannot be tested with only one accepted output.",
+    "All source files viewed; folded colors have unfolded same-product construction references. No extra garment details inferred from other products."
+  ],
+  "blockers": [
+    {
+      "source": "colors/04d7a4bb-e493-4c61-9041-f12ce35ec054.jpg",
+      "reason": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID bdcc4b4a-7cdb-4e6b-a330-b0b988ac7e50. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "source": "colors/0ccb755b-05fc-4e47-a830-eb81e63f9427.webp",
+      "reason": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 3d09dd51-e43f-446c-aa33-e7498ce41171. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "source": "colors/104b7d7b-ed5d-4927-bb62-f86bff22123c.webp",
+      "reason": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID e92ec24e-454d-4db3-8415-8b7f2be9edd0. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "source": "colors/3d5598da-ea8a-4323-a171-b936adfc7d1c.webp",
+      "reason": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID b8e92fc4-f31c-4314-af83-8268219b4b74. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "source": "colors/4efe14ba-1b4f-404f-98fa-3595ba889c1c.jpg",
+      "reason": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID de3aecd8-f78e-4281-a7ee-d20709053082. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "source": "colors/5c88356a-44b4-49f9-b72c-a3a0c1eaf6fc.webp",
+      "reason": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 5d5b9411-c635-4ece-a5a8-18e35a461152. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "source": "colors/c61fbefc-dace-4705-ba95-4480d344e48c.webp",
+      "reason": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 231c0b84-42f0-46ad-9aaa-925f1c5349a6. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "source": "colors/e3e583bd-069e-417c-8fba-def18e51f7d2.webp",
+      "reason": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 2d9d0413-8dc7-42e5-bffb-c1b87b3bfa6d. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "source": "main/0c3e2825-de35-46b2-830f-26b3aa3f8d42.jpg",
+      "reason": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 19a74998-3a49-47d1-8263-e28da8e86f15. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    }
+  ],
+  "conclusion": "PARTIAL: 1 accepted images for 10 source entries."
+}
