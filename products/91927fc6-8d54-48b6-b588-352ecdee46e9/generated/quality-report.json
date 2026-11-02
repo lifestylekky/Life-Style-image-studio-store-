@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "product_id": "91927fc6-8d54-48b6-b588-352ecdee46e9",
+  "status": "COMPLETE",
+  "counts": {
+    "main_sources": 1,
+    "color_sources": 3,
+    "generated_images": 4,
+    "accepted_main": 1,
+    "accepted_color": 3,
+    "blocked_or_failed": 0,
+    "retries": 1,
+    "rejected_attempts": 1
+  },
+  "source_reconciliation": {
+    "all_sources_accounted_for": true,
+    "all_sources_decoded_and_viewed": true,
+    "original_hashes_unchanged": true
+  },
+  "per_output": [
+    {
+      "path": "generated/color__ab97c499-75d8-4dd0-95cd-68bf646aa17b__model.png",
+      "source": "colors/ab97c499-75d8-4dd0-95cd-68bf646aa17b.webp",
+      "sha256": "cc352dcaed66ced13b1ddb34f3a9f33c5af84bf00f37fcb369a1647766062f4e",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_correct_piece_count": "passed_visual_review",
+        "neckline_sleeves_straps_seams_hem": "passed_visual_reference_comparison",
+        "silhouette_length_and_drape": "passed_visual_reference_comparison",
+        "color_print_and_fabric_appearance": "passed_visual_reference_comparison",
+        "model_anatomy": "passed_visual_review",
+        "full_product_visibility": "passed_visual_review",
+        "scene_model_lighting_and_framing": "passed_visual_review",
+        "added_promotional_text_or_watermarks": "passed_none_visible",
+        "file_decode": "passed"
+      }
+    },
+    {
+      "path": "generated/color__b38b1af5-b127-4634-bb89-cb59715e586a__model.png",
+      "source": "colors/b38b1af5-b127-4634-bb89-cb59715e586a.webp",
+      "sha256": "7362197a4a2715abf2f5fd8af4a7dc6a8495063b3ead0ad3074aa8bcd92287b0",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_correct_piece_count": "passed_visual_review",
+        "neckline_sleeves_straps_seams_hem": "passed_visual_reference_comparison",
+        "silhouette_length_and_drape": "passed_visual_reference_comparison",
+        "color_print_and_fabric_appearance": "passed_visual_reference_comparison",
+        "model_anatomy": "passed_visual_review",
+        "full_product_visibility": "passed_visual_review",
+        "scene_model_lighting_and_framing": "passed_visual_review",
+        "added_promotional_text_or_watermarks": "passed_none_visible",
+        "file_decode": "passed"
+      }
+    },
+    {
+      "path": "generated/color__e77172a5-c150-4fb0-9fff-42f78cd799ad__model.png",
+      "source": "colors/e77172a5-c150-4fb0-9fff-42f78cd799ad.webp",
+      "sha256": "b1f16d1da5183700a3e6ac59c6252caac997b0a65e9f6ac90bfcbde2bd946f55",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_correct_piece_count": "passed_visual_review",
+        "neckline_sleeves_straps_seams_hem": "passed_visual_reference_comparison",
+        "silhouette_length_and_drape": "passed_visual_reference_comparison",
+        "color_print_and_fabric_appearance": "passed_visual_reference_comparison",
+        "model_anatomy": "passed_visual_review",
+        "full_product_visibility": "passed_visual_review",
+        "scene_model_lighting_and_framing": "passed_visual_review",
+        "added_promotional_text_or_watermarks": "passed_none_visible",
+        "file_decode": "passed"
+      }
+    },
+    {
+      "path": "generated/main__eeeab76a-41e7-4d12-a4ff-a081e6d275a6__model.png",
+      "source": "main/eeeab76a-41e7-4d12-a4ff-a081e6d275a6.webp",
+      "sha256": "8de99c53dbe7933e4d5bcc77bc93ed82b1d0c5b530632c1eb76b55098b28b444",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_correct_piece_count": "passed_visual_review",
+        "neckline_sleeves_straps_seams_hem": "passed_visual_reference_comparison",
+        "silhouette_length_and_drape": "passed_visual_reference_comparison",
+        "color_print_and_fabric_appearance": "passed_visual_reference_comparison",
+        "model_anatomy": "passed_visual_review",
+        "full_product_visibility": "passed_visual_review",
+        "scene_model_lighting_and_framing": "passed_visual_review",
+        "added_promotional_text_or_watermarks": "passed_none_visible",
+        "file_decode": "passed"
+      }
+    }
+  ],
+  "validation_notes": [
+    "Visual QA compares visible source evidence, not calibrated color or a pixel-exact embroidery measurement. Original lighting, blur, folds and glare limit fine detail verification.",
+    "Fiber composition, physical measurements and unseen back construction remain unverified; no back views or extra garment parts generated.",
+    "Native output dimensions are recorded per file. Outputs are not upscaled or represented as 4K when native size is smaller.",
+    "Two folded color references reconstructed from unfolded references in this same folder; coral hanging source independently retained.",
+    "Coral output corrected once to clearly separate both thin straps on each shoulder.",
+    "All four sources have accepted outputs and consistent product-specific scene; no source skipped."
+  ],
+  "blockers": [],
+  "conclusion": "COMPLETE: 4 accepted images for 4 source entries."
+}

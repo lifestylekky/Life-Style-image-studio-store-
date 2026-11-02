@@ -1,0 +1,286 @@
+{
+  "schema_version": 1,
+  "product_id": "91927fc6-8d54-48b6-b588-352ecdee46e9",
+  "product_name": "VELONA TROUBLE STRIPE NIGHTY",
+  "status": "COMPLETE",
+  "recorded_at": "2026-11-02T17:23:07.482110+00:00",
+  "workflow_instructions": "AGENTS.md",
+  "counts": {
+    "main_sources": 1,
+    "color_sources": 3,
+    "generated_images": 4,
+    "accepted_main": 1,
+    "accepted_color": 3,
+    "blocked_or_failed": 0,
+    "retries": 1,
+    "rejected_attempts": 1
+  },
+  "garment_spec": {
+    "piece_count": 1,
+    "construction": "Paired narrow shoulder straps (two per shoulder); matching three-flower embroidered neckline with three reflective centers, central descending leaf/petal applique, ladder arcs and hanging-line embroidery; gathered loose long plain satin-like body and plain turned hem.",
+    "print": "None visible; do not infer stripes from product name.",
+    "length": "Long silhouette from unfolded mannequin and hanging references; physical measurements not provided."
+  },
+  "scene_profile": {
+    "location": "premium cream bedroom",
+    "wall": "warm off-white",
+    "floor": "pale ash wood",
+    "window": "sheer curtain camera-right",
+    "furniture": "oatmeal linen bed camera-left with curved upholstered headboard and cream pillow; round pale ash table left with one white ceramic lamp",
+    "lighting": "soft neutral daylight from right",
+    "anchor": "generated/main__eeeab76a-41e7-4d12-a4ff-a081e6d275a6__model.png"
+  },
+  "model_camera_profile": {
+    "model": "Same adult South Asian female model about 34, medium warm skin, long dark wavy hair behind shoulders",
+    "pose": "relaxed frontal standing, hands beside body, barefoot",
+    "camera": "waist-level 70mm-style frontal head-to-feet",
+    "aspect_ratio": "3:4"
+  },
+  "source_inventory": [
+    {
+      "path": "colors/ab97c499-75d8-4dd0-95cd-68bf646aa17b.webp",
+      "dimensions": [
+        2200,
+        1650
+      ],
+      "sha256": "baa01e7384904c359e98662d3685653595d27355c4772bf4657e01d541742ab2",
+      "spec": "Light baby pink smooth satin-like fabric, matching pale pink embroidered flowers and three clear reflective centers.",
+      "presentation": "folded",
+      "blocked": false,
+      "retries": 0,
+      "structural_references": [
+        "main/eeeab76a-41e7-4d12-a4ff-a081e6d275a6.webp",
+        "colors/b38b1af5-b127-4634-bb89-cb59715e586a.webp"
+      ],
+      "aspect_ratio": "4:3",
+      "role": "color",
+      "visually_inspected": true,
+      "decode": "passed",
+      "output_path": "generated/color__ab97c499-75d8-4dd0-95cd-68bf646aa17b__model.png",
+      "status": "accepted",
+      "output_dimensions": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "path": "colors/b38b1af5-b127-4634-bb89-cb59715e586a.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "sha256": "4d9ad6777e1c7fce691254b715b20d0bca4cc4ed35dd0c9fd4d02b6f72102511",
+      "spec": "Warm salmon coral pink long gown, exact shade from unfolded hanging source; lighter pink embroidery and three clear reflective centers.",
+      "presentation": "unfolded_hanging",
+      "blocked": false,
+      "retries": 1,
+      "correction": "Clarify separate paired straps on each shoulder",
+      "structural_references": [
+        "main/eeeab76a-41e7-4d12-a4ff-a081e6d275a6.webp",
+        "colors/b38b1af5-b127-4634-bb89-cb59715e586a.webp"
+      ],
+      "rejected_attempt": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-f6a65236-6f18-49d8-bacd-ac3e62940c51.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "aspect_ratio": "3:4",
+      "role": "color",
+      "visually_inspected": true,
+      "decode": "passed",
+      "output_path": "generated/color__b38b1af5-b127-4634-bb89-cb59715e586a__model.png",
+      "status": "accepted",
+      "output_dimensions": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "path": "colors/e77172a5-c150-4fb0-9fff-42f78cd799ad.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "sha256": "fc1a3e0101f3fc0d538c733f55cd5202bccf5193d278976999de739846c5e09f",
+      "spec": "Saturated royal cobalt blue smooth satin-like fabric with matching blue embroidery and three clear reflective centers.",
+      "presentation": "folded",
+      "blocked": false,
+      "retries": 0,
+      "structural_references": [
+        "main/eeeab76a-41e7-4d12-a4ff-a081e6d275a6.webp",
+        "colors/b38b1af5-b127-4634-bb89-cb59715e586a.webp"
+      ],
+      "aspect_ratio": "3:4",
+      "role": "color",
+      "visually_inspected": true,
+      "decode": "passed",
+      "output_path": "generated/color__e77172a5-c150-4fb0-9fff-42f78cd799ad__model.png",
+      "status": "accepted",
+      "output_dimensions": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "path": "main/eeeab76a-41e7-4d12-a4ff-a081e6d275a6.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "sha256": "f920b60db6c58834bfcc294dde23485118f676916933a866cfbe8f62e2556132",
+      "spec": "Purple plain long gown, paired thin straps, three embroidered flowers with reflective centers and hanging-line details.",
+      "presentation": "unfolded_mannequin",
+      "blocked": false,
+      "retries": 0,
+      "structural_references": [
+        "main/eeeab76a-41e7-4d12-a4ff-a081e6d275a6.webp",
+        "colors/b38b1af5-b127-4634-bb89-cb59715e586a.webp"
+      ],
+      "aspect_ratio": "3:4",
+      "role": "main",
+      "visually_inspected": true,
+      "decode": "passed",
+      "output_path": "generated/main__eeeab76a-41e7-4d12-a4ff-a081e6d275a6__model.png",
+      "status": "accepted",
+      "output_dimensions": [
+        1086,
+        1448
+      ]
+    }
+  ],
+  "output_mapping": [
+    {
+      "source": "colors/ab97c499-75d8-4dd0-95cd-68bf646aa17b.webp",
+      "output": "generated/color__ab97c499-75d8-4dd0-95cd-68bf646aa17b__model.png",
+      "status": "accepted"
+    },
+    {
+      "source": "colors/b38b1af5-b127-4634-bb89-cb59715e586a.webp",
+      "output": "generated/color__b38b1af5-b127-4634-bb89-cb59715e586a__model.png",
+      "status": "accepted"
+    },
+    {
+      "source": "colors/e77172a5-c150-4fb0-9fff-42f78cd799ad.webp",
+      "output": "generated/color__e77172a5-c150-4fb0-9fff-42f78cd799ad__model.png",
+      "status": "accepted"
+    },
+    {
+      "source": "main/eeeab76a-41e7-4d12-a4ff-a081e6d275a6.webp",
+      "output": "generated/main__eeeab76a-41e7-4d12-a4ff-a081e6d275a6__model.png",
+      "status": "accepted"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "generated/color__ab97c499-75d8-4dd0-95cd-68bf646aa17b__model.png",
+      "source": "colors/ab97c499-75d8-4dd0-95cd-68bf646aa17b.webp",
+      "sha256": "cc352dcaed66ced13b1ddb34f3a9f33c5af84bf00f37fcb369a1647766062f4e",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_correct_piece_count": "passed_visual_review",
+        "neckline_sleeves_straps_seams_hem": "passed_visual_reference_comparison",
+        "silhouette_length_and_drape": "passed_visual_reference_comparison",
+        "color_print_and_fabric_appearance": "passed_visual_reference_comparison",
+        "model_anatomy": "passed_visual_review",
+        "full_product_visibility": "passed_visual_review",
+        "scene_model_lighting_and_framing": "passed_visual_review",
+        "added_promotional_text_or_watermarks": "passed_none_visible",
+        "file_decode": "passed"
+      }
+    },
+    {
+      "path": "generated/color__b38b1af5-b127-4634-bb89-cb59715e586a__model.png",
+      "source": "colors/b38b1af5-b127-4634-bb89-cb59715e586a.webp",
+      "sha256": "7362197a4a2715abf2f5fd8af4a7dc6a8495063b3ead0ad3074aa8bcd92287b0",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_correct_piece_count": "passed_visual_review",
+        "neckline_sleeves_straps_seams_hem": "passed_visual_reference_comparison",
+        "silhouette_length_and_drape": "passed_visual_reference_comparison",
+        "color_print_and_fabric_appearance": "passed_visual_reference_comparison",
+        "model_anatomy": "passed_visual_review",
+        "full_product_visibility": "passed_visual_review",
+        "scene_model_lighting_and_framing": "passed_visual_review",
+        "added_promotional_text_or_watermarks": "passed_none_visible",
+        "file_decode": "passed"
+      }
+    },
+    {
+      "path": "generated/color__e77172a5-c150-4fb0-9fff-42f78cd799ad__model.png",
+      "source": "colors/e77172a5-c150-4fb0-9fff-42f78cd799ad.webp",
+      "sha256": "b1f16d1da5183700a3e6ac59c6252caac997b0a65e9f6ac90bfcbde2bd946f55",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_correct_piece_count": "passed_visual_review",
+        "neckline_sleeves_straps_seams_hem": "passed_visual_reference_comparison",
+        "silhouette_length_and_drape": "passed_visual_reference_comparison",
+        "color_print_and_fabric_appearance": "passed_visual_reference_comparison",
+        "model_anatomy": "passed_visual_review",
+        "full_product_visibility": "passed_visual_review",
+        "scene_model_lighting_and_framing": "passed_visual_review",
+        "added_promotional_text_or_watermarks": "passed_none_visible",
+        "file_decode": "passed"
+      }
+    },
+    {
+      "path": "generated/main__eeeab76a-41e7-4d12-a4ff-a081e6d275a6__model.png",
+      "source": "main/eeeab76a-41e7-4d12-a4ff-a081e6d275a6.webp",
+      "sha256": "8de99c53dbe7933e4d5bcc77bc93ed82b1d0c5b530632c1eb76b55098b28b444",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_correct_piece_count": "passed_visual_review",
+        "neckline_sleeves_straps_seams_hem": "passed_visual_reference_comparison",
+        "silhouette_length_and_drape": "passed_visual_reference_comparison",
+        "color_print_and_fabric_appearance": "passed_visual_reference_comparison",
+        "model_anatomy": "passed_visual_review",
+        "full_product_visibility": "passed_visual_review",
+        "scene_model_lighting_and_framing": "passed_visual_review",
+        "added_promotional_text_or_watermarks": "passed_none_visible",
+        "file_decode": "passed"
+      }
+    }
+  ],
+  "generation": {
+    "tool": "image_gen.imagegen",
+    "reference_conditioned": true,
+    "prompt": "Create ONE professional photorealistic nonsexual e-commerce catalog photograph at same native 3:4 dimensions as FIRST reference. FIRST is locked scene and adult female model: exact same adult woman age 34, face, long dark wavy hair behind shoulders, relaxed front standing pose, proportions, bare feet, cream bedroom, curved upholstered headboard and bed on left with cream linen and one pillow, round pale ash bedside table left with white ceramic lamp, sheer white curtain at right and soft right daylight, floor, camera framing and position. SECOND original is variant authority for exact color and embroidery. THIRD original is the SAME product unfolded main construction reference, not another product. VARIANT. Garment ONE fully unfolded long plain opaque satin-like loose gathered A-line nightdress to ankles. Preserve paired thin parallel matching straps, TWO per shoulder, neckline of THREE daisy flowers each with small clear rhinestone center, authentic ladder/arched embroidered structure and central descending long leaf/petal shape, fine hanging-line embroidery lying on front fabric. Accurately preserve each source's embroidery design, secondary colors and plain fabric; no stripes despite product name, no dots, no extra trim, no bow, slit, belt, buttons, robe or other garment. Use unfolded same-folder silhouette for folded variants, without showing folds or packaging. Entire garment from straps through hem and bare feet visible; full head-to-feet portrait, natural adult anatomy and drape, modest neutral retail pose. Keep whole model, scene and light consistent. Highest supported native resolution; no added text, labels, watermarks, collage or duplicate people.",
+    "attempts": 5,
+    "retries": 1
+  },
+  "validation_notes": [
+    "Visual QA compares visible source evidence, not calibrated color or a pixel-exact embroidery measurement. Original lighting, blur, folds and glare limit fine detail verification.",
+    "Fiber composition, physical measurements and unseen back construction remain unverified; no back views or extra garment parts generated.",
+    "Native output dimensions are recorded per file. Outputs are not upscaled or represented as 4K when native size is smaller.",
+    "Two folded color references reconstructed from unfolded references in this same folder; coral hanging source independently retained.",
+    "Coral output corrected once to clearly separate both thin straps on each shoulder.",
+    "All four sources have accepted outputs and consistent product-specific scene; no source skipped."
+  ],
+  "blockers": [],
+  "metadata_versions": [
+    {
+      "path": "description.txt",
+      "sha256": "aee415a08e00897716f1ecc65ecaea694038df1bb8194b076c293b6c8e638bcf"
+    },
+    {
+      "path": "updates.txt",
+      "sha256": "4c79ba1149e89fb7d4e2430395fc546d343670a7db20421b4b4266e0731c98a5"
+    }
+  ],
+  "resumability": "Preserve accepted outputs when source hashes are current. Rescan each source individually. Regenerate missing, failed or stale entries; do not treat blocked entries as complete."
+}
