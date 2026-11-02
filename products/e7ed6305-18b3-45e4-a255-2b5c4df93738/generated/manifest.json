@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "product_id": "e7ed6305-18b3-45e4-a255-2b5c4df93738",
+  "product_name": "VELONA 2PC NIGHTY",
+  "status": "BLOCKED",
+  "recorded_at": "2026-11-02T15:16:40.097272+00:00",
+  "workflow_instructions": "AGENTS.md",
+  "source_inventory": [
+    {
+      "path": "colors/02b5b52d-feef-4f9d-b61b-7c8f47a2d85a.webp",
+      "role": "color",
+      "sha256": "190d8ec61030d4829d334f26ad96911885563be14bb51fde4f56af09cd86b6fe",
+      "dimensions": [
+        2200,
+        1012
+      ],
+      "aspect_ratio": "2200:1012",
+      "presentation": "packaged_with_unfolded_model_reference",
+      "color": "fuchsia pink",
+      "visual_evidence": "Packaging photograph shows the same set worn unfolded in three views, including sleeveless inner gown and open short-sleeved robe. Actual packaged fabric partly visible; plastic glare limits exact color and texture assessment.",
+      "source_decode": "passed",
+      "status": "blocked",
+      "output_path": null,
+      "generation_attempts": 0,
+      "retries": 0,
+      "blocker": "image_generation_moderation_blocked"
+    },
+    {
+      "path": "colors/96ff281a-ab0f-4e02-848a-8d9e535bd298.webp",
+      "role": "color",
+      "sha256": "5084f19e8417049f5fc1ceb0ecc3c10fd010d234a33cbabf8f7d40c8bd817e46",
+      "dimensions": [
+        2200,
+        1012
+      ],
+      "aspect_ratio": "2200:1012",
+      "presentation": "packaged_with_unfolded_model_reference",
+      "color": "red",
+      "visual_evidence": "Packaging photograph shows matching red long inner gown and short-sleeved robe in three worn views. Glare and reproduction limit fine construction/color assessment.",
+      "source_decode": "passed",
+      "status": "blocked",
+      "output_path": null,
+      "generation_attempts": 0,
+      "retries": 0,
+      "blocker": "image_generation_moderation_blocked"
+    },
+    {
+      "path": "colors/c84cc2fb-441f-46f0-93ca-db9c064abda0.webp",
+      "role": "color",
+      "sha256": "f2f476622efc8b20bf776a867ec193986a41af79bea1e4c0d3cb92dd038210fa",
+      "dimensions": [
+        2200,
+        1012
+      ],
+      "aspect_ratio": "2200:1012",
+      "presentation": "packaged_with_unfolded_model_reference",
+      "color": "black",
+      "visual_evidence": "Packaging photograph shows matching black long inner gown and short-sleeved robe in three worn views. Black fabric and glare obscure fine lace detail.",
+      "source_decode": "passed",
+      "status": "blocked",
+      "output_path": null,
+      "generation_attempts": 0,
+      "retries": 0,
+      "blocker": "image_generation_moderation_blocked"
+    },
+    {
+      "path": "main/0fd0d96b-fb19-4290-92ae-c4a4be214ac9.webp",
+      "role": "main",
+      "sha256": "b3205ca0776ad07d0bf89db2a75f3cb813b2d95a048ce55eec964826ee04b406",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "aspect_ratio": "1650:2200",
+      "presentation": "unfolded_hanging",
+      "color": "dusty mauve rose",
+      "visual_evidence": "Unfolded hanging robe over matching inner piece; short sleeves, broad scalloped rose floral lace down deep V front, self-fabric waist tie and long smooth lustrous drape visible. Top edge partly cropped.",
+      "source_decode": "passed",
+      "status": "blocked",
+      "output_path": null,
+      "generation_attempts": 1,
+      "retries": 0,
+      "blocker": "image_generation_moderation_blocked"
+    }
+  ],
+  "metadata_files": [
+    {
+      "path": "description.txt",
+      "sha256": "52ead9309a35adb6d0eb22f3318e1ab00b8d5421b88637e41a2dd1242a1a9cf1"
+    },
+    {
+      "path": "updates.txt",
+      "sha256": "7674489b31999ad5aaa8808eac60d8bfd85f0ac4940926a07a70f965d897b82b"
+    }
+  ],
+  "branding_note": "Description says VELONA; packaging displays LANSDOWNE. No branding added to outputs; source construction takes precedence over brand assumptions.",
+  "garment_spec": {
+    "piece_count": 2,
+    "category": "matching long nightdress and short-sleeved robe",
+    "nightdress": "Broad shoulder straps; shallow scalloped floral-lace neckline with small central bow; loose long drape. Packaging worn views provide construction evidence.",
+    "robe": "Long open-front silhouette, short loose sleeves, broad tone-on-tone rose floral scalloped lace edging deep V front, narrow self-fabric waist tie; hanging main source is strongest fabric/lace evidence.",
+    "fabric": "Plain smooth satin-like lustrous appearance; fiber composition unverified.",
+    "unknowns": [
+      "Unseen back construction",
+      "Exact fiber composition",
+      "Exact calibrated color under neutral light",
+      "Fine construction details obscured by packaging glare"
+    ],
+    "unfolded_structural_references": [
+      "colors/02b5b52d-feef-4f9d-b61b-7c8f47a2d85a.webp",
+      "colors/96ff281a-ab0f-4e02-848a-8d9e535bd298.webp",
+      "colors/c84cc2fb-441f-46f0-93ca-db9c064abda0.webp",
+      "main/0fd0d96b-fb19-4290-92ae-c4a4be214ac9.webp"
+    ]
+  },
+  "scene_profile": {
+    "status": "planned_not_generated",
+    "location": "premium contemporary bedroom",
+    "architecture": "warm ivory plaster wall",
+    "floor": "pale oak",
+    "furniture": "low ivory upholstered bed with plain cream linen behind subject on camera-right; small light-oak bedside table at far right",
+    "window": "sheer ivory curtain at left edge",
+    "lighting": "soft neutral-warm natural daylight from camera-left",
+    "mood": "quiet, uncluttered, tasteful retail catalog"
+  },
+  "model_profile": {
+    "status": "planned_not_generated",
+    "description": "One adult South Asian female model approximately 30 years old, medium warm brown skin, long softly waved black hair, natural makeup, gentle smile; consistent model across all outputs"
+  },
+  "camera_profile": {
+    "status": "planned_not_generated",
+    "view": "front, full length including both garment hems and feet",
+    "lens": "70mm portrait perspective",
+    "camera_height": "mid torso",
+    "framing": "centered subject with small floor margin; portrait 3:4 matching main reference orientation",
+    "resolution": "highest native resolution supported, ideally approximately 4K; no upscaling represented as native detail",
+    "pose": "relaxed standing; arms slightly away from body; robe modestly open to identify both matching pieces"
+  },
+  "output_mapping": [
+    {
+      "source": "colors/02b5b52d-feef-4f9d-b61b-7c8f47a2d85a.webp",
+      "intended_output": "generated/color__02b5b52d-feef-4f9d-b61b-7c8f47a2d85a__model.webp",
+      "actual_output": null,
+      "status": "blocked"
+    },
+    {
+      "source": "colors/96ff281a-ab0f-4e02-848a-8d9e535bd298.webp",
+      "intended_output": "generated/color__96ff281a-ab0f-4e02-848a-8d9e535bd298__model.webp",
+      "actual_output": null,
+      "status": "blocked"
+    },
+    {
+      "source": "colors/c84cc2fb-441f-46f0-93ca-db9c064abda0.webp",
+      "intended_output": "generated/color__c84cc2fb-441f-46f0-93ca-db9c064abda0__model.webp",
+      "actual_output": null,
+      "status": "blocked"
+    },
+    {
+      "source": "main/0fd0d96b-fb19-4290-92ae-c4a4be214ac9.webp",
+      "intended_output": "generated/main__0fd0d96b-fb19-4290-92ae-c4a4be214ac9__model.webp",
+      "actual_output": null,
+      "status": "blocked"
+    }
+  ],
+  "generation": {
+    "tool": "image_gen.imagegen",
+    "attempt_count": 1,
+    "successful_outputs": 0,
+    "retry_count": 0,
+    "attempts": [
+      {
+        "source": "main/0fd0d96b-fb19-4290-92ae-c4a4be214ac9.webp",
+        "reference_paths": [
+          "main/0fd0d96b-fb19-4290-92ae-c4a4be214ac9.webp",
+          "colors/02b5b52d-feef-4f9d-b61b-7c8f47a2d85a.webp"
+        ],
+        "result": "moderation_blocked",
+        "error": {
+          "code": "image_generation_moderation_blocked",
+          "stage": "input",
+          "category": "sexual",
+          "request_id": "18d9b22d-e10f-4514-bb30-8dc059439706",
+          "message": "Reference-conditioned adult-model nightwear generation request rejected by the image-generation service. No image was produced. No workaround attempted."
+        }
+      }
+    ]
+  },
+  "counts": {
+    "main_sources": 1,
+    "color_sources": 3,
+    "accepted_main": 0,
+    "accepted_color": 0,
+    "accepted_details": 0,
+    "blocked_sources": 4
+  },
+  "blockers": [
+    {
+      "code": "image_generation_moderation_blocked",
+      "stage": "input",
+      "category": "sexual",
+      "request_id": "18d9b22d-e10f-4514-bb30-8dc059439706",
+      "message": "Reference-conditioned adult-model nightwear generation request rejected by the image-generation service. No image was produced. No workaround attempted."
+    }
+  ],
+  "completion_criteria": "All four individual source entries must have accepted fully unfolded model-worn outputs and passing garment/scene QA. This run does not satisfy those criteria.",
+  "resumability": "No source is complete. Preserve original images. If the service restriction is resolved through a supported route, re-read sources and workflow, then generate and validate each entry. This report grants no permission to circumvent safeguards."
+}

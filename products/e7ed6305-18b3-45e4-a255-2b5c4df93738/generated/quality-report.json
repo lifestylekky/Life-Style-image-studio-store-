@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "product_id": "e7ed6305-18b3-45e4-a255-2b5c4df93738",
+  "status": "BLOCKED",
+  "source_inventory_check": {
+    "expected_main": 1,
+    "expected_colors": 3,
+    "accounted_main": 1,
+    "accounted_colors": 3,
+    "all_sources_decoded": true,
+    "source_hashes_recorded": true,
+    "no_sources_skipped": true
+  },
+  "generation_check": {
+    "attempted_images": 1,
+    "produced_images": 0,
+    "approved_images": 0,
+    "blocked_source_entries": 4,
+    "retries": 0
+  },
+  "output_checks": {
+    "garment_accuracy": "not_run_no_outputs",
+    "color_accuracy": "not_run_no_outputs",
+    "piece_count": "not_run_no_outputs",
+    "fully_unfolded_and_worn": "not_run_no_outputs",
+    "model_anatomy": "not_run_no_outputs",
+    "scene_consistency": "not_run_no_outputs",
+    "text_and_watermarks": "not_run_no_outputs",
+    "dimensions_and_decode": "not_run_no_outputs"
+  },
+  "blockers": [
+    {
+      "code": "image_generation_moderation_blocked",
+      "stage": "input",
+      "category": "sexual",
+      "request_id": "18d9b22d-e10f-4514-bb30-8dc059439706",
+      "message": "Reference-conditioned adult-model nightwear generation request rejected by the image-generation service. No image was produced. No workaround attempted."
+    }
+  ],
+  "conclusion": "Inventory complete; image generation blocked. No approved showcases exist. Product must not be marked COMPLETE."
+}
