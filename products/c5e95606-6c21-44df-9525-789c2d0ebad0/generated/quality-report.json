@@ -10,7 +10,7 @@
     "accepted_color": 1,
     "blocked_or_failed": 9,
     "retries": 1,
-    "rejected_attempts": 1
+    "rejected_attempts": 10
   },
   "source_reconciliation": {
     "all_sources_accounted_for": true,
