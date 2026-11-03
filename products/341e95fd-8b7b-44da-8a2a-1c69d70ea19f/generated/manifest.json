@@ -1,0 +1,319 @@
+{
+  "schema_version": 1,
+  "product_id": "341e95fd-8b7b-44da-8a2a-1c69d70ea19f",
+  "product_name": "VELONA DOUBLE STRIPE NIGHTY",
+  "status": "BLOCKED",
+  "recorded_at": "2026-11-03T17:10:50.166164+00:00",
+  "workflow_instructions": "AGENTS.md",
+  "workflow_sha256": "e06afcae3d476b9ebbd90b0b5734eee3234c5d2df819b50a170485e28b21b577",
+  "counts": {
+    "main_sources": 1,
+    "color_sources": 3,
+    "attempted_calls": 4,
+    "returned_images": 0,
+    "accepted_main": 0,
+    "accepted_color": 0,
+    "accepted_details": 0,
+    "blocked_sources": 4,
+    "retries": 0
+  },
+  "garment_spec": {
+    "piece_count": 1,
+    "category": "nightdress",
+    "length_inches": 38,
+    "length_cm": 96.52,
+    "length_authority": "description.txt",
+    "construction": "Paired narrow matching shoulder straps, three embroidered daisy flowers with reflective centers along neckline, central descending leaf/petal applique, curved ladder arcs and hanging-line embroidery, gathered loose A-line body and simple hem.",
+    "fabric": "Plain smooth softly lustrous satin-like appearance; composition unverified.",
+    "prints": "No stripes visible; double refers to visible paired straps rather than an invented fabric pattern.",
+    "colors": [
+      "purple",
+      "light baby pink",
+      "royal cobalt blue",
+      "salmon coral pink with lighter pink embroidery"
+    ]
+  },
+  "source_inventory": [
+    {
+      "path": "colors/1eb6e07d-cf01-4f1f-8451-c173fc433325.webp",
+      "dimensions": [
+        2200,
+        1650
+      ],
+      "sha256": "baa01e7384904c359e98662d3685653595d27355c4772bf4657e01d541742ab2",
+      "role": "color",
+      "aspect_ratio": "4:3",
+      "presentation": "folded",
+      "variant_color": "light baby pink",
+      "visually_inspected": true,
+      "decode": "passed",
+      "construction_evidence": "Paired thin straps, three daisy neckline details with reflective centers, descending central leaf/petal applique, ladder arcs and hanging-line embroidery; plain softly lustrous fabric.",
+      "structural_references": [
+        "main/05bff842-694b-421b-bffc-1c08af29d397.webp",
+        "colors/7d66cac6-0160-4a69-8506-6d110da5a28e.webp"
+      ],
+      "status": "blocked",
+      "output_path": null,
+      "generation_attempts": 1,
+      "retries": 0,
+      "blocker": {
+        "source": "colors/1eb6e07d-cf01-4f1f-8451-c173fc433325.webp",
+        "code": "moderation_blocked",
+        "stage": "output",
+        "category": "sexual",
+        "request_id": "acf89c7f-91af-49da-b67f-148387b3cdb6",
+        "message": "Image service rejected the output of a reference-conditioned adult-model e-commerce catalog request. No image returned."
+      }
+    },
+    {
+      "path": "colors/4dc8cedf-1ac6-4d1a-92e3-ec7ee8500e4a.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "sha256": "fc1a3e0101f3fc0d538c733f55cd5202bccf5193d278976999de739846c5e09f",
+      "role": "color",
+      "aspect_ratio": "3:4",
+      "presentation": "folded",
+      "variant_color": "royal cobalt blue",
+      "visually_inspected": true,
+      "decode": "passed",
+      "construction_evidence": "Paired thin straps, three daisy neckline details with reflective centers, descending central leaf/petal applique, ladder arcs and hanging-line embroidery; plain softly lustrous fabric.",
+      "structural_references": [
+        "main/05bff842-694b-421b-bffc-1c08af29d397.webp",
+        "colors/7d66cac6-0160-4a69-8506-6d110da5a28e.webp"
+      ],
+      "status": "blocked",
+      "output_path": null,
+      "generation_attempts": 1,
+      "retries": 0,
+      "blocker": {
+        "source": "colors/4dc8cedf-1ac6-4d1a-92e3-ec7ee8500e4a.webp",
+        "code": "moderation_blocked",
+        "stage": "output",
+        "category": "sexual",
+        "request_id": "f1c6c5f8-0d6e-4d59-b725-a1310a00cb88",
+        "message": "Image service rejected the output of a reference-conditioned adult-model e-commerce catalog request. No image returned."
+      }
+    },
+    {
+      "path": "colors/7d66cac6-0160-4a69-8506-6d110da5a28e.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "sha256": "4d9ad6777e1c7fce691254b715b20d0bca4cc4ed35dd0c9fd4d02b6f72102511",
+      "role": "color",
+      "aspect_ratio": "3:4",
+      "presentation": "unfolded_hanging",
+      "variant_color": "salmon coral pink with lighter pink embroidery",
+      "visually_inspected": true,
+      "decode": "passed",
+      "construction_evidence": "Paired thin straps, three daisy neckline details with reflective centers, descending central leaf/petal applique, ladder arcs and hanging-line embroidery; plain softly lustrous fabric.",
+      "structural_references": [
+        "main/05bff842-694b-421b-bffc-1c08af29d397.webp",
+        "colors/7d66cac6-0160-4a69-8506-6d110da5a28e.webp"
+      ],
+      "status": "blocked",
+      "output_path": null,
+      "generation_attempts": 1,
+      "retries": 0,
+      "blocker": {
+        "source": "colors/7d66cac6-0160-4a69-8506-6d110da5a28e.webp",
+        "code": "moderation_blocked",
+        "stage": "output",
+        "category": "sexual",
+        "request_id": "1a2a65f0-56ac-4cb0-84f2-fd9384d9daa5",
+        "message": "Image service rejected the output of a reference-conditioned adult-model e-commerce catalog request. No image returned."
+      }
+    },
+    {
+      "path": "main/05bff842-694b-421b-bffc-1c08af29d397.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "sha256": "f920b60db6c58834bfcc294dde23485118f676916933a866cfbe8f62e2556132",
+      "role": "main",
+      "aspect_ratio": "3:4",
+      "presentation": "unfolded_mannequin",
+      "variant_color": "purple",
+      "visually_inspected": true,
+      "decode": "passed",
+      "construction_evidence": "Paired thin straps, three daisy neckline details with reflective centers, descending central leaf/petal applique, ladder arcs and hanging-line embroidery; plain softly lustrous fabric.",
+      "structural_references": [
+        "main/05bff842-694b-421b-bffc-1c08af29d397.webp",
+        "colors/7d66cac6-0160-4a69-8506-6d110da5a28e.webp"
+      ],
+      "status": "blocked",
+      "output_path": null,
+      "generation_attempts": 1,
+      "retries": 0,
+      "blocker": {
+        "source": "main/05bff842-694b-421b-bffc-1c08af29d397.webp",
+        "code": "moderation_blocked",
+        "stage": "output",
+        "category": "sexual",
+        "request_id": "1f226fa2-0a4d-4133-972f-e84234956e7c",
+        "message": "Image service rejected the output of a reference-conditioned adult-model e-commerce catalog request. No image returned."
+      }
+    }
+  ],
+  "metadata_versions": [
+    {
+      "path": "description.txt",
+      "sha256": "765857334727050e771e6dc46945a6cfd0a42fcca969bcad2511c16450dbd816"
+    },
+    {
+      "path": "updates.txt",
+      "sha256": "575fd15ba728058a3d9c3649190926e928b5eb028575001cbba0cc5f8b0f91b3"
+    }
+  ],
+  "scene_profile": {
+    "status": "planned_not_generated",
+    "location": "premium minimal ivory bedroom",
+    "wall": "warm ivory plaster",
+    "floor": "pale oak",
+    "window": "sheer ivory curtain at camera-left",
+    "furniture": "low cream linen bed camera-right with rectangular upholstered headboard and one pillow; small pale oak bedside table far right holding one ivory ceramic lamp",
+    "lighting": "soft neutral daylight from left"
+  },
+  "model_camera_profile": {
+    "status": "planned_not_generated",
+    "model": "Adult South Asian female about 32, medium warm brown skin, long softly waved dark brown hair behind shoulders, natural makeup, gentle closed-mouth smile",
+    "camera": "mid-torso 70mm-style perspective, centered full head-to-feet framing",
+    "aspect_ratio": "3:4 matching main source",
+    "resolution": "Highest supported native requested, preferably 4K; no image returned and no output resolution claimed."
+  },
+  "pose_plan": [
+    {
+      "source": "main/05bff842-694b-421b-bffc-1c08af29d397.webp",
+      "planned_pose": "Near-front view with gentle weight on right leg, left foot slightly forward, relaxed arms slightly away from sides, head facing camera.",
+      "accepted_pose": null,
+      "status": "not_generated",
+      "visibility_constraint": "Keep both strap pairs, neckline flowers, embroidery, complete body and hem unobstructed; gentle near-front angles only."
+    },
+    {
+      "source": "colors/1eb6e07d-cf01-4f1f-8451-c173fc433325.webp",
+      "planned_pose": "Gentle 15-degree turn toward camera-left while neckline stays fully readable; right foot half-step forward, arms relaxed away from garment, head turned back toward camera.",
+      "accepted_pose": null,
+      "status": "not_generated",
+      "visibility_constraint": "Keep both strap pairs, neckline flowers, embroidery, complete body and hem unobstructed; gentle near-front angles only."
+    },
+    {
+      "source": "colors/4dc8cedf-1ac6-4d1a-92e3-ec7ee8500e4a.webp",
+      "planned_pose": "Near-front with weight on left leg, right foot lightly extended diagonally to camera-right; left elbow softly bent with hand hovering beside outer hip without touching dress; head gently angled toward window.",
+      "accepted_pose": null,
+      "status": "not_generated",
+      "visibility_constraint": "Keep both strap pairs, neckline flowers, embroidery, complete body and hem unobstructed; gentle near-front angles only."
+    },
+    {
+      "source": "colors/7d66cac6-0160-4a69-8506-6d110da5a28e.webp",
+      "planned_pose": "Gentle 15-degree turn toward camera-right with left foot half-step forward, both arms resting naturally beside body, chin slightly lifted and looking toward camera; no twist or blocked front.",
+      "accepted_pose": null,
+      "status": "not_generated",
+      "visibility_constraint": "Keep both strap pairs, neckline flowers, embroidery, complete body and hem unobstructed; gentle near-front angles only."
+    }
+  ],
+  "output_mapping": [
+    {
+      "source": "colors/1eb6e07d-cf01-4f1f-8451-c173fc433325.webp",
+      "intended_output": "generated/color__1eb6e07d-cf01-4f1f-8451-c173fc433325__model.png",
+      "actual_output": null,
+      "status": "blocked"
+    },
+    {
+      "source": "colors/4dc8cedf-1ac6-4d1a-92e3-ec7ee8500e4a.webp",
+      "intended_output": "generated/color__4dc8cedf-1ac6-4d1a-92e3-ec7ee8500e4a__model.png",
+      "actual_output": null,
+      "status": "blocked"
+    },
+    {
+      "source": "colors/7d66cac6-0160-4a69-8506-6d110da5a28e.webp",
+      "intended_output": "generated/color__7d66cac6-0160-4a69-8506-6d110da5a28e__model.png",
+      "actual_output": null,
+      "status": "blocked"
+    },
+    {
+      "source": "main/05bff842-694b-421b-bffc-1c08af29d397.webp",
+      "intended_output": "generated/main__05bff842-694b-421b-bffc-1c08af29d397__model.png",
+      "actual_output": null,
+      "status": "blocked"
+    }
+  ],
+  "outputs": [],
+  "generation": {
+    "tool": "image_gen.imagegen",
+    "reference_conditioned": true,
+    "attempt_count": 4,
+    "retries": 0,
+    "attempts": [
+      {
+        "source": "main/05bff842-694b-421b-bffc-1c08af29d397.webp",
+        "prompt": "ONE photorealistic professional nonsexual e-commerce catalog photo of the exact PURPLE single-piece women's nightdress in FIRST original photo. SECOND original from this SAME product clarifies the fine neckline embroidery only, not its blue color. Product description explicitly specifies garment HEIGHT/LENGTH 38 inches (96.5cm), shoulder/strap to hem: on a roughly 167cm adult model this is BELOW-KNEE length, NOT ankle/floor length. Hanging mannequin photo gives construction but no human height scale. Render correct 38-inch garment proportions with hem modestly below knees, entire hem visible. Preserve plain purple smooth satin-like softly lustrous fabric with natural drape, paired thin matching parallel shoulder straps TWO distinct straps per shoulder (four total), matching embroidered neckline with THREE daisy flowers left/center/right, each with one small clear reflective rhinestone at center, authentic curved ladder-like embroidery and central long descending leaf/petal applique, fine hanging-line embroidery on upper front. Preserve actual lace shape and construction precisely, no generic replacement, no stripes, no print, no bow, belt, buttons, slit, added pockets or extra pieces. Loose gathered A-line single dress with simple turned hem; opaque modest body coverage, no underwear exposed. ONE adult South Asian female model age 32, medium warm brown skin, long softly waved dark brown hair behind shoulders, natural makeup, gentle closed-mouth smile. Pose: near front gentle weight shift to right leg, left foot slightly forward, relaxed arms slightly away from sides, face to camera; professional natural balanced posture and unobstructed garment. Bare feet, no accessories. Locked product scene: premium minimal ivory bedroom, warm ivory plaster wall, pale oak floor, window with sheer ivory curtain at camera-left providing soft neutral daylight from left, low cream linen bed camera-right with rectangular cream upholstered headboard and one pillow, small pale oak bedside table far right with one ivory ceramic lamp and no extra decor. Centered full-length head-to-feet portrait 3:4, camera at mid torso, 70mm-style perspective; entire straps, neckline, embroidery, dress and hem sharp and in frame, modest floor margin. Highest supported native resolution preferably 4K. No collage, duplicate people, folded products, mannequins, hangers, packaging, added text, prices, logos or watermark.",
+        "raw_error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 1f226fa2-0a4d-4133-972f-e84234956e7c. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")",
+        "result": "moderation_blocked"
+      },
+      {
+        "source": "colors/1eb6e07d-cf01-4f1f-8451-c173fc433325.webp",
+        "prompt": "Create one professional nonsexual e-commerce clothing catalog photograph of the exact light baby pink nightdress in FIRST original source, using SECOND original from the SAME product folder for unfolded construction. Single-piece 38-inch (96.5cm shoulder/strap-to-hem) below-knee nightdress on one clearly adult South Asian female model age 32, medium warm skin, long softly waved dark brown hair behind shoulders, natural makeup, gentle closed-mouth smile. Preserve plain smooth satin-like fabric, exact source shade and secondary embroidery color, paired narrow matching shoulder straps TWO per shoulder, three original daisy flowers left/middle/right with reflective centers, source ladder-like embroidery, long central leaf/petal applique and fine hanging-line details. Loose gathered A-line drape and plain turned hem. No stripes or other print; no added design. Pose: Gentle 15-degree turn toward camera-left while neckline stays fully readable; right foot half-step forward, arms relaxed away from garment, head turned back toward camera. Entire garment, straps, front detail and hem unobstructed. Scene identical across this product: premium ivory bedroom with warm ivory wall, pale oak floor, sheer ivory curtain at left giving soft neutral left daylight, low cream linen bed on right with rectangular upholstered headboard and one pillow, small pale oak table at far right with one ivory ceramic lamp. Camera mid torso height, 70mm-style frontal perspective, centered full head-to-bare-feet portrait 3:4, highest supported native resolution. Exactly one garment worn fully unfolded, no folding or collage, no extra clothes, no text, packaging, hangers, logos or watermark.",
+        "raw_error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID acf89c7f-91af-49da-b67f-148387b3cdb6. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")",
+        "result": "moderation_blocked"
+      },
+      {
+        "source": "colors/4dc8cedf-1ac6-4d1a-92e3-ec7ee8500e4a.webp",
+        "prompt": "Professional nonsexual e-commerce fashion catalog photograph of the exact BLUE single-piece women's nightdress in FIRST original reference. SECOND original is same product fully unfolded construction evidence, not its purple color. Preserve royal cobalt blue smooth softly lustrous fabric, TWO separate thin blue parallel straps per shoulder, three blue embroidered daisy flowers at neckline with three small reflective centers, curved ladder embroidery, descending center leaf/petal shape and fine vertical hanging-line embroidery. Loose gathered A-line body, plain turned hem. Product description length is 38 inches (96.5cm) from shoulder straps to hem, so show a below-knee dress on an average-height adult model, not a floor-length gown. One clearly adult female South Asian model age 32, medium warm skin, long wavy dark brown hair behind shoulders, natural makeup. Professional near-front standing pose: weight on left leg, right foot slightly extended diagonally right, left elbow softly bent with hand beside outside hip without hiding dress, head gently angled left toward window. Full garment visible and fully unfolded, one garment only, realistic drape. Premium minimal ivory bedroom, warm ivory wall, pale oak floor, sheer ivory curtain at left giving soft neutral left daylight, low cream bed behind on right with rectangular upholstered cream headboard and one pillow, small pale oak bedside table at far right with one ivory ceramic lamp. Portrait 3:4 full head to bare feet, camera mid torso height, 70mm perspective, centered position, highest supported native resolution. Garment and embroidery sharply visible, no garment cropping. Do not add stripes, print, slit, bow, belt, extra garments, jewelry, collage, text, logo, labels, watermark or packaging.",
+        "raw_error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID f1c6c5f8-0d6e-4d59-b725-a1310a00cb88. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")",
+        "result": "moderation_blocked"
+      },
+      {
+        "source": "colors/7d66cac6-0160-4a69-8506-6d110da5a28e.webp",
+        "prompt": "Create one professional nonsexual e-commerce clothing catalog photograph of the exact salmon coral pink with lighter pink embroidery nightdress in FIRST original source, using SECOND original from the SAME product folder for unfolded construction. Single-piece 38-inch (96.5cm shoulder/strap-to-hem) below-knee nightdress on one clearly adult South Asian female model age 32, medium warm skin, long softly waved dark brown hair behind shoulders, natural makeup, gentle closed-mouth smile. Preserve plain smooth satin-like fabric, exact source shade and secondary embroidery color, paired narrow matching shoulder straps TWO per shoulder, three original daisy flowers left/middle/right with reflective centers, source ladder-like embroidery, long central leaf/petal applique and fine hanging-line details. Loose gathered A-line drape and plain turned hem. No stripes or other print; no added design. Pose: Gentle 15-degree turn toward camera-right with left foot half-step forward, both arms resting naturally beside body, chin slightly lifted and looking toward camera; no twist or blocked front. Entire garment, straps, front detail and hem unobstructed. Scene identical across this product: premium ivory bedroom with warm ivory wall, pale oak floor, sheer ivory curtain at left giving soft neutral left daylight, low cream linen bed on right with rectangular upholstered headboard and one pillow, small pale oak table at far right with one ivory ceramic lamp. Camera mid torso height, 70mm-style frontal perspective, centered full head-to-bare-feet portrait 3:4, highest supported native resolution. Exactly one garment worn fully unfolded, no folding or collage, no extra clothes, no text, packaging, hangers, logos or watermark.",
+        "raw_error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 1a2a65f0-56ac-4cb0-84f2-fd9384d9daa5. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")",
+        "result": "moderation_blocked"
+      }
+    ]
+  },
+  "validation_notes": [
+    "Description explicitly specifies garment height/length 38 inches (96.5 cm). Planned adult-model rendering uses below-knee proportions; mannequin photography alone does not establish worn hem height.",
+    "All four sources viewed individually and decoded. Folded pink and blue entries have unfolded references within this same product folder. No construction substituted from a different product.",
+    "Actual fiber composition, unseen back design and calibrated color are unverified; no outputs exist to certify fit, detail fidelity or scene/pose consistency.",
+    "Updated AGENTS.md pose-variety requirements read and a distinct subtle pose planned for every source. No accepted poses or outputs exist.",
+    "No prior other-product images copied into this folder. All original reference bytes preserved."
+  ],
+  "blockers": [
+    {
+      "source": "colors/1eb6e07d-cf01-4f1f-8451-c173fc433325.webp",
+      "code": "moderation_blocked",
+      "stage": "output",
+      "category": "sexual",
+      "request_id": "acf89c7f-91af-49da-b67f-148387b3cdb6",
+      "message": "Image service rejected the output of a reference-conditioned adult-model e-commerce catalog request. No image returned."
+    },
+    {
+      "source": "colors/4dc8cedf-1ac6-4d1a-92e3-ec7ee8500e4a.webp",
+      "code": "moderation_blocked",
+      "stage": "output",
+      "category": "sexual",
+      "request_id": "f1c6c5f8-0d6e-4d59-b725-a1310a00cb88",
+      "message": "Image service rejected the output of a reference-conditioned adult-model e-commerce catalog request. No image returned."
+    },
+    {
+      "source": "colors/7d66cac6-0160-4a69-8506-6d110da5a28e.webp",
+      "code": "moderation_blocked",
+      "stage": "output",
+      "category": "sexual",
+      "request_id": "1a2a65f0-56ac-4cb0-84f2-fd9384d9daa5",
+      "message": "Image service rejected the output of a reference-conditioned adult-model e-commerce catalog request. No image returned."
+    },
+    {
+      "source": "main/05bff842-694b-421b-bffc-1c08af29d397.webp",
+      "code": "moderation_blocked",
+      "stage": "output",
+      "category": "sexual",
+      "request_id": "1f226fa2-0a4d-4133-972f-e84234956e7c",
+      "message": "Image service rejected the output of a reference-conditioned adult-model e-commerce catalog request. No image returned."
+    }
+  ],
+  "resumability": "All four entries remain blocked. Resume only if the image service restriction is resolved through a supported route; preserve same-product references, 38-inch specification and pose plan. Do not fabricate outputs or circumvent service safeguards."
+}

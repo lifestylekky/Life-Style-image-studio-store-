@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "product_id": "341e95fd-8b7b-44da-8a2a-1c69d70ea19f",
+  "status": "BLOCKED",
+  "counts": {
+    "main_sources": 1,
+    "color_sources": 3,
+    "attempted_calls": 4,
+    "returned_images": 0,
+    "accepted_main": 0,
+    "accepted_color": 0,
+    "accepted_details": 0,
+    "blocked_sources": 4,
+    "retries": 0
+  },
+  "source_reconciliation": {
+    "all_four_sources_accounted_for": true,
+    "all_sources_readable_and_viewed": true,
+    "original_hashes_unchanged": true
+  },
+  "output_checks": {
+    "garment_accuracy": "not_run_no_outputs_returned",
+    "38_inch_length": "not_run_no_outputs_returned",
+    "variant_color_and_embroidery": "not_run_no_outputs_returned",
+    "fully_unfolded_model_worn": "not_run_no_outputs_returned",
+    "piece_count": "not_run_no_outputs_returned",
+    "anatomy_and_drape": "not_run_no_outputs_returned",
+    "complete_visibility": "not_run_no_outputs_returned",
+    "scene_consistency": "not_run_no_outputs_returned",
+    "pose_variety": "not_run_no_outputs_returned",
+    "output_dimensions_and_decode": "not_run_no_outputs_returned"
+  },
+  "notes": [
+    "Description explicitly specifies garment height/length 38 inches (96.5 cm). Planned adult-model rendering uses below-knee proportions; mannequin photography alone does not establish worn hem height.",
+    "All four sources viewed individually and decoded. Folded pink and blue entries have unfolded references within this same product folder. No construction substituted from a different product.",
+    "Actual fiber composition, unseen back design and calibrated color are unverified; no outputs exist to certify fit, detail fidelity or scene/pose consistency.",
+    "Updated AGENTS.md pose-variety requirements read and a distinct subtle pose planned for every source. No accepted poses or outputs exist.",
+    "No prior other-product images copied into this folder. All original reference bytes preserved."
+  ],
+  "blockers": [
+    {
+      "source": "colors/1eb6e07d-cf01-4f1f-8451-c173fc433325.webp",
+      "code": "moderation_blocked",
+      "stage": "output",
+      "category": "sexual",
+      "request_id": "acf89c7f-91af-49da-b67f-148387b3cdb6",
+      "message": "Image service rejected the output of a reference-conditioned adult-model e-commerce catalog request. No image returned."
+    },
+    {
+      "source": "colors/4dc8cedf-1ac6-4d1a-92e3-ec7ee8500e4a.webp",
+      "code": "moderation_blocked",
+      "stage": "output",
+      "category": "sexual",
+      "request_id": "f1c6c5f8-0d6e-4d59-b725-a1310a00cb88",
+      "message": "Image service rejected the output of a reference-conditioned adult-model e-commerce catalog request. No image returned."
+    },
+    {
+      "source": "colors/7d66cac6-0160-4a69-8506-6d110da5a28e.webp",
+      "code": "moderation_blocked",
+      "stage": "output",
+      "category": "sexual",
+      "request_id": "1a2a65f0-56ac-4cb0-84f2-fd9384d9daa5",
+      "message": "Image service rejected the output of a reference-conditioned adult-model e-commerce catalog request. No image returned."
+    },
+    {
+      "source": "main/05bff842-694b-421b-bffc-1c08af29d397.webp",
+      "code": "moderation_blocked",
+      "stage": "output",
+      "category": "sexual",
+      "request_id": "1f226fa2-0a4d-4133-972f-e84234956e7c",
+      "message": "Image service rejected the output of a reference-conditioned adult-model e-commerce catalog request. No image returned."
+    }
+  ],
+  "conclusion": "Inventory and planning completed. All four independent generation attempts rejected at output by image service. Zero images returned or accepted. Product BLOCKED."
+}
