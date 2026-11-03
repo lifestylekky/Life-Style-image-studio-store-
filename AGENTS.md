@@ -15,6 +15,7 @@ This file defines the **persistent workflow**. Product folder URLs are supplied 
 7. Account for **every** main and color source image, even if a reference is folded or difficult. Do not silently skip any source entry. Do not mark incomplete work complete.
 8. Write approved outputs only under the corresponding product's `generated/` folder. Never modify source images in `main/` or `colors/`.
 9. Actual image generation requires an available image-generation model/API/tool with reference-image support. **Do not pretend that Codex's reasoning alone generates images.** If unavailable, report the blocker and do not fabricate outputs.
+10. **Use natural, varied professional photoshoot poses across the main and color showcases for a product.** Avoid repetitive identical straight-standing poses, but never sacrifice accurate, unobstructed, full-garment visibility or the locked product scene to achieve variety.
 
 ## 1. Accept runtime input
 The user may provide one GitHub product folder URL or several. Parse each product folder path and identify its repository, branch, and product ID. Do not require a fixed list of product IDs or links. If the user supplies only a product ID and the repository is unambiguous from the current checkout, resolve it locally.
@@ -38,12 +39,22 @@ Select a visually suitable, unobtrusive premium location based on the product ca
 Create a `scene_profile` containing location type, architecture, walls, floor, furniture arrangement, lighting direction and temperature, camera perspective, subject position, depth of field, and mood. **Lock this profile for all images of this product.** Also lock an appropriate adult model appearance and consistent view-specific camera framing where technically supported. A scene may change between different products, never randomly between variations of one product.
 
 ## 5. Determine output composition
-Prioritize showing the **complete unfolded garment**, including hemline and all genuine set pieces. Use the main source's aspect ratio when it can accommodate the complete worn product; otherwise choose a suitable consistent aspect ratio and document why. Maintain the same resolution, scale, perspective, subject placement, and lighting for corresponding main/color views. Use high resolution (ideally approximately 4K if the tool supports it) without stretching or cropping the product.
+Prioritize showing the **complete unfolded garment**, including hemline and all genuine set pieces. Use the main source's aspect ratio when it can accommodate the complete worn product; otherwise choose a suitable consistent aspect ratio and document why. Maintain the same resolution, scale, camera perspective, approximate subject placement, and lighting for corresponding main/color views; allow deliberate, subtle differences in the model's pose and body language. Use high resolution (ideally approximately 4K if the tool supports it) without stretching or cropping the product.
+
+## 5A. Direct natural pose variety without hiding the product
+Treat each product's main showcase and color variants as photographs from one coordinated, premium real-life fashion shoot, **not** repeated copies of one rigid catalog stance.
+- Before generating, create a small `pose_plan` assigning a distinct, subtle, professional pose to each required showcase image where there are multiple outputs. Balance variety across the whole product, not randomly per prompt.
+- Vary natural body language: gentle weight shifts, slightly different foot placements, relaxed arm positions, small shoulder or head changes, and modest front-facing or slight three-quarter angles **only when the entire product and its critical design details stay clearly visible**.
+- Keep the same adult model identity/appearance where supported, the same locked scene, lighting direction, camera style/framing, realistic garment fit and proportions. Pose variation does not justify changing the product, swapping the model, moving to another location, or radically altering the camera angle.
+- Prioritize a readable near-front product view. Keep neckline, straps/sleeves, front details, side construction where relevant, hemline, full length, prints and every piece of an authentic set visible. Never let arms, hands, hair, legs, props, furniture, body turns or excessive fabric folds obscure or distort the garment. Avoid crossed arms over the product, hands covering key panels, forced seated/crouching positions, dramatic twists, exaggerated runway gestures, or repetitive mannequin-like poses.
+- Make postures believable for a real premium retail photoshoot: comfortable balance, realistic anatomy, natural hands, plausible fabric drape, and subtle differences that are noticeable without becoming distracting.
+- Pose suitability depends on the exact garment. If a candidate pose compromises design accuracy, visibility, or natural drape, reject it and use a safer pose even if that reduces variation. Never force pose diversity at the expense of the product.
+- During QA, compare poses across all accepted main/color outputs for that product. If they are effectively identical and a safe variation is feasible, regenerate the duplicated pose within bounded retries. Record each planned/accepted pose and any visibility-based limitations in the manifest.
 
 ## 6. Generate main showcase(s)
 For each main source entry:
 1. Identify the actual product construction and best unfolded same-folder structural reference.
-2. Apply the locked scene, model appearance, lighting, and framing.
+2. Apply the locked scene, model appearance, lighting, framing, and the assigned natural pose from the product's pose plan.
 3. Generate one fully unfolded, accurately worn product (or one complete authentic set) per image.
 4. Compare the result against source photographs for structure, fabric, color, piece count, and realism.
 5. Reject/regenerate material mismatches using bounded retries; save only accepted images.
@@ -53,7 +64,7 @@ For each file in `colors/`, including folded ones:
 1. Identify its precise base and secondary colors, print geometry/scale/orientation, fabric appearance, and authentic design differences.
 2. Use the same-folder unfolded structural reference for garment shape.
 3. Use this specific color image as the authority for variant color/print.
-4. Reuse the product's **exact locked location, model appearance, lighting, and corresponding framing**.
+4. Reuse the product's **exact locked location, model appearance, lighting, and corresponding framing**, while applying this variation's distinct, product-safe natural pose from the pose plan.
 5. Generate **one complete unfolded model-worn product or matching set** in the image.
 6. Validate against both the unfolded construction reference and the current color source; correct mismatches.
 7. Save the accepted image and record the source-to-output mapping.
@@ -64,7 +75,7 @@ Never combine color versions in one image. Distinct reference files must each be
 When reference evidence allows and detail views add value, generate front, 45-degree, back, fabric, or construction close-ups. Keep them within the same locked location and maintain product accuracy. Do not invent an unseen back design. No folded, stacked, or flat-lay final showcases. Detail views never replace required main or color showcases.
 
 ## 9. Image-generation prompt construction
-Build a per-image prompt from the verified garment spec, exact structural-reference path, current variant-reference path, locked scene/model/camera profiles, and actual piece count. Instruct the image model to produce photorealistic commercial fashion photography of the **exact original garment**, fully unfolded and naturally worn by one adult female model, with natural cloth physics and anatomically realistic proportions. Require accurate print, fabric, trim, length, fit, and color. For sets, show all and only the authentic pieces. Explicitly forbid folded products, collages, duplicates, extra clothing, unsupported details, inconsistent backgrounds, sexualized posing, added text, and watermarks. Prefer reference-conditioned image generation/editing over text-only guesswork.
+Build a per-image prompt from the verified garment spec, exact structural-reference path, current variant-reference path, locked scene/model/camera profiles, assigned natural pose from the product-wide pose plan, and actual piece count. Instruct the image model to produce photorealistic commercial fashion photography of the **exact original garment**, fully unfolded and naturally worn by one adult female model, with natural cloth physics and anatomically realistic proportions. Require accurate print, fabric, trim, length, fit, and color. For sets, show all and only the authentic pieces. Explicitly forbid folded products, collages, duplicates, extra clothing, unsupported details, inconsistent backgrounds, sexualized posing, added text, watermarks, stiff repetitive identical poses, and any pose/limb/prop that blocks the garment. Require a natural professional fashion-photoshoot posture with completely readable garment construction. Prefer reference-conditioned image generation/editing over text-only guesswork.
 
 ## 10. Output structure and naming
 Use stable source-linked names, for example:
@@ -88,13 +99,14 @@ Inspect each output for:
 - Correct current variant's color, print, texture, and decorative details.
 - Natural model anatomy and garment drape; no artificial floating or distorted parts.
 - Full product visibility, appropriate commercial quality, and no added text.
-- Exact product-specific scene consistency (background architecture, furniture, lighting, camera, model where supported).
+- Exact product-specific scene consistency (background architecture, furniture, lighting, camera, model where supported), while maintaining safe natural pose variety between variants.
+- Pose realism and completeness: no obstruction, cropped hems, distorted silhouettes, hidden authentic set pieces, unnatural limbs or repetitive near-identical poses when safer distinct poses are possible.
 - Correct source-to-output mapping and readable image file.
 
 Reject inaccurate outputs, retry within reasonable bounds, and report unresolved errors. A beautiful but inaccurate image fails.
 
 ## 12. Manifest, completeness, and resumability
-Maintain `generated/manifest.json` with product ID/name, source inventory, unfolded construction references, chosen `scene_profile`, model/camera profiles, every source-to-output mapping, output dimensions, source versions, generation status, validation results, retries, and blockers. Maintain `generated/quality-report.json` with verification results.
+Maintain `generated/manifest.json` with product ID/name, source inventory, unfolded construction references, chosen `scene_profile`, model/camera profiles, planned and accepted `pose_plan` entries with any visibility-related constraints, every source-to-output mapping, output dimensions, source versions, generation status, validation results, retries, and blockers. Maintain `generated/quality-report.json` with verification results.
 
 On reruns, inspect the manifest and actual files; preserve valid current outputs and regenerate only missing, failed, or stale items. After processing, rescan `main/` and `colors/` and reconcile **each individual source entry**, not just totals. A product is complete only when every required source has an accepted, fully unfolded, accurately model-worn output stored in its correct folder, with consistent scene and passing QA.
 
