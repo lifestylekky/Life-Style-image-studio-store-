@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "product_id": "c7bab910-e289-4b05-b74d-0c1808bf21e4",
+  "review_method": "Individual visual comparison of every generated candidate with main and corresponding original color reference, then cross-output scene/model/pose comparison. File decoding, hashes and source reconciliation verified programmatically.",
+  "status": "PASS",
+  "counts": {
+    "main_sources": 1,
+    "color_sources": 3,
+    "supplemental_sources": 1,
+    "total_original_images": 5,
+    "required_showcases": 4,
+    "accepted_main": 1,
+    "accepted_colors": 3,
+    "accepted_detail_outputs": 0,
+    "accepted_total": 4,
+    "generation_attempts": 5,
+    "rejected_attempts": 1,
+    "blocked_sources": 0,
+    "unaccounted_sources": 0
+  },
+  "per_output": [
+    {
+      "source": "main/74dfed97-d93a-445b-a566-2d9e96304b66.webp",
+      "output": "generated/main__74dfed97-d93a-445b-a566-2d9e96304b66__model.png",
+      "status": "accepted",
+      "checks": {
+        "complete_unfolded_model_worn_top": "pass",
+        "single_retail_product": "pass",
+        "straight_strapless_upper_band": "pass",
+        "central_sewn_tape_and_ruched_sides": "pass",
+        "full_lower_hem_visible": "pass",
+        "source_color_family_and_plain_knit_appearance": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "no_added_text_or_watermarks": "pass",
+        "same_model_scene_lighting_and_framing": "pass",
+        "distinct_subtle_pose_and_unobstructed_product": "pass"
+      },
+      "pose": "Near-front balanced stance, relaxed arms, gaze at camera."
+    },
+    {
+      "source": "colors/845df23e-ad6e-407a-8766-b9ce766fc41f.webp",
+      "output": "generated/color__845df23e-ad6e-407a-8766-b9ce766fc41f__model.png",
+      "status": "accepted",
+      "checks": {
+        "complete_unfolded_model_worn_top": "pass",
+        "single_retail_product": "pass",
+        "straight_strapless_upper_band": "pass",
+        "central_sewn_tape_and_ruched_sides": "pass",
+        "full_lower_hem_visible": "pass",
+        "source_color_family_and_plain_knit_appearance": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "no_added_text_or_watermarks": "pass",
+        "same_model_scene_lighting_and_framing": "pass",
+        "distinct_subtle_pose_and_unobstructed_product": "pass"
+      },
+      "pose": "Subtle weight shift and shoulder turn, head and gaze off camera, left hand below hem on outer trouser thigh."
+    },
+    {
+      "source": "colors/9aad12e2-848a-4ccc-9621-a9eb682e56ae.webp",
+      "output": "generated/color__9aad12e2-848a-4ccc-9621-a9eb682e56ae__model.png",
+      "status": "accepted",
+      "checks": {
+        "complete_unfolded_model_worn_top": "pass",
+        "single_retail_product": "pass",
+        "straight_strapless_upper_band": "pass",
+        "central_sewn_tape_and_ruched_sides": "pass",
+        "full_lower_hem_visible": "pass",
+        "source_color_family_and_plain_knit_appearance": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "no_added_text_or_watermarks": "pass",
+        "same_model_scene_lighting_and_framing": "pass",
+        "distinct_subtle_pose_and_unobstructed_product": "pass"
+      },
+      "pose": "Weight shift, gentle head tilt and lowered gaze, relaxed asymmetric arm spacing."
+    },
+    {
+      "source": "colors/def3a2f3-c91f-422a-afeb-94d597ea3519.webp",
+      "output": "generated/color__def3a2f3-c91f-422a-afeb-94d597ea3519__model.png",
+      "status": "accepted",
+      "checks": {
+        "complete_unfolded_model_worn_top": "pass",
+        "single_retail_product": "pass",
+        "straight_strapless_upper_band": "pass",
+        "central_sewn_tape_and_ruched_sides": "pass",
+        "full_lower_hem_visible": "pass",
+        "source_color_family_and_plain_knit_appearance": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "no_added_text_or_watermarks": "pass",
+        "same_model_scene_lighting_and_framing": "pass",
+        "distinct_subtle_pose_and_unobstructed_product": "pass"
+      },
+      "pose": "Slight near-front torso angle, face to camera, relaxed knee and arms gently away from thighs."
+    }
+  ],
+  "scene_consistency": "PASS: same warm-gray seamless studio wall/floor, same adult model appearance, ivory supporting trousers, diffuse left light and 3:4 framing.",
+  "pose_variety": "PASS after one gray revision: distinct head/gaze, shoulder/weight and arm placement while preserving complete garment visibility.",
+  "source_preservation": "PASS: all five original SHA256 hashes unchanged.",
+  "completeness": "PASS: exact reconciliation of all one main and three color entries; supplemental alternate face accounted as evidence.",
+  "rejected_candidates": [
+    {
+      "source": "colors/845df23e-ad6e-407a-8766-b9ce766fc41f.webp",
+      "request_id": "c7grayrequest",
+      "reason": "Garment matched but pose too similar to main; revised with visible shoulder/head/arm variation.",
+      "approved": false,
+      "copied_to_product": false
+    }
+  ],
+  "limitations": [
+    "Visual comparison to original photographs, not physical measurement or calibrated colorimetry. Source lighting differs between photographs.",
+    "Native output 1086x1448; not 4K. No synthetic upscaling applied.",
+    "Product name, fiber composition and exact dimensions are unavailable because description.txt and updates.txt are absent."
+  ],
+  "missing_or_blocked": []
+}

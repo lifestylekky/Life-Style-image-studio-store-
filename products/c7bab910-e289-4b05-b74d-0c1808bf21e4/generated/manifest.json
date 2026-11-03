@@ -1,0 +1,326 @@
+{
+  "schema_version": 1,
+  "product_id": "c7bab910-e289-4b05-b74d-0c1808bf21e4",
+  "product_name": "Ruched strapless tube top (descriptive name; product metadata absent)",
+  "name_authority": "Descriptive visual label, not a confirmed brand or catalog title.",
+  "created_at": "2026-11-03T21:25:33.263584+00:00",
+  "workflow": "AGENTS.md",
+  "workflow_sha256": "e06afcae3d476b9ebbd90b0b5734eee3234c5d2df819b50a170485e28b21b577",
+  "generation_status": "all_required_sources_accepted",
+  "metadata": {
+    "description.txt": "absent",
+    "updates.txt": "absent"
+  },
+  "source_inventory": [
+    {
+      "path": "colors/845df23e-ad6e-407a-8766-b9ce766fc41f.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "sha256": "47b1cb4c80b00781a335393aa1638100956b73c4133d36b84de91984f663a8d5",
+      "aspect_ratio": "3:4",
+      "readable": true,
+      "role": "required_color",
+      "presentation": "Hanging / close garment detail, not fully worn; some edges cropped or fabric relaxed.",
+      "evidence": "warm medium gray; center tape and ruched side construction. Complete proportions reconstructed from main reference."
+    },
+    {
+      "path": "colors/9aad12e2-848a-4ccc-9621-a9eb682e56ae.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "sha256": "f1c1e6edba72a11909e365af41bbedda64d4438c7e7379f5769518532704ef79",
+      "aspect_ratio": "3:4",
+      "readable": true,
+      "role": "required_color",
+      "presentation": "Hanging / close garment detail, not fully worn; some edges cropped or fabric relaxed.",
+      "evidence": "warm khaki/taupe olive; center tape and ruched side construction. Complete proportions reconstructed from main reference."
+    },
+    {
+      "path": "colors/def3a2f3-c91f-422a-afeb-94d597ea3519.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "sha256": "e98d7400f628ca278d06db9b121db56128177a2725b7393d87bdb46c94ffab73",
+      "aspect_ratio": "3:4",
+      "readable": true,
+      "role": "required_color",
+      "presentation": "Hanging / close garment detail, not fully worn; some edges cropped or fabric relaxed.",
+      "evidence": "soft black / dark charcoal; center tape and ruched side construction. Complete proportions reconstructed from main reference."
+    },
+    {
+      "path": "main/74dfed97-d93a-445b-a566-2d9e96304b66.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "sha256": "4dca21ef8de13abd4a8273a5a542404292868e56e580944e92bc5aadffe54956",
+      "aspect_ratio": "3:4",
+      "readable": true,
+      "role": "required_main",
+      "presentation": "Unfolded on retail torso mannequin; full upper and lower bands visible.",
+      "evidence": "Complete front silhouette, muted olive/taupe, central stitched tape, side ruching, matte fine-knit appearance."
+    },
+    {
+      "path": "other/eeb0139d-98bc-4686-9ec5-b033f7e57055.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "sha256": "7a82b35a63dc3b14d8454de144ab7a4dafcb2eae231d8b17405c31cab2b3952a",
+      "aspect_ratio": "3:4",
+      "readable": true,
+      "role": "supplemental_structure",
+      "presentation": "Unfolded alternate face on retail torso mannequin.",
+      "evidence": "Same olive family, straight bands and paired vertical gather seams. Alternate face only; not copied onto center-tape front.",
+      "status": "accounted_for_as_structural_evidence",
+      "requires_separate_showcase": false
+    }
+  ],
+  "unfolded_construction_references": [
+    "main/74dfed97-d93a-445b-a566-2d9e96304b66.webp",
+    "other/eeb0139d-98bc-4686-9ec5-b033f7e57055.webp"
+  ],
+  "garment_specification": {
+    "category": "strapless ruched tube top",
+    "retail_piece_count": 1,
+    "verified_visible_construction": "Single opaque matte fine-knit stretch-jersey strapless tube top, no sleeves or straps, straight horizontal folded top band, long fitted torso reaching high hip, full-width lower folded hem band. Broad fabric-covered vertical tape at center front stitched down length and ending just above lower hem band, dense horizontal ruching gathering toward this tape and vertical ruched side seams. No drawstrings, lace, buttons, cups, logo, print, closures or extra panels. Main photo is authority for proportions and center tape. Supplemental photo shows reverse, not additional front seams.",
+    "fabric": "Opaque matte fine-knit jersey appearance; fiber composition and stretch percentage unverified.",
+    "pattern": "solid, no printed motif",
+    "length": "Long fitted torso to high hip, inferred from full mannequin photograph; exact physical measurement unavailable.",
+    "unseen_details": "No back showcase generated; alternate-face orientation and hidden construction not independently confirmed."
+  },
+  "scene_profile": "Premium neutral fashion studio: warm light-gray seamless plaster wall with no furniture or decoration, matte pale-gray floor. Large diffused daylight softbox camera-left, neutral 5200K; soft shadow right. Same exact background in every image.",
+  "model_profile": "One adult female fashion model age approximately 30, medium-brown skin, oval face, brown eyes, dark brown hair neatly pulled into a low bun, natural makeup, no jewelry.",
+  "camera_profile": "Portrait 3:4, eye-level near-front 70mm commercial fashion camera, head to upper-thigh framing with entire top and hem visible, centered subject, identical scale and camera for every variation. Highest native resolution supported; request 4K only if supported.",
+  "supporting_styling": "Plain high-waisted ivory tailored trousers are neutral supporting model styling, not another retail product or matching set. Top is worn outside trousers, with entire hem unobstructed.",
+  "pose_plan": [
+    {
+      "source": "main/74dfed97-d93a-445b-a566-2d9e96304b66.webp",
+      "planned": "Main: near-front, balanced stance, both relaxed arms held slightly away from torso, gaze camera.",
+      "accepted": "Near-front balanced stance, relaxed arms, gaze at camera.",
+      "visibility_constraint": "Near-front only; no hand or styling may obscure top band, sewn center tape, sides or lower hem. Feet outside crop; weight shifts visible through shoulders/hips.",
+      "result": "pass"
+    },
+    {
+      "source": "colors/845df23e-ad6e-407a-8766-b9ce766fc41f.webp",
+      "planned": "Gray: near-front with subtle weight on right leg, left foot slightly forward, head gently turned toward camera-left, arms loose clear of top.",
+      "accepted": "Subtle weight shift and shoulder turn, head and gaze off camera, left hand below hem on outer trouser thigh.",
+      "visibility_constraint": "Near-front only; no hand or styling may obscure top band, sewn center tape, sides or lower hem. Feet outside crop; weight shifts visible through shoulders/hips.",
+      "result": "pass"
+    },
+    {
+      "source": "colors/9aad12e2-848a-4ccc-9621-a9eb682e56ae.webp",
+      "planned": "Olive/taupe color: near-front with subtle weight on left leg, right foot half-step forward, slight right shoulder angle, gaze camera.",
+      "accepted": "Weight shift, gentle head tilt and lowered gaze, relaxed asymmetric arm spacing.",
+      "visibility_constraint": "Near-front only; no hand or styling may obscure top band, sewn center tape, sides or lower hem. Feet outside crop; weight shifts visible through shoulders/hips.",
+      "result": "pass"
+    },
+    {
+      "source": "colors/def3a2f3-c91f-422a-afeb-94d597ea3519.webp",
+      "planned": "Black: near-front with small five-degree torso angle toward camera-left, shoulders relaxed, head facing camera, arms clear of garment.",
+      "accepted": "Slight near-front torso angle, face to camera, relaxed knee and arms gently away from thighs.",
+      "visibility_constraint": "Near-front only; no hand or styling may obscure top band, sewn center tape, sides or lower hem. Feet outside crop; weight shifts visible through shoulders/hips.",
+      "result": "pass"
+    }
+  ],
+  "outputs": [
+    {
+      "source": "main/74dfed97-d93a-445b-a566-2d9e96304b66.webp",
+      "source_sha256": "4dca21ef8de13abd4a8273a5a542404292868e56e580944e92bc5aadffe54956",
+      "output": "generated/main__74dfed97-d93a-445b-a566-2d9e96304b66__model.png",
+      "output_sha256": "f1b5cf74d3030621bd1da1806f332183ce0183648f6fb0c92fe3b55cf53a0328",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "format": "PNG",
+      "status": "accepted",
+      "source_color_description": "olive/taupe",
+      "accepted_pose": "Near-front balanced stance, relaxed arms, gaze at camera.",
+      "attempts": 1,
+      "accepted_request_id": "c7mainrequest",
+      "qa": {
+        "complete_unfolded_model_worn_top": "pass",
+        "single_retail_product": "pass",
+        "straight_strapless_upper_band": "pass",
+        "central_sewn_tape_and_ruched_sides": "pass",
+        "full_lower_hem_visible": "pass",
+        "source_color_family_and_plain_knit_appearance": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "no_added_text_or_watermarks": "pass",
+        "same_model_scene_lighting_and_framing": "pass",
+        "distinct_subtle_pose_and_unobstructed_product": "pass"
+      }
+    },
+    {
+      "source": "colors/845df23e-ad6e-407a-8766-b9ce766fc41f.webp",
+      "source_sha256": "47b1cb4c80b00781a335393aa1638100956b73c4133d36b84de91984f663a8d5",
+      "output": "generated/color__845df23e-ad6e-407a-8766-b9ce766fc41f__model.png",
+      "output_sha256": "dd1bfa31f55fcad425c6d3adc1158810e3a8d08fad3b36b4f0a947aeafcd4f83",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "format": "PNG",
+      "status": "accepted",
+      "source_color_description": "warm medium gray",
+      "accepted_pose": "Subtle weight shift and shoulder turn, head and gaze off camera, left hand below hem on outer trouser thigh.",
+      "attempts": 2,
+      "accepted_request_id": "c7grayretryrequest",
+      "qa": {
+        "complete_unfolded_model_worn_top": "pass",
+        "single_retail_product": "pass",
+        "straight_strapless_upper_band": "pass",
+        "central_sewn_tape_and_ruched_sides": "pass",
+        "full_lower_hem_visible": "pass",
+        "source_color_family_and_plain_knit_appearance": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "no_added_text_or_watermarks": "pass",
+        "same_model_scene_lighting_and_framing": "pass",
+        "distinct_subtle_pose_and_unobstructed_product": "pass"
+      }
+    },
+    {
+      "source": "colors/9aad12e2-848a-4ccc-9621-a9eb682e56ae.webp",
+      "source_sha256": "f1c1e6edba72a11909e365af41bbedda64d4438c7e7379f5769518532704ef79",
+      "output": "generated/color__9aad12e2-848a-4ccc-9621-a9eb682e56ae__model.png",
+      "output_sha256": "f411064ad744116bee25306db22bf3e1c4c69fba52b9f6c8a1fbcd71127bdbf0",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "format": "PNG",
+      "status": "accepted",
+      "source_color_description": "warm khaki/taupe olive",
+      "accepted_pose": "Weight shift, gentle head tilt and lowered gaze, relaxed asymmetric arm spacing.",
+      "attempts": 1,
+      "accepted_request_id": "c7khakirequest",
+      "qa": {
+        "complete_unfolded_model_worn_top": "pass",
+        "single_retail_product": "pass",
+        "straight_strapless_upper_band": "pass",
+        "central_sewn_tape_and_ruched_sides": "pass",
+        "full_lower_hem_visible": "pass",
+        "source_color_family_and_plain_knit_appearance": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "no_added_text_or_watermarks": "pass",
+        "same_model_scene_lighting_and_framing": "pass",
+        "distinct_subtle_pose_and_unobstructed_product": "pass"
+      }
+    },
+    {
+      "source": "colors/def3a2f3-c91f-422a-afeb-94d597ea3519.webp",
+      "source_sha256": "e98d7400f628ca278d06db9b121db56128177a2725b7393d87bdb46c94ffab73",
+      "output": "generated/color__def3a2f3-c91f-422a-afeb-94d597ea3519__model.png",
+      "output_sha256": "d185ab3e7622520a6395a9c327014c749a850d7ca9dd13e3747dc380a3c06c8c",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "format": "PNG",
+      "status": "accepted",
+      "source_color_description": "soft black / dark charcoal",
+      "accepted_pose": "Slight near-front torso angle, face to camera, relaxed knee and arms gently away from thighs.",
+      "attempts": 1,
+      "accepted_request_id": "c7blackrequest",
+      "qa": {
+        "complete_unfolded_model_worn_top": "pass",
+        "single_retail_product": "pass",
+        "straight_strapless_upper_band": "pass",
+        "central_sewn_tape_and_ruched_sides": "pass",
+        "full_lower_hem_visible": "pass",
+        "source_color_family_and_plain_knit_appearance": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "no_added_text_or_watermarks": "pass",
+        "same_model_scene_lighting_and_framing": "pass",
+        "distinct_subtle_pose_and_unobstructed_product": "pass"
+      }
+    }
+  ],
+  "generation_history": [
+    {
+      "id": "c7mainrequest",
+      "prompt": "Create one photorealistic professional e-commerce clothing catalog photograph using the attached original garment photograph as the precise design and color reference. This is a normal women's fashion tube top, presented in a neutral retail manner on an adult model. Single opaque matte fine-knit stretch-jersey strapless tube top, no sleeves or straps, straight horizontal folded top band, long fitted torso reaching high hip, full-width lower folded hem band. Broad fabric-covered vertical tape at center front stitched down length and ending just above lower hem band, dense horizontal ruching gathering toward this tape and vertical ruched side seams. No drawstrings, lace, buttons, cups, logo, print, closures or extra panels. Main photo is authority for proportions and center tape. Supplemental photo shows reverse, not additional front seams. Match the original muted olive-taupe solid color, actual jersey texture, long torso proportions, gathered ruching density and sewn center strip width. Completely unfolded and realistically worn, no changes to garment design. Premium neutral fashion studio: warm light-gray seamless plaster wall with no furniture or decoration, matte pale-gray floor. Large diffused daylight softbox camera-left, neutral 5200K; soft shadow right. Same exact background in every image. One adult female fashion model age approximately 30, medium-brown skin, oval face, brown eyes, dark brown hair neatly pulled into a low bun, natural makeup, no jewelry. Portrait 3:4, eye-level near-front 70mm commercial fashion camera, head to upper-thigh framing with entire top and hem visible, centered subject, identical scale and camera for every variation. Highest native resolution supported; request 4K only if supported. Plain high-waisted ivory tailored trousers are neutral supporting model styling, not another retail product or matching set. Top is worn outside trousers, with entire hem unobstructed. Main: near-front, balanced stance, both relaxed arms held slightly away from torso, gaze camera. The model's entire head, shoulders and the entire top from straight upper band to full lower hem must be visible with space around it. Natural anatomy, natural hands, realistic modest commercial fit. Keep the photographed garment's opaque construction, no exaggerated body shaping. One product only, no collage, no folded or flat laid displays, no hanger, no text, no watermarks.",
+      "refs": [
+        "/workspace/Life-Style-image-studio-store-/products/c7bab910-e289-4b05-b74d-0c1808bf21e4/main/74dfed97-d93a-445b-a566-2d9e96304b66.webp"
+      ]
+    },
+    {
+      "id": "c7grayrequest",
+      "prompt": "Generate one professional e-commerce catalog photograph of the GRAY variant of the same opaque ruched strapless tube top. First attached ORIGINAL close-up is sole authority for this variation's warm medium-gray color and fine matte jersey texture; use its midtones rather than highlights or shadows. Second ORIGINAL is complete construction authority; reconstruct the missing upper band using it. Third attached accepted generated photograph is ONLY the locked model, studio, camera, styling and garment-fit reference. Reuse that exact adult woman's identity, hair, face and proportions, plain warm gray plaster wall and floor line, lighting, 3:4 framing and image scale. Change the top to source gray, not olive. Single opaque matte fine-knit stretch-jersey strapless tube top, no sleeves or straps, straight horizontal folded top band, long fitted torso reaching high hip, full-width lower folded hem band. Broad fabric-covered vertical tape at center front stitched down length and ending just above lower hem band, dense horizontal ruching gathering toward this tape and vertical ruched side seams. No drawstrings, lace, buttons, cups, logo, print, closures or extra panels. Main photo is authority for proportions and center tape. Supplemental photo shows reverse, not additional front seams. Plain high-waisted ivory tailored trousers are neutral supporting model styling, not another retail product or matching set. Top is worn outside trousers, with entire hem unobstructed. Gray: near-front with subtle weight on right leg, left foot slightly forward, head gently turned toward camera-left, arms loose clear of top. Subtle pose variation, near-front so center sewn tape and both side ruching seams remain visible. Same Portrait 3:4, eye-level near-front 70mm commercial fashion camera, head to upper-thigh framing with entire top and hem visible, centered subject, identical scale and camera for every variation. Highest native resolution supported; request 4K only if supported. Show complete upper band through entire lower hem, outside trousers; include head and hands. Natural adult retail fashion photography, realistic anatomy and hands. Single garment being sold, no sets, no folded products, no collage, no text or watermark. Do not add straps, prints, pockets or trim. Highest supported native resolution.",
+      "refs": [
+        "/workspace/Life-Style-image-studio-store-/products/c7bab910-e289-4b05-b74d-0c1808bf21e4/colors/845df23e-ad6e-407a-8766-b9ce766fc41f.webp",
+        "/workspace/Life-Style-image-studio-store-/products/c7bab910-e289-4b05-b74d-0c1808bf21e4/main/74dfed97-d93a-445b-a566-2d9e96304b66.webp",
+        "/workspace/generated_images/exec-640c8597-b87c-429c-b73e-0ec697bb2cb5.png"
+      ]
+    },
+    {
+      "id": "c7grayretryrequest",
+      "prompt": "Edit this gray tube-top e-commerce photo to give this same adult model a visibly different natural professional pose. Keep exactly the same garment design, source gray color, knit texture, center stitched strip, side ruching, upper and lower bands, opaque coverage, full visible hem, identical face/identity, hair, trousers, gray studio backdrop, lighting, framing and scale. She now gently shifts weight onto her right leg and angles her shoulders approximately 10 degrees toward camera-right while keeping the garment readable near-front; turn her head approximately 15 degrees toward camera-left and look just off camera, with a soft relaxed expression. Her left elbow bends gently outward with her left hand resting on the OUTER trouser thigh BELOW the garment hem, clear of the top; her right arm hangs loosely with a natural hand. No hand on waist or top. Every part of the product remains unobstructed and completely in frame, realistic adult anatomy and drape. This is a subtle fashion-shoot pose change, not a recolor-only duplicate. Single retail garment, no text or watermark. Portrait3:4 same native size.",
+      "refs": [
+        "/workspace/generated_images/exec-b1f666bc-d153-45b9-8dfb-128b6fac538a.png",
+        "/workspace/Life-Style-image-studio-store-/products/c7bab910-e289-4b05-b74d-0c1808bf21e4/colors/845df23e-ad6e-407a-8766-b9ce766fc41f.webp"
+      ]
+    },
+    {
+      "id": "c7khakirequest",
+      "prompt": "One photorealistic e-commerce photograph of this exact opaque ruched strapless tube top, worn completely unfolded by the same adult model as attached image3. Image1 ORIGINAL is authority for its warm khaki/taupe beige-olive color, grain and construction. Preserve its color even though similar to main: slightly warmer browner lighter khaki than image3's olive. Image2 ORIGINAL complete worn mannequin reference confirms straight topband, long fitted high-hip length, central sewn vertical tape ending above full lower band, two ruched side seams and dense horizontal gathers, no straps or sleeves. Single opaque matte fine-knit stretch-jersey strapless tube top, no sleeves or straps, straight horizontal folded top band, long fitted torso reaching high hip, full-width lower folded hem band. Broad fabric-covered vertical tape at center front stitched down length and ending just above lower hem band, dense horizontal ruching gathering toward this tape and vertical ruched side seams. No drawstrings, lace, buttons, cups, logo, print, closures or extra panels. Main photo is authority for proportions and center tape. Supplemental photo shows reverse, not additional front seams. Premium neutral fashion studio: warm light-gray seamless plaster wall with no furniture or decoration, matte pale-gray floor. Large diffused daylight softbox camera-left, neutral 5200K; soft shadow right. Same exact background in every image. One adult female fashion model age approximately 30, medium-brown skin, oval face, brown eyes, dark brown hair neatly pulled into a low bun, natural makeup, no jewelry. Portrait 3:4, eye-level near-front 70mm commercial fashion camera, head to upper-thigh framing with entire top and hem visible, centered subject, identical scale and camera for every variation. Highest native resolution supported; request 4K only if supported. Plain high-waisted ivory tailored trousers are neutral supporting model styling, not another retail product or matching set. Top is worn outside trousers, with entire hem unobstructed. Match image3's exact face, hair, studio background, light, camera scale, proportions and trouser styling. Pose must be noticeably different from image3: model shifts weight gently onto her left leg, right knee relaxed forward creating a slight natural shoulder slope; upper body remains near-front, her head tilted subtly to her right with gaze gently down toward camera-left, closed-mouth soft smile. Both arms hang loosely, right hand slightly farther from thigh, no hands touching or hiding garment. Show full top unblocked, including entire hem. One garment for sale only, single frame, no additional set pieces, no collage, no folded display, no text or watermark. Keep matte plain jersey without an added print. Highest native resolution.",
+      "refs": [
+        "/workspace/Life-Style-image-studio-store-/products/c7bab910-e289-4b05-b74d-0c1808bf21e4/colors/9aad12e2-848a-4ccc-9621-a9eb682e56ae.webp",
+        "/workspace/Life-Style-image-studio-store-/products/c7bab910-e289-4b05-b74d-0c1808bf21e4/main/74dfed97-d93a-445b-a566-2d9e96304b66.webp",
+        "/workspace/generated_images/exec-640c8597-b87c-429c-b73e-0ec697bb2cb5.png"
+      ]
+    },
+    {
+      "id": "c7blackrequest",
+      "prompt": "Generate one coordinated professional e-commerce catalog photograph of the BLACK variant of this exact women's ruched strapless tube top. Image1 ORIGINAL is color/texture authority: matte washed soft black/very dark charcoal jersey, tonal stitched broad center strip and ruched side seams, no print. Use the middle tone dark charcoal, not highlights gray. Image2 ORIGINAL provides complete straight upper band, long torso high-hip proportions and full lower hem band. Image3 accepted generated main photograph locks the exact adult woman's identity, proportions, face, bun hairstyle, neutral makeup, ivory trouser supporting styling, gray plaster wall/floor background, lighting direction and camera framing. Single opaque matte fine-knit stretch-jersey strapless tube top, no sleeves or straps, straight horizontal folded top band, long fitted torso reaching high hip, full-width lower folded hem band. Broad fabric-covered vertical tape at center front stitched down length and ending just above lower hem band, dense horizontal ruching gathering toward this tape and vertical ruched side seams. No drawstrings, lace, buttons, cups, logo, print, closures or extra panels. Main photo is authority for proportions and center tape. Supplemental photo shows reverse, not additional front seams. Premium neutral fashion studio: warm light-gray seamless plaster wall with no furniture or decoration, matte pale-gray floor. Large diffused daylight softbox camera-left, neutral 5200K; soft shadow right. Same exact background in every image. One adult female fashion model age approximately 30, medium-brown skin, oval face, brown eyes, dark brown hair neatly pulled into a low bun, natural makeup, no jewelry. Portrait 3:4, eye-level near-front 70mm commercial fashion camera, head to upper-thigh framing with entire top and hem visible, centered subject, identical scale and camera for every variation. Highest native resolution supported; request 4K only if supported. Plain high-waisted ivory tailored trousers are neutral supporting model styling, not another retail product or matching set. Top is worn outside trousers, with entire hem unobstructed. Preserve original dense horizontal ruching and central fabric tape ending just above lower hem. Distinct subtle professional pose: model stands weight balanced with right knee slightly relaxed, torso angled only about 7 degrees toward camera-left, shoulders gently turned while top front remains completely readable; face turned back to camera with a small natural open smile, arms relaxed with both hands slightly away from thighs, elbows softly bent. Not the same rigid straight-on pose as image3. Keep entire upper band, side seams and lower hem unobscured and no garment crop. Realistic opaque retail fit, natural adult anatomy and cloth physics. Only one top for sale, not a matching set, no extra garment products, no flat lay, folded display, collage, text, logo or watermark. Highest native resolution, same3:4 format.",
+      "refs": [
+        "/workspace/Life-Style-image-studio-store-/products/c7bab910-e289-4b05-b74d-0c1808bf21e4/colors/def3a2f3-c91f-422a-afeb-94d597ea3519.webp",
+        "/workspace/Life-Style-image-studio-store-/products/c7bab910-e289-4b05-b74d-0c1808bf21e4/main/74dfed97-d93a-445b-a566-2d9e96304b66.webp",
+        "/workspace/generated_images/exec-640c8597-b87c-429c-b73e-0ec697bb2cb5.png"
+      ]
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "source": "colors/845df23e-ad6e-407a-8766-b9ce766fc41f.webp",
+      "request_id": "c7grayrequest",
+      "reason": "Garment matched but pose too similar to main; revised with visible shoulder/head/arm variation.",
+      "approved": false,
+      "copied_to_product": false
+    }
+  ],
+  "counts": {
+    "main_sources": 1,
+    "color_sources": 3,
+    "supplemental_sources": 1,
+    "total_original_images": 5,
+    "required_showcases": 4,
+    "accepted_main": 1,
+    "accepted_colors": 3,
+    "accepted_detail_outputs": 0,
+    "accepted_total": 4,
+    "generation_attempts": 5,
+    "rejected_attempts": 1,
+    "blocked_sources": 0,
+    "unaccounted_sources": 0
+  },
+  "variation_note": "Every main/color source has its own output. Main olive and khaki color source belong to a similar olive/taupe family; distinct catalog SKU count cannot be established without metadata. No extra SKU is asserted.",
+  "validation_limitations": [
+    "Visual comparison to original photographs, not physical measurement or calibrated colorimetry. Source lighting differs between photographs.",
+    "Native output 1086x1448; not 4K. No synthetic upscaling applied.",
+    "Product name, fiber composition and exact dimensions are unavailable because description.txt and updates.txt are absent."
+  ],
+  "blockers": [],
+  "persistence": {
+    "repository": "lifestylekky/Life-Style-image-studio-store-",
+    "branch": "main",
+    "directory": "products/c7bab910-e289-4b05-b74d-0c1808bf21e4/generated",
+    "verification_method": "After push, compare every tracked generated file blob with origin/main. Verified commit reference is reported in final execution response."
+  },
+  "resumability": "Preserve accepted outputs while recorded source hashes match; regenerate only stale, missing or rejected mappings."
+}
