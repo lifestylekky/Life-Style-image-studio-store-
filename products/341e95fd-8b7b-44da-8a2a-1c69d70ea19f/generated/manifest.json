@@ -2,20 +2,24 @@
   "schema_version": 1,
   "product_id": "341e95fd-8b7b-44da-8a2a-1c69d70ea19f",
   "product_name": "VELONA DOUBLE STRIPE NIGHTY",
-  "status": "BLOCKED",
-  "recorded_at": "2026-11-03T17:10:50.166164+00:00",
+  "status": "COMPLETE",
+  "recorded_at": "2026-11-03T17:43:34.452323+00:00",
   "workflow_instructions": "AGENTS.md",
   "workflow_sha256": "e06afcae3d476b9ebbd90b0b5734eee3234c5d2df819b50a170485e28b21b577",
   "counts": {
     "main_sources": 1,
     "color_sources": 3,
-    "attempted_calls": 4,
-    "returned_images": 0,
-    "accepted_main": 0,
-    "accepted_color": 0,
+    "attempted_calls": 14,
+    "current_run_calls": 10,
+    "returned_images_total": 8,
+    "accepted_main": 1,
+    "accepted_color": 3,
     "accepted_details": 0,
-    "blocked_sources": 4,
-    "retries": 0
+    "accepted_images": 4,
+    "blocked_sources": 0,
+    "rejected_length_candidates": 4,
+    "service_rejected_calls_total": 6,
+    "retries_total": 10
   },
   "garment_spec": {
     "piece_count": 1,
@@ -52,17 +56,28 @@
         "main/05bff842-694b-421b-bffc-1c08af29d397.webp",
         "colors/7d66cac6-0160-4a69-8506-6d110da5a28e.webp"
       ],
-      "status": "blocked",
-      "output_path": null,
-      "generation_attempts": 1,
-      "retries": 0,
-      "blocker": {
-        "source": "colors/1eb6e07d-cf01-4f1f-8451-c173fc433325.webp",
-        "code": "moderation_blocked",
-        "stage": "output",
-        "category": "sexual",
-        "request_id": "acf89c7f-91af-49da-b67f-148387b3cdb6",
-        "message": "Image service rejected the output of a reference-conditioned adult-model e-commerce catalog request. No image returned."
+      "status": "accepted",
+      "output_path": "generated/color__1eb6e07d-cf01-4f1f-8451-c173fc433325__model.png",
+      "generation_attempts": 3,
+      "retries": 2,
+      "output_dimensions": [
+        1086,
+        1448
+      ],
+      "current_run_attempts": 2,
+      "validation": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_garment_piece_count": "passed",
+        "paired_straps_and_three_reflective_flower_centers": "passed_visual_comparison",
+        "front_embroidery_and_color": "passed_visual_comparison",
+        "plain_fabric_appearance_and_drape": "passed_visual_comparison",
+        "below_knee_length_presentation": "passed_visual_review",
+        "complete_neckline_to_hem_visibility": "passed",
+        "adult_model_anatomy": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "natural_pose_variety_and_visibility": "passed_visual_review",
+        "added_text_or_watermarks": "passed_none_visible",
+        "file_decode_and_dimensions": "passed"
       }
     },
     {
@@ -83,17 +98,28 @@
         "main/05bff842-694b-421b-bffc-1c08af29d397.webp",
         "colors/7d66cac6-0160-4a69-8506-6d110da5a28e.webp"
       ],
-      "status": "blocked",
-      "output_path": null,
-      "generation_attempts": 1,
-      "retries": 0,
-      "blocker": {
-        "source": "colors/4dc8cedf-1ac6-4d1a-92e3-ec7ee8500e4a.webp",
-        "code": "moderation_blocked",
-        "stage": "output",
-        "category": "sexual",
-        "request_id": "f1c6c5f8-0d6e-4d59-b725-a1310a00cb88",
-        "message": "Image service rejected the output of a reference-conditioned adult-model e-commerce catalog request. No image returned."
+      "status": "accepted",
+      "output_path": "generated/color__4dc8cedf-1ac6-4d1a-92e3-ec7ee8500e4a__model.png",
+      "generation_attempts": 3,
+      "retries": 2,
+      "output_dimensions": [
+        1086,
+        1448
+      ],
+      "current_run_attempts": 2,
+      "validation": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_garment_piece_count": "passed",
+        "paired_straps_and_three_reflective_flower_centers": "passed_visual_comparison",
+        "front_embroidery_and_color": "passed_visual_comparison",
+        "plain_fabric_appearance_and_drape": "passed_visual_comparison",
+        "below_knee_length_presentation": "passed_visual_review",
+        "complete_neckline_to_hem_visibility": "passed",
+        "adult_model_anatomy": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "natural_pose_variety_and_visibility": "passed_visual_review",
+        "added_text_or_watermarks": "passed_none_visible",
+        "file_decode_and_dimensions": "passed"
       }
     },
     {
@@ -114,17 +140,28 @@
         "main/05bff842-694b-421b-bffc-1c08af29d397.webp",
         "colors/7d66cac6-0160-4a69-8506-6d110da5a28e.webp"
       ],
-      "status": "blocked",
-      "output_path": null,
-      "generation_attempts": 1,
-      "retries": 0,
-      "blocker": {
-        "source": "colors/7d66cac6-0160-4a69-8506-6d110da5a28e.webp",
-        "code": "moderation_blocked",
-        "stage": "output",
-        "category": "sexual",
-        "request_id": "1a2a65f0-56ac-4cb0-84f2-fd9384d9daa5",
-        "message": "Image service rejected the output of a reference-conditioned adult-model e-commerce catalog request. No image returned."
+      "status": "accepted",
+      "output_path": "generated/color__7d66cac6-0160-4a69-8506-6d110da5a28e__model.png",
+      "generation_attempts": 3,
+      "retries": 2,
+      "output_dimensions": [
+        1086,
+        1448
+      ],
+      "current_run_attempts": 2,
+      "validation": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_garment_piece_count": "passed",
+        "paired_straps_and_three_reflective_flower_centers": "passed_visual_comparison",
+        "front_embroidery_and_color": "passed_visual_comparison",
+        "plain_fabric_appearance_and_drape": "passed_visual_comparison",
+        "below_knee_length_presentation": "passed_visual_review",
+        "complete_neckline_to_hem_visibility": "passed",
+        "adult_model_anatomy": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "natural_pose_variety_and_visibility": "passed_visual_review",
+        "added_text_or_watermarks": "passed_none_visible",
+        "file_decode_and_dimensions": "passed"
       }
     },
     {
@@ -145,17 +182,28 @@
         "main/05bff842-694b-421b-bffc-1c08af29d397.webp",
         "colors/7d66cac6-0160-4a69-8506-6d110da5a28e.webp"
       ],
-      "status": "blocked",
-      "output_path": null,
-      "generation_attempts": 1,
-      "retries": 0,
-      "blocker": {
-        "source": "main/05bff842-694b-421b-bffc-1c08af29d397.webp",
-        "code": "moderation_blocked",
-        "stage": "output",
-        "category": "sexual",
-        "request_id": "1f226fa2-0a4d-4133-972f-e84234956e7c",
-        "message": "Image service rejected the output of a reference-conditioned adult-model e-commerce catalog request. No image returned."
+      "status": "accepted",
+      "output_path": "generated/main__05bff842-694b-421b-bffc-1c08af29d397__model.png",
+      "generation_attempts": 5,
+      "retries": 4,
+      "output_dimensions": [
+        1086,
+        1448
+      ],
+      "current_run_attempts": 4,
+      "validation": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_garment_piece_count": "passed",
+        "paired_straps_and_three_reflective_flower_centers": "passed_visual_comparison",
+        "front_embroidery_and_color": "passed_visual_comparison",
+        "plain_fabric_appearance_and_drape": "passed_visual_comparison",
+        "below_knee_length_presentation": "passed_visual_review",
+        "complete_neckline_to_hem_visibility": "passed",
+        "adult_model_anatomy": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "natural_pose_variety_and_visibility": "passed_visual_review",
+        "added_text_or_watermarks": "passed_none_visible",
+        "file_decode_and_dimensions": "passed"
       }
     }
   ],
@@ -170,83 +218,184 @@
     }
   ],
   "scene_profile": {
-    "status": "planned_not_generated",
+    "status": "generated_and_visually_verified",
     "location": "premium minimal ivory bedroom",
     "wall": "warm ivory plaster",
     "floor": "pale oak",
     "window": "sheer ivory curtain at camera-left",
-    "furniture": "low cream linen bed camera-right with rectangular upholstered headboard and one pillow; small pale oak bedside table far right holding one ivory ceramic lamp",
+    "furniture": "Cream bed at camera-right with rectangular upholstered headboard and cream pillow; oak bedside cabinet beside bed with one ribbed ivory ceramic lamp.",
     "lighting": "soft neutral daylight from left"
   },
   "model_camera_profile": {
-    "status": "planned_not_generated",
-    "model": "Adult South Asian female about 32, medium warm brown skin, long softly waved dark brown hair behind shoulders, natural makeup, gentle closed-mouth smile",
+    "status": "generated_and_visually_verified",
+    "model": "Same adult South Asian female model about 35, medium warm brown skin, long softly waved dark brown hair behind shoulders, natural makeup and gentle smile.",
     "camera": "mid-torso 70mm-style perspective, centered full head-to-feet framing",
     "aspect_ratio": "3:4 matching main source",
-    "resolution": "Highest supported native requested, preferably 4K; no image returned and no output resolution claimed."
+    "resolution": "1086 x 1448 native PNG, 3:4, not upscaled and not 4K."
   },
   "pose_plan": [
     {
       "source": "main/05bff842-694b-421b-bffc-1c08af29d397.webp",
       "planned_pose": "Near-front view with gentle weight on right leg, left foot slightly forward, relaxed arms slightly away from sides, head facing camera.",
-      "accepted_pose": null,
-      "status": "not_generated",
-      "visibility_constraint": "Keep both strap pairs, neckline flowers, embroidery, complete body and hem unobstructed; gentle near-front angles only."
+      "accepted_pose": "Near-front balanced open stance, right foot angled outward, relaxed arms with one hand beside outer hip, head and gaze toward camera.",
+      "status": "accepted",
+      "visibility_constraint": "Keep both strap pairs, neckline flowers, embroidery, complete body and hem unobstructed; gentle near-front angles only.",
+      "visibility_result": "Full garment, paired straps, neckline and hem unobstructed; pose variation kept subtle."
     },
     {
       "source": "colors/1eb6e07d-cf01-4f1f-8451-c173fc433325.webp",
       "planned_pose": "Gentle 15-degree turn toward camera-left while neckline stays fully readable; right foot half-step forward, arms relaxed away from garment, head turned back toward camera.",
-      "accepted_pose": null,
-      "status": "not_generated",
-      "visibility_constraint": "Keep both strap pairs, neckline flowers, embroidery, complete body and hem unobstructed; gentle near-front angles only."
+      "accepted_pose": "Subtle body angle, one foot crossed forward below hem, arms gently away from dress, soft head tilt toward camera.",
+      "status": "accepted",
+      "visibility_constraint": "Keep both strap pairs, neckline flowers, embroidery, complete body and hem unobstructed; gentle near-front angles only.",
+      "visibility_result": "Full garment, paired straps, neckline and hem unobstructed; pose variation kept subtle."
     },
     {
       "source": "colors/4dc8cedf-1ac6-4d1a-92e3-ec7ee8500e4a.webp",
       "planned_pose": "Near-front with weight on left leg, right foot lightly extended diagonally to camera-right; left elbow softly bent with hand hovering beside outer hip without touching dress; head gently angled toward window.",
-      "accepted_pose": null,
-      "status": "not_generated",
-      "visibility_constraint": "Keep both strap pairs, neckline flowers, embroidery, complete body and hem unobstructed; gentle near-front angles only."
+      "accepted_pose": "Near-front open stance with right foot extended diagonally, one hand beside outer hip, head and gaze toward left window.",
+      "status": "accepted",
+      "visibility_constraint": "Keep both strap pairs, neckline flowers, embroidery, complete body and hem unobstructed; gentle near-front angles only.",
+      "visibility_result": "Full garment, paired straps, neckline and hem unobstructed; pose variation kept subtle."
     },
     {
       "source": "colors/7d66cac6-0160-4a69-8506-6d110da5a28e.webp",
       "planned_pose": "Gentle 15-degree turn toward camera-right with left foot half-step forward, both arms resting naturally beside body, chin slightly lifted and looking toward camera; no twist or blocked front.",
-      "accepted_pose": null,
-      "status": "not_generated",
-      "visibility_constraint": "Keep both strap pairs, neckline flowers, embroidery, complete body and hem unobstructed; gentle near-front angles only."
+      "accepted_pose": "Subtle angled stance, uncrossed staggered feet, both arms relaxed away from fabric, gentle head tilt toward camera.",
+      "status": "accepted",
+      "visibility_constraint": "Keep both strap pairs, neckline flowers, embroidery, complete body and hem unobstructed; gentle near-front angles only.",
+      "visibility_result": "Full garment, paired straps, neckline and hem unobstructed; pose variation kept subtle."
     }
   ],
   "output_mapping": [
     {
       "source": "colors/1eb6e07d-cf01-4f1f-8451-c173fc433325.webp",
       "intended_output": "generated/color__1eb6e07d-cf01-4f1f-8451-c173fc433325__model.png",
-      "actual_output": null,
-      "status": "blocked"
+      "actual_output": "generated/color__1eb6e07d-cf01-4f1f-8451-c173fc433325__model.png",
+      "status": "accepted"
     },
     {
       "source": "colors/4dc8cedf-1ac6-4d1a-92e3-ec7ee8500e4a.webp",
       "intended_output": "generated/color__4dc8cedf-1ac6-4d1a-92e3-ec7ee8500e4a__model.png",
-      "actual_output": null,
-      "status": "blocked"
+      "actual_output": "generated/color__4dc8cedf-1ac6-4d1a-92e3-ec7ee8500e4a__model.png",
+      "status": "accepted"
     },
     {
       "source": "colors/7d66cac6-0160-4a69-8506-6d110da5a28e.webp",
       "intended_output": "generated/color__7d66cac6-0160-4a69-8506-6d110da5a28e__model.png",
-      "actual_output": null,
-      "status": "blocked"
+      "actual_output": "generated/color__7d66cac6-0160-4a69-8506-6d110da5a28e__model.png",
+      "status": "accepted"
     },
     {
       "source": "main/05bff842-694b-421b-bffc-1c08af29d397.webp",
       "intended_output": "generated/main__05bff842-694b-421b-bffc-1c08af29d397__model.png",
-      "actual_output": null,
-      "status": "blocked"
+      "actual_output": "generated/main__05bff842-694b-421b-bffc-1c08af29d397__model.png",
+      "status": "accepted"
     }
   ],
-  "outputs": [],
+  "outputs": [
+    {
+      "source": "colors/1eb6e07d-cf01-4f1f-8451-c173fc433325.webp",
+      "path": "generated/color__1eb6e07d-cf01-4f1f-8451-c173fc433325__model.png",
+      "sha256": "4e908e88e10a0e65907aebb4a3932b06a2dd2b051c67e9bb7003d2c3dbc8adca",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_garment_piece_count": "passed",
+        "paired_straps_and_three_reflective_flower_centers": "passed_visual_comparison",
+        "front_embroidery_and_color": "passed_visual_comparison",
+        "plain_fabric_appearance_and_drape": "passed_visual_comparison",
+        "below_knee_length_presentation": "passed_visual_review",
+        "complete_neckline_to_hem_visibility": "passed",
+        "adult_model_anatomy": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "natural_pose_variety_and_visibility": "passed_visual_review",
+        "added_text_or_watermarks": "passed_none_visible",
+        "file_decode_and_dimensions": "passed"
+      }
+    },
+    {
+      "source": "colors/4dc8cedf-1ac6-4d1a-92e3-ec7ee8500e4a.webp",
+      "path": "generated/color__4dc8cedf-1ac6-4d1a-92e3-ec7ee8500e4a__model.png",
+      "sha256": "cebc99582013cb8c0560b20fcc0aad6be31f3f6ba1e804ffe6b289fe1c3147a1",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_garment_piece_count": "passed",
+        "paired_straps_and_three_reflective_flower_centers": "passed_visual_comparison",
+        "front_embroidery_and_color": "passed_visual_comparison",
+        "plain_fabric_appearance_and_drape": "passed_visual_comparison",
+        "below_knee_length_presentation": "passed_visual_review",
+        "complete_neckline_to_hem_visibility": "passed",
+        "adult_model_anatomy": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "natural_pose_variety_and_visibility": "passed_visual_review",
+        "added_text_or_watermarks": "passed_none_visible",
+        "file_decode_and_dimensions": "passed"
+      }
+    },
+    {
+      "source": "colors/7d66cac6-0160-4a69-8506-6d110da5a28e.webp",
+      "path": "generated/color__7d66cac6-0160-4a69-8506-6d110da5a28e__model.png",
+      "sha256": "405880006700cbf573ac82c063412b5e2b8d250f4aa831281b7892bb398d1bff",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_garment_piece_count": "passed",
+        "paired_straps_and_three_reflective_flower_centers": "passed_visual_comparison",
+        "front_embroidery_and_color": "passed_visual_comparison",
+        "plain_fabric_appearance_and_drape": "passed_visual_comparison",
+        "below_knee_length_presentation": "passed_visual_review",
+        "complete_neckline_to_hem_visibility": "passed",
+        "adult_model_anatomy": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "natural_pose_variety_and_visibility": "passed_visual_review",
+        "added_text_or_watermarks": "passed_none_visible",
+        "file_decode_and_dimensions": "passed"
+      }
+    },
+    {
+      "source": "main/05bff842-694b-421b-bffc-1c08af29d397.webp",
+      "path": "generated/main__05bff842-694b-421b-bffc-1c08af29d397__model.png",
+      "sha256": "e657c30ceabe29f18f478edeec544fac3e1c0ecb43e7c9789a77b5c37a4ee48e",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_garment_piece_count": "passed",
+        "paired_straps_and_three_reflective_flower_centers": "passed_visual_comparison",
+        "front_embroidery_and_color": "passed_visual_comparison",
+        "plain_fabric_appearance_and_drape": "passed_visual_comparison",
+        "below_knee_length_presentation": "passed_visual_review",
+        "complete_neckline_to_hem_visibility": "passed",
+        "adult_model_anatomy": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "natural_pose_variety_and_visibility": "passed_visual_review",
+        "added_text_or_watermarks": "passed_none_visible",
+        "file_decode_and_dimensions": "passed"
+      }
+    }
+  ],
   "generation": {
     "tool": "image_gen.imagegen",
     "reference_conditioned": true,
-    "attempt_count": 4,
-    "retries": 0,
+    "attempt_count": 14,
+    "retries": 10,
     "attempts": [
       {
         "source": "main/05bff842-694b-421b-bffc-1c08af29d397.webp",
@@ -271,17 +420,82 @@
         "prompt": "Create one professional nonsexual e-commerce clothing catalog photograph of the exact salmon coral pink with lighter pink embroidery nightdress in FIRST original source, using SECOND original from the SAME product folder for unfolded construction. Single-piece 38-inch (96.5cm shoulder/strap-to-hem) below-knee nightdress on one clearly adult South Asian female model age 32, medium warm skin, long softly waved dark brown hair behind shoulders, natural makeup, gentle closed-mouth smile. Preserve plain smooth satin-like fabric, exact source shade and secondary embroidery color, paired narrow matching shoulder straps TWO per shoulder, three original daisy flowers left/middle/right with reflective centers, source ladder-like embroidery, long central leaf/petal applique and fine hanging-line details. Loose gathered A-line drape and plain turned hem. No stripes or other print; no added design. Pose: Gentle 15-degree turn toward camera-right with left foot half-step forward, both arms resting naturally beside body, chin slightly lifted and looking toward camera; no twist or blocked front. Entire garment, straps, front detail and hem unobstructed. Scene identical across this product: premium ivory bedroom with warm ivory wall, pale oak floor, sheer ivory curtain at left giving soft neutral left daylight, low cream linen bed on right with rectangular upholstered headboard and one pillow, small pale oak table at far right with one ivory ceramic lamp. Camera mid torso height, 70mm-style frontal perspective, centered full head-to-bare-feet portrait 3:4, highest supported native resolution. Exactly one garment worn fully unfolded, no folding or collage, no extra clothes, no text, packaging, hangers, logos or watermark.",
         "raw_error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 1a2a65f0-56ac-4cb0-84f2-fd9384d9daa5. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")",
         "result": "moderation_blocked"
+      },
+      {
+        "source": "main/05bff842-694b-421b-bffc-1c08af29d397.webp",
+        "prompt": "Create a professional e-commerce catalog photograph of the exact purple women's nightdress in the first original product reference. The second reference is the same product's blue variant and supplies fine embroidery construction only. One clearly adult woman age 35 wearing one complete garment, neutral standing retail pose, full garment plainly visible. Preserve purple satin-like plain fabric, two separate thin matching straps on each shoulder, three matching embroidered daisy flowers along the neckline with a small clear reflective center in each, curved ladder embroidery and central descending long leaf/petal applique with fine hanging-line embroidery. Loose gathered A-line body and simple turned hem. Description specifies 38-inch garment length: depict this as below-knee length on an average-height adult woman, not ankle-length. No other garment or added design details. Model: adult South Asian woman, medium warm skin, dark wavy hair behind shoulders, natural makeup, relaxed gentle expression, weight on right leg with left foot a little forward, arms relaxed away from dress, bare feet. Scene: premium minimal ivory bedroom, pale oak floor, sheer curtain and soft daylight at camera-left, cream bed at right with rectangular upholstered headboard and one pillow, small oak bedside table far right with a single ivory lamp. Full head-to-feet 3:4 portrait, camera level at mid torso with 70mm-style perspective, sharp garment detail, highest supported native resolution. Plain retail product presentation. Do not add text, graphics, labels, watermarks, packaging, extra people, extra clothing, slits, prints or a collage.",
+        "result": "returned_candidate_rejected_length",
+        "local_candidate": "/workspace/generated_images/exec-7902b8b9-1bf4-4b1e-ba20-dfa1d9a5be7c.png",
+        "qa_reason": "Hem appeared too long for planned 38-inch below-knee presentation."
+      },
+      {
+        "source": "main/05bff842-694b-421b-bffc-1c08af29d397.webp",
+        "result": "moderation_blocked",
+        "raw_error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID e2cc3c4c-d058-4d09-9c29-2e792b082742. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")",
+        "purpose": "First hem correction"
+      },
+      {
+        "source": "colors/1eb6e07d-cf01-4f1f-8451-c173fc433325.webp",
+        "prompt": "Professional e-commerce catalog image of the complete single-piece light baby pink with matching pink neckline embroidery nightdress from SECOND original reference, worn by one clearly adult female model. FIRST generated reference supplies ONLY the same adult model identity and locked ivory bedroom: preserve identical face, long wavy dark brown hair behind shoulders, medium warm skin, proportions, pale oak floor, sheer left curtain, soft left daylight, right cream bed with rectangular upholstered headboard, one pillow, right wooden bedside table and ivory lamp. THIRD original is same product unfolded construction. Preserve exact variant color and secondary embroidery color. Two separate thin matching shoulder straps per shoulder, three embroidered daisy flowers each with small clear reflective center, curved ladder design, central long leaf/petal applique and hanging-line embroidered detail as original. Plain satin-like smooth fabric, gathered loose A-line body, simple hem, no extra garment. IMPORTANT original description says 38-inch (96.5cm) length from shoulder to hem: show hem just below knees at upper calf on average-height adult model, slightly SHORTER than generated scene anchor; do not copy anchor's longer mid-calf hem. Noticeable gentle 15-degree turn toward camera-left, right foot a half step forward, arms relaxed slightly away from dress, head turned back toward camera. Full garment front, straps, embroidery and complete hem remain unobstructed, natural posture and realistic fabric. Same centered subject position and camera perspective, head-to-bare-feet portrait 3:4, mid-torso 70mm-style camera, highest native resolution. Exactly one worn garment, no folded showcase, stripe print, slit, belt, bow, extra trim, collage, text, labels, logo or watermark. Neutral retail fashion presentation.",
+        "result": "returned_candidate_rejected_length",
+        "qa_reason": "Hem appeared too long for planned below-knee presentation."
+      },
+      {
+        "source": "colors/4dc8cedf-1ac6-4d1a-92e3-ec7ee8500e4a.webp",
+        "prompt": "Professional e-commerce catalog image of the complete single-piece royal cobalt blue with matching blue embroidery nightdress from SECOND original reference, worn by one clearly adult female model. FIRST generated reference supplies ONLY the same adult model identity and locked ivory bedroom: preserve identical face, long wavy dark brown hair behind shoulders, medium warm skin, proportions, pale oak floor, sheer left curtain, soft left daylight, right cream bed with rectangular upholstered headboard, one pillow, right wooden bedside table and ivory lamp. THIRD original is same product unfolded construction. Preserve exact variant color and secondary embroidery color. Two separate thin matching shoulder straps per shoulder, three embroidered daisy flowers each with small clear reflective center, curved ladder design, central long leaf/petal applique and hanging-line embroidered detail as original. Plain satin-like smooth fabric, gathered loose A-line body, simple hem, no extra garment. IMPORTANT original description says 38-inch (96.5cm) length from shoulder to hem: show hem just below knees at upper calf on average-height adult model, slightly SHORTER than generated scene anchor; do not copy anchor's longer mid-calf hem. Near front, weight on left leg and right foot angled out toward camera-right, left elbow softly bent with hand beside outer hip without covering fabric, head gently angled toward the window. Full garment front, straps, embroidery and complete hem remain unobstructed, natural posture and realistic fabric. Same centered subject position and camera perspective, head-to-bare-feet portrait 3:4, mid-torso 70mm-style camera, highest native resolution. Exactly one worn garment, no folded showcase, stripe print, slit, belt, bow, extra trim, collage, text, labels, logo or watermark. Neutral retail fashion presentation.",
+        "result": "returned_candidate_rejected_length",
+        "qa_reason": "Hem appeared too long for planned below-knee presentation."
+      },
+      {
+        "source": "colors/7d66cac6-0160-4a69-8506-6d110da5a28e.webp",
+        "prompt": "Professional e-commerce catalog image of the complete single-piece salmon coral pink with lighter pink embroidery exactly as source nightdress from SECOND original reference, worn by one clearly adult female model. FIRST generated reference supplies ONLY the same adult model identity and locked ivory bedroom: preserve identical face, long wavy dark brown hair behind shoulders, medium warm skin, proportions, pale oak floor, sheer left curtain, soft left daylight, right cream bed with rectangular upholstered headboard, one pillow, right wooden bedside table and ivory lamp. THIRD original is same product unfolded construction. Preserve exact variant color and secondary embroidery color. Two separate thin matching shoulder straps per shoulder, three embroidered daisy flowers each with small clear reflective center, curved ladder design, central long leaf/petal applique and hanging-line embroidered detail as original. Plain satin-like smooth fabric, gathered loose A-line body, simple hem, no extra garment. IMPORTANT original description says 38-inch (96.5cm) length from shoulder to hem: show hem just below knees at upper calf on average-height adult model, slightly SHORTER than generated scene anchor; do not copy anchor's longer mid-calf hem. Noticeable gentle 15-degree turn toward camera-right, left foot slightly forward with feet uncrossed, both arms relaxed at sides, chin slightly lifted toward camera. Full garment front, straps, embroidery and complete hem remain unobstructed, natural posture and realistic fabric. Same centered subject position and camera perspective, head-to-bare-feet portrait 3:4, mid-torso 70mm-style camera, highest native resolution. Exactly one worn garment, no folded showcase, stripe print, slit, belt, bow, extra trim, collage, text, labels, logo or watermark. Neutral retail fashion presentation.",
+        "result": "returned_candidate_rejected_length",
+        "qa_reason": "Hem appeared too long for planned below-knee presentation."
+      },
+      {
+        "source": "main/05bff842-694b-421b-bffc-1c08af29d397.webp",
+        "prompt": "Make a precise garment-length correction to the FIRST generated e-commerce photograph. The original product description gives a 38-inch garment length. Keep exact adult female model, identity, facial expression, existing pose, framing, room architecture, furniture, light, color and original neckline details. Raise the dress hem approximately 10 percent of its current strap-to-hem length, so it ends immediately below the kneecaps at the top of the calf, not at mid calf. Keep a modest below-knee dress length. Preserve loose flowing A-line shape and plain turned hem; no cropped image. SECOND reference is original product evidence for fabric color and embroidered design. Keep both pairs of thin shoulder straps, all three flowers with reflective centers, descending leaf applique and hanging-line embroidery exactly. One ordinary retail product catalog image of one complete dress worn naturally by one clearly adult woman. Preserve full head-to-feet portrait 3:4 and bare feet. Do not add other garments, details, text, logos, labels or watermark. Only correct garment hem length and allow the natural drape to settle.",
+        "result": "moderation_blocked",
+        "raw_error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 2b867ed7-22cf-4e66-9bdb-fa33e732cf36. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+      },
+      {
+        "source": "colors/1eb6e07d-cf01-4f1f-8451-c173fc433325.webp",
+        "prompt": "Make a precise garment-length correction to the FIRST generated e-commerce photograph. The original product description gives a 38-inch garment length. Keep exact adult female model, identity, facial expression, existing pose, framing, room architecture, furniture, light, color and original neckline details. Raise the dress hem approximately 10 percent of its current strap-to-hem length, so it ends immediately below the kneecaps at the top of the calf, not at mid calf. Keep a modest below-knee dress length. Preserve loose flowing A-line shape and plain turned hem; no cropped image. SECOND reference is original product evidence for fabric color and embroidered design. Keep both pairs of thin shoulder straps, all three flowers with reflective centers, descending leaf applique and hanging-line embroidery exactly. One ordinary retail product catalog image of one complete dress worn naturally by one clearly adult woman. Preserve full head-to-feet portrait 3:4 and bare feet. Do not add other garments, details, text, logos, labels or watermark. Only correct garment hem length and allow the natural drape to settle.",
+        "result": "accepted_after_hem_correction",
+        "raw_error": null
+      },
+      {
+        "source": "colors/4dc8cedf-1ac6-4d1a-92e3-ec7ee8500e4a.webp",
+        "prompt": "Make a precise garment-length correction to the FIRST generated e-commerce photograph. The original product description gives a 38-inch garment length. Keep exact adult female model, identity, facial expression, existing pose, framing, room architecture, furniture, light, color and original neckline details. Raise the dress hem approximately 10 percent of its current strap-to-hem length, so it ends immediately below the kneecaps at the top of the calf, not at mid calf. Keep a modest below-knee dress length. Preserve loose flowing A-line shape and plain turned hem; no cropped image. SECOND reference is original product evidence for fabric color and embroidered design. Keep both pairs of thin shoulder straps, all three flowers with reflective centers, descending leaf applique and hanging-line embroidery exactly. One ordinary retail product catalog image of one complete dress worn naturally by one clearly adult woman. Preserve full head-to-feet portrait 3:4 and bare feet. Do not add other garments, details, text, logos, labels or watermark. Only correct garment hem length and allow the natural drape to settle.",
+        "result": "accepted_after_hem_correction",
+        "raw_error": null
+      },
+      {
+        "source": "colors/7d66cac6-0160-4a69-8506-6d110da5a28e.webp",
+        "prompt": "Make a precise garment-length correction to the FIRST generated e-commerce photograph. The original product description gives a 38-inch garment length. Keep exact adult female model, identity, facial expression, existing pose, framing, room architecture, furniture, light, color and original neckline details. Raise the dress hem approximately 10 percent of its current strap-to-hem length, so it ends immediately below the kneecaps at the top of the calf, not at mid calf. Keep a modest below-knee dress length. Preserve loose flowing A-line shape and plain turned hem; no cropped image. SECOND reference is original product evidence for fabric color and embroidered design. Keep both pairs of thin shoulder straps, all three flowers with reflective centers, descending leaf applique and hanging-line embroidery exactly. One ordinary retail product catalog image of one complete dress worn naturally by one clearly adult woman. Preserve full head-to-feet portrait 3:4 and bare feet. Do not add other garments, details, text, logos, labels or watermark. Only correct garment hem length and allow the natural drape to settle.",
+        "result": "accepted_after_hem_correction",
+        "raw_error": null
+      },
+      {
+        "source": "main/05bff842-694b-421b-bffc-1c08af29d397.webp",
+        "prompt": "Generate one professional e-commerce catalog photograph of the PURPLE variant of this single-piece women's nightdress. FIRST image is the accepted same-product blue photograph: preserve exact adult woman, face, hair, body proportions, the corrected BELOW-KNEE hem position, complete garment silhouette, ivory bedroom, furniture, lighting and full head-to-feet 3:4 framing. SECOND original purple source is the authority for purple fabric color and original neckline construction. Match its plain purple satin-like softly lustrous fabric, two separate thin purple straps per shoulder, three embroidered flowers with reflective centers, curved ladder embroidery, central leaf/petal applique and hanging-line detail. Single 38-inch garment, no added design, no stripe or dot pattern. Preserve exact below-knee length from first accepted photo. Give the adult model a distinct natural near-front catalog pose: balanced weight on right leg with left foot slightly forward and feet uncrossed, both arms comfortably away from dress, head facing camera with gentle smile. Keep front detail and entire hem unobstructed. One adult woman wearing one complete garment fully unfolded, no other clothing or props. Neutral retail presentation, natural anatomy and drape. Highest native resolution, no text, labels, logos, watermark or collage.",
+        "result": "accepted",
+        "reference_strategy": "Accepted corrected same-product blue image supplies model, scene and hem position; original purple supplies garment color and construction."
       }
-    ]
+    ],
+    "current_run_attempt_count": 10
   },
   "validation_notes": [
-    "Description explicitly specifies garment height/length 38 inches (96.5 cm). Planned adult-model rendering uses below-knee proportions; mannequin photography alone does not establish worn hem height.",
-    "All four sources viewed individually and decoded. Folded pink and blue entries have unfolded references within this same product folder. No construction substituted from a different product.",
-    "Actual fiber composition, unseen back design and calibrated color are unverified; no outputs exist to certify fit, detail fidelity or scene/pose consistency.",
-    "Updated AGENTS.md pose-variety requirements read and a distinct subtle pose planned for every source. No accepted poses or outputs exist.",
-    "No prior other-product images copied into this folder. All original reference bytes preserved."
+    "All four sources remain unchanged and were reconciled individually to approved output files. Folded pink/blue construction reconstructed using this same folder's unfolded references.",
+    "The description's 38 inches is retained as authoritative length metadata; accepted generated hems are visually below knee. Physical inches cannot be measured or certified from a synthetic image without a calibrated scale/model measurement.",
+    "Visual QA covers visible color, neckline embroidery, paired straps, three reflective centers, silhouette, drape, whole-garment visibility, anatomy and scene. It is not a pixel-exact textile or calibrated-color certification.",
+    "Main and blue share a safe near-front stance but have different head/gaze direction. Pink uses a crossed forward foot below hem and angled torso; coral has uncrossed staggered feet and relaxed arms. Larger turns were limited to keep all neckline details visible.",
+    "Four longer-hem candidates rejected; two main corrections were service-blocked in this run. Final main generated using corrected same-product blue hem reference. Only the four approved images copied into generated/. Earlier failed attempts retained as historical records.",
+    "Unseen back construction and fiber composition remain unverified. Native size is below preferred 4K."
   ],
-  "blockers": [
+  "blockers": [],
+  "resumability": "All four source entries now accepted. Preserve current outputs while source hashes match; regenerate only missing, failed or stale files. Retain the 38-inch specification, pose plan and product-specific scene.",
+  "historical_blockers": [
     {
       "source": "colors/1eb6e07d-cf01-4f1f-8451-c173fc433325.webp",
       "code": "moderation_blocked",
@@ -314,6 +528,5 @@
       "request_id": "1f226fa2-0a4d-4133-972f-e84234956e7c",
       "message": "Image service rejected the output of a reference-conditioned adult-model e-commerce catalog request. No image returned."
     }
-  ],
-  "resumability": "All four entries remain blocked. Resume only if the image service restriction is resolved through a supported route; preserve same-product references, 38-inch specification and pose plan. Do not fabricate outputs or circumvent service safeguards."
+  ]
 }

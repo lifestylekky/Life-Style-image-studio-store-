@@ -1,17 +1,21 @@
 {
   "schema_version": 1,
   "product_id": "341e95fd-8b7b-44da-8a2a-1c69d70ea19f",
-  "status": "BLOCKED",
+  "status": "COMPLETE",
   "counts": {
     "main_sources": 1,
     "color_sources": 3,
-    "attempted_calls": 4,
-    "returned_images": 0,
-    "accepted_main": 0,
-    "accepted_color": 0,
+    "attempted_calls": 14,
+    "current_run_calls": 10,
+    "returned_images_total": 8,
+    "accepted_main": 1,
+    "accepted_color": 3,
     "accepted_details": 0,
-    "blocked_sources": 4,
-    "retries": 0
+    "accepted_images": 4,
+    "blocked_sources": 0,
+    "rejected_length_candidates": 4,
+    "service_rejected_calls_total": 6,
+    "retries_total": 10
   },
   "source_reconciliation": {
     "all_four_sources_accounted_for": true,
@@ -19,25 +23,162 @@
     "original_hashes_unchanged": true
   },
   "output_checks": {
-    "garment_accuracy": "not_run_no_outputs_returned",
-    "38_inch_length": "not_run_no_outputs_returned",
-    "variant_color_and_embroidery": "not_run_no_outputs_returned",
-    "fully_unfolded_model_worn": "not_run_no_outputs_returned",
-    "piece_count": "not_run_no_outputs_returned",
-    "anatomy_and_drape": "not_run_no_outputs_returned",
-    "complete_visibility": "not_run_no_outputs_returned",
-    "scene_consistency": "not_run_no_outputs_returned",
-    "pose_variety": "not_run_no_outputs_returned",
-    "output_dimensions_and_decode": "not_run_no_outputs_returned"
+    "fully_unfolded_model_worn": "passed_visual_review",
+    "single_garment_piece_count": "passed",
+    "paired_straps_and_three_reflective_flower_centers": "passed_visual_comparison",
+    "front_embroidery_and_color": "passed_visual_comparison",
+    "plain_fabric_appearance_and_drape": "passed_visual_comparison",
+    "below_knee_length_presentation": "passed_visual_review",
+    "complete_neckline_to_hem_visibility": "passed",
+    "adult_model_anatomy": "passed_visual_review",
+    "scene_model_lighting_camera_consistency": "passed_visual_review",
+    "natural_pose_variety_and_visibility": "passed_visual_review",
+    "added_text_or_watermarks": "passed_none_visible",
+    "file_decode_and_dimensions": "passed"
   },
   "notes": [
-    "Description explicitly specifies garment height/length 38 inches (96.5 cm). Planned adult-model rendering uses below-knee proportions; mannequin photography alone does not establish worn hem height.",
-    "All four sources viewed individually and decoded. Folded pink and blue entries have unfolded references within this same product folder. No construction substituted from a different product.",
-    "Actual fiber composition, unseen back design and calibrated color are unverified; no outputs exist to certify fit, detail fidelity or scene/pose consistency.",
-    "Updated AGENTS.md pose-variety requirements read and a distinct subtle pose planned for every source. No accepted poses or outputs exist.",
-    "No prior other-product images copied into this folder. All original reference bytes preserved."
+    "All four sources remain unchanged and were reconciled individually to approved output files. Folded pink/blue construction reconstructed using this same folder's unfolded references.",
+    "The description's 38 inches is retained as authoritative length metadata; accepted generated hems are visually below knee. Physical inches cannot be measured or certified from a synthetic image without a calibrated scale/model measurement.",
+    "Visual QA covers visible color, neckline embroidery, paired straps, three reflective centers, silhouette, drape, whole-garment visibility, anatomy and scene. It is not a pixel-exact textile or calibrated-color certification.",
+    "Main and blue share a safe near-front stance but have different head/gaze direction. Pink uses a crossed forward foot below hem and angled torso; coral has uncrossed staggered feet and relaxed arms. Larger turns were limited to keep all neckline details visible.",
+    "Four longer-hem candidates rejected; two main corrections were service-blocked in this run. Final main generated using corrected same-product blue hem reference. Only the four approved images copied into generated/. Earlier failed attempts retained as historical records.",
+    "Unseen back construction and fiber composition remain unverified. Native size is below preferred 4K."
   ],
-  "blockers": [
+  "blockers": [],
+  "conclusion": "COMPLETE against visible-reference workflow criteria: one accepted main and three accepted color images, full garment visibility, consistent scene and subtle pose variety. Physical garment length remains metadata rather than a calibrated image measurement.",
+  "per_output": [
+    {
+      "source": "colors/1eb6e07d-cf01-4f1f-8451-c173fc433325.webp",
+      "path": "generated/color__1eb6e07d-cf01-4f1f-8451-c173fc433325__model.png",
+      "sha256": "4e908e88e10a0e65907aebb4a3932b06a2dd2b051c67e9bb7003d2c3dbc8adca",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_garment_piece_count": "passed",
+        "paired_straps_and_three_reflective_flower_centers": "passed_visual_comparison",
+        "front_embroidery_and_color": "passed_visual_comparison",
+        "plain_fabric_appearance_and_drape": "passed_visual_comparison",
+        "below_knee_length_presentation": "passed_visual_review",
+        "complete_neckline_to_hem_visibility": "passed",
+        "adult_model_anatomy": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "natural_pose_variety_and_visibility": "passed_visual_review",
+        "added_text_or_watermarks": "passed_none_visible",
+        "file_decode_and_dimensions": "passed"
+      }
+    },
+    {
+      "source": "colors/4dc8cedf-1ac6-4d1a-92e3-ec7ee8500e4a.webp",
+      "path": "generated/color__4dc8cedf-1ac6-4d1a-92e3-ec7ee8500e4a__model.png",
+      "sha256": "cebc99582013cb8c0560b20fcc0aad6be31f3f6ba1e804ffe6b289fe1c3147a1",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_garment_piece_count": "passed",
+        "paired_straps_and_three_reflective_flower_centers": "passed_visual_comparison",
+        "front_embroidery_and_color": "passed_visual_comparison",
+        "plain_fabric_appearance_and_drape": "passed_visual_comparison",
+        "below_knee_length_presentation": "passed_visual_review",
+        "complete_neckline_to_hem_visibility": "passed",
+        "adult_model_anatomy": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "natural_pose_variety_and_visibility": "passed_visual_review",
+        "added_text_or_watermarks": "passed_none_visible",
+        "file_decode_and_dimensions": "passed"
+      }
+    },
+    {
+      "source": "colors/7d66cac6-0160-4a69-8506-6d110da5a28e.webp",
+      "path": "generated/color__7d66cac6-0160-4a69-8506-6d110da5a28e__model.png",
+      "sha256": "405880006700cbf573ac82c063412b5e2b8d250f4aa831281b7892bb398d1bff",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_garment_piece_count": "passed",
+        "paired_straps_and_three_reflective_flower_centers": "passed_visual_comparison",
+        "front_embroidery_and_color": "passed_visual_comparison",
+        "plain_fabric_appearance_and_drape": "passed_visual_comparison",
+        "below_knee_length_presentation": "passed_visual_review",
+        "complete_neckline_to_hem_visibility": "passed",
+        "adult_model_anatomy": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "natural_pose_variety_and_visibility": "passed_visual_review",
+        "added_text_or_watermarks": "passed_none_visible",
+        "file_decode_and_dimensions": "passed"
+      }
+    },
+    {
+      "source": "main/05bff842-694b-421b-bffc-1c08af29d397.webp",
+      "path": "generated/main__05bff842-694b-421b-bffc-1c08af29d397__model.png",
+      "sha256": "e657c30ceabe29f18f478edeec544fac3e1c0ecb43e7c9789a77b5c37a4ee48e",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_model_worn": "passed_visual_review",
+        "single_garment_piece_count": "passed",
+        "paired_straps_and_three_reflective_flower_centers": "passed_visual_comparison",
+        "front_embroidery_and_color": "passed_visual_comparison",
+        "plain_fabric_appearance_and_drape": "passed_visual_comparison",
+        "below_knee_length_presentation": "passed_visual_review",
+        "complete_neckline_to_hem_visibility": "passed",
+        "adult_model_anatomy": "passed_visual_review",
+        "scene_model_lighting_camera_consistency": "passed_visual_review",
+        "natural_pose_variety_and_visibility": "passed_visual_review",
+        "added_text_or_watermarks": "passed_none_visible",
+        "file_decode_and_dimensions": "passed"
+      }
+    }
+  ],
+  "pose_review": [
+    {
+      "source": "main/05bff842-694b-421b-bffc-1c08af29d397.webp",
+      "planned_pose": "Near-front view with gentle weight on right leg, left foot slightly forward, relaxed arms slightly away from sides, head facing camera.",
+      "accepted_pose": "Near-front balanced open stance, right foot angled outward, relaxed arms with one hand beside outer hip, head and gaze toward camera.",
+      "status": "accepted",
+      "visibility_constraint": "Keep both strap pairs, neckline flowers, embroidery, complete body and hem unobstructed; gentle near-front angles only.",
+      "visibility_result": "Full garment, paired straps, neckline and hem unobstructed; pose variation kept subtle."
+    },
+    {
+      "source": "colors/1eb6e07d-cf01-4f1f-8451-c173fc433325.webp",
+      "planned_pose": "Gentle 15-degree turn toward camera-left while neckline stays fully readable; right foot half-step forward, arms relaxed away from garment, head turned back toward camera.",
+      "accepted_pose": "Subtle body angle, one foot crossed forward below hem, arms gently away from dress, soft head tilt toward camera.",
+      "status": "accepted",
+      "visibility_constraint": "Keep both strap pairs, neckline flowers, embroidery, complete body and hem unobstructed; gentle near-front angles only.",
+      "visibility_result": "Full garment, paired straps, neckline and hem unobstructed; pose variation kept subtle."
+    },
+    {
+      "source": "colors/4dc8cedf-1ac6-4d1a-92e3-ec7ee8500e4a.webp",
+      "planned_pose": "Near-front with weight on left leg, right foot lightly extended diagonally to camera-right; left elbow softly bent with hand hovering beside outer hip without touching dress; head gently angled toward window.",
+      "accepted_pose": "Near-front open stance with right foot extended diagonally, one hand beside outer hip, head and gaze toward left window.",
+      "status": "accepted",
+      "visibility_constraint": "Keep both strap pairs, neckline flowers, embroidery, complete body and hem unobstructed; gentle near-front angles only.",
+      "visibility_result": "Full garment, paired straps, neckline and hem unobstructed; pose variation kept subtle."
+    },
+    {
+      "source": "colors/7d66cac6-0160-4a69-8506-6d110da5a28e.webp",
+      "planned_pose": "Gentle 15-degree turn toward camera-right with left foot half-step forward, both arms resting naturally beside body, chin slightly lifted and looking toward camera; no twist or blocked front.",
+      "accepted_pose": "Subtle angled stance, uncrossed staggered feet, both arms relaxed away from fabric, gentle head tilt toward camera.",
+      "status": "accepted",
+      "visibility_constraint": "Keep both strap pairs, neckline flowers, embroidery, complete body and hem unobstructed; gentle near-front angles only.",
+      "visibility_result": "Full garment, paired straps, neckline and hem unobstructed; pose variation kept subtle."
+    }
+  ],
+  "historical_blockers": [
     {
       "source": "colors/1eb6e07d-cf01-4f1f-8451-c173fc433325.webp",
       "code": "moderation_blocked",
@@ -70,6 +211,5 @@
       "request_id": "1f226fa2-0a4d-4133-972f-e84234956e7c",
       "message": "Image service rejected the output of a reference-conditioned adult-model e-commerce catalog request. No image returned."
     }
-  ],
-  "conclusion": "Inventory and planning completed. All four independent generation attempts rejected at output by image service. Zero images returned or accepted. Product BLOCKED."
+  ]
 }
