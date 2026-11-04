@@ -1,0 +1,1438 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-04",
+  "created_at": "2026-11-04T18:07:22.680464+00:00",
+  "repository": "lifestylekky/Life-Style-image-studio-store-",
+  "branch": "main",
+  "scope": "All product directories were scanned. This run processed every folder with zero generated image files at initial main snapshot; thirteen nonempty products were preserved.",
+  "initial_main_sha": "192c0fad34c524218e5991a8f78838c8f04d6e7d",
+  "verified_remote_main_sha": "1bb760b909b5c081aa397cf66625c64cdc8616b7",
+  "status": "PARTIAL",
+  "summary": {
+    "products_scanned": 21,
+    "initial_empty_generated_products": 8,
+    "existing_nonempty_products_preserved": 13,
+    "source_images_in_target_products": 49,
+    "accepted_new_images": 35,
+    "completed_products": 5,
+    "blocked_products": 3,
+    "blocked_sources": 14,
+    "unaccounted_sources": 0,
+    "generation_attempts": 44,
+    "rejected_candidates": 6,
+    "tool_failed_attempts": 3,
+    "verified_remote_files": 51
+  },
+  "products": [
+    {
+      "id": "1bfc349a-7912-4e6b-b7ec-3aa1457de4d9",
+      "name": "Unidentified product \u2014 illustrated portrait references",
+      "main_sources": 1,
+      "color_sources": 1,
+      "source_images": 2,
+      "generated_main": 0,
+      "generated_colors": 0,
+      "accepted_images": 0,
+      "blocked_sources": 2,
+      "final_status": "BLOCKED",
+      "quality_status": "BLOCKED",
+      "scene_profile": null,
+      "unfolded_construction_references": [],
+      "source_inventory": [
+        {
+          "path": "main/69536374-9d79-4b28-ae25-52575db7457e.png",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "sha256": "76f9feea8f1562aecb975de78cf9761d11bfaf6574e68676ae0f31d7ca221fff",
+          "readable": true
+        },
+        {
+          "path": "colors/56200a26-af0e-4f06-9778-a8900da95249.png",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "sha256": "9af1112365e9b92cf60ded557fd8b71c3740b3d006285d687632af025292d654",
+          "readable": true
+        }
+      ],
+      "source_to_output": [
+        {
+          "source": "main/69536374-9d79-4b28-ae25-52575db7457e.png",
+          "source_sha256": "76f9feea8f1562aecb975de78cf9761d11bfaf6574e68676ae0f31d7ca221fff",
+          "output": null,
+          "status": "needs_reference",
+          "reason": "Both originals are stylized illustrated male street portraits, not verifiable retail garment photographs. Shirt hem, physical fabric and complete construction are not visible. No product description or unfolded same-product construction reference exists; accurate adult-female product reconstruction would invent details."
+        },
+        {
+          "source": "colors/56200a26-af0e-4f06-9778-a8900da95249.png",
+          "source_sha256": "9af1112365e9b92cf60ded557fd8b71c3740b3d006285d687632af025292d654",
+          "output": null,
+          "status": "needs_reference",
+          "reason": "Both originals are stylized illustrated male street portraits, not verifiable retail garment photographs. Shirt hem, physical fabric and complete construction are not visible. No product description or unfolded same-product construction reference exists; accurate adult-female product reconstruction would invent details."
+        }
+      ],
+      "blockers": [
+        "Both originals are stylized illustrated male street portraits, not verifiable retail garment photographs. Shirt hem, physical fabric and complete construction are not visible. No product description or unfolded same-product construction reference exists; accurate adult-female product reconstruction would invent details."
+      ],
+      "generation_attempts": 0,
+      "rejected_candidates": 0,
+      "tool_failed_attempts": 0,
+      "output_dimensions": [],
+      "github_output_directory": "https://github.com/lifestylekky/Life-Style-image-studio-store-/tree/main/products/1bfc349a-7912-4e6b-b7ec-3aa1457de4d9/generated",
+      "verified_product_commit": "73e1a917c1d556a29646fec59fd3c7d0584dfe38",
+      "remote_files_verified": true
+    },
+    {
+      "id": "2a01cb8f-1485-4e55-a2a1-2d926904f7f5",
+      "name": "VELONA SLEEVELESS PLAIN NIGHTY",
+      "main_sources": 1,
+      "color_sources": 9,
+      "source_images": 10,
+      "generated_main": 1,
+      "generated_colors": 9,
+      "accepted_images": 10,
+      "blocked_sources": 0,
+      "final_status": "COMPLETE",
+      "quality_status": "PASS",
+      "scene_profile": "Ivory bedroom dressing area: ivory wall, light oak floor, cream upholstered bed edge at left, light oak two-drawer bedside cabinet at right, sheer window at far left; diffused neutral daylight from left. Locked to accepted main image.",
+      "unfolded_construction_references": [
+        "main/6d4b9cab-cef0-4deb-be40-1a5375766966.webp"
+      ],
+      "source_inventory": [
+        {
+          "path": "main/6d4b9cab-cef0-4deb-be40-1a5375766966.webp",
+          "dimensions": [
+            1012,
+            2200
+          ],
+          "sha256": "49c51931c9f89a019463787235004951b37249cafce5de40b889ba220f331b91",
+          "readable": true
+        },
+        {
+          "path": "colors/7a5776de-76bd-4e9e-b25c-2d2845298cd5.webp",
+          "dimensions": [
+            1012,
+            2200
+          ],
+          "sha256": "b10e36da653087a53ead86039df6e0cd353057d09e4267a42b91e282f414f29b",
+          "readable": true
+        },
+        {
+          "path": "colors/0cabfbd3-bebb-41a6-9bcc-dc759d4adcf8.webp",
+          "dimensions": [
+            1012,
+            2200
+          ],
+          "sha256": "abe5e4282de9e9e986559ba91e2c0c4c43f8f26265e8347c08b9adcf9aef6def",
+          "readable": true
+        },
+        {
+          "path": "colors/f83e599b-d570-4afc-bcd5-3e8511191a33.webp",
+          "dimensions": [
+            1650,
+            2200
+          ],
+          "sha256": "77bce120bf586ff55bd5757ff32051e65a42fc9283113e04286b9ee60181e625",
+          "readable": true
+        },
+        {
+          "path": "colors/49b77eff-bce5-4917-8591-2d1dcf3d242a.webp",
+          "dimensions": [
+            1012,
+            2200
+          ],
+          "sha256": "28880c380008639bb6f693bdb6c65641f82a906e17903a737ff80b3332ac99c4",
+          "readable": true
+        },
+        {
+          "path": "colors/2cf21eb5-97a8-492e-8e4d-498aef5303a8.webp",
+          "dimensions": [
+            2200,
+            1012
+          ],
+          "sha256": "90e76295b118d3c547236f48b60bb1c4f500d0b9a59ed0ee82423c2ba2b351d7",
+          "readable": true
+        },
+        {
+          "path": "colors/3f568575-5212-4dfa-bf5a-370b7fb70cce.webp",
+          "dimensions": [
+            1012,
+            2200
+          ],
+          "sha256": "1b18c2e1e9d50458115a89a5f16359f53140cd918e30245abefe5c3b1d6c22d8",
+          "readable": true
+        },
+        {
+          "path": "colors/b4b8a2cb-cd04-4823-bd67-7ff4ddb8e3ff.webp",
+          "dimensions": [
+            2200,
+            1012
+          ],
+          "sha256": "ac81e6da5fca14e96c43ebc404f97c6b5ed61591c30e1a3db118959a3360cce4",
+          "readable": true
+        },
+        {
+          "path": "colors/67bdac3b-8412-4cbc-9c18-f8e6a3e6c995.webp",
+          "dimensions": [
+            2200,
+            1650
+          ],
+          "sha256": "0b28c4336f4af138a65ec445b3211b8a12f15446fe64ec1b0bcba5694186581b",
+          "readable": true
+        },
+        {
+          "path": "colors/2a00cbbb-6eb4-4b00-8a32-125120ffea3d.webp",
+          "dimensions": [
+            1650,
+            2200
+          ],
+          "sha256": "229bdba144ef228e3c95cc877453c163e290ee44554b4de86f63ae65bab43fc3",
+          "readable": true
+        }
+      ],
+      "source_to_output": [
+        {
+          "source": "main/6d4b9cab-cef0-4deb-be40-1a5375766966.webp",
+          "source_sha256": "49c51931c9f89a019463787235004951b37249cafce5de40b889ba220f331b91",
+          "output": "generated/main__6d4b9cab-cef0-4deb-be40-1a5375766966__model.png",
+          "status": "accepted",
+          "reason": null
+        },
+        {
+          "source": "colors/7a5776de-76bd-4e9e-b25c-2d2845298cd5.webp",
+          "source_sha256": "b10e36da653087a53ead86039df6e0cd353057d09e4267a42b91e282f414f29b",
+          "output": "generated/color__7a5776de-76bd-4e9e-b25c-2d2845298cd5__model.png",
+          "status": "accepted",
+          "reason": null
+        },
+        {
+          "source": "colors/0cabfbd3-bebb-41a6-9bcc-dc759d4adcf8.webp",
+          "source_sha256": "abe5e4282de9e9e986559ba91e2c0c4c43f8f26265e8347c08b9adcf9aef6def",
+          "output": "generated/color__0cabfbd3-bebb-41a6-9bcc-dc759d4adcf8__model.png",
+          "status": "accepted",
+          "reason": null
+        },
+        {
+          "source": "colors/f83e599b-d570-4afc-bcd5-3e8511191a33.webp",
+          "source_sha256": "77bce120bf586ff55bd5757ff32051e65a42fc9283113e04286b9ee60181e625",
+          "output": "generated/color__f83e599b-d570-4afc-bcd5-3e8511191a33__model.png",
+          "status": "accepted",
+          "reason": null
+        },
+        {
+          "source": "colors/49b77eff-bce5-4917-8591-2d1dcf3d242a.webp",
+          "source_sha256": "28880c380008639bb6f693bdb6c65641f82a906e17903a737ff80b3332ac99c4",
+          "output": "generated/color__49b77eff-bce5-4917-8591-2d1dcf3d242a__model.png",
+          "status": "accepted",
+          "reason": null
+        },
+        {
+          "source": "colors/2cf21eb5-97a8-492e-8e4d-498aef5303a8.webp",
+          "source_sha256": "90e76295b118d3c547236f48b60bb1c4f500d0b9a59ed0ee82423c2ba2b351d7",
+          "output": "generated/color__2cf21eb5-97a8-492e-8e4d-498aef5303a8__model.png",
+          "status": "accepted",
+          "reason": null
+        },
+        {
+          "source": "colors/3f568575-5212-4dfa-bf5a-370b7fb70cce.webp",
+          "source_sha256": "1b18c2e1e9d50458115a89a5f16359f53140cd918e30245abefe5c3b1d6c22d8",
+          "output": "generated/color__3f568575-5212-4dfa-bf5a-370b7fb70cce__model.png",
+          "status": "accepted",
+          "reason": null
+        },
+        {
+          "source": "colors/b4b8a2cb-cd04-4823-bd67-7ff4ddb8e3ff.webp",
+          "source_sha256": "ac81e6da5fca14e96c43ebc404f97c6b5ed61591c30e1a3db118959a3360cce4",
+          "output": "generated/color__b4b8a2cb-cd04-4823-bd67-7ff4ddb8e3ff__model.png",
+          "status": "accepted",
+          "reason": null
+        },
+        {
+          "source": "colors/67bdac3b-8412-4cbc-9c18-f8e6a3e6c995.webp",
+          "source_sha256": "0b28c4336f4af138a65ec445b3211b8a12f15446fe64ec1b0bcba5694186581b",
+          "output": "generated/color__67bdac3b-8412-4cbc-9c18-f8e6a3e6c995__model.png",
+          "status": "accepted",
+          "reason": null
+        },
+        {
+          "source": "colors/2a00cbbb-6eb4-4b00-8a32-125120ffea3d.webp",
+          "source_sha256": "229bdba144ef228e3c95cc877453c163e290ee44554b4de86f63ae65bab43fc3",
+          "output": "generated/color__2a00cbbb-6eb4-4b00-8a32-125120ffea3d__model.png",
+          "status": "accepted",
+          "reason": null
+        }
+      ],
+      "blockers": [],
+      "generation_attempts": 11,
+      "rejected_candidates": 1,
+      "tool_failed_attempts": 0,
+      "output_dimensions": [
+        [
+          1024,
+          1536
+        ]
+      ],
+      "github_output_directory": "https://github.com/lifestylekky/Life-Style-image-studio-store-/tree/main/products/2a01cb8f-1485-4e55-a2a1-2d926904f7f5/generated",
+      "verified_product_commit": "73e1a917c1d556a29646fec59fd3c7d0584dfe38",
+      "remote_files_verified": true
+    },
+    {
+      "id": "31802d53-4810-42b8-ba1a-e1bdd57dfda8",
+      "name": "Printed cotton-look short-sleeve cropped pajama set (descriptive name; empty product description)",
+      "main_sources": 1,
+      "color_sources": 10,
+      "source_images": 11,
+      "generated_main": 1,
+      "generated_colors": 10,
+      "accepted_images": 11,
+      "blocked_sources": 0,
+      "final_status": "COMPLETE",
+      "quality_status": "PASS",
+      "scene_profile": "Warm ivory bedroom with pale oak floor, sheer white window curtain at left; cream upholstered bed and white bedding at right, tall pale-oak bedside cube to its left supporting a small ivory vase with green stems. Soft diffused daylight left, identical main-image layout throughout.",
+      "unfolded_construction_references": [
+        "main/ed90023d-6ca9-4495-836e-d2a1069a7a02.webp"
+      ],
+      "source_inventory": [
+        {
+          "path": "main/ed90023d-6ca9-4495-836e-d2a1069a7a02.webp",
+          "dimensions": [
+            1650,
+            2200
+          ],
+          "sha256": "c08d828d706fe9d5fdd101ecb8ed5c9128b8f658c2aeb98bd31cd65a99570a2b",
+          "readable": true
+        },
+        {
+          "path": "colors/9bbe8063-d0f0-4afb-9419-4944cf14d150.webp",
+          "dimensions": [
+            2200,
+            1650
+          ],
+          "sha256": "ce3684f08647b4a365350cc6cef5a0fd6c80cd27b87f3bb3d5fe665a62d40fc3",
+          "readable": true
+        },
+        {
+          "path": "colors/6772ad0c-6d54-446a-84f7-6edd68dd6f3c.webp",
+          "dimensions": [
+            2200,
+            1650
+          ],
+          "sha256": "94456bd958d6db4488f96064ea2588ebfd3d9c132bb3a3ba3c55b14c5344dfec",
+          "readable": true
+        },
+        {
+          "path": "colors/56671fae-af1d-4e08-8f32-a6ef235293dc.webp",
+          "dimensions": [
+            2200,
+            1650
+          ],
+          "sha256": "b202b8513d65dc6722656dcc1a7a9fb3c188a9f72e957a72fa9f5dd88283aae1",
+          "readable": true
+        },
+        {
+          "path": "colors/45227232-5fa3-4246-8424-ae7cdfe8128f.webp",
+          "dimensions": [
+            2200,
+            1650
+          ],
+          "sha256": "10bfe5667eed1c14b76cc0c1bb91e996ecc7f2ae89a315ec672d5568d84da6ae",
+          "readable": true
+        },
+        {
+          "path": "colors/cf99b4b2-aab5-44d5-8139-b63314eafeef.webp",
+          "dimensions": [
+            2200,
+            1650
+          ],
+          "sha256": "1bc31e75ebc18750f93c7a179741294e3524314db344bf13f75365ff3386e116",
+          "readable": true
+        },
+        {
+          "path": "colors/6fdf60d2-0ee3-4abd-86e2-eda257d995e9.webp",
+          "dimensions": [
+            2200,
+            1650
+          ],
+          "sha256": "5238c6da238994531467fc6e64c9db10bab06940169ed4c7eddfdbd064468b4c",
+          "readable": true
+        },
+        {
+          "path": "colors/6f7ee639-d0b0-4025-a081-db03fde5bebe.webp",
+          "dimensions": [
+            2200,
+            1650
+          ],
+          "sha256": "959937346addc4a0374bb687db69d9284f6baae8ae41dba03659d9dad58ee89a",
+          "readable": true
+        },
+        {
+          "path": "colors/46fb65fe-734f-46df-b870-ac2b35fac2b3.webp",
+          "dimensions": [
+            2200,
+            1650
+          ],
+          "sha256": "9bea18f76b56da1ccb565f10d59f73c2af16793553e87fa1136c469829275eda",
+          "readable": true
+        },
+        {
+          "path": "colors/71915e21-162d-4298-9b04-a3e7718c1d21.webp",
+          "dimensions": [
+            2200,
+            1650
+          ],
+          "sha256": "bc0fce7411926c9f12b8d77858cba33a55692fc357869336c8c8fb196263e9da",
+          "readable": true
+        },
+        {
+          "path": "colors/b0a50681-f5c1-45de-9233-cdf322b3a44a.webp",
+          "dimensions": [
+            2200,
+            1650
+          ],
+          "sha256": "79c4064a6b97d13eb7b0ccb0460e0c99161d561eefeef5e6409139edd474df47",
+          "readable": true
+        }
+      ],
+      "source_to_output": [
+        {
+          "source": "main/ed90023d-6ca9-4495-836e-d2a1069a7a02.webp",
+          "source_sha256": "c08d828d706fe9d5fdd101ecb8ed5c9128b8f658c2aeb98bd31cd65a99570a2b",
+          "output": "generated/main__ed90023d-6ca9-4495-836e-d2a1069a7a02__model.png",
+          "status": "accepted",
+          "reason": null
+        },
+        {
+          "source": "colors/9bbe8063-d0f0-4afb-9419-4944cf14d150.webp",
+          "source_sha256": "ce3684f08647b4a365350cc6cef5a0fd6c80cd27b87f3bb3d5fe665a62d40fc3",
+          "output": "generated/color__9bbe8063-d0f0-4afb-9419-4944cf14d150__model.png",
+          "status": "accepted",
+          "reason": null
+        },
+        {
+          "source": "colors/6772ad0c-6d54-446a-84f7-6edd68dd6f3c.webp",
+          "source_sha256": "94456bd958d6db4488f96064ea2588ebfd3d9c132bb3a3ba3c55b14c5344dfec",
+          "output": "generated/color__6772ad0c-6d54-446a-84f7-6edd68dd6f3c__model.png",
+          "status": "accepted",
+          "reason": null
+        },
+        {
+          "source": "colors/56671fae-af1d-4e08-8f32-a6ef235293dc.webp",
+          "source_sha256": "b202b8513d65dc6722656dcc1a7a9fb3c188a9f72e957a72fa9f5dd88283aae1",
+          "output": "generated/color__56671fae-af1d-4e08-8f32-a6ef235293dc__model.png",
+          "status": "accepted",
+          "reason": null
+        },
+        {
+          "source": "colors/45227232-5fa3-4246-8424-ae7cdfe8128f.webp",
+          "source_sha256": "10bfe5667eed1c14b76cc0c1bb91e996ecc7f2ae89a315ec672d5568d84da6ae",
+          "output": "generated/color__45227232-5fa3-4246-8424-ae7cdfe8128f__model.png",
+          "status": "accepted",
+          "reason": null
+        },
+        {
+          "source": "colors/cf99b4b2-aab5-44d5-8139-b63314eafeef.webp",
+          "source_sha256": "1bc31e75ebc18750f93c7a179741294e3524314db344bf13f75365ff3386e116",
+          "output": "generated/color__cf99b4b2-aab5-44d5-8139-b63314eafeef__model.png",
+          "status": "accepted",
+          "reason": null
+        },
+        {
+          "source": "colors/6fdf60d2-0ee3-4abd-86e2-eda257d995e9.webp",
+          "source_sha256": "5238c6da238994531467fc6e64c9db10bab06940169ed4c7eddfdbd064468b4c",
+          "output": "generated/color__6fdf60d2-0ee3-4abd-86e2-eda257d995e9__model.png",
+          "status": "accepted",
+          "reason": null
+        },
+        {
+          "source": "colors/6f7ee639-d0b0-4025-a081-db03fde5bebe.webp",
+          "source_sha256": "959937346addc4a0374bb687db69d9284f6baae8ae41dba03659d9dad58ee89a",
+          "output": "generated/color__6f7ee639-d0b0-4025-a081-db03fde5bebe__model.png",
+          "status": "accepted",
+          "reason": null
+        },
+        {
+          "source": "colors/46fb65fe-734f-46df-b870-ac2b35fac2b3.webp",
+          "source_sha256": "9bea18f76b56da1ccb565f10d59f73c2af16793553e87fa1136c469829275eda",
+          "output": "generated/color__46fb65fe-734f-46df-b870-ac2b35fac2b3__model.png",
+          "status": "accepted",
+          "reason": null
+        },
+        {
+          "source": "colors/71915e21-162d-4298-9b04-a3e7718c1d21.webp",
+          "source_sha256": "bc0fce7411926c9f12b8d77858cba33a55692fc357869336c8c8fb196263e9da",
+          "output": "generated/color__71915e21-162d-4298-9b04-a3e7718c1d21__model.png",
+          "status": "accepted",
+          "reason": null
+        },
+        {
+          "source": "colors/b0a50681-f5c1-45de-9233-cdf322b3a44a.webp",
+          "source_sha256": "79c4064a6b97d13eb7b0ccb0460e0c99161d561eefeef5e6409139edd474df47",
+          "output": "generated/color__b0a50681-f5c1-45de-9233-cdf322b3a44a__model.png",
+          "status": "accepted",
+          "reason": null
+        }
+      ],
+      "blockers": [],
+      "generation_attempts": 13,
+      "rejected_candidates": 2,
+      "tool_failed_attempts": 0,
+      "output_dimensions": [
+        [
+          1024,
+          1536
+        ]
+      ],
+      "github_output_directory": "https://github.com/lifestylekky/Life-Style-image-studio-store-/tree/main/products/31802d53-4810-42b8-ba1a-e1bdd57dfda8/generated",
+      "verified_product_commit": "73ecc5c3ab7d548ed1ddc013ea9ff81607f370c4",
+      "remote_files_verified": true
+    },
+    {
+      "id": "61b7971d-fef8-4733-aac7-8a70baf32202",
+      "name": "VELONA SHORT MODEL NIGHTY",
+      "main_sources": 1,
+      "color_sources": 9,
+      "source_images": 10,
+      "generated_main": 0,
+      "generated_colors": 0,
+      "accepted_images": 0,
+      "blocked_sources": 10,
+      "final_status": "BLOCKED",
+      "quality_status": "BLOCKED",
+      "scene_profile": "Premium neutral ivory bedroom as original main: pale beige wall, warm wood floor, low bed and vertical oak-slat headboard behind left with ivory bedding, small oak bedside cabinet/lamp and tiny plant far left, sheer white curtain/window at right; diffused neutral daylight from right around5000K. Model stands centered in clear foreground.",
+      "unfolded_construction_references": [
+        "main/41121a91-d047-4ede-bd79-182116a518d9.jpg",
+        "colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg"
+      ],
+      "source_inventory": [
+        {
+          "path": "main/41121a91-d047-4ede-bd79-182116a518d9.jpg",
+          "dimensions": [
+            960,
+            1280
+          ],
+          "sha256": "fe2b2852359ad80fceeee89588b42d9b52c167ee933ea4e98a8d7bb158ffdac9",
+          "readable": true
+        },
+        {
+          "path": "colors/e4b06b3c-c1b0-46c4-9055-67796f6213d1.webp",
+          "dimensions": [
+            2200,
+            1012
+          ],
+          "sha256": "97b37c6b4d81c19d601286a9cdbda3075000d1575d9ca12247ed08244cefd79a",
+          "readable": true
+        },
+        {
+          "path": "colors/c4dfec85-a5af-4852-b20f-69de3ccf2cfe.webp",
+          "dimensions": [
+            1650,
+            2200
+          ],
+          "sha256": "128c4a0269c01ed50102ad1ad9a4821f0a32136f3f869ce79abf806727f8a04e",
+          "readable": true
+        },
+        {
+          "path": "colors/acabae47-f5a8-4c57-b0a2-fc9e739afb0c.webp",
+          "dimensions": [
+            2200,
+            1012
+          ],
+          "sha256": "17693e291b4451a6f980e173193d85e28a60409b48445f552a2dba2e1055b7ae",
+          "readable": true
+        },
+        {
+          "path": "colors/60b213fa-0758-4666-91ae-39d74f534874.jpg",
+          "dimensions": [
+            1840,
+            4000
+          ],
+          "sha256": "1f0b242d81721e981d8e3ce43fafc2f33add0f1211c357f97105a8025cec3ce2",
+          "readable": true
+        },
+        {
+          "path": "colors/6b89f8ba-4394-4c05-a6ac-fcf8e741fd55.webp",
+          "dimensions": [
+            1012,
+            2200
+          ],
+          "sha256": "a0c2a84f8a91edffc96e8bce3eeb26f5233f057a7cf05f3142dea492dc3974be",
+          "readable": true
+        },
+        {
+          "path": "colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg",
+          "dimensions": [
+            1840,
+            4000
+          ],
+          "sha256": "576688e3f03d3305fba866e3136c406cf71a7e7416e6ffbddf0496a0a6b23d30",
+          "readable": true
+        },
+        {
+          "path": "colors/98fbeb3f-7f24-42da-b432-9601b91237a7.webp",
+          "dimensions": [
+            1012,
+            2200
+          ],
+          "sha256": "4d1964357f4c6a8096113354e8f466031d88eb263a2b91bdcf588edbe0190fb8",
+          "readable": true
+        },
+        {
+          "path": "colors/45070679-fada-4299-8d66-0016c54b75d9.webp",
+          "dimensions": [
+            1012,
+            2200
+          ],
+          "sha256": "9c73ccdc69c71bae9ed4b118b8d2bfc9474998997ff5e80735836731e457a0cf",
+          "readable": true
+        },
+        {
+          "path": "colors/6667cf2b-3507-4de9-bb3a-e952f244e280.webp",
+          "dimensions": [
+            1650,
+            2200
+          ],
+          "sha256": "8da3e5b27de7ffa10fc7db090d3cfb13ce94dd30e3d05ff3f8622aa11bd321ee",
+          "readable": true
+        }
+      ],
+      "source_to_output": [
+        {
+          "source": "main/41121a91-d047-4ede-bd79-182116a518d9.jpg",
+          "source_sha256": "fe2b2852359ad80fceeee89588b42d9b52c167ee933ea4e98a8d7bb158ffdac9",
+          "output": null,
+          "status": "blocked",
+          "reason": "Two reference-conditioned adult retail attempts were rejected by image tool at input: moderation_blocked, sexual category. Request IDs 986b6f3c-68b5-487e-b5b3-c2d401f0abf8 and ea931d31-bf4a-4ef8-a4a5-0ec1ccdb6c88. No image returned."
+        },
+        {
+          "source": "colors/e4b06b3c-c1b0-46c4-9055-67796f6213d1.webp",
+          "source_sha256": "97b37c6b4d81c19d601286a9cdbda3075000d1575d9ca12247ed08244cefd79a",
+          "output": null,
+          "status": "blocked",
+          "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+        },
+        {
+          "source": "colors/c4dfec85-a5af-4852-b20f-69de3ccf2cfe.webp",
+          "source_sha256": "128c4a0269c01ed50102ad1ad9a4821f0a32136f3f869ce79abf806727f8a04e",
+          "output": null,
+          "status": "blocked",
+          "reason": "Adult retail generation rejected by image tool at input: moderation_blocked, sexual category. Request ID 1f9f13c6-7af6-482d-9fa1-a1f79ef410d8. No image returned."
+        },
+        {
+          "source": "colors/acabae47-f5a8-4c57-b0a2-fc9e739afb0c.webp",
+          "source_sha256": "17693e291b4451a6f980e173193d85e28a60409b48445f552a2dba2e1055b7ae",
+          "output": null,
+          "status": "blocked",
+          "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+        },
+        {
+          "source": "colors/60b213fa-0758-4666-91ae-39d74f534874.jpg",
+          "source_sha256": "1f0b242d81721e981d8e3ce43fafc2f33add0f1211c357f97105a8025cec3ce2",
+          "output": null,
+          "status": "blocked",
+          "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+        },
+        {
+          "source": "colors/6b89f8ba-4394-4c05-a6ac-fcf8e741fd55.webp",
+          "source_sha256": "a0c2a84f8a91edffc96e8bce3eeb26f5233f057a7cf05f3142dea492dc3974be",
+          "output": null,
+          "status": "blocked",
+          "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+        },
+        {
+          "source": "colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg",
+          "source_sha256": "576688e3f03d3305fba866e3136c406cf71a7e7416e6ffbddf0496a0a6b23d30",
+          "output": null,
+          "status": "blocked",
+          "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+        },
+        {
+          "source": "colors/98fbeb3f-7f24-42da-b432-9601b91237a7.webp",
+          "source_sha256": "4d1964357f4c6a8096113354e8f466031d88eb263a2b91bdcf588edbe0190fb8",
+          "output": null,
+          "status": "blocked",
+          "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+        },
+        {
+          "source": "colors/45070679-fada-4299-8d66-0016c54b75d9.webp",
+          "source_sha256": "9c73ccdc69c71bae9ed4b118b8d2bfc9474998997ff5e80735836731e457a0cf",
+          "output": null,
+          "status": "blocked",
+          "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+        },
+        {
+          "source": "colors/6667cf2b-3507-4de9-bb3a-e952f244e280.webp",
+          "source_sha256": "8da3e5b27de7ffa10fc7db090d3cfb13ce94dd30e3d05ff3f8622aa11bd321ee",
+          "output": null,
+          "status": "blocked",
+          "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+        }
+      ],
+      "blockers": [
+        {
+          "source": "main/41121a91-d047-4ede-bd79-182116a518d9.jpg",
+          "status": "blocked",
+          "reason": "Two reference-conditioned adult retail attempts were rejected by image tool at input: moderation_blocked, sexual category. Request IDs 986b6f3c-68b5-487e-b5b3-c2d401f0abf8 and ea931d31-bf4a-4ef8-a4a5-0ec1ccdb6c88. No image returned."
+        },
+        {
+          "source": "colors/c4dfec85-a5af-4852-b20f-69de3ccf2cfe.webp",
+          "status": "blocked",
+          "attempted": true,
+          "reason": "Adult retail generation rejected by image tool at input: moderation_blocked, sexual category. Request ID 1f9f13c6-7af6-482d-9fa1-a1f79ef410d8. No image returned."
+        },
+        {
+          "source": "colors/6667cf2b-3507-4de9-bb3a-e952f244e280.webp",
+          "status": "blocked",
+          "attempted": false,
+          "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+        },
+        {
+          "source": "colors/60b213fa-0758-4666-91ae-39d74f534874.jpg",
+          "status": "blocked",
+          "attempted": false,
+          "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+        },
+        {
+          "source": "colors/6b89f8ba-4394-4c05-a6ac-fcf8e741fd55.webp",
+          "status": "blocked",
+          "attempted": false,
+          "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+        },
+        {
+          "source": "colors/e4b06b3c-c1b0-46c4-9055-67796f6213d1.webp",
+          "status": "blocked",
+          "attempted": false,
+          "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+        },
+        {
+          "source": "colors/acabae47-f5a8-4c57-b0a2-fc9e739afb0c.webp",
+          "status": "blocked",
+          "attempted": false,
+          "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+        },
+        {
+          "source": "colors/45070679-fada-4299-8d66-0016c54b75d9.webp",
+          "status": "blocked",
+          "attempted": false,
+          "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+        },
+        {
+          "source": "colors/98fbeb3f-7f24-42da-b432-9601b91237a7.webp",
+          "status": "blocked",
+          "attempted": false,
+          "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+        },
+        {
+          "source": "colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg",
+          "status": "blocked",
+          "attempted": false,
+          "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+        }
+      ],
+      "generation_attempts": 3,
+      "rejected_candidates": 0,
+      "tool_failed_attempts": 3,
+      "output_dimensions": [],
+      "github_output_directory": "https://github.com/lifestylekky/Life-Style-image-studio-store-/tree/main/products/61b7971d-fef8-4733-aac7-8a70baf32202/generated",
+      "verified_product_commit": "86ef4daef3207dd04e4ee69a0c67812f4d1f01d7",
+      "remote_files_verified": true
+    },
+    {
+      "id": "6c17c7d7-814a-4f56-99a0-df2d27dcd619",
+      "name": "VELONA SLEEVE LESS NIGHTY \u2014 polka dot, 40 inch",
+      "main_sources": 1,
+      "color_sources": 9,
+      "source_images": 10,
+      "generated_main": 1,
+      "generated_colors": 9,
+      "accepted_images": 10,
+      "blocked_sources": 0,
+      "final_status": "COMPLETE",
+      "quality_status": "PASS",
+      "scene_profile": "Warm ivory bedroom, oak floor, sheer curtain/window at left; cream bed edge and ivory bedding at right, small one-drawer oak bedside table supporting a ribbed ivory vase with pale small flowers. Soft diffused left daylight, fixed main-image layout.",
+      "unfolded_construction_references": [
+        "main/a715866e-4e86-4d84-bb8f-8dc07cd5c728.webp",
+        "colors/3f530186-735b-4f9d-a966-e4198c5f9b63.jpg"
+      ],
+      "source_inventory": [
+        {
+          "path": "main/a715866e-4e86-4d84-bb8f-8dc07cd5c728.webp",
+          "dimensions": [
+            1650,
+            2200
+          ],
+          "sha256": "c75f4bab35832665cdfe70c0d2a1f7961a3cb66270268bf1032933311d8eb20b",
+          "readable": true
+        },
+        {
+          "path": "colors/96381418-ce95-495c-8b07-7cdff9686d6b.webp",
+          "dimensions": [
+            1650,
+            2200
+          ],
+          "sha256": "2661131a3255a5ab1a7b9f5b0a82574e9a7a959ed87233883a91ca76ba82322c",
+          "readable": true
+        },
+        {
+          "path": "colors/81b75192-6125-4ffa-9970-d687c4d24a78.webp",
+          "dimensions": [
+            1650,
+            2200
+          ],
+          "sha256": "7046ccf4ea723729e40354d105b8a2d1c488005f66789e0cd5fc52c6c4980987",
+          "readable": true
+        },
+        {
+          "path": "colors/7d6cf780-1e5c-4f60-b658-a76f0edd8100.webp",
+          "dimensions": [
+            2200,
+            1650
+          ],
+          "sha256": "4e4a00c8c3cbd54359c75959cb3943718d187b32c2e374662fcd4f8ac294dbd3",
+          "readable": true
+        },
+        {
+          "path": "colors/0518b067-3974-46a5-b1c7-bcb1c27e9b38.webp",
+          "dimensions": [
+            1650,
+            2200
+          ],
+          "sha256": "bc4075c13bd2319becdf513f868301bb5459b92295f8d95e30cb678f4744f900",
+          "readable": true
+        },
+        {
+          "path": "colors/dda95415-15ef-4c83-9b57-aaddaa331a66.webp",
+          "dimensions": [
+            1650,
+            2200
+          ],
+          "sha256": "29e1f8c8cc3b28f284af74bef0c34c4e1eaaff8a771abedf3e8d04111f866562",
+          "readable": true
+        },
+        {
+          "path": "colors/3f530186-735b-4f9d-a966-e4198c5f9b63.jpg",
+          "dimensions": [
+            853,
+            1280
+          ],
+          "sha256": "e9ee5604bfbd4639c9b793f585b81716a35d3718dbccf82d6bc2a7222318a967",
+          "readable": true
+        },
+        {
+          "path": "colors/ae3450b4-42bf-40f1-8349-be5c9f889b75.webp",
+          "dimensions": [
+            2200,
+            1650
+          ],
+          "sha256": "20e960a512bd3f85fcedb691a06e71c3dcb8b65a1f388739f38f9cc660a62a2f",
+          "readable": true
+        },
+        {
+          "path": "colors/01a6dca1-1eb2-4786-b8c9-1eed4510c3ca.webp",
+          "dimensions": [
+            2200,
+            1012
+          ],
+          "sha256": "7ed293e02be8e80551d8069bda671d084be1fce964684b75b93405ebd056a3d4",
+          "readable": true
+        },
+        {
+          "path": "colors/c3c344ed-7854-4f5b-acc9-b286ec3820d0.webp",
+          "dimensions": [
+            1650,
+            2200
+          ],
+          "sha256": "15e6408e6a2ddb7fd2afc7e79e95d6f08ce3a27ebf07238ec7aba46682076c42",
+          "readable": true
+        }
+      ],
+      "source_to_output": [
+        {
+          "source": "main/a715866e-4e86-4d84-bb8f-8dc07cd5c728.webp",
+          "source_sha256": "c75f4bab35832665cdfe70c0d2a1f7961a3cb66270268bf1032933311d8eb20b",
+          "output": "generated/main__a715866e-4e86-4d84-bb8f-8dc07cd5c728__model.png",
+          "status": "accepted",
+          "reason": null
+        },
+        {
+          "source": "colors/96381418-ce95-495c-8b07-7cdff9686d6b.webp",
+          "source_sha256": "2661131a3255a5ab1a7b9f5b0a82574e9a7a959ed87233883a91ca76ba82322c",
+          "output": "generated/color__96381418-ce95-495c-8b07-7cdff9686d6b__model.png",
+          "status": "accepted",
+          "reason": null
+        },
+        {
+          "source": "colors/81b75192-6125-4ffa-9970-d687c4d24a78.webp",
+          "source_sha256": "7046ccf4ea723729e40354d105b8a2d1c488005f66789e0cd5fc52c6c4980987",
+          "output": "generated/color__81b75192-6125-4ffa-9970-d687c4d24a78__model.png",
+          "status": "accepted",
+          "reason": null
+        },
+        {
+          "source": "colors/7d6cf780-1e5c-4f60-b658-a76f0edd8100.webp",
+          "source_sha256": "4e4a00c8c3cbd54359c75959cb3943718d187b32c2e374662fcd4f8ac294dbd3",
+          "output": "generated/color__7d6cf780-1e5c-4f60-b658-a76f0edd8100__model.png",
+          "status": "accepted",
+          "reason": null
+        },
+        {
+          "source": "colors/0518b067-3974-46a5-b1c7-bcb1c27e9b38.webp",
+          "source_sha256": "bc4075c13bd2319becdf513f868301bb5459b92295f8d95e30cb678f4744f900",
+          "output": "generated/color__0518b067-3974-46a5-b1c7-bcb1c27e9b38__model.png",
+          "status": "accepted",
+          "reason": null
+        },
+        {
+          "source": "colors/dda95415-15ef-4c83-9b57-aaddaa331a66.webp",
+          "source_sha256": "29e1f8c8cc3b28f284af74bef0c34c4e1eaaff8a771abedf3e8d04111f866562",
+          "output": "generated/color__dda95415-15ef-4c83-9b57-aaddaa331a66__model.png",
+          "status": "accepted",
+          "reason": null
+        },
+        {
+          "source": "colors/3f530186-735b-4f9d-a966-e4198c5f9b63.jpg",
+          "source_sha256": "e9ee5604bfbd4639c9b793f585b81716a35d3718dbccf82d6bc2a7222318a967",
+          "output": "generated/color__3f530186-735b-4f9d-a966-e4198c5f9b63__model.png",
+          "status": "accepted",
+          "reason": null
+        },
+        {
+          "source": "colors/ae3450b4-42bf-40f1-8349-be5c9f889b75.webp",
+          "source_sha256": "20e960a512bd3f85fcedb691a06e71c3dcb8b65a1f388739f38f9cc660a62a2f",
+          "output": "generated/color__ae3450b4-42bf-40f1-8349-be5c9f889b75__model.png",
+          "status": "accepted",
+          "reason": null
+        },
+        {
+          "source": "colors/01a6dca1-1eb2-4786-b8c9-1eed4510c3ca.webp",
+          "source_sha256": "7ed293e02be8e80551d8069bda671d084be1fce964684b75b93405ebd056a3d4",
+          "output": "generated/color__01a6dca1-1eb2-4786-b8c9-1eed4510c3ca__model.png",
+          "status": "accepted",
+          "reason": null
+        },
+        {
+          "source": "colors/c3c344ed-7854-4f5b-acc9-b286ec3820d0.webp",
+          "source_sha256": "15e6408e6a2ddb7fd2afc7e79e95d6f08ce3a27ebf07238ec7aba46682076c42",
+          "output": "generated/color__c3c344ed-7854-4f5b-acc9-b286ec3820d0__model.png",
+          "status": "accepted",
+          "reason": null
+        }
+      ],
+      "blockers": [],
+      "generation_attempts": 13,
+      "rejected_candidates": 3,
+      "tool_failed_attempts": 0,
+      "output_dimensions": [
+        [
+          1086,
+          1448
+        ]
+      ],
+      "github_output_directory": "https://github.com/lifestylekky/Life-Style-image-studio-store-/tree/main/products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/generated",
+      "verified_product_commit": "86ef4daef3207dd04e4ee69a0c67812f4d1f01d7",
+      "remote_files_verified": true
+    },
+    {
+      "id": "787a930b-5fa6-42a2-a9aa-a1e7511b3ae2",
+      "name": "Unidentified product \u2014 illustrated portrait references",
+      "main_sources": 1,
+      "color_sources": 1,
+      "source_images": 2,
+      "generated_main": 0,
+      "generated_colors": 0,
+      "accepted_images": 0,
+      "blocked_sources": 2,
+      "final_status": "BLOCKED",
+      "quality_status": "BLOCKED",
+      "scene_profile": null,
+      "unfolded_construction_references": [],
+      "source_inventory": [
+        {
+          "path": "main/cc88e0d4-d8c3-4e37-9cc3-810b37e16643.png",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "sha256": "76f9feea8f1562aecb975de78cf9761d11bfaf6574e68676ae0f31d7ca221fff",
+          "readable": true
+        },
+        {
+          "path": "colors/2354edfa-417a-478f-ab04-46345794610b.png",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "sha256": "a73580b3ff57c5269a1ec25e886446175b4c672ce0c9a4e938e69f0db7ec2600",
+          "readable": true
+        }
+      ],
+      "source_to_output": [
+        {
+          "source": "main/cc88e0d4-d8c3-4e37-9cc3-810b37e16643.png",
+          "source_sha256": "76f9feea8f1562aecb975de78cf9761d11bfaf6574e68676ae0f31d7ca221fff",
+          "output": null,
+          "status": "needs_reference",
+          "reason": "Both sources are stylized illustrated male street portraits, not verifiable retail garment photographs. Physical fabric, full shirt hem and construction are unconfirmed; no product description or unfolded same-product garment reference exists. Adult-female product reconstruction would invent details."
+        },
+        {
+          "source": "colors/2354edfa-417a-478f-ab04-46345794610b.png",
+          "source_sha256": "a73580b3ff57c5269a1ec25e886446175b4c672ce0c9a4e938e69f0db7ec2600",
+          "output": null,
+          "status": "needs_reference",
+          "reason": "Both sources are stylized illustrated male street portraits, not verifiable retail garment photographs. Physical fabric, full shirt hem and construction are unconfirmed; no product description or unfolded same-product garment reference exists. Adult-female product reconstruction would invent details."
+        }
+      ],
+      "blockers": [
+        "Both sources are stylized illustrated male street portraits, not verifiable retail garment photographs. Physical fabric, full shirt hem and construction are unconfirmed; no product description or unfolded same-product garment reference exists. Adult-female product reconstruction would invent details."
+      ],
+      "generation_attempts": 0,
+      "rejected_candidates": 0,
+      "tool_failed_attempts": 0,
+      "output_dimensions": [],
+      "github_output_directory": "https://github.com/lifestylekky/Life-Style-image-studio-store-/tree/main/products/787a930b-5fa6-42a2-a9aa-a1e7511b3ae2/generated",
+      "verified_product_commit": "1bb760b909b5c081aa397cf66625c64cdc8616b7",
+      "remote_files_verified": true
+    },
+    {
+      "id": "c5566ed5-6279-4b34-820d-23154c6e885e",
+      "name": "Sleeveless floral-yoke polka-dot satin nightdress (descriptive name)",
+      "main_sources": 1,
+      "color_sources": 1,
+      "source_images": 2,
+      "generated_main": 1,
+      "generated_colors": 1,
+      "accepted_images": 2,
+      "blocked_sources": 0,
+      "final_status": "COMPLETE",
+      "quality_status": "PASS",
+      "scene_profile": "Cream bedroom with pale oak floor, cream upholstered bed edge at left, small two-drawer oak bedside cabinet left behind model, sheer window curtain right; diffused right daylight, fixed architecture and furniture.",
+      "unfolded_construction_references": [
+        "main/adfca64f-edb5-4117-af2b-fa267ec0b11e.webp"
+      ],
+      "source_inventory": [
+        {
+          "path": "main/adfca64f-edb5-4117-af2b-fa267ec0b11e.webp",
+          "dimensions": [
+            1650,
+            2200
+          ],
+          "sha256": "c75f4bab35832665cdfe70c0d2a1f7961a3cb66270268bf1032933311d8eb20b",
+          "readable": true
+        },
+        {
+          "path": "colors/f9caff4f-8fa3-49ad-a93d-2ee4f71321ce.webp",
+          "dimensions": [
+            2200,
+            1012
+          ],
+          "sha256": "7ed293e02be8e80551d8069bda671d084be1fce964684b75b93405ebd056a3d4",
+          "readable": true
+        }
+      ],
+      "source_to_output": [
+        {
+          "source": "main/adfca64f-edb5-4117-af2b-fa267ec0b11e.webp",
+          "source_sha256": "c75f4bab35832665cdfe70c0d2a1f7961a3cb66270268bf1032933311d8eb20b",
+          "output": "generated/main__adfca64f-edb5-4117-af2b-fa267ec0b11e__model.png",
+          "status": "accepted",
+          "reason": null
+        },
+        {
+          "source": "colors/f9caff4f-8fa3-49ad-a93d-2ee4f71321ce.webp",
+          "source_sha256": "7ed293e02be8e80551d8069bda671d084be1fce964684b75b93405ebd056a3d4",
+          "output": "generated/color__f9caff4f-8fa3-49ad-a93d-2ee4f71321ce__model.png",
+          "status": "accepted",
+          "reason": null
+        }
+      ],
+      "blockers": [],
+      "generation_attempts": 2,
+      "rejected_candidates": 0,
+      "tool_failed_attempts": 0,
+      "output_dimensions": [
+        [
+          1086,
+          1448
+        ]
+      ],
+      "github_output_directory": "https://github.com/lifestylekky/Life-Style-image-studio-store-/tree/main/products/c5566ed5-6279-4b34-820d-23154c6e885e/generated",
+      "verified_product_commit": "1bb760b909b5c081aa397cf66625c64cdc8616b7",
+      "remote_files_verified": true
+    },
+    {
+      "id": "eb2bafda-eefe-433a-963f-8070749112d2",
+      "name": "Short-sleeve cropped pajama set (descriptive name)",
+      "main_sources": 1,
+      "color_sources": 1,
+      "source_images": 2,
+      "generated_main": 1,
+      "generated_colors": 1,
+      "accepted_images": 2,
+      "blocked_sources": 0,
+      "final_status": "COMPLETE",
+      "quality_status": "PASS",
+      "scene_profile": "Ivory bedroom, pale oak floor; cream upholstered bed with ivory bedding at left, plain one-drawer oak bedside table left, sheer white window curtain at right; soft right daylight, fixed layout.",
+      "unfolded_construction_references": [
+        "main/ee4a4ba3-be96-464d-a028-bbb15c1dc202.webp"
+      ],
+      "source_inventory": [
+        {
+          "path": "main/ee4a4ba3-be96-464d-a028-bbb15c1dc202.webp",
+          "dimensions": [
+            1650,
+            2200
+          ],
+          "sha256": "c08d828d706fe9d5fdd101ecb8ed5c9128b8f658c2aeb98bd31cd65a99570a2b",
+          "readable": true
+        },
+        {
+          "path": "colors/752af1af-f7ec-4764-b009-ec72a82d7dba.webp",
+          "dimensions": [
+            2200,
+            1650
+          ],
+          "sha256": "9bea18f76b56da1ccb565f10d59f73c2af16793553e87fa1136c469829275eda",
+          "readable": true
+        }
+      ],
+      "source_to_output": [
+        {
+          "source": "main/ee4a4ba3-be96-464d-a028-bbb15c1dc202.webp",
+          "source_sha256": "c08d828d706fe9d5fdd101ecb8ed5c9128b8f658c2aeb98bd31cd65a99570a2b",
+          "output": "generated/main__ee4a4ba3-be96-464d-a028-bbb15c1dc202__model.png",
+          "status": "accepted",
+          "reason": null
+        },
+        {
+          "source": "colors/752af1af-f7ec-4764-b009-ec72a82d7dba.webp",
+          "source_sha256": "9bea18f76b56da1ccb565f10d59f73c2af16793553e87fa1136c469829275eda",
+          "output": "generated/color__752af1af-f7ec-4764-b009-ec72a82d7dba__model.png",
+          "status": "accepted",
+          "reason": null
+        }
+      ],
+      "blockers": [],
+      "generation_attempts": 2,
+      "rejected_candidates": 0,
+      "tool_failed_attempts": 0,
+      "output_dimensions": [
+        [
+          1086,
+          1448
+        ]
+      ],
+      "github_output_directory": "https://github.com/lifestylekky/Life-Style-image-studio-store-/tree/main/products/eb2bafda-eefe-433a-963f-8070749112d2/generated",
+      "verified_product_commit": "1bb760b909b5c081aa397cf66625c64cdc8616b7",
+      "remote_files_verified": true
+    }
+  ],
+  "final_product_scan": [
+    {
+      "id": "1bfc349a-7912-4e6b-b7ec-3aa1457de4d9",
+      "generated_image_count": 0
+    },
+    {
+      "id": "2a01cb8f-1485-4e55-a2a1-2d926904f7f5",
+      "generated_image_count": 10
+    },
+    {
+      "id": "31802d53-4810-42b8-ba1a-e1bdd57dfda8",
+      "generated_image_count": 11
+    },
+    {
+      "id": "341e95fd-8b7b-44da-8a2a-1c69d70ea19f",
+      "generated_image_count": 4
+    },
+    {
+      "id": "39267445-63e6-4f0a-9494-72e539301f7a",
+      "generated_image_count": 2
+    },
+    {
+      "id": "50d9ff85-42b5-46bb-afb0-9502c503edae",
+      "generated_image_count": 13
+    },
+    {
+      "id": "61b7971d-fef8-4733-aac7-8a70baf32202",
+      "generated_image_count": 0
+    },
+    {
+      "id": "6c17c7d7-814a-4f56-99a0-df2d27dcd619",
+      "generated_image_count": 10
+    },
+    {
+      "id": "72c0b0a8-08cc-4307-81b2-017b44192ff5",
+      "generated_image_count": 4
+    },
+    {
+      "id": "787a930b-5fa6-42a2-a9aa-a1e7511b3ae2",
+      "generated_image_count": 0
+    },
+    {
+      "id": "7e77bdf5-3b7a-46b3-ac05-43c69be18ebf",
+      "generated_image_count": 4
+    },
+    {
+      "id": "8d21a508-9cff-4a75-93a2-3305dd32c17e",
+      "generated_image_count": 7
+    },
+    {
+      "id": "91927fc6-8d54-48b6-b588-352ecdee46e9",
+      "generated_image_count": 4
+    },
+    {
+      "id": "9c8dba15-4e9c-4932-92fb-47fd465eca07",
+      "generated_image_count": 11
+    },
+    {
+      "id": "af742961-15b3-4292-a880-60dd633fbf84",
+      "generated_image_count": 2
+    },
+    {
+      "id": "c5566ed5-6279-4b34-820d-23154c6e885e",
+      "generated_image_count": 2
+    },
+    {
+      "id": "c5e95606-6c21-44df-9525-789c2d0ebad0",
+      "generated_image_count": 1
+    },
+    {
+      "id": "c7bab910-e289-4b05-b74d-0c1808bf21e4",
+      "generated_image_count": 4
+    },
+    {
+      "id": "dc83513d-752d-40cc-a738-d5b064d6103d",
+      "generated_image_count": 11
+    },
+    {
+      "id": "e7ed6305-18b3-45e4-a255-2b5c4df93738",
+      "generated_image_count": 3
+    },
+    {
+      "id": "eb2bafda-eefe-433a-963f-8070749112d2",
+      "generated_image_count": 2
+    }
+  ],
+  "remaining_empty_generated_product_ids": [
+    "1bfc349a-7912-4e6b-b7ec-3aa1457de4d9",
+    "61b7971d-fef8-4733-aac7-8a70baf32202",
+    "787a930b-5fa6-42a2-a9aa-a1e7511b3ae2"
+  ],
+  "verification": {
+    "all_target_original_sha256_unchanged": true,
+    "all_main_and_color_sources_individually_reconciled": true,
+    "all_accepted_images_decoded_and_hashed": true,
+    "all_target_generated_files_match_remote_git_blobs": true,
+    "only_target_generated_directories_changed": true,
+    "all_thirteen_existing_nonempty_products_preserved": true,
+    "verified_files": [
+      {
+        "path": "products/1bfc349a-7912-4e6b-b7ec-3aa1457de4d9/generated/manifest.json",
+        "git_blob": "c7723afc4a9711f9806348e22aa38facfd33dc92"
+      },
+      {
+        "path": "products/1bfc349a-7912-4e6b-b7ec-3aa1457de4d9/generated/quality-report.json",
+        "git_blob": "ff758acf4441c48f1ec7751d26d9523f8d38fdfe"
+      },
+      {
+        "path": "products/2a01cb8f-1485-4e55-a2a1-2d926904f7f5/generated/color__0cabfbd3-bebb-41a6-9bcc-dc759d4adcf8__model.png",
+        "git_blob": "da385b7ab4cca392674d40357a45c41b04b06fbd"
+      },
+      {
+        "path": "products/2a01cb8f-1485-4e55-a2a1-2d926904f7f5/generated/color__2a00cbbb-6eb4-4b00-8a32-125120ffea3d__model.png",
+        "git_blob": "7ad821aa256b5f19ce0a8bc2a2760300f9ad1a3f"
+      },
+      {
+        "path": "products/2a01cb8f-1485-4e55-a2a1-2d926904f7f5/generated/color__2cf21eb5-97a8-492e-8e4d-498aef5303a8__model.png",
+        "git_blob": "9a445ce03d97a9963a6489eb5e37a72bf1fdbda6"
+      },
+      {
+        "path": "products/2a01cb8f-1485-4e55-a2a1-2d926904f7f5/generated/color__3f568575-5212-4dfa-bf5a-370b7fb70cce__model.png",
+        "git_blob": "07914b0553217a05ffe1cb49819c7c2494622b3c"
+      },
+      {
+        "path": "products/2a01cb8f-1485-4e55-a2a1-2d926904f7f5/generated/color__49b77eff-bce5-4917-8591-2d1dcf3d242a__model.png",
+        "git_blob": "f06e56bf4b384d92ba7a147ac71a88df01bf822e"
+      },
+      {
+        "path": "products/2a01cb8f-1485-4e55-a2a1-2d926904f7f5/generated/color__67bdac3b-8412-4cbc-9c18-f8e6a3e6c995__model.png",
+        "git_blob": "f94c8d3225e8da7d5f8f3657d8e68e014b1be84b"
+      },
+      {
+        "path": "products/2a01cb8f-1485-4e55-a2a1-2d926904f7f5/generated/color__7a5776de-76bd-4e9e-b25c-2d2845298cd5__model.png",
+        "git_blob": "819a18520db5b56a238496111c55b1cb604ce19e"
+      },
+      {
+        "path": "products/2a01cb8f-1485-4e55-a2a1-2d926904f7f5/generated/color__b4b8a2cb-cd04-4823-bd67-7ff4ddb8e3ff__model.png",
+        "git_blob": "f9852e66c3b8c346290466d46f223a00394b551d"
+      },
+      {
+        "path": "products/2a01cb8f-1485-4e55-a2a1-2d926904f7f5/generated/color__f83e599b-d570-4afc-bcd5-3e8511191a33__model.png",
+        "git_blob": "211c15ff44eec598984f5f7e4e2ed006e5d40258"
+      },
+      {
+        "path": "products/2a01cb8f-1485-4e55-a2a1-2d926904f7f5/generated/main__6d4b9cab-cef0-4deb-be40-1a5375766966__model.png",
+        "git_blob": "15495ff048337c87640d45a98eb2932f43e7cc91"
+      },
+      {
+        "path": "products/2a01cb8f-1485-4e55-a2a1-2d926904f7f5/generated/manifest.json",
+        "git_blob": "d12827e3dac22c0caabdcc42ff05f79a49dafb58"
+      },
+      {
+        "path": "products/2a01cb8f-1485-4e55-a2a1-2d926904f7f5/generated/quality-report.json",
+        "git_blob": "94422f02beeca9fa92b0d471f7f03383e062dc21"
+      },
+      {
+        "path": "products/31802d53-4810-42b8-ba1a-e1bdd57dfda8/generated/color__45227232-5fa3-4246-8424-ae7cdfe8128f__model.png",
+        "git_blob": "a1bcd19e777748d3b409a42a33d4fd4bcdaa2084"
+      },
+      {
+        "path": "products/31802d53-4810-42b8-ba1a-e1bdd57dfda8/generated/color__46fb65fe-734f-46df-b870-ac2b35fac2b3__model.png",
+        "git_blob": "f8a3a3befbd99b1d7d20616e1493e43898e83800"
+      },
+      {
+        "path": "products/31802d53-4810-42b8-ba1a-e1bdd57dfda8/generated/color__56671fae-af1d-4e08-8f32-a6ef235293dc__model.png",
+        "git_blob": "211293c76b78b4f95773c61f75849184956885f5"
+      },
+      {
+        "path": "products/31802d53-4810-42b8-ba1a-e1bdd57dfda8/generated/color__6772ad0c-6d54-446a-84f7-6edd68dd6f3c__model.png",
+        "git_blob": "99703f2cd8aeb30636f9d1c6ba337764e47c18ff"
+      },
+      {
+        "path": "products/31802d53-4810-42b8-ba1a-e1bdd57dfda8/generated/color__6f7ee639-d0b0-4025-a081-db03fde5bebe__model.png",
+        "git_blob": "5a57a124bea1421b6e8cb05da6c1f21e20fee04f"
+      },
+      {
+        "path": "products/31802d53-4810-42b8-ba1a-e1bdd57dfda8/generated/color__6fdf60d2-0ee3-4abd-86e2-eda257d995e9__model.png",
+        "git_blob": "eae6eb60e9fa8e234da6187b573931af758656df"
+      },
+      {
+        "path": "products/31802d53-4810-42b8-ba1a-e1bdd57dfda8/generated/color__71915e21-162d-4298-9b04-a3e7718c1d21__model.png",
+        "git_blob": "53c886c8d8bcc4673f3affa83e15ca4561146132"
+      },
+      {
+        "path": "products/31802d53-4810-42b8-ba1a-e1bdd57dfda8/generated/color__9bbe8063-d0f0-4afb-9419-4944cf14d150__model.png",
+        "git_blob": "8d771227b826eacd6af20224d605483b0e388fd5"
+      },
+      {
+        "path": "products/31802d53-4810-42b8-ba1a-e1bdd57dfda8/generated/color__b0a50681-f5c1-45de-9233-cdf322b3a44a__model.png",
+        "git_blob": "bc9bebb50a430c92e22dfd933db44da3ee521c37"
+      },
+      {
+        "path": "products/31802d53-4810-42b8-ba1a-e1bdd57dfda8/generated/color__cf99b4b2-aab5-44d5-8139-b63314eafeef__model.png",
+        "git_blob": "4fbc084fc4a70733573ce5526a6834d05f5c83fc"
+      },
+      {
+        "path": "products/31802d53-4810-42b8-ba1a-e1bdd57dfda8/generated/main__ed90023d-6ca9-4495-836e-d2a1069a7a02__model.png",
+        "git_blob": "73d6b2c78f34a75efd038917b94ee7048eac57e3"
+      },
+      {
+        "path": "products/31802d53-4810-42b8-ba1a-e1bdd57dfda8/generated/manifest.json",
+        "git_blob": "5320bbcf227db620334347e90f4c91401421c993"
+      },
+      {
+        "path": "products/31802d53-4810-42b8-ba1a-e1bdd57dfda8/generated/quality-report.json",
+        "git_blob": "3625664e845b07e1777527afed1be5771191ea14"
+      },
+      {
+        "path": "products/61b7971d-fef8-4733-aac7-8a70baf32202/generated/manifest.json",
+        "git_blob": "7fc0a2a2ef1fdaea244f273bde22db34c32b40aa"
+      },
+      {
+        "path": "products/61b7971d-fef8-4733-aac7-8a70baf32202/generated/quality-report.json",
+        "git_blob": "8e4218e8eea46b69923d3d044ad1ec5592ef4a93"
+      },
+      {
+        "path": "products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/generated/color__01a6dca1-1eb2-4786-b8c9-1eed4510c3ca__model.png",
+        "git_blob": "e5fe69283ed23c94e5f18ef9cd773a24bd111c3d"
+      },
+      {
+        "path": "products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/generated/color__0518b067-3974-46a5-b1c7-bcb1c27e9b38__model.png",
+        "git_blob": "804d86048788e43c82fb4431675f6342a6cdffc9"
+      },
+      {
+        "path": "products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/generated/color__3f530186-735b-4f9d-a966-e4198c5f9b63__model.png",
+        "git_blob": "147b7d864db7f34bf9a7900fc81f3a40d4d31518"
+      },
+      {
+        "path": "products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/generated/color__7d6cf780-1e5c-4f60-b658-a76f0edd8100__model.png",
+        "git_blob": "986a20124ed13348f531458838e09de22299fcd0"
+      },
+      {
+        "path": "products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/generated/color__81b75192-6125-4ffa-9970-d687c4d24a78__model.png",
+        "git_blob": "26581a0f715b1a8fbca756b891580cd90e3cb558"
+      },
+      {
+        "path": "products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/generated/color__96381418-ce95-495c-8b07-7cdff9686d6b__model.png",
+        "git_blob": "bedd29721cbab2d0828e4acd9609055e58a410fd"
+      },
+      {
+        "path": "products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/generated/color__ae3450b4-42bf-40f1-8349-be5c9f889b75__model.png",
+        "git_blob": "80230366647636a756db66b4afddae6f08185882"
+      },
+      {
+        "path": "products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/generated/color__c3c344ed-7854-4f5b-acc9-b286ec3820d0__model.png",
+        "git_blob": "ab4a970cde3ecfb803462cd302d7f55890c652c0"
+      },
+      {
+        "path": "products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/generated/color__dda95415-15ef-4c83-9b57-aaddaa331a66__model.png",
+        "git_blob": "972e6373d38be4b70c177ae5d2a1f9de3b57a0ac"
+      },
+      {
+        "path": "products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/generated/main__a715866e-4e86-4d84-bb8f-8dc07cd5c728__model.png",
+        "git_blob": "a073ead287590e5e34e2b2da524eebc74924b91f"
+      },
+      {
+        "path": "products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/generated/manifest.json",
+        "git_blob": "0e5c0ee15d9f0d595f95a041cfb531591b6ae50a"
+      },
+      {
+        "path": "products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/generated/quality-report.json",
+        "git_blob": "13ae5fa8489488658f7a37e6d5b9eabeeed16e6c"
+      },
+      {
+        "path": "products/787a930b-5fa6-42a2-a9aa-a1e7511b3ae2/generated/manifest.json",
+        "git_blob": "4e6669029ab383bac77226ec92ce0c45aafa916f"
+      },
+      {
+        "path": "products/787a930b-5fa6-42a2-a9aa-a1e7511b3ae2/generated/quality-report.json",
+        "git_blob": "bdde6e1981de41a25e28a37674d2bb02791da41c"
+      },
+      {
+        "path": "products/c5566ed5-6279-4b34-820d-23154c6e885e/generated/color__f9caff4f-8fa3-49ad-a93d-2ee4f71321ce__model.png",
+        "git_blob": "7ad8c3aea645b858cb514e550548e621032cea55"
+      },
+      {
+        "path": "products/c5566ed5-6279-4b34-820d-23154c6e885e/generated/main__adfca64f-edb5-4117-af2b-fa267ec0b11e__model.png",
+        "git_blob": "51a80af289670be99e921e38b5afad94b0cae063"
+      },
+      {
+        "path": "products/c5566ed5-6279-4b34-820d-23154c6e885e/generated/manifest.json",
+        "git_blob": "3ea3a44bcb339cd89d1c9fd88d5f83c9ac5137d8"
+      },
+      {
+        "path": "products/c5566ed5-6279-4b34-820d-23154c6e885e/generated/quality-report.json",
+        "git_blob": "c085060b050da97af1dc059a9054d4380f1583ea"
+      },
+      {
+        "path": "products/eb2bafda-eefe-433a-963f-8070749112d2/generated/color__752af1af-f7ec-4764-b009-ec72a82d7dba__model.png",
+        "git_blob": "e771c7da1a9f1560ee68b29f430ab0509eee0b8e"
+      },
+      {
+        "path": "products/eb2bafda-eefe-433a-963f-8070749112d2/generated/main__ee4a4ba3-be96-464d-a028-bbb15c1dc202__model.png",
+        "git_blob": "bce9de730122a5b832b0d458454e9793df91f3da"
+      },
+      {
+        "path": "products/eb2bafda-eefe-433a-963f-8070749112d2/generated/manifest.json",
+        "git_blob": "61a1b0347787d4f7f937eb308acfeeedd794d64c"
+      },
+      {
+        "path": "products/eb2bafda-eefe-433a-963f-8070749112d2/generated/quality-report.json",
+        "git_blob": "281415b748469d60d37412da5fe8d7044a238837"
+      }
+    ]
+  },
+  "resolution_note": "Native outputs are 1024x1536 or 1086x1448 PNG. The tool did not expose 4K control; no upscaling was applied.",
+  "blocker_note": "Two folders contain stylized illustrated street portraits without verifiable complete product references. Short-model nighty failed two main and one independent color attempt at tool input (moderation_blocked, sexual); other eight color entries mapped to shared blocker without claiming individual attempts. Request IDs are in product manifest. No unapproved or rejected candidates saved to product directories."
+}
