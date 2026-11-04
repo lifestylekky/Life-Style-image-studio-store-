@@ -1,0 +1,244 @@
+{
+  "product_id": "31802d53-4810-42b8-ba1a-e1bdd57dfda8",
+  "status": "PASS",
+  "review_method": "Individual visual comparison against complete same-product structure and each variant original, then cross-output model/scene/pose comparison; programmatic decode/hash/source reconciliation.",
+  "counts": {
+    "main_sources": 1,
+    "color_sources": 10,
+    "source_images": 11,
+    "accepted_main": 1,
+    "accepted_colors": 10,
+    "accepted_total": 11,
+    "blocked": 0,
+    "unaccounted": 0,
+    "generation_attempts": 13,
+    "rejected_attempts": 2
+  },
+  "per_output": [
+    {
+      "source": "main/ed90023d-6ca9-4495-836e-d2a1069a7a02.webp",
+      "output": "generated/main__ed90023d-6ca9-4495-836e-d2a1069a7a02__model.png",
+      "checks": {
+        "fully_unfolded_and_worn": "pass",
+        "correct_piece_count_and_construction": "pass",
+        "source_color_pattern_and_texture": "pass",
+        "full_garment_and_hem_visible": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "locked_scene_model_lighting_and_camera": "pass",
+        "safe_subtle_pose_variety": "pass",
+        "no_added_marketing_text_or_watermark": "pass",
+        "source_mapping_and_file_readable": "pass"
+      },
+      "notes": "Two matching matte knit pieces, short-sleeve round-neck hip-length top and loose cropped mid-calf trousers; light pink hearts, full set visible, natural anatomy.",
+      "pose": "Balanced near-front stance, arms loose away from garment, gentle camera gaze."
+    },
+    {
+      "source": "colors/46fb65fe-734f-46df-b870-ac2b35fac2b3.webp",
+      "output": "generated/color__46fb65fe-734f-46df-b870-ac2b35fac2b3__model.png",
+      "checks": {
+        "fully_unfolded_and_worn": "pass",
+        "correct_piece_count_and_construction": "pass",
+        "source_color_pattern_and_texture": "pass",
+        "full_garment_and_hem_visible": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "locked_scene_model_lighting_and_camera": "pass",
+        "safe_subtle_pose_variety": "pass",
+        "no_added_marketing_text_or_watermark": "pass",
+        "source_mapping_and_file_readable": "pass"
+      },
+      "notes": "Sage/gray-beige botanical silhouette print, fine leaves/veins and density matched; both cropped set pieces visible, stable model/room.",
+      "pose": "Near-front, head and gaze camera-left, relaxed arms and slight weight shift."
+    },
+    {
+      "source": "colors/45227232-5fa3-4246-8424-ae7cdfe8128f.webp",
+      "output": "generated/color__45227232-5fa3-4246-8424-ae7cdfe8128f__model.png",
+      "checks": {
+        "fully_unfolded_and_worn": "pass",
+        "correct_piece_count_and_construction": "pass",
+        "source_color_pattern_and_texture": "pass",
+        "full_garment_and_hem_visible": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "locked_scene_model_lighting_and_camera": "pass",
+        "safe_subtle_pose_variety": "pass",
+        "no_added_marketing_text_or_watermark": "pass",
+        "source_mapping_and_file_readable": "pass"
+      },
+      "notes": "Charcoal fine pinstripes and tiny white hearts preserved across complete matching set; revised pose visibly distinct and natural, stable model/room.",
+      "pose": "Weight left, right knee gently bent and foot offset, head tilt right, right arm clear outward."
+    },
+    {
+      "source": "colors/71915e21-162d-4298-9b04-a3e7718c1d21.webp",
+      "output": "generated/color__71915e21-162d-4298-9b04-a3e7718c1d21__model.png",
+      "checks": {
+        "fully_unfolded_and_worn": "pass",
+        "correct_piece_count_and_construction": "pass",
+        "source_color_pattern_and_texture": "pass",
+        "full_garment_and_hem_visible": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "locked_scene_model_lighting_and_camera": "pass",
+        "safe_subtle_pose_variety": "pass",
+        "no_added_marketing_text_or_watermark": "pass",
+        "source_mapping_and_file_readable": "pass"
+      },
+      "notes": "Cream thin black lines with source script and outline hearts; full matching cropped set, revised unobstructed pose, same model/room.",
+      "pose": "Gentle shoulder/body angle, off-camera gaze, right elbow bent clear, offset feet."
+    },
+    {
+      "source": "colors/cf99b4b2-aab5-44d5-8139-b63314eafeef.webp",
+      "output": "generated/color__cf99b4b2-aab5-44d5-8139-b63314eafeef__model.png",
+      "checks": {
+        "fully_unfolded_and_worn": "pass",
+        "correct_piece_count_and_construction": "pass",
+        "source_color_pattern_and_texture": "pass",
+        "full_garment_and_hem_visible": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "locked_scene_model_lighting_and_camera": "pass",
+        "safe_subtle_pose_variety": "pass",
+        "no_added_marketing_text_or_watermark": "pass",
+        "source_mapping_and_file_readable": "pass"
+      },
+      "notes": "Aqua/coral/navy repeating horizontal bands and source neckline/sleeve stripe layout preserved, two cropped pieces and natural pose, same room/model.",
+      "pose": "Small right-foot forward step, gaze camera-right, arms relaxed outward."
+    },
+    {
+      "source": "colors/56671fae-af1d-4e08-8f32-a6ef235293dc.webp",
+      "output": "generated/color__56671fae-af1d-4e08-8f32-a6ef235293dc__model.png",
+      "checks": {
+        "fully_unfolded_and_worn": "pass",
+        "correct_piece_count_and_construction": "pass",
+        "source_color_pattern_and_texture": "pass",
+        "full_garment_and_hem_visible": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "locked_scene_model_lighting_and_camera": "pass",
+        "safe_subtle_pose_variety": "pass",
+        "no_added_marketing_text_or_watermark": "pass",
+        "source_mapping_and_file_readable": "pass"
+      },
+      "notes": "Fine pale beige-gray vertical stripes on off-white fabric retained; both short-sleeve top and open cropped hems visible, relaxed drape, same model/room.",
+      "pose": "Gentle weight shift with offset/crossed ankles below hems, left forearm outward, gaze camera."
+    },
+    {
+      "source": "colors/6fdf60d2-0ee3-4abd-86e2-eda257d995e9.webp",
+      "output": "generated/color__6fdf60d2-0ee3-4abd-86e2-eda257d995e9__model.png",
+      "checks": {
+        "fully_unfolded_and_worn": "pass",
+        "correct_piece_count_and_construction": "pass",
+        "source_color_pattern_and_texture": "pass",
+        "full_garment_and_hem_visible": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "locked_scene_model_lighting_and_camera": "pass",
+        "safe_subtle_pose_variety": "pass",
+        "no_added_marketing_text_or_watermark": "pass",
+        "source_mapping_and_file_readable": "pass"
+      },
+      "notes": "Pale pink/cream vertical stripe widths and sequence matched; full cropped matching set, model/room consistent.",
+      "pose": "Weight shift with feet apart, right arm slightly outward and gaze camera-right."
+    },
+    {
+      "source": "colors/6f7ee639-d0b0-4025-a081-db03fde5bebe.webp",
+      "output": "generated/color__6f7ee639-d0b0-4025-a081-db03fde5bebe__model.png",
+      "checks": {
+        "fully_unfolded_and_worn": "pass",
+        "correct_piece_count_and_construction": "pass",
+        "source_color_pattern_and_texture": "pass",
+        "full_garment_and_hem_visible": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "locked_scene_model_lighting_and_camera": "pass",
+        "safe_subtle_pose_variety": "pass",
+        "no_added_marketing_text_or_watermark": "pass",
+        "source_mapping_and_file_readable": "pass"
+      },
+      "notes": "Cream/tan/brown/black irregular leopard rosettes preserved on both matching pieces; cropped proportions, clear garment visibility, stable model/scene.",
+      "pose": "Weight left, right foot relaxed outward, head tilted left, arms clear."
+    },
+    {
+      "source": "colors/9bbe8063-d0f0-4afb-9419-4944cf14d150.webp",
+      "output": "generated/color__9bbe8063-d0f0-4afb-9419-4944cf14d150__model.png",
+      "checks": {
+        "fully_unfolded_and_worn": "pass",
+        "correct_piece_count_and_construction": "pass",
+        "source_color_pattern_and_texture": "pass",
+        "full_garment_and_hem_visible": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "locked_scene_model_lighting_and_camera": "pass",
+        "safe_subtle_pose_variety": "pass",
+        "no_added_marketing_text_or_watermark": "pass",
+        "source_mapping_and_file_readable": "pass"
+      },
+      "notes": "Uniform solid black dots on off-white ground at source-like spacing, both cropped pieces and hems visible; natural stance, stable scene/model.",
+      "pose": "Small near-front shoulder angle, asymmetric arm spacing, feet apart and gaze camera."
+    },
+    {
+      "source": "colors/b0a50681-f5c1-45de-9233-cdf322b3a44a.webp",
+      "output": "generated/color__b0a50681-f5c1-45de-9233-cdf322b3a44a__model.png",
+      "checks": {
+        "fully_unfolded_and_worn": "pass",
+        "correct_piece_count_and_construction": "pass",
+        "source_color_pattern_and_texture": "pass",
+        "full_garment_and_hem_visible": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "locked_scene_model_lighting_and_camera": "pass",
+        "safe_subtle_pose_variety": "pass",
+        "no_added_marketing_text_or_watermark": "pass",
+        "source_mapping_and_file_readable": "pass"
+      },
+      "notes": "Subdued peach/pink and pale cream/ochre blended tonal areas match source without extra motif, complete cropped set, same model/room.",
+      "pose": "Left foot gently forward, broad natural smile, arms loose clear."
+    },
+    {
+      "source": "colors/6772ad0c-6d54-446a-84f7-6edd68dd6f3c.webp",
+      "output": "generated/color__6772ad0c-6d54-446a-84f7-6edd68dd6f3c__model.png",
+      "checks": {
+        "fully_unfolded_and_worn": "pass",
+        "correct_piece_count_and_construction": "pass",
+        "source_color_pattern_and_texture": "pass",
+        "full_garment_and_hem_visible": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "locked_scene_model_lighting_and_camera": "pass",
+        "safe_subtle_pose_variety": "pass",
+        "no_added_marketing_text_or_watermark": "pass",
+        "source_mapping_and_file_readable": "pass"
+      },
+      "notes": "Narrow slate navy/cream vertical pinstripes preserved on both pieces; full top and cropped hems visible, subtly varied pose, stable model/scene.",
+      "pose": "Small right shoulder angle, offset feet, left arm softly away and face camera."
+    }
+  ],
+  "source_preservation": "pass \u2014 all original hashes unchanged",
+  "source_reconciliation": "pass \u2014 every main/color source explicitly mapped",
+  "scene_consistency": "pass for accepted images",
+  "pose_variety": "pass \u2014 subtle head/gaze/shoulder/arm/stance variations; garment remains unobstructed",
+  "rejected_attempts": [
+    {
+      "source": "colors/45227232-5fa3-4246-8424-ae7cdfe8128f.webp",
+      "prompt": "One photorealistic e-commerce photograph of the exact coordinated two-piece pajama set. Original folded image1 defines dark charcoal gray with fine WHITE VERTICAL pinstripes and scattered tiny white filled hearts, matching material behind. Preserve stripe direction, narrow width and spacing, heart shape/scale and sparse placement from source; do not turn torso stripes horizontal or enlarge hearts. Original image2 gives complete same-product short-sleeve shirt and capri pant construction. Image3 locks identical adult female model identity, room bed/vase/cube right, curtain left, light, camera and subject scale. Exactly TWO coordinated pieces: a relaxed short-sleeve round-neck T-shirt with narrow self-fabric neck binding and visible double topstitch, straight loose body to hip and plain stitched lower hem; plus matching relaxed slightly tapered CAPRI pajama trousers reaching mid-to-lower calf, gathered elastic waistband as original, simple open stitched leg hems, no ankle cuffs. Preserve complete set proportions from original main, NOT floor-length pants or shorts. Soft matte cotton jersey, opaque, natural slight knit texture, same print on both pieces. No pockets, buttons, collar, drawstring, piping, lace, belt, chest logo or extra set pieces. Match each source print, scale, orientation, colors and actual neckline/sleeve seams. Physical sizes and lengths unknown; use photographed proportions. Portrait2:3, eye-level near-front65mm fashion camera, full head-to-barefeet composition, centered model at constant scale, all two set pieces visible, same location/layout, lighting, model and camera across variations. Highest supported native resolution, 4K if supported. Pose: Weight left, right toe gently forward, head tilted softly right, gaze camera. Clear subtle head tilt and one foot forward, hands outside garment. Entire matching two-piece set and both capri hems fully visible, natural opaque matte jersey and relaxed drape. One set, no folded display, flat lay, collage, extra garments, unsupported details, tags, added text or watermark.",
+      "reference_paths": [
+        "/workspace/Life-Style-image-studio-store-/products/31802d53-4810-42b8-ba1a-e1bdd57dfda8/colors/45227232-5fa3-4246-8424-ae7cdfe8128f.webp",
+        "/workspace/Life-Style-image-studio-store-/products/31802d53-4810-42b8-ba1a-e1bdd57dfda8/main/ed90023d-6ca9-4495-836e-d2a1069a7a02.webp",
+        "/workspace/generated_images/exec-7ce15822-b03e-4e70-acc0-d88d51e65d4c.png"
+      ],
+      "attempt": 1,
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-7471f382-9c76-47b5-81f4-78a39d3640e3.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "validation": "rejected_pose_too_similar_to_main"
+    },
+    {
+      "source": "colors/71915e21-162d-4298-9b04-a3e7718c1d21.webp",
+      "prompt": "One photorealistic professional e-commerce photo of this exact full matching TWO-PIECE cotton pajama set. Image1 ORIGINAL is precise fabric authority: cream/off-white background, widely spaced thin black vertical pinstripe lines, scattered small cursive script motifs and outline hearts integrated with lines. Preserve these source-supported fabric marks, their scale, spacing and direction, not new promotional text. Image2 original complete pink set supplies unfolded garment construction. Image3 locks exact adult model identity, same ivory bedroom furniture/curtain/vase arrangement, lighting, camera angle and scale. Exactly TWO coordinated pieces: a relaxed short-sleeve round-neck T-shirt with narrow self-fabric neck binding and visible double topstitch, straight loose body to hip and plain stitched lower hem; plus matching relaxed slightly tapered CAPRI pajama trousers reaching mid-to-lower calf, gathered elastic waistband as original, simple open stitched leg hems, no ankle cuffs. Preserve complete set proportions from original main, NOT floor-length pants or shorts. Soft matte cotton jersey, opaque, natural slight knit texture, same print on both pieces. No pockets, buttons, collar, drawstring, piping, lace, belt, chest logo or extra set pieces. Match each source print, scale, orientation, colors and actual neckline/sleeve seams. Physical sizes and lengths unknown; use photographed proportions. Portrait2:3, eye-level near-front65mm fashion camera, full head-to-barefeet composition, centered model at constant scale, all two set pieces visible, same location/layout, lighting, model and camera across variations. Highest supported native resolution, 4K if supported. Pose: Small10-degree shoulder angle right, face to camera, right elbow relaxed slightly outward, hands below dress-side panels. Clearly angle shoulders slightly while face looks toward camera and right elbow held softly outward; hands not on clothes. Full short-sleeve shirt and both cropped trousers/hem visible, natural matte knit texture and drape, opaque fabric, realistic anatomy. One complete matching set, no folded display, flat lay, collage, extra clothing, unsupported details, tags, added graphics/text or watermark.",
+      "reference_paths": [
+        "/workspace/Life-Style-image-studio-store-/products/31802d53-4810-42b8-ba1a-e1bdd57dfda8/colors/71915e21-162d-4298-9b04-a3e7718c1d21.webp",
+        "/workspace/Life-Style-image-studio-store-/products/31802d53-4810-42b8-ba1a-e1bdd57dfda8/main/ed90023d-6ca9-4495-836e-d2a1069a7a02.webp",
+        "/workspace/generated_images/exec-7ce15822-b03e-4e70-acc0-d88d51e65d4c.png"
+      ],
+      "attempt": 1,
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-e019cec2-d681-4f0a-b480-b3dc0fc1020e.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "validation": "rejected_pose_too_similar_to_main"
+    }
+  ],
+  "missing_or_blocked": [],
+  "limitations": [
+    "Description.txt is empty; product title is a visual description. Exact physical top/pant lengths are unknown; cropped trouser proportions follow main photograph.",
+    "Color entries show folded tops with matching fabric/elasticated folded components visible behind; reconstruction uses complete matching set in this same folder.",
+    "Visual source comparison; no physical measurements or calibrated colorimetry.",
+    "Native image dimensions recorded per output; not 4K unless actual dimensions support it. No artificial upscaling.",
+    "No unsupported unseen back details generated; fabric fiber composition not confirmed."
+  ]
+}
