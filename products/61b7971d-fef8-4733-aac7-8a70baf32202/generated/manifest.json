@@ -1,0 +1,393 @@
+{
+  "schema_version": 1,
+  "product_id": "61b7971d-fef8-4733-aac7-8a70baf32202",
+  "product_name": "VELONA SHORT MODEL NIGHTY",
+  "generation_status": "BLOCKED",
+  "updated_at": "2026-11-04T17:33:34.266146+00:00",
+  "workflow": "AGENTS.md",
+  "workflow_sha256": "e06afcae3d476b9ebbd90b0b5734eee3234c5d2df819b50a170485e28b21b577",
+  "source_metadata": {
+    "description.txt": {
+      "present": true,
+      "sha256": "2a12f240bd1cc8a00de4bf4692df5dd4b1e3f0584225c0b22ffcfae22d7a22d1"
+    },
+    "updates.txt": {
+      "present": true,
+      "sha256": "db43a3171521b5d332625ea02df72fc73758a8b06a5ca5318d1a6e4abc2a63e5"
+    }
+  },
+  "source_inventory": [
+    {
+      "path": "main/41121a91-d047-4ede-bd79-182116a518d9.jpg",
+      "dimensions": [
+        960,
+        1280
+      ],
+      "sha256": "fe2b2852359ad80fceeee89588b42d9b52c167ee933ea4e98a8d7bb158ffdac9",
+      "readable": true,
+      "aspect_ratio": 0.75,
+      "presentation": "Fully unfolded knee-length nightdress worn by adult female model."
+    },
+    {
+      "path": "colors/e4b06b3c-c1b0-46c4-9055-67796f6213d1.webp",
+      "dimensions": [
+        2200,
+        1012
+      ],
+      "sha256": "97b37c6b4d81c19d601286a9cdbda3075000d1575d9ca12247ed08244cefd79a",
+      "readable": true,
+      "aspect_ratio": 2.1739130434782608,
+      "presentation": "Folded color/detail reference; reconstructed using same-folder unfolded main/structural source"
+    },
+    {
+      "path": "colors/c4dfec85-a5af-4852-b20f-69de3ccf2cfe.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "sha256": "128c4a0269c01ed50102ad1ad9a4821f0a32136f3f869ce79abf806727f8a04e",
+      "readable": true,
+      "aspect_ratio": 0.75,
+      "presentation": "Folded color/detail reference; reconstructed using same-folder unfolded main/structural source"
+    },
+    {
+      "path": "colors/acabae47-f5a8-4c57-b0a2-fc9e739afb0c.webp",
+      "dimensions": [
+        2200,
+        1012
+      ],
+      "sha256": "17693e291b4451a6f980e173193d85e28a60409b48445f552a2dba2e1055b7ae",
+      "readable": true,
+      "aspect_ratio": 2.1739130434782608,
+      "presentation": "Folded color/detail reference; reconstructed using same-folder unfolded main/structural source"
+    },
+    {
+      "path": "colors/60b213fa-0758-4666-91ae-39d74f534874.jpg",
+      "dimensions": [
+        1840,
+        4000
+      ],
+      "sha256": "1f0b242d81721e981d8e3ce43fafc2f33add0f1211c357f97105a8025cec3ce2",
+      "readable": true,
+      "aspect_ratio": 0.46,
+      "presentation": "Folded color/detail reference; reconstructed using same-folder unfolded main/structural source"
+    },
+    {
+      "path": "colors/6b89f8ba-4394-4c05-a6ac-fcf8e741fd55.webp",
+      "dimensions": [
+        1012,
+        2200
+      ],
+      "sha256": "a0c2a84f8a91edffc96e8bce3eeb26f5233f057a7cf05f3142dea492dc3974be",
+      "readable": true,
+      "aspect_ratio": 0.46,
+      "presentation": "Folded color/detail reference; reconstructed using same-folder unfolded main/structural source"
+    },
+    {
+      "path": "colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg",
+      "dimensions": [
+        1840,
+        4000
+      ],
+      "sha256": "576688e3f03d3305fba866e3136c406cf71a7e7416e6ffbddf0496a0a6b23d30",
+      "readable": true,
+      "aspect_ratio": 0.46,
+      "presentation": "Fully unfolded hanging nightdress; black-bound hem, satin ruffle, straps, bow and under-bodice lace visible."
+    },
+    {
+      "path": "colors/98fbeb3f-7f24-42da-b432-9601b91237a7.webp",
+      "dimensions": [
+        1012,
+        2200
+      ],
+      "sha256": "4d1964357f4c6a8096113354e8f466031d88eb263a2b91bdcf588edbe0190fb8",
+      "readable": true,
+      "aspect_ratio": 0.46,
+      "presentation": "Folded color/detail reference; reconstructed using same-folder unfolded main/structural source"
+    },
+    {
+      "path": "colors/45070679-fada-4299-8d66-0016c54b75d9.webp",
+      "dimensions": [
+        1012,
+        2200
+      ],
+      "sha256": "9c73ccdc69c71bae9ed4b118b8d2bfc9474998997ff5e80735836731e457a0cf",
+      "readable": true,
+      "aspect_ratio": 0.46,
+      "presentation": "Folded color/detail reference; reconstructed using same-folder unfolded main/structural source"
+    },
+    {
+      "path": "colors/6667cf2b-3507-4de9-bb3a-e952f244e280.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "sha256": "8da3e5b27de7ffa10fc7db090d3cfb13ce94dd30e3d05ff3f8622aa11bd321ee",
+      "readable": true,
+      "aspect_ratio": 0.75,
+      "presentation": "Folded color/detail reference; reconstructed using same-folder unfolded main/structural source"
+    }
+  ],
+  "garment_specification": "Exactly ONE knee-length sleeveless satin nightdress: two thin BLACK spaghetti shoulder straps, source-shaped V neckline edged with narrow gathered self-satin ruffle, satin shaped bodice with visible seam/dart shaping, black floral scalloped lace band directly below bodice curving upward to a small center BLACK ribbon bow and short tails. Relaxed gently flared A-line plain satin skirt, complete knee-length hem edged with narrow BLACK binding. Preserve actual lace band width and scallops, bow placement, neckline depth and strap width from originals. Opaque satin bodice and skirt, subtle satin luster, solid unprinted color. No sleeves, extra straps, extra pieces, waist belt, slits, extra hem lace, cups/underwire, buttons, pockets or invented details. Use the same-folder worn main and unfolded hanging hot-pink color reference as structure evidence; no changed garment length.",
+  "unfolded_construction_references": [
+    "main/41121a91-d047-4ede-bd79-182116a518d9.jpg",
+    "colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg"
+  ],
+  "scene_profile": "Premium neutral ivory bedroom as original main: pale beige wall, warm wood floor, low bed and vertical oak-slat headboard behind left with ivory bedding, small oak bedside cabinet/lamp and tiny plant far left, sheer white curtain/window at right; diffused neutral daylight from right around5000K. Model stands centered in clear foreground.",
+  "model_profile": "One adult female model age32 with warm light-medium olive skin, oval face, brown eyes, straight shoulder-length dark brown hair tucked behind shoulders so straps visible, natural makeup, no jewelry. Match accepted main identity across every image.",
+  "camera_profile": "Portrait3:4 matching original main, eye-level near-front65mm camera, full head to barefeet composition, same centered subject scale and room positions throughout. Entire neckline, straps, black lace band, bow and black-bound hem unobstructed. Highest native resolution, 4K if supported.",
+  "aspect_ratio_rationale": "Portrait2:3 allows entire model and garment visibility; main reference may be narrower. Same native format used throughout product.",
+  "pose_plan": [
+    {
+      "source": "main/41121a91-d047-4ede-bd79-182116a518d9.jpg",
+      "planned": "Balanced near-front stance, arms loose away from garment, gentle camera gaze.",
+      "accepted": null,
+      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+    },
+    {
+      "source": "colors/c4dfec85-a5af-4852-b20f-69de3ccf2cfe.webp",
+      "planned": "Weight right, left foot a little forward, head turned slightly left, arms loose.",
+      "accepted": null,
+      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+    },
+    {
+      "source": "colors/6667cf2b-3507-4de9-bb3a-e952f244e280.webp",
+      "planned": "Weight left, right toe gently forward, head tilted softly right, gaze camera.",
+      "accepted": null,
+      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+    },
+    {
+      "source": "colors/60b213fa-0758-4666-91ae-39d74f534874.jpg",
+      "planned": "Small10-degree shoulder angle right, face to camera, right elbow relaxed slightly outward, hands below dress-side panels.",
+      "accepted": null,
+      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+    },
+    {
+      "source": "colors/6b89f8ba-4394-4c05-a6ac-fcf8e741fd55.webp",
+      "planned": "Near-front gentle half-step rightfoot, relaxed shoulders, gaze off-camera right.",
+      "accepted": null,
+      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+    },
+    {
+      "source": "colors/e4b06b3c-c1b0-46c4-9055-67796f6213d1.webp",
+      "planned": "Weight right, small left shoulder drop, chin level, left forearm softly bent outward without touching dress.",
+      "accepted": null,
+      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+    },
+    {
+      "source": "colors/acabae47-f5a8-4c57-b0a2-fc9e739afb0c.webp",
+      "planned": "Near-front relaxed stance, head turned slightly right, right arm a little away, small natural smile.",
+      "accepted": null,
+      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+    },
+    {
+      "source": "colors/45070679-fada-4299-8d66-0016c54b75d9.webp",
+      "planned": "Weight left with relaxed right knee, head subtly tilted left, both hands clear.",
+      "accepted": null,
+      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+    },
+    {
+      "source": "colors/98fbeb3f-7f24-42da-b432-9601b91237a7.webp",
+      "planned": "Small8-degree shoulder angle left, face forward, relaxed asymmetric arm spacing.",
+      "accepted": null,
+      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+    },
+    {
+      "source": "colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg",
+      "planned": "Near-front gentle step leftfoot, head facing camera with a broader natural smile, both arms loose.",
+      "accepted": null,
+      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+    }
+  ],
+  "source_to_output": [
+    {
+      "source": "main/41121a91-d047-4ede-bd79-182116a518d9.jpg",
+      "source_sha256": "fe2b2852359ad80fceeee89588b42d9b52c167ee933ea4e98a8d7bb158ffdac9",
+      "output": null,
+      "status": "blocked",
+      "reason": "Two reference-conditioned adult retail attempts were rejected by image tool at input: moderation_blocked, sexual category. Request IDs 986b6f3c-68b5-487e-b5b3-c2d401f0abf8 and ea931d31-bf4a-4ef8-a4a5-0ec1ccdb6c88. No image returned."
+    },
+    {
+      "source": "colors/e4b06b3c-c1b0-46c4-9055-67796f6213d1.webp",
+      "source_sha256": "97b37c6b4d81c19d601286a9cdbda3075000d1575d9ca12247ed08244cefd79a",
+      "output": null,
+      "status": "blocked",
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+    },
+    {
+      "source": "colors/c4dfec85-a5af-4852-b20f-69de3ccf2cfe.webp",
+      "source_sha256": "128c4a0269c01ed50102ad1ad9a4821f0a32136f3f869ce79abf806727f8a04e",
+      "output": null,
+      "status": "blocked",
+      "reason": "Adult retail generation rejected by image tool at input: moderation_blocked, sexual category. Request ID 1f9f13c6-7af6-482d-9fa1-a1f79ef410d8. No image returned."
+    },
+    {
+      "source": "colors/acabae47-f5a8-4c57-b0a2-fc9e739afb0c.webp",
+      "source_sha256": "17693e291b4451a6f980e173193d85e28a60409b48445f552a2dba2e1055b7ae",
+      "output": null,
+      "status": "blocked",
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+    },
+    {
+      "source": "colors/60b213fa-0758-4666-91ae-39d74f534874.jpg",
+      "source_sha256": "1f0b242d81721e981d8e3ce43fafc2f33add0f1211c357f97105a8025cec3ce2",
+      "output": null,
+      "status": "blocked",
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+    },
+    {
+      "source": "colors/6b89f8ba-4394-4c05-a6ac-fcf8e741fd55.webp",
+      "source_sha256": "a0c2a84f8a91edffc96e8bce3eeb26f5233f057a7cf05f3142dea492dc3974be",
+      "output": null,
+      "status": "blocked",
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+    },
+    {
+      "source": "colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg",
+      "source_sha256": "576688e3f03d3305fba866e3136c406cf71a7e7416e6ffbddf0496a0a6b23d30",
+      "output": null,
+      "status": "blocked",
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+    },
+    {
+      "source": "colors/98fbeb3f-7f24-42da-b432-9601b91237a7.webp",
+      "source_sha256": "4d1964357f4c6a8096113354e8f466031d88eb263a2b91bdcf588edbe0190fb8",
+      "output": null,
+      "status": "blocked",
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+    },
+    {
+      "source": "colors/45070679-fada-4299-8d66-0016c54b75d9.webp",
+      "source_sha256": "9c73ccdc69c71bae9ed4b118b8d2bfc9474998997ff5e80735836731e457a0cf",
+      "output": null,
+      "status": "blocked",
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+    },
+    {
+      "source": "colors/6667cf2b-3507-4de9-bb3a-e952f244e280.webp",
+      "source_sha256": "8da3e5b27de7ffa10fc7db090d3cfb13ce94dd30e3d05ff3f8622aa11bd321ee",
+      "output": null,
+      "status": "blocked",
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+    }
+  ],
+  "outputs": [],
+  "generation_history": [
+    {
+      "source": "main/41121a91-d047-4ede-bd79-182116a518d9.jpg",
+      "prompt": "Generate one photorealistic professional retail e-commerce nightdress photograph using attached original as exact garment/scene authority. Same adult woman appearance and room as original. Exactly ONE knee-length sleeveless satin nightdress: two thin BLACK spaghetti shoulder straps, source-shaped V neckline edged with narrow gathered self-satin ruffle, satin shaped bodice with visible seam/dart shaping, black floral scalloped lace band directly below bodice curving upward to a small center BLACK ribbon bow and short tails. Relaxed gently flared A-line plain satin skirt, complete knee-length hem edged with narrow BLACK binding. Preserve actual lace band width and scallops, bow placement, neckline depth and strap width from originals. Opaque satin bodice and skirt, subtle satin luster, solid unprinted color. No sleeves, extra straps, extra pieces, waist belt, slits, extra hem lace, cups/underwire, buttons, pockets or invented details. Use the same-folder worn main and unfolded hanging hot-pink color reference as structure evidence; no changed garment length. Premium neutral ivory bedroom as original main: pale beige wall, warm wood floor, low bed and vertical oak-slat headboard behind left with ivory bedding, small oak bedside cabinet/lamp and tiny plant far left, sheer white curtain/window at right; diffused neutral daylight from right around5000K. Model stands centered in clear foreground. One adult female model age32 with warm light-medium olive skin, oval face, brown eyes, straight shoulder-length dark brown hair tucked behind shoulders so straps visible, natural makeup, no jewelry. Match accepted main identity across every image. Portrait3:4 matching original main, eye-level near-front65mm camera, full head to barefeet composition, same centered subject scale and room positions throughout. Entire neckline, straps, black lace band, bow and black-bound hem unobstructed. Highest native resolution, 4K if supported. Original main color: rich purple satin with black straps, under-bodice floral lace, bow and hem binding. Pose: relaxed balanced near-front adult catalog stance, arms comfortably clear of the dress, face to camera with gentle smile. Entire product realistically worn fully unfolded from both straps through complete knee-length hem and model head-to-barefeet visible. Natural anatomy and fabric drape, neutral product-focused retail presentation. One garment only, no folded display, flatlay, collage, other clothes, unsupported details, tags, added text or watermark.",
+      "reference_paths": [
+        "/workspace/Life-Style-image-studio-store-/products/61b7971d-fef8-4733-aac7-8a70baf32202/main/41121a91-d047-4ede-bd79-182116a518d9.jpg"
+      ],
+      "attempt": 1,
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 986b6f3c-68b5-487e-b5b3-c2d401f0abf8. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "source": "main/41121a91-d047-4ede-bd79-182116a518d9.jpg",
+      "prompt": "Create a standard women's clothing-store e-commerce catalog photograph of the exact single purple knee-length satin nightdress in reference1. Reference2 shows the same garment construction unfolded on a hanger. Show one clearly adult woman age35 wearing it in a neutral upright professional stance, hands relaxed clear of clothing, full head-to-feet framing. Preserve original ruffled V neckline, two thin black shoulder straps, black floral under-bodice lace band, small black center bow, full loose knee-length satin skirt and narrow black-bound hem; do not change the garment design or add pieces. Preserve original purple fabric. Use the original ivory bedroom background, oak bed and cabinet left, sheer curtain right, even daylight and eye-level camera. Natural realistic fit and fabric drape, product-focused retail styling, no emphasis on body features. Entire garment clearly visible. Portrait3:4 high native resolution. One garment, no collage, folded display, text, price tags or watermark.",
+      "reference_paths": [
+        "/workspace/Life-Style-image-studio-store-/products/61b7971d-fef8-4733-aac7-8a70baf32202/main/41121a91-d047-4ede-bd79-182116a518d9.jpg",
+        "/workspace/Life-Style-image-studio-store-/products/61b7971d-fef8-4733-aac7-8a70baf32202/colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg"
+      ],
+      "attempt": 2,
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID ea931d31-bf4a-4ef8-a4a5-0ec1ccdb6c88. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    },
+    {
+      "source": "colors/c4dfec85-a5af-4852-b20f-69de3ccf2cfe.webp",
+      "prompt": "One professional e-commerce catalog photograph of the exact pink satin nightdress shown in original image1, unfolded using same-product hanging structure in original image2. Show one adult female model age35 in a neutral standing clothing-catalog pose: gentle weightshift, left foot slightly forward, head turned a little left, arms relaxed clear. Preserve actual single knee-length garment: black thin straps, ruffled pink V neckline, satin bodice, black floral under-bodice lace band and center ribbon bow, loose plain pink satin skirt and narrow black hem binding. No design changes or additional pieces. Product color is source1 medium candy pink, not hot pink. Ivory bedroom with oak bed/cabinet at left, sheer curtain/window at right, neutral diffuse daylight, eye-level near-front full head-to-feet portrait3:4. Entire garment clear, realistic drape and proportions, natural adult appearance, dark shoulder-length hair behind shoulders. One garment, no folded display, flat lay, collage, price labels, added writing or watermark.",
+      "reference_paths": [
+        "/workspace/Life-Style-image-studio-store-/products/61b7971d-fef8-4733-aac7-8a70baf32202/colors/c4dfec85-a5af-4852-b20f-69de3ccf2cfe.webp",
+        "/workspace/Life-Style-image-studio-store-/products/61b7971d-fef8-4733-aac7-8a70baf32202/colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg"
+      ],
+      "attempt": 1,
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 1f9f13c6-7af6-482d-9fa1-a1f79ef410d8. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    }
+  ],
+  "counts": {
+    "main_sources": 1,
+    "color_sources": 9,
+    "source_images": 10,
+    "accepted_main": 0,
+    "accepted_colors": 0,
+    "accepted_total": 0,
+    "blocked": 10,
+    "unaccounted": 0,
+    "generation_attempts": 3,
+    "tool_failed_attempts": 3,
+    "rejected_attempts": 0
+  },
+  "blockers": [
+    {
+      "source": "main/41121a91-d047-4ede-bd79-182116a518d9.jpg",
+      "status": "blocked",
+      "reason": "Two reference-conditioned adult retail attempts were rejected by image tool at input: moderation_blocked, sexual category. Request IDs 986b6f3c-68b5-487e-b5b3-c2d401f0abf8 and ea931d31-bf4a-4ef8-a4a5-0ec1ccdb6c88. No image returned."
+    },
+    {
+      "source": "colors/c4dfec85-a5af-4852-b20f-69de3ccf2cfe.webp",
+      "status": "blocked",
+      "attempted": true,
+      "reason": "Adult retail generation rejected by image tool at input: moderation_blocked, sexual category. Request ID 1f9f13c6-7af6-482d-9fa1-a1f79ef410d8. No image returned."
+    },
+    {
+      "source": "colors/6667cf2b-3507-4de9-bb3a-e952f244e280.webp",
+      "status": "blocked",
+      "attempted": false,
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+    },
+    {
+      "source": "colors/60b213fa-0758-4666-91ae-39d74f534874.jpg",
+      "status": "blocked",
+      "attempted": false,
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+    },
+    {
+      "source": "colors/6b89f8ba-4394-4c05-a6ac-fcf8e741fd55.webp",
+      "status": "blocked",
+      "attempted": false,
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+    },
+    {
+      "source": "colors/e4b06b3c-c1b0-46c4-9055-67796f6213d1.webp",
+      "status": "blocked",
+      "attempted": false,
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+    },
+    {
+      "source": "colors/acabae47-f5a8-4c57-b0a2-fc9e739afb0c.webp",
+      "status": "blocked",
+      "attempted": false,
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+    },
+    {
+      "source": "colors/45070679-fada-4299-8d66-0016c54b75d9.webp",
+      "status": "blocked",
+      "attempted": false,
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+    },
+    {
+      "source": "colors/98fbeb3f-7f24-42da-b432-9601b91237a7.webp",
+      "status": "blocked",
+      "attempted": false,
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+    },
+    {
+      "source": "colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg",
+      "status": "blocked",
+      "attempted": false,
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+    }
+  ],
+  "validation_limitations": [
+    "Exact physical length is absent from description; knee-length proportions follow the same-folder worn main image.",
+    "Visual source comparison; no physical measurements or calibrated colorimetry.",
+    "Native image dimensions recorded per output; not 4K unless actual dimensions support it. No artificial upscaling.",
+    "No unsupported unseen back details generated; fabric fiber composition not confirmed."
+  ],
+  "resumability": "Preserve accepted current-source outputs; regenerate only missing, failed or stale mappings.",
+  "persistence": {
+    "repository": "lifestylekky/Life-Style-image-studio-store-",
+    "branch": "main",
+    "directory": "products/61b7971d-fef8-4733-aac7-8a70baf32202/generated",
+    "verification": "Compare local file blobs with fetched origin/main after push; verified commit reported in execution response."
+  }
+}

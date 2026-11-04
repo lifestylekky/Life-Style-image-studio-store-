@@ -1,0 +1,707 @@
+{
+  "schema_version": 1,
+  "product_id": "6c17c7d7-814a-4f56-99a0-df2d27dcd619",
+  "product_name": "VELONA SLEEVE LESS NIGHTY \u2014 polka dot, 40 inch",
+  "generation_status": "all_required_sources_accepted",
+  "updated_at": "2026-11-04T17:54:43.869525+00:00",
+  "workflow": "AGENTS.md",
+  "workflow_sha256": "e06afcae3d476b9ebbd90b0b5734eee3234c5d2df819b50a170485e28b21b577",
+  "source_metadata": {
+    "description.txt": {
+      "present": true,
+      "sha256": "400fcf5a6c6b9522b84655f28dd754ae40809b357e4c8f3f92e358a47430dce3"
+    },
+    "updates.txt": {
+      "present": true,
+      "sha256": "89b0a275f76972b6844314dae9576855b5d0ccead8791efa902f8df5faf24237"
+    }
+  },
+  "source_inventory": [
+    {
+      "path": "main/a715866e-4e86-4d84-bb8f-8dc07cd5c728.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "sha256": "c75f4bab35832665cdfe70c0d2a1f7961a3cb66270268bf1032933311d8eb20b",
+      "readable": true,
+      "aspect_ratio": 0.75,
+      "presentation": "Complete unfolded dress on torso retail mannequin."
+    },
+    {
+      "path": "colors/96381418-ce95-495c-8b07-7cdff9686d6b.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "sha256": "2661131a3255a5ab1a7b9f5b0a82574e9a7a959ed87233883a91ca76ba82322c",
+      "readable": true,
+      "aspect_ratio": 0.75,
+      "presentation": "Folded color/detail reference; reconstructed using same-folder unfolded main/structural source"
+    },
+    {
+      "path": "colors/81b75192-6125-4ffa-9970-d687c4d24a78.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "sha256": "7046ccf4ea723729e40354d105b8a2d1c488005f66789e0cd5fc52c6c4980987",
+      "readable": true,
+      "aspect_ratio": 0.75,
+      "presentation": "Folded color/detail reference; reconstructed using same-folder unfolded main/structural source"
+    },
+    {
+      "path": "colors/7d6cf780-1e5c-4f60-b658-a76f0edd8100.webp",
+      "dimensions": [
+        2200,
+        1650
+      ],
+      "sha256": "4e4a00c8c3cbd54359c75959cb3943718d187b32c2e374662fcd4f8ac294dbd3",
+      "readable": true,
+      "aspect_ratio": 1.3333333333333333,
+      "presentation": "Folded color/detail reference; reconstructed using same-folder unfolded main/structural source"
+    },
+    {
+      "path": "colors/0518b067-3974-46a5-b1c7-bcb1c27e9b38.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "sha256": "bc4075c13bd2319becdf513f868301bb5459b92295f8d95e30cb678f4744f900",
+      "readable": true,
+      "aspect_ratio": 0.75,
+      "presentation": "Folded color/detail reference; reconstructed using same-folder unfolded main/structural source"
+    },
+    {
+      "path": "colors/dda95415-15ef-4c83-9b57-aaddaa331a66.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "sha256": "29e1f8c8cc3b28f284af74bef0c34c4e1eaaff8a771abedf3e8d04111f866562",
+      "readable": true,
+      "aspect_ratio": 0.75,
+      "presentation": "Folded color/detail reference; reconstructed using same-folder unfolded main/structural source"
+    },
+    {
+      "path": "colors/3f530186-735b-4f9d-a966-e4198c5f9b63.jpg",
+      "dimensions": [
+        853,
+        1280
+      ],
+      "sha256": "e9ee5604bfbd4639c9b793f585b81716a35d3718dbccf82d6bc2a7222318a967",
+      "readable": true,
+      "aspect_ratio": 0.66640625,
+      "presentation": "Unfolded worn adult-model reference, shoulders through plain hem and lower legs visible; head/feet cropped in original."
+    },
+    {
+      "path": "colors/ae3450b4-42bf-40f1-8349-be5c9f889b75.webp",
+      "dimensions": [
+        2200,
+        1650
+      ],
+      "sha256": "20e960a512bd3f85fcedb691a06e71c3dcb8b65a1f388739f38f9cc660a62a2f",
+      "readable": true,
+      "aspect_ratio": 1.3333333333333333,
+      "presentation": "Folded color/detail reference; reconstructed using same-folder unfolded main/structural source"
+    },
+    {
+      "path": "colors/01a6dca1-1eb2-4786-b8c9-1eed4510c3ca.webp",
+      "dimensions": [
+        2200,
+        1012
+      ],
+      "sha256": "7ed293e02be8e80551d8069bda671d084be1fce964684b75b93405ebd056a3d4",
+      "readable": true,
+      "aspect_ratio": 2.1739130434782608,
+      "presentation": "Folded color/detail reference; reconstructed using same-folder unfolded main/structural source"
+    },
+    {
+      "path": "colors/c3c344ed-7854-4f5b-acc9-b286ec3820d0.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "sha256": "15e6408e6a2ddb7fd2afc7e79e95d6f08ce3a27ebf07238ec7aba46682076c42",
+      "readable": true,
+      "aspect_ratio": 0.75,
+      "presentation": "Folded color/detail reference; reconstructed using same-folder unfolded main/structural source"
+    }
+  ],
+  "garment_specification": "Exactly ONE loose sleeveless A-line nightdress, stated40 inches shoulder-to-hem, falling below knees at mid-calf on average-height adult, consistent with worn gray original. Broad rounded scoop neckline/shoulder straps formed by a wide tonal floral guipure/crochet lace yoke, scalloped neck and lower edges, lace large daisy at center lower rounded point, roses and leaf/mesh motifs and small source-supported tonal HAPPY embroidery at center. Smooth lustrous opaque satin body softly gathered directly under yoke, tiny regular ivory/white polka dots over entire satin body, relaxed free-size straight-to-A-line drape, plain stitched curved hem with no lace. No sleeves, thin straps, waist shaping, belt, pockets, buttons, slits, trouser or second piece, extra hem lace or invented trim. Preserve original small dot size/spacing, lace motif layout, yoke proportions and complete length from SAME-FOLDER originals.",
+  "unfolded_construction_references": [
+    "main/a715866e-4e86-4d84-bb8f-8dc07cd5c728.webp",
+    "colors/3f530186-735b-4f9d-a966-e4198c5f9b63.jpg"
+  ],
+  "scene_profile": "Warm ivory bedroom, oak floor, sheer curtain/window at left; cream bed edge and ivory bedding at right, small one-drawer oak bedside table supporting a ribbed ivory vase with pale small flowers. Soft diffused left daylight, fixed main-image layout.",
+  "model_profile": "One adult South Asian woman age35, medium brown skin, natural average proportions, oval face, brown eyes, black hair in neat low bun, minimal makeup, no jewelry; same exact identity across all images.",
+  "camera_profile": "Portrait3:4 matching main source, eye-level near-front65mm, complete head-to-barefeet centered composition with full40-inch below-knee/calf garment visible, same subject scale and exact room layout/light/camera through variations. Highest native supported resolution, 4K if supported.",
+  "aspect_ratio_rationale": "Portrait3:4 follows main source and accommodates full garment/model with air around hem and feet.",
+  "pose_plan": [
+    {
+      "source": "main/a715866e-4e86-4d84-bb8f-8dc07cd5c728.webp",
+      "planned": "Balanced near-front stance, arms loose away from garment, gentle camera gaze.",
+      "accepted": "Balanced near-front stance, arms loose away from garment, gentle camera gaze.",
+      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+    },
+    {
+      "source": "colors/01a6dca1-1eb2-4786-b8c9-1eed4510c3ca.webp",
+      "planned": "Weight right, left foot a little forward, head turned slightly left, arms loose.",
+      "accepted": "Gentle forward step and off-camera gaze, arms relaxed away.",
+      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+    },
+    {
+      "source": "colors/ae3450b4-42bf-40f1-8349-be5c9f889b75.webp",
+      "planned": "Weight left, right toe gently forward, head tilted softly right, gaze camera.",
+      "accepted": "Soft right head tilt, slight weight shift and relaxed grounded feet, hands clear.",
+      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+    },
+    {
+      "source": "colors/81b75192-6125-4ffa-9970-d687c4d24a78.webp",
+      "planned": "Small10-degree shoulder angle right, face to camera, right elbow relaxed slightly outward, hands below dress-side panels.",
+      "accepted": "Slight near-front shoulder angle, right arm softly outward, face camera and feet apart.",
+      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+    },
+    {
+      "source": "colors/dda95415-15ef-4c83-9b57-aaddaa331a66.webp",
+      "planned": "Near-front gentle half-step rightfoot, relaxed shoulders, gaze off-camera right.",
+      "accepted": "Gentle forward footstep and off-camera right gaze, arms loose.",
+      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+    },
+    {
+      "source": "colors/96381418-ce95-495c-8b07-7cdff9686d6b.webp",
+      "planned": "Weight right, small left shoulder drop, chin level, left forearm softly bent outward without touching dress.",
+      "accepted": "Slight left shoulder drop, left arm gently outward, feet relaxed apart and gaze camera.",
+      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+    },
+    {
+      "source": "colors/7d6cf780-1e5c-4f60-b658-a76f0edd8100.webp",
+      "planned": "Near-front relaxed stance, head turned slightly right, right arm a little away, small natural smile.",
+      "accepted": "Near-front gaze right, right arm a little away, relaxed asymmetric foot placement.",
+      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+    },
+    {
+      "source": "colors/c3c344ed-7854-4f5b-acc9-b286ec3820d0.webp",
+      "planned": "Weight left with relaxed right knee, head subtly tilted left, both hands clear.",
+      "accepted": "Weight left, relaxed right knee/foot outward, soft left head tilt and clear arms.",
+      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+    },
+    {
+      "source": "colors/0518b067-3974-46a5-b1c7-bcb1c27e9b38.webp",
+      "planned": "Small8-degree shoulder angle left, face forward, relaxed asymmetric arm spacing.",
+      "accepted": "Small shoulder angle left, relaxed asymmetric arms and feet, gaze camera.",
+      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+    },
+    {
+      "source": "colors/3f530186-735b-4f9d-a966-e4198c5f9b63.jpg",
+      "planned": "Near-front gentle step leftfoot, head facing camera with a broader natural smile, both arms loose.",
+      "accepted": "Gentle left-foot forward step, broad natural smile, both arms loose clear.",
+      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+    }
+  ],
+  "source_to_output": [
+    {
+      "source": "main/a715866e-4e86-4d84-bb8f-8dc07cd5c728.webp",
+      "source_sha256": "c75f4bab35832665cdfe70c0d2a1f7961a3cb66270268bf1032933311d8eb20b",
+      "output": "generated/main__a715866e-4e86-4d84-bb8f-8dc07cd5c728__model.png",
+      "status": "accepted",
+      "reason": null
+    },
+    {
+      "source": "colors/96381418-ce95-495c-8b07-7cdff9686d6b.webp",
+      "source_sha256": "2661131a3255a5ab1a7b9f5b0a82574e9a7a959ed87233883a91ca76ba82322c",
+      "output": "generated/color__96381418-ce95-495c-8b07-7cdff9686d6b__model.png",
+      "status": "accepted",
+      "reason": null
+    },
+    {
+      "source": "colors/81b75192-6125-4ffa-9970-d687c4d24a78.webp",
+      "source_sha256": "7046ccf4ea723729e40354d105b8a2d1c488005f66789e0cd5fc52c6c4980987",
+      "output": "generated/color__81b75192-6125-4ffa-9970-d687c4d24a78__model.png",
+      "status": "accepted",
+      "reason": null
+    },
+    {
+      "source": "colors/7d6cf780-1e5c-4f60-b658-a76f0edd8100.webp",
+      "source_sha256": "4e4a00c8c3cbd54359c75959cb3943718d187b32c2e374662fcd4f8ac294dbd3",
+      "output": "generated/color__7d6cf780-1e5c-4f60-b658-a76f0edd8100__model.png",
+      "status": "accepted",
+      "reason": null
+    },
+    {
+      "source": "colors/0518b067-3974-46a5-b1c7-bcb1c27e9b38.webp",
+      "source_sha256": "bc4075c13bd2319becdf513f868301bb5459b92295f8d95e30cb678f4744f900",
+      "output": "generated/color__0518b067-3974-46a5-b1c7-bcb1c27e9b38__model.png",
+      "status": "accepted",
+      "reason": null
+    },
+    {
+      "source": "colors/dda95415-15ef-4c83-9b57-aaddaa331a66.webp",
+      "source_sha256": "29e1f8c8cc3b28f284af74bef0c34c4e1eaaff8a771abedf3e8d04111f866562",
+      "output": "generated/color__dda95415-15ef-4c83-9b57-aaddaa331a66__model.png",
+      "status": "accepted",
+      "reason": null
+    },
+    {
+      "source": "colors/3f530186-735b-4f9d-a966-e4198c5f9b63.jpg",
+      "source_sha256": "e9ee5604bfbd4639c9b793f585b81716a35d3718dbccf82d6bc2a7222318a967",
+      "output": "generated/color__3f530186-735b-4f9d-a966-e4198c5f9b63__model.png",
+      "status": "accepted",
+      "reason": null
+    },
+    {
+      "source": "colors/ae3450b4-42bf-40f1-8349-be5c9f889b75.webp",
+      "source_sha256": "20e960a512bd3f85fcedb691a06e71c3dcb8b65a1f388739f38f9cc660a62a2f",
+      "output": "generated/color__ae3450b4-42bf-40f1-8349-be5c9f889b75__model.png",
+      "status": "accepted",
+      "reason": null
+    },
+    {
+      "source": "colors/01a6dca1-1eb2-4786-b8c9-1eed4510c3ca.webp",
+      "source_sha256": "7ed293e02be8e80551d8069bda671d084be1fce964684b75b93405ebd056a3d4",
+      "output": "generated/color__01a6dca1-1eb2-4786-b8c9-1eed4510c3ca__model.png",
+      "status": "accepted",
+      "reason": null
+    },
+    {
+      "source": "colors/c3c344ed-7854-4f5b-acc9-b286ec3820d0.webp",
+      "source_sha256": "15e6408e6a2ddb7fd2afc7e79e95d6f08ce3a27ebf07238ec7aba46682076c42",
+      "output": "generated/color__c3c344ed-7854-4f5b-acc9-b286ec3820d0__model.png",
+      "status": "accepted",
+      "reason": null
+    }
+  ],
+  "outputs": [
+    {
+      "source": "main/a715866e-4e86-4d84-bb8f-8dc07cd5c728.webp",
+      "candidate": "/workspace/generated_images/exec-0567aa64-9ff5-4eeb-9a49-fa93d4de214b.png",
+      "color": "medium plum purple with tiny white dots and tonal purple lace",
+      "pose": "Balanced near-front stance, arms loose away from garment, gentle camera gaze.",
+      "qa_note": "Corrected initial overly long skirt to approximately40-inch below-knee/calf proportion; loose single satin nightdress, tonal scalloped floral yoke, small white dots, complete plain hem and adult model visible.",
+      "attempts": 2,
+      "output": "generated/main__a715866e-4e86-4d84-bb8f-8dc07cd5c728__model.png",
+      "output_sha256": "23c4ede4d75ebc14a8f130e00166128272fd6a020a686204558267f004f9f126",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_and_worn": "pass",
+        "correct_piece_count_and_construction": "pass",
+        "source_color_pattern_and_texture": "pass",
+        "full_garment_and_hem_visible": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "locked_scene_model_lighting_and_camera": "pass",
+        "safe_subtle_pose_variety": "pass",
+        "no_added_marketing_text_or_watermark": "pass",
+        "source_mapping_and_file_readable": "pass"
+      }
+    },
+    {
+      "source": "colors/01a6dca1-1eb2-4786-b8c9-1eed4510c3ca.webp",
+      "candidate": "/workspace/generated_images/exec-0296ea6f-27e1-40af-8f05-25ee96506c99.png",
+      "color": "royal cobalt blue with tiny white dots and tonal blue lace",
+      "pose": "Gentle forward step and off-camera gaze, arms relaxed away.",
+      "qa_note": "Royal blue satin and tonal floral lace, tiny white dot print, same corrected below-knee/calf length and plain hem, stable model/room.",
+      "attempts": 1,
+      "output": "generated/color__01a6dca1-1eb2-4786-b8c9-1eed4510c3ca__model.png",
+      "output_sha256": "55f441caf4bebf2df0741099c1f540bd3235419c5a6521532d73f1b8b0e760fe",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_and_worn": "pass",
+        "correct_piece_count_and_construction": "pass",
+        "source_color_pattern_and_texture": "pass",
+        "full_garment_and_hem_visible": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "locked_scene_model_lighting_and_camera": "pass",
+        "safe_subtle_pose_variety": "pass",
+        "no_added_marketing_text_or_watermark": "pass",
+        "source_mapping_and_file_readable": "pass"
+      }
+    },
+    {
+      "source": "colors/ae3450b4-42bf-40f1-8349-be5c9f889b75.webp",
+      "candidate": "/workspace/generated_images/exec-7575b554-fcdf-4899-ac21-edba6deac808.png",
+      "color": "coral rose pink with tiny white dots and matching coral lace",
+      "pose": "Soft right head tilt, slight weight shift and relaxed grounded feet, hands clear.",
+      "qa_note": "Coral rose satin, tonal floral lace with original embroidery and small white dot print, complete plain hem, stable model/scene and distinct tilt.",
+      "attempts": 1,
+      "output": "generated/color__ae3450b4-42bf-40f1-8349-be5c9f889b75__model.png",
+      "output_sha256": "df8a4d498f8aa70fff734a826255aad3b73543f47b7769e42ac365a1a17dbaf5",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_and_worn": "pass",
+        "correct_piece_count_and_construction": "pass",
+        "source_color_pattern_and_texture": "pass",
+        "full_garment_and_hem_visible": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "locked_scene_model_lighting_and_camera": "pass",
+        "safe_subtle_pose_variety": "pass",
+        "no_added_marketing_text_or_watermark": "pass",
+        "source_mapping_and_file_readable": "pass"
+      }
+    },
+    {
+      "source": "colors/81b75192-6125-4ffa-9970-d687c4d24a78.webp",
+      "candidate": "/workspace/generated_images/exec-a51b198f-a33c-4512-b411-0e26ce7f0fe1.png",
+      "color": "lavender lilac with tiny white dots and tonal lilac lace",
+      "pose": "Slight near-front shoulder angle, right arm softly outward, face camera and feet apart.",
+      "qa_note": "Light lilac satin and tonal floral lace, small white dots, full loose dress and plain hem, natural pose and consistent model/room.",
+      "attempts": 1,
+      "output": "generated/color__81b75192-6125-4ffa-9970-d687c4d24a78__model.png",
+      "output_sha256": "e195f73ef490fa3f52342b93dd17c3d008f15f6c0fb36f43a44e161509d430e0",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_and_worn": "pass",
+        "correct_piece_count_and_construction": "pass",
+        "source_color_pattern_and_texture": "pass",
+        "full_garment_and_hem_visible": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "locked_scene_model_lighting_and_camera": "pass",
+        "safe_subtle_pose_variety": "pass",
+        "no_added_marketing_text_or_watermark": "pass",
+        "source_mapping_and_file_readable": "pass"
+      }
+    },
+    {
+      "source": "colors/dda95415-15ef-4c83-9b57-aaddaa331a66.webp",
+      "candidate": "/workspace/generated_images/exec-2ea2b9b9-a6c9-46d3-8bcb-7bc2836c1637.png",
+      "color": "medium bright candy pink with tiny white dots and tonal pink lace",
+      "pose": "Gentle forward footstep and off-camera right gaze, arms loose.",
+      "qa_note": "Corrected initial neon fuchsia to source softer medium candy pink; white dots, tonal lace and plain hem preserved, consistent model/room.",
+      "attempts": 2,
+      "output": "generated/color__dda95415-15ef-4c83-9b57-aaddaa331a66__model.png",
+      "output_sha256": "c6e2812979e854d8c7ad6170aceee496b0b846605c48223586fa680afef2eea3",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_and_worn": "pass",
+        "correct_piece_count_and_construction": "pass",
+        "source_color_pattern_and_texture": "pass",
+        "full_garment_and_hem_visible": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "locked_scene_model_lighting_and_camera": "pass",
+        "safe_subtle_pose_variety": "pass",
+        "no_added_marketing_text_or_watermark": "pass",
+        "source_mapping_and_file_readable": "pass"
+      }
+    },
+    {
+      "source": "colors/96381418-ce95-495c-8b07-7cdff9686d6b.webp",
+      "candidate": "/workspace/generated_images/exec-7c54eb22-a581-4185-911e-90d9be09919d.png",
+      "color": "brick wine red with tiny white dots and matching red lace",
+      "pose": "Slight left shoulder drop, left arm gently outward, feet relaxed apart and gaze camera.",
+      "qa_note": "Muted warm wine/brick red satin and matching lace, white small dots, full relaxed one-piece and plain hem, same model/room with distinct arm stance.",
+      "attempts": 1,
+      "output": "generated/color__96381418-ce95-495c-8b07-7cdff9686d6b__model.png",
+      "output_sha256": "9f560056f3300da9ffe7f1595d02716e20d7b161b7cddb74cfc0c6c29f778472",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_and_worn": "pass",
+        "correct_piece_count_and_construction": "pass",
+        "source_color_pattern_and_texture": "pass",
+        "full_garment_and_hem_visible": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "locked_scene_model_lighting_and_camera": "pass",
+        "safe_subtle_pose_variety": "pass",
+        "no_added_marketing_text_or_watermark": "pass",
+        "source_mapping_and_file_readable": "pass"
+      }
+    },
+    {
+      "source": "colors/7d6cf780-1e5c-4f60-b658-a76f0edd8100.webp",
+      "candidate": "/workspace/generated_images/exec-19ee7118-55f2-497a-a6f7-0a5492bf395b.png",
+      "color": "dark navy blue with tiny white dots and navy lace",
+      "pose": "Near-front gaze right, right arm a little away, relaxed asymmetric foot placement.",
+      "qa_note": "Deep navy blue satin with small white dots and tonal lace; complete loose garment plain hem, distinct arm/stance and consistent model/room.",
+      "attempts": 1,
+      "output": "generated/color__7d6cf780-1e5c-4f60-b658-a76f0edd8100__model.png",
+      "output_sha256": "42d7314bc9f32c16fecbc7d46215d809c302f9936f07505c93027a5674f42bf5",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_and_worn": "pass",
+        "correct_piece_count_and_construction": "pass",
+        "source_color_pattern_and_texture": "pass",
+        "full_garment_and_hem_visible": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "locked_scene_model_lighting_and_camera": "pass",
+        "safe_subtle_pose_variety": "pass",
+        "no_added_marketing_text_or_watermark": "pass",
+        "source_mapping_and_file_readable": "pass"
+      }
+    },
+    {
+      "source": "colors/c3c344ed-7854-4f5b-acc9-b286ec3820d0.webp",
+      "candidate": "/workspace/generated_images/exec-ce7bf118-43e8-4f60-82a3-06329f08f009.png",
+      "color": "deep burgundy plum with tiny white dots and matching burgundy lace",
+      "pose": "Weight left, relaxed right knee/foot outward, soft left head tilt and clear arms.",
+      "qa_note": "Deep burgundy plum differentiated from purple and wine red, tonal floral lace and small white dots, full loose one-piece and plain hem, same model/scene.",
+      "attempts": 1,
+      "output": "generated/color__c3c344ed-7854-4f5b-acc9-b286ec3820d0__model.png",
+      "output_sha256": "d13c07b8f8d1f1d3b7ebe49b93ed96c917757b97ae86df4d76fee3b14590c92d",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_and_worn": "pass",
+        "correct_piece_count_and_construction": "pass",
+        "source_color_pattern_and_texture": "pass",
+        "full_garment_and_hem_visible": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "locked_scene_model_lighting_and_camera": "pass",
+        "safe_subtle_pose_variety": "pass",
+        "no_added_marketing_text_or_watermark": "pass",
+        "source_mapping_and_file_readable": "pass"
+      }
+    },
+    {
+      "source": "colors/0518b067-3974-46a5-b1c7-bcb1c27e9b38.webp",
+      "candidate": "/workspace/generated_images/exec-a57d9445-0476-4a2f-ae14-c29d3366e412.png",
+      "color": "antique mustard gold with tiny ivory-white dots and tonal gold lace",
+      "pose": "Small shoulder angle left, relaxed asymmetric arms and feet, gaze camera.",
+      "qa_note": "Corrected initial dark orange/caramel toward original muted lighter antique gold; tiny ivory dots, tonal floral lace and full plain hem, same model/room.",
+      "attempts": 2,
+      "output": "generated/color__0518b067-3974-46a5-b1c7-bcb1c27e9b38__model.png",
+      "output_sha256": "63aebcd11200ec4dbafda8d2b64d467e03ed7a4f6db52acffcee375f4a4dcdf7",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_and_worn": "pass",
+        "correct_piece_count_and_construction": "pass",
+        "source_color_pattern_and_texture": "pass",
+        "full_garment_and_hem_visible": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "locked_scene_model_lighting_and_camera": "pass",
+        "safe_subtle_pose_variety": "pass",
+        "no_added_marketing_text_or_watermark": "pass",
+        "source_mapping_and_file_readable": "pass"
+      }
+    },
+    {
+      "source": "colors/3f530186-735b-4f9d-a966-e4198c5f9b63.jpg",
+      "candidate": "/workspace/generated_images/exec-004b782c-f38b-46db-9754-3902a34dfd64.png",
+      "color": "charcoal slate gray with tiny white dots and tonal gray lace",
+      "pose": "Gentle left-foot forward step, broad natural smile, both arms loose clear.",
+      "qa_note": "Charcoal slate gray satin and tonal lace matched to worn gray reference, tiny white dots, full loose body and plain hem, same model/room with distinct step/smile.",
+      "attempts": 1,
+      "output": "generated/color__3f530186-735b-4f9d-a966-e4198c5f9b63__model.png",
+      "output_sha256": "a31c8f5b572cfa18d3f4c3668e0ef5324ca8b413615046dd2e24c26fb1ad0873",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_and_worn": "pass",
+        "correct_piece_count_and_construction": "pass",
+        "source_color_pattern_and_texture": "pass",
+        "full_garment_and_hem_visible": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "locked_scene_model_lighting_and_camera": "pass",
+        "safe_subtle_pose_variety": "pass",
+        "no_added_marketing_text_or_watermark": "pass",
+        "source_mapping_and_file_readable": "pass"
+      }
+    }
+  ],
+  "generation_history": [
+    {
+      "source": "main/a715866e-4e86-4d84-bb8f-8dc07cd5c728.webp",
+      "prompt": "Create one photorealistic professional e-commerce clothing photograph of this exact single sleeveless polka-dot nightdress, completely unfolded and realistically worn by an adult female model. ORIGINAL image1 is product color/structure authority for medium plum purple satin with tiny white dots and tonal floral lace; ORIGINAL image2 confirms complete worn construction and below-knee/calf length, not the color. Exactly ONE loose sleeveless A-line nightdress, stated40 inches shoulder-to-hem, falling below knees at mid-calf on average-height adult, consistent with worn gray original. Broad rounded scoop neckline/shoulder straps formed by a wide tonal floral guipure/crochet lace yoke, scalloped neck and lower edges, lace large daisy at center lower rounded point, roses and leaf/mesh motifs and small source-supported tonal HAPPY embroidery at center. Smooth lustrous opaque satin body softly gathered directly under yoke, tiny regular ivory/white polka dots over entire satin body, relaxed free-size straight-to-A-line drape, plain stitched curved hem with no lace. No sleeves, thin straps, waist shaping, belt, pockets, buttons, slits, trouser or second piece, extra hem lace or invented trim. Preserve original small dot size/spacing, lace motif layout, yoke proportions and complete length from SAME-FOLDER originals. Premium calm ivory bedroom: matte warm ivory wall, light oak floor, cream bed edge in right background with simple ivory bedding, sheer curtain/window at left, small oak bedside table far right. Soft diffused daylight from left, neutral5000K, no objects obscuring model. One adult South Asian woman age35, medium brown skin, natural average proportions, oval face, brown eyes, black hair in neat low bun, minimal makeup, no jewelry; same exact identity across all images. Portrait3:4 matching main source, eye-level near-front65mm, complete head-to-barefeet centered composition with full40-inch below-knee/calf garment visible, same subject scale and exact room layout/light/camera through variations. Highest native supported resolution, 4K if supported. Neutral balanced near-front catalog stance, relaxed arms clear, gentle gaze camera. Entire garment shoulder straps through plain hem and full adult head-to-feet visible. Natural anatomy, realistic loose satin drape, do not exaggerate body contours. One garment only, no folded display, flat lay, collage, other clothes, unsupported details, tags, promotional text or watermark.",
+      "reference_paths": [
+        "/workspace/Life-Style-image-studio-store-/products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/main/a715866e-4e86-4d84-bb8f-8dc07cd5c728.webp",
+        "/workspace/Life-Style-image-studio-store-/products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/colors/3f530186-735b-4f9d-a966-e4198c5f9b63.jpg"
+      ],
+      "attempt": 1,
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-da3fc478-430e-41f2-a68f-cf9ce38d0380.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "validation": "rejected_length_too_long_and_dot_regularization"
+    },
+    {
+      "source": "main/a715866e-4e86-4d84-bb8f-8dc07cd5c728.webp",
+      "prompt": "Correct the product accuracy of image1 using original garment image2. Keep exactly same adult model identity, pose, room, lighting and camera. The nightdress in image1 is about4 inches too long: shorten its skirt hem about10cm so total shoulder-to-hem is approximately40 inches on this approximately165cm adult, hem at upper-to-mid calf below knees, not low calf. Preserve the loose A-line width, plain stitched curved hem and all lace-yoke/neckline/shoulder proportions unchanged. Preserve original plum purple color, opaque smooth satin sheen and natural drape. Make the satin print regular tiny uniformly sized white polka dots with consistent offset-row spacing like original image2, not randomly sized speckles; no additional pattern. No straps, waist seams, belts or trim added. Complete garment and head-to-barefeet framing unchanged, natural adult retail catalog photograph, no added writing or watermark, portrait3:4 same native size.",
+      "reference_paths": [
+        "/workspace/generated_images/exec-da3fc478-430e-41f2-a68f-cf9ce38d0380.png",
+        "/workspace/Life-Style-image-studio-store-/products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/main/a715866e-4e86-4d84-bb8f-8dc07cd5c728.webp"
+      ],
+      "attempt": 2,
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-0567aa64-9ff5-4eeb-9a49-fa93d4de214b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "source": "colors/01a6dca1-1eb2-4786-b8c9-1eed4510c3ca.webp",
+      "prompt": "Create a NEW relaxed adult e-commerce catalog pose: weight gently on right leg, left foot a short step forward, head/gaze turned a little left, arms loosely hanging clear. Keep whole garment visible. ORIGINAL image1 defines royal cobalt BLUE satin with regular tiny white polka dots and matching blue floral lace yoke; image2 original same-product unfolded mannequin gives structure. Image3 accepted corrected main locks exact adult model identity, room/furniture/window/vase, lighting, camera scale and corrected40-inch garment length; do not copy its identical stance. Exactly ONE loose sleeveless A-line nightdress, stated40 inches shoulder-to-hem, falling below knees at mid-calf on average-height adult, consistent with worn gray original. Broad rounded scoop neckline/shoulder straps formed by a wide tonal floral guipure/crochet lace yoke, scalloped neck and lower edges, lace large daisy at center lower rounded point, roses and leaf/mesh motifs and small source-supported tonal HAPPY embroidery at center. Smooth lustrous opaque satin body softly gathered directly under yoke, tiny regular ivory/white polka dots over entire satin body, relaxed free-size straight-to-A-line drape, plain stitched curved hem with no lace. No sleeves, thin straps, waist shaping, belt, pockets, buttons, slits, trouser or second piece, extra hem lace or invented trim. Preserve original small dot size/spacing, lace motif layout, yoke proportions and complete length from SAME-FOLDER originals. Portrait3:4 matching main source, eye-level near-front65mm, complete head-to-barefeet centered composition with full40-inch below-knee/calf garment visible, same subject scale and exact room layout/light/camera through variations. Highest native supported resolution, 4K if supported. Preserve source small dot circles and spacing, satin sheen, lace roses/daisy/leaves/mesh layout, loose gathered body and PLAIN hem. Same model and room, full head to feet, natural anatomy and realistic drape. One nightdress only, no folded display, collage, extra clothes, unsupported trim, tags, added promotional text or watermark.",
+      "reference_paths": [
+        "/workspace/Life-Style-image-studio-store-/products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/colors/01a6dca1-1eb2-4786-b8c9-1eed4510c3ca.webp",
+        "/workspace/Life-Style-image-studio-store-/products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/main/a715866e-4e86-4d84-bb8f-8dc07cd5c728.webp",
+        "/workspace/generated_images/exec-0567aa64-9ff5-4eeb-9a49-fa93d4de214b.png"
+      ],
+      "attempt": 1,
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-0296ea6f-27e1-40af-8f05-25ee96506c99.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "source": "colors/ae3450b4-42bf-40f1-8349-be5c9f889b75.webp",
+      "prompt": "NEW relaxed adult e-commerce pose: weight on left leg, right toe a little forward with both feet on floor, head tilted softly toward right shoulder and gaze at camera, arms loose completely clear of garment. No twist or crossed limbs. Image1 ORIGINAL folded source defines coral rose-pink satin with tiny regular white polka dots and matching coral floral lace; original image2 complete same-product mannequin supplies unfolding construction. Image3 anchors exact adult model identity, room/window/furniture/vase, light, camera, scale and corrected40-inch garment length only. Exactly ONE loose sleeveless A-line nightdress, stated40 inches shoulder-to-hem, falling below knees at mid-calf on average-height adult, consistent with worn gray original. Broad rounded scoop neckline/shoulder straps formed by a wide tonal floral guipure/crochet lace yoke, scalloped neck and lower edges, lace large daisy at center lower rounded point, roses and leaf/mesh motifs and small source-supported tonal HAPPY embroidery at center. Smooth lustrous opaque satin body softly gathered directly under yoke, tiny regular ivory/white polka dots over entire satin body, relaxed free-size straight-to-A-line drape, plain stitched curved hem with no lace. No sleeves, thin straps, waist shaping, belt, pockets, buttons, slits, trouser or second piece, extra hem lace or invented trim. Preserve original small dot size/spacing, lace motif layout, yoke proportions and complete length from SAME-FOLDER originals. Portrait3:4 matching main source, eye-level near-front65mm, complete head-to-barefeet centered composition with full40-inch below-knee/calf garment visible, same subject scale and exact room layout/light/camera through variations. Highest native supported resolution, 4K if supported. Preserve dot circle size/spacing, lace daisy/roses/leaves and mesh geometry, smooth satin sheen, loose gathered body and plain hem. Entire garment and adult head-to-barefeet visible, natural anatomy and drape. One nightdress only, no folded display, collage, other clothing, invented features, tags, added text or watermark.",
+      "reference_paths": [
+        "/workspace/Life-Style-image-studio-store-/products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/colors/ae3450b4-42bf-40f1-8349-be5c9f889b75.webp",
+        "/workspace/Life-Style-image-studio-store-/products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/main/a715866e-4e86-4d84-bb8f-8dc07cd5c728.webp",
+        "/workspace/generated_images/exec-0567aa64-9ff5-4eeb-9a49-fa93d4de214b.png"
+      ],
+      "attempt": 1,
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-7575b554-fcdf-4899-ac21-edba6deac808.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "source": "colors/81b75192-6125-4ffa-9970-d687c4d24a78.webp",
+      "prompt": "Create a NEW near-front adult professional fashion-shoot pose: torso/shoulders gently angle10 degrees to camera-right, face to camera with soft smile, right elbow relaxed slightly outward, both hands clear of garment, feet comfortably grounded slightly apart. ORIGINAL image1 defines lavender LILAC satin with tiny regular white polka dots, matching lilac floral lace; original image2 confirms complete same-folder unfolded garment. Image3 anchors exact adult model identity, ivory bedroom/window/furniture/vase arrangement, lighting, camera, scale and corrected40-inch length only, not rigid pose. Exactly ONE loose sleeveless A-line nightdress, stated40 inches shoulder-to-hem, falling below knees at mid-calf on average-height adult, consistent with worn gray original. Broad rounded scoop neckline/shoulder straps formed by a wide tonal floral guipure/crochet lace yoke, scalloped neck and lower edges, lace large daisy at center lower rounded point, roses and leaf/mesh motifs and small source-supported tonal HAPPY embroidery at center. Smooth lustrous opaque satin body softly gathered directly under yoke, tiny regular ivory/white polka dots over entire satin body, relaxed free-size straight-to-A-line drape, plain stitched curved hem with no lace. No sleeves, thin straps, waist shaping, belt, pockets, buttons, slits, trouser or second piece, extra hem lace or invented trim. Preserve original small dot size/spacing, lace motif layout, yoke proportions and complete length from SAME-FOLDER originals. Portrait3:4 matching main source, eye-level near-front65mm, complete head-to-barefeet centered composition with full40-inch below-knee/calf garment visible, same subject scale and exact room layout/light/camera through variations. Highest native supported resolution, 4K if supported. Match light lilac source hue, source dot circles/spacing, daisy/rose/leaf lace geometry, soft satin sheen, loose gathered drape and plain curved hem. Entire garment and head-to-barefeet visible. One nightdress, no folded displays, collage, other clothes, unsupported trim, tags, added marketing text or watermark.",
+      "reference_paths": [
+        "/workspace/Life-Style-image-studio-store-/products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/colors/81b75192-6125-4ffa-9970-d687c4d24a78.webp",
+        "/workspace/Life-Style-image-studio-store-/products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/main/a715866e-4e86-4d84-bb8f-8dc07cd5c728.webp",
+        "/workspace/generated_images/exec-0567aa64-9ff5-4eeb-9a49-fa93d4de214b.png"
+      ],
+      "attempt": 1,
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-a51b198f-a33c-4512-b411-0e26ce7f0fe1.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "source": "colors/dda95415-15ef-4c83-9b57-aaddaa331a66.webp",
+      "prompt": "NEW natural adult catalog pose: gentle right-foot half-step forward, head and eyes look softly off-camera right, shoulders relaxed, both arms comfortably down and clear; no exaggerated gestures or body twist. ORIGINAL image1 defines bright fuchsia candy PINK satin with tiny regular white polka dots and matching pink floral lace. Keep its fuchsia pink hue distinct from coral and burgundy. Original image2 confirms same-product unfolding structure; image3 anchors exact adult woman identity, room/window/furniture/vase layout, lighting, camera scale and corrected40-inch length only. Exactly ONE loose sleeveless A-line nightdress, stated40 inches shoulder-to-hem, falling below knees at mid-calf on average-height adult, consistent with worn gray original. Broad rounded scoop neckline/shoulder straps formed by a wide tonal floral guipure/crochet lace yoke, scalloped neck and lower edges, lace large daisy at center lower rounded point, roses and leaf/mesh motifs and small source-supported tonal HAPPY embroidery at center. Smooth lustrous opaque satin body softly gathered directly under yoke, tiny regular ivory/white polka dots over entire satin body, relaxed free-size straight-to-A-line drape, plain stitched curved hem with no lace. No sleeves, thin straps, waist shaping, belt, pockets, buttons, slits, trouser or second piece, extra hem lace or invented trim. Preserve original small dot size/spacing, lace motif layout, yoke proportions and complete length from SAME-FOLDER originals. Portrait3:4 matching main source, eye-level near-front65mm, complete head-to-barefeet centered composition with full40-inch below-knee/calf garment visible, same subject scale and exact room layout/light/camera through variations. Highest native supported resolution, 4K if supported. Source-faithful dot size/spacing, floral lace/mesh/daisy/rose layout, plain curved hem and loose satin drape. Entire one-piece nightdress worn and adult head-to-barefeet visible, realistic anatomy. No folded display, collage, extra garments, invented trim, tags, added text or watermark.",
+      "reference_paths": [
+        "/workspace/Life-Style-image-studio-store-/products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/colors/dda95415-15ef-4c83-9b57-aaddaa331a66.webp",
+        "/workspace/Life-Style-image-studio-store-/products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/main/a715866e-4e86-4d84-bb8f-8dc07cd5c728.webp",
+        "/workspace/generated_images/exec-0567aa64-9ff5-4eeb-9a49-fa93d4de214b.png"
+      ],
+      "attempt": 1,
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-89b1f9b2-c1fa-427d-b295-be4ffa7b67f7.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "validation": "rejected_pink_too_saturated"
+    },
+    {
+      "source": "colors/dda95415-15ef-4c83-9b57-aaddaa331a66.webp",
+      "prompt": "Correct ONLY the nightdress fabric and lace color in image2 to accurately match ORIGINAL photograph image1. Image2 is too neon fuchsia/hot pink. The real garment is a much softer, lighter medium candy pink with a cooler pale rose undertone, not vivid magenta. Match the broad middle pink areas of source1, reduce saturation substantially and lighten tone, preserving natural satin highlights/shadows. Change lace to matching source pink too. Keep same adult model identity, pose, room/window/furniture/vase, lighting/camera, approximate40-inch length, loose satin drape, white tiny polka dots, floral lace-yoke motifs and plain hem unchanged. Full product and model head-to-feet visible, one nightdress e-commerce catalog image, no new writing or watermark, same portrait3:4 native size.",
+      "reference_paths": [
+        "/workspace/Life-Style-image-studio-store-/products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/colors/dda95415-15ef-4c83-9b57-aaddaa331a66.webp",
+        "/workspace/generated_images/exec-89b1f9b2-c1fa-427d-b295-be4ffa7b67f7.png"
+      ],
+      "attempt": 2,
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-2ea2b9b9-a6c9-46d3-8bcb-7bc2836c1637.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "source": "colors/96381418-ce95-495c-8b07-7cdff9686d6b.webp",
+      "prompt": "Create a NEW relaxed adult retail pose: weight gently on right leg, slight left shoulder drop, left forearm bends a little outward with low relaxed hand clear of dress, chin level and eyes near camera. Both feet grounded, no dramatic gestures. Image1 ORIGINAL defines muted warm brick/wine RED satin with tiny white dots and matching red floral lace; preserve its source middle-tone shade, not vivid crimson or purple. Original image2 gives same-product complete unfolding structure. Image3 locks exact adult woman identity, room/window/table/bed/vase layout, light, camera scale and corrected40-inch length, not pose. Exactly ONE loose sleeveless A-line nightdress, stated40 inches shoulder-to-hem, falling below knees at mid-calf on average-height adult, consistent with worn gray original. Broad rounded scoop neckline/shoulder straps formed by a wide tonal floral guipure/crochet lace yoke, scalloped neck and lower edges, lace large daisy at center lower rounded point, roses and leaf/mesh motifs and small source-supported tonal HAPPY embroidery at center. Smooth lustrous opaque satin body softly gathered directly under yoke, tiny regular ivory/white polka dots over entire satin body, relaxed free-size straight-to-A-line drape, plain stitched curved hem with no lace. No sleeves, thin straps, waist shaping, belt, pockets, buttons, slits, trouser or second piece, extra hem lace or invented trim. Preserve original small dot size/spacing, lace motif layout, yoke proportions and complete length from SAME-FOLDER originals. Portrait3:4 matching main source, eye-level near-front65mm, complete head-to-barefeet centered composition with full40-inch below-knee/calf garment visible, same subject scale and exact room layout/light/camera through variations. Highest native supported resolution, 4K if supported. Match source tiny regular dots, scalloped floral yoke geometry, smooth satin sheen and relaxed gathered drape, plain hem. Entire garment and full head-to-barefeet visible, natural anatomy. One nightdress, no folded display, collage, extra clothes, invented trim, tags, added writing or watermark.",
+      "reference_paths": [
+        "/workspace/Life-Style-image-studio-store-/products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/colors/96381418-ce95-495c-8b07-7cdff9686d6b.webp",
+        "/workspace/Life-Style-image-studio-store-/products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/main/a715866e-4e86-4d84-bb8f-8dc07cd5c728.webp",
+        "/workspace/generated_images/exec-0567aa64-9ff5-4eeb-9a49-fa93d4de214b.png"
+      ],
+      "attempt": 1,
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-7c54eb22-a581-4185-911e-90d9be09919d.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "source": "colors/7d6cf780-1e5c-4f60-b658-a76f0edd8100.webp",
+      "prompt": "Create a NEW relaxed adult retail catalog pose: head turned slightly right with a small natural smile, right arm gently a little away from body, left arm down, slight weight shift and comfortable grounded feet, no exaggerated gesture. ORIGINAL image1 defines dark NAVY BLUE satin with tiny evenly spaced white dots and matching navy floral lace; preserve source dark blue midtones, not black or purple. Original image2 supplies full same-product unfolded construction, image3 anchors exact adult model, ivory room furniture/window/table/vase, lighting, camera scale and corrected40-inch below-knee/calf length only. Exactly ONE loose sleeveless A-line nightdress, stated40 inches shoulder-to-hem, falling below knees at mid-calf on average-height adult, consistent with worn gray original. Broad rounded scoop neckline/shoulder straps formed by a wide tonal floral guipure/crochet lace yoke, scalloped neck and lower edges, lace large daisy at center lower rounded point, roses and leaf/mesh motifs and small source-supported tonal HAPPY embroidery at center. Smooth lustrous opaque satin body softly gathered directly under yoke, tiny regular ivory/white polka dots over entire satin body, relaxed free-size straight-to-A-line drape, plain stitched curved hem with no lace. No sleeves, thin straps, waist shaping, belt, pockets, buttons, slits, trouser or second piece, extra hem lace or invented trim. Preserve original small dot size/spacing, lace motif layout, yoke proportions and complete length from SAME-FOLDER originals. Portrait3:4 matching main source, eye-level near-front65mm, complete head-to-barefeet centered composition with full40-inch below-knee/calf garment visible, same subject scale and exact room layout/light/camera through variations. Highest native supported resolution, 4K if supported. Source-faithful dot circles/spacing, tonal lace rose/daisy/mesh layout, soft satin sheen, loose body and plain hem. Entire one-piece garment worn and adult head-to-barefeet fully visible, realistic drape and anatomy. No folded display, collage, extra clothes, invented features, tags, added text or watermark.",
+      "reference_paths": [
+        "/workspace/Life-Style-image-studio-store-/products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/colors/7d6cf780-1e5c-4f60-b658-a76f0edd8100.webp",
+        "/workspace/Life-Style-image-studio-store-/products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/main/a715866e-4e86-4d84-bb8f-8dc07cd5c728.webp",
+        "/workspace/generated_images/exec-0567aa64-9ff5-4eeb-9a49-fa93d4de214b.png"
+      ],
+      "attempt": 1,
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-19ee7118-55f2-497a-a6f7-0a5492bf395b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "source": "colors/c3c344ed-7854-4f5b-acc9-b286ec3820d0.webp",
+      "prompt": "Create a NEW adult retail catalog pose: weight on left leg, right knee relaxed slightly outward, head softly tilted left while looking at camera, arms comfortably down and clear of dress, both feet grounded. ORIGINAL image1 defines deep BURGUNDY PLUM satin with tiny ivory-white polka dots and matching burgundy lace; match wine-purple middle tones, darker than main purple and not bright red. Original image2 confirms same-product complete unfolding structure; image3 locks exact adult woman identity, bedroom/window/table/bed/vase, light, camera scale and corrected40-inch length only. Exactly ONE loose sleeveless A-line nightdress, stated40 inches shoulder-to-hem, falling below knees at mid-calf on average-height adult, consistent with worn gray original. Broad rounded scoop neckline/shoulder straps formed by a wide tonal floral guipure/crochet lace yoke, scalloped neck and lower edges, lace large daisy at center lower rounded point, roses and leaf/mesh motifs and small source-supported tonal HAPPY embroidery at center. Smooth lustrous opaque satin body softly gathered directly under yoke, tiny regular ivory/white polka dots over entire satin body, relaxed free-size straight-to-A-line drape, plain stitched curved hem with no lace. No sleeves, thin straps, waist shaping, belt, pockets, buttons, slits, trouser or second piece, extra hem lace or invented trim. Preserve original small dot size/spacing, lace motif layout, yoke proportions and complete length from SAME-FOLDER originals. Portrait3:4 matching main source, eye-level near-front65mm, complete head-to-barefeet centered composition with full40-inch below-knee/calf garment visible, same subject scale and exact room layout/light/camera through variations. Highest native supported resolution, 4K if supported. Preserve tiny dot circles/spacing, source scalloped floral yoke shapes, sheen and loose gathered drape, plain curved hem. Full garment and adult head-to-barefeet visible, natural anatomy, one garment only. No folded display, collage, other clothing, unsupported details, tags, added text or watermark.",
+      "reference_paths": [
+        "/workspace/Life-Style-image-studio-store-/products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/colors/c3c344ed-7854-4f5b-acc9-b286ec3820d0.webp",
+        "/workspace/Life-Style-image-studio-store-/products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/main/a715866e-4e86-4d84-bb8f-8dc07cd5c728.webp",
+        "/workspace/generated_images/exec-0567aa64-9ff5-4eeb-9a49-fa93d4de214b.png"
+      ],
+      "attempt": 1,
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-ce7bf118-43e8-4f60-82a3-06329f08f009.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "source": "colors/0518b067-3974-46a5-b1c7-bcb1c27e9b38.webp",
+      "prompt": "Create a NEW subtle adult professional catalog pose: shoulders gently angled8 degrees toward camera-left, face and eyes toward camera, relaxed asymmetric arm spacing with both hands clear of garment, feet naturally apart and grounded. ORIGINAL image1 defines antique MUSTARD GOLD satin with tiny ivory-white polka dots and matching muted gold floral lace; match original warm ochre-brown midtones and natural satin sheen, not bright yellow or metallic sequins. Original image2 gives complete same-product unfolding structure; image3 locks exact adult model identity, ivory bedroom layout/window/table/bed/vase, lighting, camera scale and corrected40-inch length only. Exactly ONE loose sleeveless A-line nightdress, stated40 inches shoulder-to-hem, falling below knees at mid-calf on average-height adult, consistent with worn gray original. Broad rounded scoop neckline/shoulder straps formed by a wide tonal floral guipure/crochet lace yoke, scalloped neck and lower edges, lace large daisy at center lower rounded point, roses and leaf/mesh motifs and small source-supported tonal HAPPY embroidery at center. Smooth lustrous opaque satin body softly gathered directly under yoke, tiny regular ivory/white polka dots over entire satin body, relaxed free-size straight-to-A-line drape, plain stitched curved hem with no lace. No sleeves, thin straps, waist shaping, belt, pockets, buttons, slits, trouser or second piece, extra hem lace or invented trim. Preserve original small dot size/spacing, lace motif layout, yoke proportions and complete length from SAME-FOLDER originals. Portrait3:4 matching main source, eye-level near-front65mm, complete head-to-barefeet centered composition with full40-inch below-knee/calf garment visible, same subject scale and exact room layout/light/camera through variations. Highest native supported resolution, 4K if supported. Preserve dot circles/spacing, lace daisy/rose/leaf mesh layout, relaxed gathered satin and plain curved hem, full head-to-barefeet and complete garment visible. One nightdress only, no folded displays, collage, extra clothing, unsupported features, tags, added text or watermark.",
+      "reference_paths": [
+        "/workspace/Life-Style-image-studio-store-/products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/colors/0518b067-3974-46a5-b1c7-bcb1c27e9b38.webp",
+        "/workspace/Life-Style-image-studio-store-/products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/main/a715866e-4e86-4d84-bb8f-8dc07cd5c728.webp",
+        "/workspace/generated_images/exec-0567aa64-9ff5-4eeb-9a49-fa93d4de214b.png"
+      ],
+      "attempt": 1,
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-c3087dfd-617f-41c7-aa6d-a60966a8052e.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "validation": "rejected_gold_too_dark_orange"
+    },
+    {
+      "source": "colors/0518b067-3974-46a5-b1c7-bcb1c27e9b38.webp",
+      "prompt": "Correct ONLY the nightdress fabric and lace color in image2 using ORIGINAL photo image1 as exact authority. Image2 is too dark orange/caramel brown. Actual satin is lighter muted antique champagne/mustard gold with a beige/olive undertone, visibly less saturated and less orange; match source1 broad midtones and natural satin highlights, preserve shadows. Lighten and desaturate both body and matching lace together, maintain tiny ivory-white dots. Keep exact adult model identity, natural pose, complete floral lace-yoke shapes and genuine embroidery, loose40-inch drape and plain hem, room, window, furniture/vase, camera and lighting unchanged. Full garment and head-to-barefeet catalog framing, portrait3:4 same native resolution, no new text or watermark.",
+      "reference_paths": [
+        "/workspace/Life-Style-image-studio-store-/products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/colors/0518b067-3974-46a5-b1c7-bcb1c27e9b38.webp",
+        "/workspace/generated_images/exec-c3087dfd-617f-41c7-aa6d-a60966a8052e.png"
+      ],
+      "attempt": 2,
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-a57d9445-0476-4a2f-ae14-c29d3366e412.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "source": "colors/3f530186-735b-4f9d-a966-e4198c5f9b63.jpg",
+      "prompt": "Create a NEW relaxed adult retail pose with gentle left-foot forward step, head facing camera and broader natural smile, both arms loose and clear of dress, realistic balanced grounded feet. ORIGINAL image1 shows exact charcoal slate GRAY satin nightdress with tiny regular white polka dots and tonal gray broad floral lace yoke; preserve actual gray hue, motifs and construction, but include whole head and feet in new image. Original image2 same-product mannequin confirms loose garment shape; image3 anchors exact accepted adult model identity, ivory room/window/table/bed/vase layout, lighting, camera scale and corrected40-inch length only. Exactly ONE loose sleeveless A-line nightdress, stated40 inches shoulder-to-hem, falling below knees at mid-calf on average-height adult, consistent with worn gray original. Broad rounded scoop neckline/shoulder straps formed by a wide tonal floral guipure/crochet lace yoke, scalloped neck and lower edges, lace large daisy at center lower rounded point, roses and leaf/mesh motifs and small source-supported tonal HAPPY embroidery at center. Smooth lustrous opaque satin body softly gathered directly under yoke, tiny regular ivory/white polka dots over entire satin body, relaxed free-size straight-to-A-line drape, plain stitched curved hem with no lace. No sleeves, thin straps, waist shaping, belt, pockets, buttons, slits, trouser or second piece, extra hem lace or invented trim. Preserve original small dot size/spacing, lace motif layout, yoke proportions and complete length from SAME-FOLDER originals. Portrait3:4 matching main source, eye-level near-front65mm, complete head-to-barefeet centered composition with full40-inch below-knee/calf garment visible, same subject scale and exact room layout/light/camera through variations. Highest native supported resolution, 4K if supported. Keep source dot circles/spacing, scalloped lace daisy/rose/leaf mesh shapes, subtle satin luster, relaxed gathering and plain curved hem. Entire one-piece dress fully worn and unblocked, complete adult head-to-barefeet, natural anatomy. No folded display, collage, other clothes, invented details, tags, added text or watermark.",
+      "reference_paths": [
+        "/workspace/Life-Style-image-studio-store-/products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/colors/3f530186-735b-4f9d-a966-e4198c5f9b63.jpg",
+        "/workspace/Life-Style-image-studio-store-/products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/main/a715866e-4e86-4d84-bb8f-8dc07cd5c728.webp",
+        "/workspace/generated_images/exec-0567aa64-9ff5-4eeb-9a49-fa93d4de214b.png"
+      ],
+      "attempt": 1,
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-004b782c-f38b-46db-9754-3902a34dfd64.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    }
+  ],
+  "counts": {
+    "main_sources": 1,
+    "color_sources": 9,
+    "source_images": 10,
+    "accepted_main": 1,
+    "accepted_colors": 9,
+    "accepted_total": 10,
+    "blocked": 0,
+    "unaccounted": 0,
+    "generation_attempts": 13,
+    "tool_failed_attempts": 0,
+    "rejected_attempts": 3
+  },
+  "blockers": [],
+  "validation_limitations": [
+    "40-inch length is description metadata; depicted proportions checked visually against same-folder gray worn reference, not physically measured.",
+    "Visual source comparison; no physical measurements or calibrated colorimetry.",
+    "Native image dimensions recorded per output; not 4K unless actual dimensions support it. No artificial upscaling.",
+    "No unsupported unseen back details generated; fabric fiber composition not confirmed."
+  ],
+  "resumability": "Preserve accepted current-source outputs; regenerate only missing, failed or stale mappings.",
+  "persistence": {
+    "repository": "lifestylekky/Life-Style-image-studio-store-",
+    "branch": "main",
+    "directory": "products/6c17c7d7-814a-4f56-99a0-df2d27dcd619/generated",
+    "verification": "Compare local file blobs with fetched origin/main after push; verified commit reported in execution response."
+  }
+}
