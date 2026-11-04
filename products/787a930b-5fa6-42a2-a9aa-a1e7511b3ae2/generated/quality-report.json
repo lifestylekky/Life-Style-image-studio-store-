@@ -1,0 +1,10 @@
+{
+  "product_id": "787a930b-5fa6-42a2-a9aa-a1e7511b3ae2",
+  "status": "BLOCKED",
+  "source_readability": "pass",
+  "source_reconciliation": "2 of 2 accounted for as needs_reference",
+  "output_checks": "not_run \u2014 no reliable product specification",
+  "blockers": [
+    "Both sources are stylized illustrated male street portraits, not verifiable retail garment photographs. Physical fabric, full shirt hem and construction are unconfirmed; no product description or unfolded same-product garment reference exists. Adult-female product reconstruction would invent details."
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "product_id": "c5566ed5-6279-4b34-820d-23154c6e885e",
+  "status": "PASS",
+  "review_method": "Individual visual comparison against complete same-product structure and each variant original, then cross-output model/scene/pose comparison; programmatic decode/hash/source reconciliation.",
+  "counts": {
+    "main_sources": 1,
+    "color_sources": 1,
+    "source_images": 2,
+    "accepted_main": 1,
+    "accepted_colors": 1,
+    "accepted_total": 2,
+    "blocked": 0,
+    "unaccounted": 0,
+    "generation_attempts": 2,
+    "tool_failed_attempts": 0,
+    "rejected_attempts": 0
+  },
+  "per_output": [
+    {
+      "source": "main/adfca64f-edb5-4117-af2b-fa267ec0b11e.webp",
+      "output": "generated/main__adfca64f-edb5-4117-af2b-fa267ec0b11e__model.png",
+      "checks": {
+        "fully_unfolded_and_worn": "pass",
+        "correct_piece_count_and_construction": "pass",
+        "source_color_pattern_and_texture": "pass",
+        "full_garment_and_hem_visible": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "locked_scene_model_lighting_and_camera": "pass",
+        "safe_subtle_pose_variety": "pass",
+        "no_added_marketing_text_or_watermark": "pass",
+        "source_mapping_and_file_readable": "pass"
+      },
+      "notes": "Same-folder main long loose nightdress silhouette, plum purple small white dot fabric, broad floral lace-yoke and complete plain hem, natural adult anatomy and unobstructed product.",
+      "pose": "Near-front balanced relaxed stance, feet slightly offset, arms loose and gaze camera."
+    },
+    {
+      "source": "colors/f9caff4f-8fa3-49ad-a93d-2ee4f71321ce.webp",
+      "output": "generated/color__f9caff4f-8fa3-49ad-a93d-2ee4f71321ce__model.png",
+      "checks": {
+        "fully_unfolded_and_worn": "pass",
+        "correct_piece_count_and_construction": "pass",
+        "source_color_pattern_and_texture": "pass",
+        "full_garment_and_hem_visible": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "locked_scene_model_lighting_and_camera": "pass",
+        "safe_subtle_pose_variety": "pass",
+        "no_added_marketing_text_or_watermark": "pass",
+        "source_mapping_and_file_readable": "pass"
+      },
+      "notes": "Same-folder royal blue satin/dot variant reconstructed from own unfolded main; matching blue lace yoke, long loose plain-hem silhouette, stable model/scene with distinct step and gaze.",
+      "pose": "Gentle weight shift and forward right foot, gaze camera-right, arms relaxed clear."
+    }
+  ],
+  "source_preservation": "pass \u2014 all original hashes unchanged",
+  "source_reconciliation": "pass \u2014 every main/color source explicitly mapped",
+  "scene_consistency": "pass for accepted images",
+  "pose_variety": "pass \u2014 subtle head/gaze/shoulder/arm/stance variations; garment remains unobstructed",
+  "rejected_attempts": [],
+  "missing_or_blocked": [],
+  "limitations": [
+    "No description.txt or updates.txt exists. Descriptive name and calf-length proportions follow this folder's main photograph; exact physical length/size and fiber composition are unconfirmed.",
+    "Visual source comparison; no physical measurements or calibrated colorimetry.",
+    "Native image dimensions recorded per output; not 4K unless actual dimensions support it. No artificial upscaling.",
+    "No unsupported unseen back details generated; fabric fiber composition not confirmed."
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "product_id": "eb2bafda-eefe-433a-963f-8070749112d2",
+  "product_name": "Short-sleeve cropped pajama set (descriptive name)",
+  "generation_status": "all_required_sources_accepted",
+  "updated_at": "2026-11-04T18:04:37.501746+00:00",
+  "workflow": "AGENTS.md",
+  "workflow_sha256": "e06afcae3d476b9ebbd90b0b5734eee3234c5d2df819b50a170485e28b21b577",
+  "source_metadata": {
+    "description.txt": {
+      "present": false,
+      "sha256": null
+    },
+    "updates.txt": {
+      "present": false,
+      "sha256": null
+    }
+  },
+  "source_inventory": [
+    {
+      "path": "main/ee4a4ba3-be96-464d-a028-bbb15c1dc202.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "sha256": "c08d828d706fe9d5fdd101ecb8ed5c9128b8f658c2aeb98bd31cd65a99570a2b",
+      "readable": true,
+      "aspect_ratio": 0.75,
+      "presentation": "Complete unfolded matching shirt and cropped trousers hanging together; both pant hems and shirt neckline/hem visible."
+    },
+    {
+      "path": "colors/752af1af-f7ec-4764-b009-ec72a82d7dba.webp",
+      "dimensions": [
+        2200,
+        1650
+      ],
+      "sha256": "9bea18f76b56da1ccb565f10d59f73c2af16793553e87fa1136c469829275eda",
+      "readable": true,
+      "aspect_ratio": 1.3333333333333333,
+      "presentation": "Folded color/detail reference; reconstructed using same-folder unfolded main/structural source"
+    }
+  ],
+  "garment_specification": "Exactly TWO matching pieces confirmed by this folder's unfolded main: relaxed short-sleeve round-neck T-shirt, narrow self-fabric stitched neck binding, natural shoulder/sleeve seams matching source, loose straight hip-length body and plain stitched hem; matching relaxed slightly tapered cropped CAPRI trousers to mid/lower calf, gathered elastic waistband and plain open stitched leg hems. Preserve original top-to-pant proportions, not long ankle pants or shorts. Soft opaque matte cotton-jersey appearance, same current variant print on both pieces. No buttons, pockets, drawstring, collar, piping, cuffs, lace, added logo or extra pieces. Physical fiber/measurements unconfirmed except visible source label; use photographed construction.",
+  "unfolded_construction_references": [
+    "main/ee4a4ba3-be96-464d-a028-bbb15c1dc202.webp"
+  ],
+  "scene_profile": "Ivory bedroom, pale oak floor; cream upholstered bed with ivory bedding at left, plain one-drawer oak bedside table left, sheer white window curtain at right; soft right daylight, fixed layout.",
+  "model_profile": "One adult female South Asian model age35, warm medium-brown skin, average natural proportions, oval face and brown eyes, black hair in neat low bun, natural makeup, no jewelry. Same exact model throughout both images.",
+  "camera_profile": "Portrait3:4 matching original main, eye-level near-front65mm, full head-to-barefeet framing with both matching pieces and both cropped hems visible, centered model, identical scale/room/light/camera across outputs. Highest native resolution supported, 4K if supported.",
+  "aspect_ratio_rationale": "Portrait3:4 matches main reference and includes the entire two-piece set and model.",
+  "pose_plan": [
+    {
+      "source": "main/ee4a4ba3-be96-464d-a028-bbb15c1dc202.webp",
+      "planned": "Balanced near-front catalog stance with feet comfortably apart, arms relaxed clear and gentle camera gaze.",
+      "accepted": "Balanced near-front catalog stance with feet comfortably apart, arms relaxed clear and gentle camera gaze.",
+      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+    },
+    {
+      "source": "colors/752af1af-f7ec-4764-b009-ec72a82d7dba.webp",
+      "planned": "Gentle weight shift to right leg, left foot a small half-step forward, head and gaze subtly left, arms down clear of garments.",
+      "accepted": "Gentle weight shift and forward foot, subtle shoulder/head angle and off-camera gaze, arms clear.",
+      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+    }
+  ],
+  "source_to_output": [
+    {
+      "source": "main/ee4a4ba3-be96-464d-a028-bbb15c1dc202.webp",
+      "source_sha256": "c08d828d706fe9d5fdd101ecb8ed5c9128b8f658c2aeb98bd31cd65a99570a2b",
+      "output": "generated/main__ee4a4ba3-be96-464d-a028-bbb15c1dc202__model.png",
+      "status": "accepted",
+      "reason": null
+    },
+    {
+      "source": "colors/752af1af-f7ec-4764-b009-ec72a82d7dba.webp",
+      "source_sha256": "9bea18f76b56da1ccb565f10d59f73c2af16793553e87fa1136c469829275eda",
+      "output": "generated/color__752af1af-f7ec-4764-b009-ec72a82d7dba__model.png",
+      "status": "accepted",
+      "reason": null
+    }
+  ],
+  "outputs": [
+    {
+      "source": "main/ee4a4ba3-be96-464d-a028-bbb15c1dc202.webp",
+      "candidate": "/workspace/generated_images/exec-35077872-a7e9-41a4-9572-d45da3327f51.png",
+      "color": "pale blush pink with scattered low-contrast light pink hearts",
+      "pose": "Balanced near-front catalog stance with feet comfortably apart, arms relaxed clear and gentle camera gaze.",
+      "qa_note": "Complete two-piece matte jersey set, short sleeves and round neck, source-like low-contrast pink hearts, matching loose capri trousers and open hems, natural adult anatomy.",
+      "attempts": 1,
+      "output": "generated/main__ee4a4ba3-be96-464d-a028-bbb15c1dc202__model.png",
+      "output_sha256": "2124e1e6433d16bdc8d6d00f4d47fcfe8ed14c8e7c5bafd550bb91d3db597a09",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_and_worn": "pass",
+        "correct_piece_count_and_construction": "pass",
+        "source_color_pattern_and_texture": "pass",
+        "full_garment_and_hem_visible": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "locked_scene_model_lighting_and_camera": "pass",
+        "safe_subtle_pose_variety": "pass",
+        "no_added_marketing_text_or_watermark": "pass",
+        "source_mapping_and_file_readable": "pass"
+      }
+    },
+    {
+      "source": "colors/752af1af-f7ec-4764-b009-ec72a82d7dba.webp",
+      "candidate": "/workspace/generated_images/exec-cb058b88-32cd-4ce5-88a7-deb2884fd9fe.png",
+      "color": "muted sage green, gray-beige and off-white botanical leaf-silhouette print",
+      "pose": "Gentle weight shift and forward foot, subtle shoulder/head angle and off-camera gaze, arms clear.",
+      "qa_note": "Own-folder sage/gray-beige botanical leaf print and two-piece construction preserved, both cropped plain hems visible, natural drape/anatomy, stable model/room with distinct pose.",
+      "attempts": 1,
+      "output": "generated/color__752af1af-f7ec-4764-b009-ec72a82d7dba__model.png",
+      "output_sha256": "c8ed01e9ab4c7cecf92207c7610993c64ecb386b0644f22b39b80c7d09557eba",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "status": "accepted",
+      "checks": {
+        "fully_unfolded_and_worn": "pass",
+        "correct_piece_count_and_construction": "pass",
+        "source_color_pattern_and_texture": "pass",
+        "full_garment_and_hem_visible": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "locked_scene_model_lighting_and_camera": "pass",
+        "safe_subtle_pose_variety": "pass",
+        "no_added_marketing_text_or_watermark": "pass",
+        "source_mapping_and_file_readable": "pass"
+      }
+    }
+  ],
+  "generation_history": [
+    {
+      "source": "main/ee4a4ba3-be96-464d-a028-bbb15c1dc202.webp",
+      "prompt": "One photorealistic professional e-commerce clothing catalog photograph of the exact complete TWO-PIECE pajama set in attached ORIGINAL source, fully unfolded and naturally worn by one adult female model. Exactly TWO matching pieces confirmed by this folder's unfolded main: relaxed short-sleeve round-neck T-shirt, narrow self-fabric stitched neck binding, natural shoulder/sleeve seams matching source, loose straight hip-length body and plain stitched hem; matching relaxed slightly tapered cropped CAPRI trousers to mid/lower calf, gathered elastic waistband and plain open stitched leg hems. Preserve original top-to-pant proportions, not long ankle pants or shorts. Soft opaque matte cotton-jersey appearance, same current variant print on both pieces. No buttons, pockets, drawstring, collar, piping, cuffs, lace, added logo or extra pieces. Physical fiber/measurements unconfirmed except visible source label; use photographed construction. Main color pale blush pink, scattered subtle low-contrast lighter pink hearts on BOTH top and cropped trousers, match original shape/scale/density without adding other motifs. Premium neutral bedroom dressing area: ivory wall, pale oak floor, low cream upholstered bed in left background and simple oak bedside table left, sheer white curtain/window right; neutral diffused daylight from right around5000K, uncluttered and no objects near product. One adult female South Asian model age35, warm medium-brown skin, average natural proportions, oval face and brown eyes, black hair in neat low bun, natural makeup, no jewelry. Same exact model throughout both images. Portrait3:4 matching original main, eye-level near-front65mm, full head-to-barefeet framing with both matching pieces and both cropped hems visible, centered model, identical scale/room/light/camera across outputs. Highest native resolution supported, 4K if supported. Pose: Balanced near-front catalog stance with feet comfortably apart, arms relaxed clear and gentle camera gaze. Top untucked, entire set neckline through both pant hems unobstructed, realistic natural matte knit texture and drape, anatomical adult proportions and hands. One matching set per image, no folded display, flatlay, collage, other clothing, unsupported features, tags, added text or watermark.",
+      "reference_paths": [
+        "/workspace/Life-Style-image-studio-store-/products/eb2bafda-eefe-433a-963f-8070749112d2/main/ee4a4ba3-be96-464d-a028-bbb15c1dc202.webp"
+      ],
+      "attempt": 1,
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-35077872-a7e9-41a4-9572-d45da3327f51.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "source": "colors/752af1af-f7ec-4764-b009-ec72a82d7dba.webp",
+      "prompt": "Create a NEW relaxed adult professional clothing-catalog pose: weight on right leg, left foot a short half-step forward, head and eyes gently turned toward camera-left with a small smile, arms down loose and clear, feet grounded and uncrossed. ORIGINAL image1 is precise sage green, gray-beige and off-white botanical LEAF silhouette print authority, preserve leaf vein details, motif shapes/scale/density and muted colors, no hearts. ORIGINAL image2 shows complete matching two-piece pajama construction from SAME product folder. Image3 locks exact adult woman's identity, ivory bedroom bed/table left and window curtain right, lighting, camera framing and scale only, not pose. Exactly TWO matching pieces confirmed by this folder's unfolded main: relaxed short-sleeve round-neck T-shirt, narrow self-fabric stitched neck binding, natural shoulder/sleeve seams matching source, loose straight hip-length body and plain stitched hem; matching relaxed slightly tapered cropped CAPRI trousers to mid/lower calf, gathered elastic waistband and plain open stitched leg hems. Preserve original top-to-pant proportions, not long ankle pants or shorts. Soft opaque matte cotton-jersey appearance, same current variant print on both pieces. No buttons, pockets, drawstring, collar, piping, cuffs, lace, added logo or extra pieces. Physical fiber/measurements unconfirmed except visible source label; use photographed construction. Portrait3:4 matching original main, eye-level near-front65mm, full head-to-barefeet framing with both matching pieces and both cropped hems visible, centered model, identical scale/room/light/camera across outputs. Highest native resolution supported, 4K if supported. Whole shirt from round neckline through untucked hem and BOTH matching capri trouser hems visible, natural matte cotton-knit texture and realistic drape/anatomy. One matching set, no folded display, flatlay, collage, other clothing, unsupported design additions, tags, added text or watermark.",
+      "reference_paths": [
+        "/workspace/Life-Style-image-studio-store-/products/eb2bafda-eefe-433a-963f-8070749112d2/colors/752af1af-f7ec-4764-b009-ec72a82d7dba.webp",
+        "/workspace/Life-Style-image-studio-store-/products/eb2bafda-eefe-433a-963f-8070749112d2/main/ee4a4ba3-be96-464d-a028-bbb15c1dc202.webp",
+        "/workspace/generated_images/exec-35077872-a7e9-41a4-9572-d45da3327f51.png"
+      ],
+      "attempt": 1,
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-cb058b88-32cd-4ce5-88a7-deb2884fd9fe.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    }
+  ],
+  "counts": {
+    "main_sources": 1,
+    "color_sources": 1,
+    "source_images": 2,
+    "accepted_main": 1,
+    "accepted_colors": 1,
+    "accepted_total": 2,
+    "blocked": 0,
+    "unaccounted": 0,
+    "generation_attempts": 2,
+    "tool_failed_attempts": 0,
+    "rejected_attempts": 0
+  },
+  "blockers": [],
+  "validation_limitations": [
+    "No description.txt or updates.txt exists; title is a descriptive visual name and exact physical measurements are unknown.",
+    "Color source is folded top with coordinated fabric component behind, reconstructed using this folder's complete two-piece main reference.",
+    "Visual source comparison; no physical measurements or calibrated colorimetry.",
+    "Native image dimensions recorded per output; not 4K unless actual dimensions support it. No artificial upscaling.",
+    "No unsupported unseen back details generated; fabric fiber composition not confirmed."
+  ],
+  "resumability": "Preserve accepted current-source outputs; regenerate only missing, failed or stale mappings.",
+  "persistence": {
+    "repository": "lifestylekky/Life-Style-image-studio-store-",
+    "branch": "main",
+    "directory": "products/eb2bafda-eefe-433a-963f-8070749112d2/generated",
+    "verification": "Compare local file blobs with fetched origin/main after push; verified commit reported in execution response."
+  }
+}

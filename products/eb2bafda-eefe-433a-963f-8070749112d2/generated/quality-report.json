@@ -1,0 +1,67 @@
+{
+  "product_id": "eb2bafda-eefe-433a-963f-8070749112d2",
+  "status": "PASS",
+  "review_method": "Individual visual comparison against complete same-product structure and each variant original, then cross-output model/scene/pose comparison; programmatic decode/hash/source reconciliation.",
+  "counts": {
+    "main_sources": 1,
+    "color_sources": 1,
+    "source_images": 2,
+    "accepted_main": 1,
+    "accepted_colors": 1,
+    "accepted_total": 2,
+    "blocked": 0,
+    "unaccounted": 0,
+    "generation_attempts": 2,
+    "tool_failed_attempts": 0,
+    "rejected_attempts": 0
+  },
+  "per_output": [
+    {
+      "source": "main/ee4a4ba3-be96-464d-a028-bbb15c1dc202.webp",
+      "output": "generated/main__ee4a4ba3-be96-464d-a028-bbb15c1dc202__model.png",
+      "checks": {
+        "fully_unfolded_and_worn": "pass",
+        "correct_piece_count_and_construction": "pass",
+        "source_color_pattern_and_texture": "pass",
+        "full_garment_and_hem_visible": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "locked_scene_model_lighting_and_camera": "pass",
+        "safe_subtle_pose_variety": "pass",
+        "no_added_marketing_text_or_watermark": "pass",
+        "source_mapping_and_file_readable": "pass"
+      },
+      "notes": "Complete two-piece matte jersey set, short sleeves and round neck, source-like low-contrast pink hearts, matching loose capri trousers and open hems, natural adult anatomy.",
+      "pose": "Balanced near-front catalog stance with feet comfortably apart, arms relaxed clear and gentle camera gaze."
+    },
+    {
+      "source": "colors/752af1af-f7ec-4764-b009-ec72a82d7dba.webp",
+      "output": "generated/color__752af1af-f7ec-4764-b009-ec72a82d7dba__model.png",
+      "checks": {
+        "fully_unfolded_and_worn": "pass",
+        "correct_piece_count_and_construction": "pass",
+        "source_color_pattern_and_texture": "pass",
+        "full_garment_and_hem_visible": "pass",
+        "natural_adult_anatomy_and_drape": "pass",
+        "locked_scene_model_lighting_and_camera": "pass",
+        "safe_subtle_pose_variety": "pass",
+        "no_added_marketing_text_or_watermark": "pass",
+        "source_mapping_and_file_readable": "pass"
+      },
+      "notes": "Own-folder sage/gray-beige botanical leaf print and two-piece construction preserved, both cropped plain hems visible, natural drape/anatomy, stable model/room with distinct pose.",
+      "pose": "Gentle weight shift and forward foot, subtle shoulder/head angle and off-camera gaze, arms clear."
+    }
+  ],
+  "source_preservation": "pass \u2014 all original hashes unchanged",
+  "source_reconciliation": "pass \u2014 every main/color source explicitly mapped",
+  "scene_consistency": "pass for accepted images",
+  "pose_variety": "pass \u2014 subtle head/gaze/shoulder/arm/stance variations; garment remains unobstructed",
+  "rejected_attempts": [],
+  "missing_or_blocked": [],
+  "limitations": [
+    "No description.txt or updates.txt exists; title is a descriptive visual name and exact physical measurements are unknown.",
+    "Color source is folded top with coordinated fabric component behind, reconstructed using this folder's complete two-piece main reference.",
+    "Visual source comparison; no physical measurements or calibrated colorimetry.",
+    "Native image dimensions recorded per output; not 4K unless actual dimensions support it. No artificial upscaling.",
+    "No unsupported unseen back details generated; fabric fiber composition not confirmed."
+  ]
+}
