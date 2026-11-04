@@ -52,7 +52,14 @@
     "main_sources": 1,
     "color_sources": 1,
     "accepted": 0,
-    "blocked": 2
+    "blocked": 2,
+    "source_images": 2,
+    "submitted_generation_attempts": 0,
+    "moderated_requests": 0,
+    "actual_returned_image_files": 0,
+    "approved_model_images": 0,
+    "approved_mannequin_alternatives": 0,
+    "source_entries_with_alternative": 0
   },
   "blockers": [
     "Both sources are stylized illustrated male street portraits, not verifiable retail garment photographs. Physical fabric, full shirt hem and construction are unconfirmed; no product description or unfolded same-product garment reference exists. Adult-female product reconstruction would invent details."
@@ -71,6 +78,27 @@
       "reason": "Both sources are stylized illustrated male street portraits, not verifiable retail garment photographs. Physical fabric, full shirt hem and construction are unconfirmed; no product description or unfolded same-product garment reference exists. Adult-female product reconstruction would invent details.",
       "required_to_resume": "Clear unfolded photographs of the actual full garment in this same product folder, with verifiable construction and variant colors; product description if available.",
       "photography_location": null
+    },
+    {
+      "checked_at": "2026-11-04T19:00:09.619517+00:00",
+      "workflow_revision": "61fef9b",
+      "source_files_readable": true,
+      "source_hashes_unchanged": true,
+      "source_count": 2,
+      "source_coverage_verified": true,
+      "catalog_mode": null,
+      "preflight_decision": "needs_reference",
+      "new_generation_attempts": 0,
+      "new_accepted_images": 0,
+      "reason": "Both sources are stylized illustrated male street portraits, not verifiable retail garment photographs. Physical fabric, full shirt hem and construction are unconfirmed; no product description or unfolded same-product garment reference exists. Adult-female product reconstruction would invent details.",
+      "required_to_resume": "Clear actual unfolded same-product garment photos showing full neckline, sleeves, body and hem, plus original variant colors and description if available."
     }
-  ]
+  ],
+  "workflow_sha256": "9576c07321ec4627203baaccec39b90ceefd56f9641d0ce2c5a9a5daa352c3a2",
+  "workflow_revision": "61fef9b",
+  "updated_at": "2026-11-04T19:00:09.619517+00:00",
+  "preflight_decision": "needs_reference",
+  "catalog_mode": null,
+  "original_model_requirement": "BLOCKED",
+  "alternative_acceptance": "not_applicable_insufficient_sources"
 }

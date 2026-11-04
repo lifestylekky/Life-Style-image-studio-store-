@@ -1,11 +1,11 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "product_id": "61b7971d-fef8-4733-aac7-8a70baf32202",
   "product_name": "VELONA SHORT MODEL NIGHTY",
-  "generation_status": "BLOCKED",
-  "updated_at": "2026-11-04T18:26:10.270996+00:00",
+  "generation_status": "PARTIAL",
+  "updated_at": "2026-11-04T19:00:09.619517+00:00",
   "workflow": "AGENTS.md",
-  "workflow_sha256": "e06afcae3d476b9ebbd90b0b5734eee3234c5d2df819b50a170485e28b21b577",
+  "workflow_sha256": "9576c07321ec4627203baaccec39b90ceefd56f9641d0ce2c5a9a5daa352c3a2",
   "source_metadata": {
     "description.txt": {
       "present": true,
@@ -133,70 +133,88 @@
     "main/41121a91-d047-4ede-bd79-182116a518d9.jpg",
     "colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg"
   ],
-  "scene_profile": "Premium neutral ivory bedroom as original main: pale beige wall, warm wood floor, low bed and vertical oak-slat headboard behind left with ivory bedding, small oak bedside cabinet/lamp and tiny plant far left, sheer white curtain/window at right; diffused neutral daylight from right around5000K. Model stands centered in clear foreground.",
-  "model_profile": "One adult female model age32 with warm light-medium olive skin, oval face, brown eyes, straight shoulder-length dark brown hair tucked behind shoulders so straps visible, natural makeup, no jewelry. Match accepted main identity across every image.",
-  "camera_profile": "Portrait3:4 matching original main, eye-level near-front65mm camera, full head to barefeet composition, same centered subject scale and room positions throughout. Entire neckline, straps, black lace band, bow and black-bound hem unobstructed. Highest native resolution, 4K if supported.",
-  "aspect_ratio_rationale": "Portrait2:3 allows entire model and garment visibility; main reference may be narrower. Same native format used throughout product.",
+  "scene_profile": {
+    "type": "neutral professional product studio",
+    "background": "pale ivory seamless cyclorama and floor; no furniture",
+    "lighting": "soft even neutral daylit illumination from upper left, subtle shadow to right",
+    "display": "one non-human headless armless matte ivory fabric retail dress form, neck cap, slim brushed-metal pole and round base",
+    "camera": "eye-level straight-on portrait3:4; complete form, dress and base visible; same scale and composition throughout",
+    "pose": "fixed restrained upright front product display, intentional consistency for non-human alternative",
+    "alternative_acceptance": "pending_user_acceptance"
+  },
+  "model_profile": "No human model. One clearly non-human headless armless matte ivory retail dress form.",
+  "camera_profile": "eye-level straight-on portrait3:4; complete form, dress and base visible; same scale and composition throughout",
+  "aspect_ratio_rationale": "Portrait3:4 matches main reference and includes complete garment and non-human display base. Native1086x1448; no 4K claim or upscaling.",
   "pose_plan": [
     {
       "source": "main/41121a91-d047-4ede-bd79-182116a518d9.jpg",
-      "planned": "Balanced near-front stance, arms loose away from garment, gentle camera gaze.",
-      "accepted": null,
-      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+      "planned": "Restrained upright front-facing non-human dress-form display, intentionally fixed for accurate comparison.",
+      "accepted_alternative": "Restrained upright front-facing non-human dress-form display, intentionally fixed for accurate comparison.",
+      "accepted_model_pose": null,
+      "limitation": "Consistent fixed non-human display explicitly allowed by updated AGENTS; no human pose variety claimed."
     },
     {
       "source": "colors/c4dfec85-a5af-4852-b20f-69de3ccf2cfe.webp",
-      "planned": "Weight right, left foot a little forward, head turned slightly left, arms loose.",
-      "accepted": null,
-      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+      "planned": "Restrained upright front-facing non-human dress-form display, intentionally fixed for accurate comparison.",
+      "accepted_alternative": "Restrained upright front-facing non-human dress-form display, intentionally fixed for accurate comparison.",
+      "accepted_model_pose": null,
+      "limitation": "Consistent fixed non-human display explicitly allowed by updated AGENTS; no human pose variety claimed."
     },
     {
       "source": "colors/6667cf2b-3507-4de9-bb3a-e952f244e280.webp",
-      "planned": "Weight left, right toe gently forward, head tilted softly right, gaze camera.",
-      "accepted": null,
-      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+      "planned": "Restrained upright front-facing non-human dress-form display, intentionally fixed for accurate comparison.",
+      "accepted_alternative": "Restrained upright front-facing non-human dress-form display, intentionally fixed for accurate comparison.",
+      "accepted_model_pose": null,
+      "limitation": "Consistent fixed non-human display explicitly allowed by updated AGENTS; no human pose variety claimed."
     },
     {
       "source": "colors/60b213fa-0758-4666-91ae-39d74f534874.jpg",
-      "planned": "Small10-degree shoulder angle right, face to camera, right elbow relaxed slightly outward, hands below dress-side panels.",
-      "accepted": null,
-      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+      "planned": "Restrained upright front-facing non-human dress-form display, intentionally fixed for accurate comparison.",
+      "accepted_alternative": "Restrained upright front-facing non-human dress-form display, intentionally fixed for accurate comparison.",
+      "accepted_model_pose": null,
+      "limitation": "Consistent fixed non-human display explicitly allowed by updated AGENTS; no human pose variety claimed."
     },
     {
       "source": "colors/6b89f8ba-4394-4c05-a6ac-fcf8e741fd55.webp",
-      "planned": "Near-front gentle half-step rightfoot, relaxed shoulders, gaze off-camera right.",
-      "accepted": null,
-      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+      "planned": "Restrained upright front-facing non-human dress-form display, intentionally fixed for accurate comparison.",
+      "accepted_alternative": "Restrained upright front-facing non-human dress-form display, intentionally fixed for accurate comparison.",
+      "accepted_model_pose": null,
+      "limitation": "Consistent fixed non-human display explicitly allowed by updated AGENTS; no human pose variety claimed."
     },
     {
       "source": "colors/e4b06b3c-c1b0-46c4-9055-67796f6213d1.webp",
-      "planned": "Weight right, small left shoulder drop, chin level, left forearm softly bent outward without touching dress.",
-      "accepted": null,
-      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+      "planned": "Restrained upright front-facing non-human dress-form display, intentionally fixed for accurate comparison.",
+      "accepted_alternative": "Restrained upright front-facing non-human dress-form display, intentionally fixed for accurate comparison.",
+      "accepted_model_pose": null,
+      "limitation": "Consistent fixed non-human display explicitly allowed by updated AGENTS; no human pose variety claimed."
     },
     {
       "source": "colors/acabae47-f5a8-4c57-b0a2-fc9e739afb0c.webp",
-      "planned": "Near-front relaxed stance, head turned slightly right, right arm a little away, small natural smile.",
-      "accepted": null,
-      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+      "planned": "Restrained upright front-facing non-human dress-form display, intentionally fixed for accurate comparison.",
+      "accepted_alternative": "Restrained upright front-facing non-human dress-form display, intentionally fixed for accurate comparison.",
+      "accepted_model_pose": null,
+      "limitation": "Consistent fixed non-human display explicitly allowed by updated AGENTS; no human pose variety claimed."
     },
     {
       "source": "colors/45070679-fada-4299-8d66-0016c54b75d9.webp",
-      "planned": "Weight left with relaxed right knee, head subtly tilted left, both hands clear.",
-      "accepted": null,
-      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+      "planned": "Restrained upright front-facing non-human dress-form display, intentionally fixed for accurate comparison.",
+      "accepted_alternative": "Restrained upright front-facing non-human dress-form display, intentionally fixed for accurate comparison.",
+      "accepted_model_pose": null,
+      "limitation": "Consistent fixed non-human display explicitly allowed by updated AGENTS; no human pose variety claimed."
     },
     {
       "source": "colors/98fbeb3f-7f24-42da-b432-9601b91237a7.webp",
-      "planned": "Small8-degree shoulder angle left, face forward, relaxed asymmetric arm spacing.",
-      "accepted": null,
-      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+      "planned": "Restrained upright front-facing non-human dress-form display, intentionally fixed for accurate comparison.",
+      "accepted_alternative": "Restrained upright front-facing non-human dress-form display, intentionally fixed for accurate comparison.",
+      "accepted_model_pose": null,
+      "limitation": "Consistent fixed non-human display explicitly allowed by updated AGENTS; no human pose variety claimed."
     },
     {
       "source": "colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg",
-      "planned": "Near-front gentle step leftfoot, head facing camera with a broader natural smile, both arms loose.",
-      "accepted": null,
-      "visibility_constraint": "Near-front product view, hands and limbs clear of yoke/body/hem; prioritize garment accuracy."
+      "planned": "Restrained upright front-facing non-human dress-form display, intentionally fixed for accurate comparison.",
+      "accepted_alternative": "Restrained upright front-facing non-human dress-form display, intentionally fixed for accurate comparison.",
+      "accepted_model_pose": null,
+      "limitation": "Consistent fixed non-human display explicitly allowed by updated AGENTS; no human pose variety claimed."
     }
   ],
   "source_to_output": [
@@ -205,73 +223,414 @@
       "source_sha256": "fe2b2852359ad80fceeee89588b42d9b52c167ee933ea4e98a8d7bb158ffdac9",
       "output": null,
       "status": "blocked",
-      "reason": "Two reference-conditioned adult retail attempts were rejected by image tool at input: moderation_blocked, sexual category. Request IDs 986b6f3c-68b5-487e-b5b3-c2d401f0abf8 and ea931d31-bf4a-4ef8-a4a5-0ec1ccdb6c88. No image returned. New user-requested retry rejected at OUTPUT moderation, category sexual; request ID bbc3ae4a-782c-494f-b08c-bf996b10c3eb. No image returned."
+      "reason": "Two reference-conditioned adult retail attempts were rejected by image tool at input: moderation_blocked, sexual category. Request IDs 986b6f3c-68b5-487e-b5b3-c2d401f0abf8 and ea931d31-bf4a-4ef8-a4a5-0ec1ccdb6c88. No image returned. New user-requested retry rejected at OUTPUT moderation, category sexual; request ID bbc3ae4a-782c-494f-b08c-bf996b10c3eb. No image returned.",
+      "alternative_output": "generated/main__41121a91-d047-4ede-bd79-182116a518d9__mannequin.png",
+      "alternative_status": "ALTERNATIVE_MANNEQUIN",
+      "alternative_acceptance": "pending_user_acceptance"
     },
     {
       "source": "colors/e4b06b3c-c1b0-46c4-9055-67796f6213d1.webp",
       "source_sha256": "97b37c6b4d81c19d601286a9cdbda3075000d1575d9ca12247ed08244cefd79a",
       "output": null,
       "status": "blocked",
-      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried."
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried.",
+      "alternative_output": "generated/color__e4b06b3c-c1b0-46c4-9055-67796f6213d1__mannequin.png",
+      "alternative_status": "ALTERNATIVE_MANNEQUIN",
+      "alternative_acceptance": "pending_user_acceptance"
     },
     {
       "source": "colors/c4dfec85-a5af-4852-b20f-69de3ccf2cfe.webp",
       "source_sha256": "128c4a0269c01ed50102ad1ad9a4821f0a32136f3f869ce79abf806727f8a04e",
       "output": null,
       "status": "blocked",
-      "reason": "Adult retail generation rejected by image tool at input: moderation_blocked, sexual category. Request ID 1f9f13c6-7af6-482d-9fa1-a1f79ef410d8. No image returned. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried."
+      "reason": "Adult retail generation rejected by image tool at input: moderation_blocked, sexual category. Request ID 1f9f13c6-7af6-482d-9fa1-a1f79ef410d8. No image returned. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried.",
+      "alternative_output": "generated/color__c4dfec85-a5af-4852-b20f-69de3ccf2cfe__mannequin.png",
+      "alternative_status": "ALTERNATIVE_MANNEQUIN",
+      "alternative_acceptance": "pending_user_acceptance"
     },
     {
       "source": "colors/acabae47-f5a8-4c57-b0a2-fc9e739afb0c.webp",
       "source_sha256": "17693e291b4451a6f980e173193d85e28a60409b48445f552a2dba2e1055b7ae",
       "output": null,
       "status": "blocked",
-      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried."
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried.",
+      "alternative_output": "generated/color__acabae47-f5a8-4c57-b0a2-fc9e739afb0c__mannequin.png",
+      "alternative_status": "ALTERNATIVE_MANNEQUIN",
+      "alternative_acceptance": "pending_user_acceptance"
     },
     {
       "source": "colors/60b213fa-0758-4666-91ae-39d74f534874.jpg",
       "source_sha256": "1f0b242d81721e981d8e3ce43fafc2f33add0f1211c357f97105a8025cec3ce2",
       "output": null,
       "status": "blocked",
-      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried."
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried.",
+      "alternative_output": "generated/color__60b213fa-0758-4666-91ae-39d74f534874__mannequin.png",
+      "alternative_status": "ALTERNATIVE_MANNEQUIN",
+      "alternative_acceptance": "pending_user_acceptance"
     },
     {
       "source": "colors/6b89f8ba-4394-4c05-a6ac-fcf8e741fd55.webp",
       "source_sha256": "a0c2a84f8a91edffc96e8bce3eeb26f5233f057a7cf05f3142dea492dc3974be",
       "output": null,
       "status": "blocked",
-      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried."
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried.",
+      "alternative_output": "generated/color__6b89f8ba-4394-4c05-a6ac-fcf8e741fd55__mannequin.png",
+      "alternative_status": "ALTERNATIVE_MANNEQUIN",
+      "alternative_acceptance": "pending_user_acceptance"
     },
     {
       "source": "colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg",
       "source_sha256": "576688e3f03d3305fba866e3136c406cf71a7e7416e6ffbddf0496a0a6b23d30",
       "output": null,
       "status": "blocked",
-      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried."
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried.",
+      "alternative_output": "generated/color__6ba70d41-fd63-45aa-a441-7ad8886ec461__mannequin.png",
+      "alternative_status": "ALTERNATIVE_MANNEQUIN",
+      "alternative_acceptance": "pending_user_acceptance"
     },
     {
       "source": "colors/98fbeb3f-7f24-42da-b432-9601b91237a7.webp",
       "source_sha256": "4d1964357f4c6a8096113354e8f466031d88eb263a2b91bdcf588edbe0190fb8",
       "output": null,
       "status": "blocked",
-      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried."
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried.",
+      "alternative_output": "generated/color__98fbeb3f-7f24-42da-b432-9601b91237a7__mannequin.png",
+      "alternative_status": "ALTERNATIVE_MANNEQUIN",
+      "alternative_acceptance": "pending_user_acceptance"
     },
     {
       "source": "colors/45070679-fada-4299-8d66-0016c54b75d9.webp",
       "source_sha256": "9c73ccdc69c71bae9ed4b118b8d2bfc9474998997ff5e80735836731e457a0cf",
       "output": null,
       "status": "blocked",
-      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried."
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried.",
+      "alternative_output": "generated/color__45070679-fada-4299-8d66-0016c54b75d9__mannequin.png",
+      "alternative_status": "ALTERNATIVE_MANNEQUIN",
+      "alternative_acceptance": "pending_user_acceptance"
     },
     {
       "source": "colors/6667cf2b-3507-4de9-bb3a-e952f244e280.webp",
       "source_sha256": "8da3e5b27de7ffa10fc7db090d3cfb13ce94dd30e3d05ff3f8622aa11bd321ee",
       "output": null,
       "status": "blocked",
-      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried."
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried.",
+      "alternative_output": "generated/color__6667cf2b-3507-4de9-bb3a-e952f244e280__mannequin.png",
+      "alternative_status": "ALTERNATIVE_MANNEQUIN",
+      "alternative_acceptance": "pending_user_acceptance"
     }
   ],
-  "outputs": [],
+  "outputs": [
+    {
+      "source": "main/41121a91-d047-4ede-bd79-182116a518d9.jpg",
+      "candidate": "/workspace/generated_images/exec-2ae3f382-6e7f-4698-b5d2-12f94b9d8f94.png",
+      "color": "rich purple satin",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_note": "Visual pass against worn main and same-folder purple/hanging references: fully unfolded one-piece garment; black straps, gathered V ruffle, shaped bodice, floral lace band/center bow, flared skirt and narrow black hem retained; full display visible. Clearly non-human dress form; not accepted fulfillment of model-worn requirement.",
+      "output": "generated/main__41121a91-d047-4ede-bd79-182116a518d9__mannequin.png",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "sha256": "94553def8996d2878fad19e5f190dc49d39d29f4811f4602720814f596f3cfad",
+      "mode": "non_human_mannequin",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending",
+      "satisfies_original_model_worn_requirement": false,
+      "checks": {
+        "fully_unfolded": "pass",
+        "exactly_one_verified_garment": "pass",
+        "construction_and_trims": "pass",
+        "source_color_visual_comparison": "pass",
+        "satin_texture_and_drape": "pass",
+        "complete_neckline_to_hem_visibility": "pass",
+        "consistent_non_human_form": "pass",
+        "locked_studio_lighting_camera": "pass",
+        "no_added_text_or_extra_items": "pass",
+        "source_mapping_and_readable_file": "pass",
+        "adult_human_model": "not_applicable_non_human_alternative"
+      },
+      "pose": "Restrained upright front-facing non-human dress-form display, intentionally fixed for accurate comparison."
+    },
+    {
+      "source": "colors/c4dfec85-a5af-4852-b20f-69de3ccf2cfe.webp",
+      "color": "soft light pastel rose pink satin",
+      "candidate": "/workspace/generated_images/exec-6a00c8cd-59d1-4ba2-9b77-f0a050a200d9.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_note": "Pass after color correction: soft source pink rather than hot pink; fully unfolded design, black trims and complete hem retained; identical form/studio/framing. Original human requirement remains blocked.",
+      "output": "generated/color__c4dfec85-a5af-4852-b20f-69de3ccf2cfe__mannequin.png",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "sha256": "59d7cb2202a1b200e321e3ee20813dcc94e8e9a9e60471c6185db34c62a301fe",
+      "mode": "non_human_mannequin",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending",
+      "satisfies_original_model_worn_requirement": false,
+      "checks": {
+        "fully_unfolded": "pass",
+        "exactly_one_verified_garment": "pass",
+        "construction_and_trims": "pass",
+        "source_color_visual_comparison": "pass",
+        "satin_texture_and_drape": "pass",
+        "complete_neckline_to_hem_visibility": "pass",
+        "consistent_non_human_form": "pass",
+        "locked_studio_lighting_camera": "pass",
+        "no_added_text_or_extra_items": "pass",
+        "source_mapping_and_readable_file": "pass",
+        "adult_human_model": "not_applicable_non_human_alternative"
+      },
+      "pose": "Restrained upright front-facing non-human dress-form display, intentionally fixed for accurate comparison."
+    },
+    {
+      "source": "colors/6667cf2b-3507-4de9-bb3a-e952f244e280.webp",
+      "color": "medium violet purple satin",
+      "candidate": "/workspace/generated_images/exec-828dba53-3344-4a2c-b9f9-8e25f36d161d.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_note": "Pass: violet-purple source hue, full unfolded single nightdress and black trims retained; same non-human form, studio, light and framing.",
+      "output": "generated/color__6667cf2b-3507-4de9-bb3a-e952f244e280__mannequin.png",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "sha256": "dd71c726a432ecd402a6cd872754d393dac48389055cf37b9962c9c73cb29845",
+      "mode": "non_human_mannequin",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending",
+      "satisfies_original_model_worn_requirement": false,
+      "checks": {
+        "fully_unfolded": "pass",
+        "exactly_one_verified_garment": "pass",
+        "construction_and_trims": "pass",
+        "source_color_visual_comparison": "pass",
+        "satin_texture_and_drape": "pass",
+        "complete_neckline_to_hem_visibility": "pass",
+        "consistent_non_human_form": "pass",
+        "locked_studio_lighting_camera": "pass",
+        "no_added_text_or_extra_items": "pass",
+        "source_mapping_and_readable_file": "pass",
+        "adult_human_model": "not_applicable_non_human_alternative"
+      },
+      "pose": "Restrained upright front-facing non-human dress-form display, intentionally fixed for accurate comparison."
+    },
+    {
+      "source": "colors/60b213fa-0758-4666-91ae-39d74f534874.jpg",
+      "color": "pale blush peach pink satin",
+      "candidate": "/workspace/generated_images/exec-163ecc10-6167-48e5-a7dd-17b9a9322390.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_note": "Pass: pale warm blush-peach source color distinct from other pinks; full satin garment, floral lace, ruffle, bow, straps and bound hem; same non-human display/studio.",
+      "output": "generated/color__60b213fa-0758-4666-91ae-39d74f534874__mannequin.png",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "sha256": "04ccb6610fd4298ba3bf3c25705fa3d2bb08be5ccc1db6fa8630e590d981251a",
+      "mode": "non_human_mannequin",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending",
+      "satisfies_original_model_worn_requirement": false,
+      "checks": {
+        "fully_unfolded": "pass",
+        "exactly_one_verified_garment": "pass",
+        "construction_and_trims": "pass",
+        "source_color_visual_comparison": "pass",
+        "satin_texture_and_drape": "pass",
+        "complete_neckline_to_hem_visibility": "pass",
+        "consistent_non_human_form": "pass",
+        "locked_studio_lighting_camera": "pass",
+        "no_added_text_or_extra_items": "pass",
+        "source_mapping_and_readable_file": "pass",
+        "adult_human_model": "not_applicable_non_human_alternative"
+      },
+      "pose": "Restrained upright front-facing non-human dress-form display, intentionally fixed for accurate comparison."
+    },
+    {
+      "source": "colors/6b89f8ba-4394-4c05-a6ac-fcf8e741fd55.webp",
+      "color": "bright royal cobalt blue satin",
+      "candidate": "/workspace/generated_images/exec-7bfd3466-6655-4541-bea3-9cdea1e07458.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_note": "Pass: royal/cobalt blue satin with black original trims, fully unfolded one-piece garment, complete bound hem; same display and studio. Satin highlights vary with new studio illumination.",
+      "output": "generated/color__6b89f8ba-4394-4c05-a6ac-fcf8e741fd55__mannequin.png",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "sha256": "fe68b117d753871a4012c36011a2914ff2ae87bda183ae3e09d497fa514ff7eb",
+      "mode": "non_human_mannequin",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending",
+      "satisfies_original_model_worn_requirement": false,
+      "checks": {
+        "fully_unfolded": "pass",
+        "exactly_one_verified_garment": "pass",
+        "construction_and_trims": "pass",
+        "source_color_visual_comparison": "pass",
+        "satin_texture_and_drape": "pass",
+        "complete_neckline_to_hem_visibility": "pass",
+        "consistent_non_human_form": "pass",
+        "locked_studio_lighting_camera": "pass",
+        "no_added_text_or_extra_items": "pass",
+        "source_mapping_and_readable_file": "pass",
+        "adult_human_model": "not_applicable_non_human_alternative"
+      },
+      "pose": "Restrained upright front-facing non-human dress-form display, intentionally fixed for accurate comparison."
+    },
+    {
+      "source": "colors/e4b06b3c-c1b0-46c4-9055-67796f6213d1.webp",
+      "color": "deep teal petrol blue satin",
+      "candidate": "/workspace/generated_images/exec-2987bffb-30fd-458d-b10d-23fd6cc6debb.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_note": "Pass: deep petrol blue with subtle teal cast distinct from royal blue; fully visible bound hem and exact one-piece design; same non-human form/studio/light/framing.",
+      "output": "generated/color__e4b06b3c-c1b0-46c4-9055-67796f6213d1__mannequin.png",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "sha256": "9539436d8b63f069bce89994ce86eb6486590dbfe0ebda7411ab63323a8dae7c",
+      "mode": "non_human_mannequin",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending",
+      "satisfies_original_model_worn_requirement": false,
+      "checks": {
+        "fully_unfolded": "pass",
+        "exactly_one_verified_garment": "pass",
+        "construction_and_trims": "pass",
+        "source_color_visual_comparison": "pass",
+        "satin_texture_and_drape": "pass",
+        "complete_neckline_to_hem_visibility": "pass",
+        "consistent_non_human_form": "pass",
+        "locked_studio_lighting_camera": "pass",
+        "no_added_text_or_extra_items": "pass",
+        "source_mapping_and_readable_file": "pass",
+        "adult_human_model": "not_applicable_non_human_alternative"
+      },
+      "pose": "Restrained upright front-facing non-human dress-form display, intentionally fixed for accurate comparison."
+    },
+    {
+      "source": "colors/acabae47-f5a8-4c57-b0a2-fc9e739afb0c.webp",
+      "color": "navy blue satin",
+      "candidate": "/workspace/generated_images/exec-6f4490cf-c411-479d-8b62-ce2b4def4101.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_note": "Pass: dark navy satin distinct from royal and petrol blue; black lace/ruffle/straps/bow/hem maintained; complete unfolded one-piece garment, same non-human display/studio.",
+      "output": "generated/color__acabae47-f5a8-4c57-b0a2-fc9e739afb0c__mannequin.png",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "sha256": "3538a0f81112d10af4a2fb2c66ec2b7a01691de1fb6d8c1d5f18674206045ba6",
+      "mode": "non_human_mannequin",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending",
+      "satisfies_original_model_worn_requirement": false,
+      "checks": {
+        "fully_unfolded": "pass",
+        "exactly_one_verified_garment": "pass",
+        "construction_and_trims": "pass",
+        "source_color_visual_comparison": "pass",
+        "satin_texture_and_drape": "pass",
+        "complete_neckline_to_hem_visibility": "pass",
+        "consistent_non_human_form": "pass",
+        "locked_studio_lighting_camera": "pass",
+        "no_added_text_or_extra_items": "pass",
+        "source_mapping_and_readable_file": "pass",
+        "adult_human_model": "not_applicable_non_human_alternative"
+      },
+      "pose": "Restrained upright front-facing non-human dress-form display, intentionally fixed for accurate comparison."
+    },
+    {
+      "source": "colors/45070679-fada-4299-8d66-0016c54b75d9.webp",
+      "color": "warm antique gold satin",
+      "candidate": "/workspace/generated_images/exec-beffb1c3-ff82-4550-9837-05b8410bb705.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_note": "Pass: warm antique/ochre gold satin consistent with source; all original black trims and full hem retained; complete single unfolded nightdress on same form in same studio.",
+      "output": "generated/color__45070679-fada-4299-8d66-0016c54b75d9__mannequin.png",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "sha256": "ec1b42b1bd3c4c3a75a802fa07c846793bd5b4811d26277c62a1e49114621de2",
+      "mode": "non_human_mannequin",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending",
+      "satisfies_original_model_worn_requirement": false,
+      "checks": {
+        "fully_unfolded": "pass",
+        "exactly_one_verified_garment": "pass",
+        "construction_and_trims": "pass",
+        "source_color_visual_comparison": "pass",
+        "satin_texture_and_drape": "pass",
+        "complete_neckline_to_hem_visibility": "pass",
+        "consistent_non_human_form": "pass",
+        "locked_studio_lighting_camera": "pass",
+        "no_added_text_or_extra_items": "pass",
+        "source_mapping_and_readable_file": "pass",
+        "adult_human_model": "not_applicable_non_human_alternative"
+      },
+      "pose": "Restrained upright front-facing non-human dress-form display, intentionally fixed for accurate comparison."
+    },
+    {
+      "source": "colors/98fbeb3f-7f24-42da-b432-9601b91237a7.webp",
+      "color": "rose pink satin",
+      "candidate": "/workspace/generated_images/exec-654e8538-63f1-4bfd-80aa-4d75e1357e25.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_note": "Pass after correction: medium soft warm rose-pink source hue, distinct from pale blush/pastel and vivid hot pink. Full original garment and black trims, same non-human display/studio.",
+      "output": "generated/color__98fbeb3f-7f24-42da-b432-9601b91237a7__mannequin.png",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "sha256": "63b5ac29ec56aae6a1ab938bb3e0c2cee3be7b4a3158abbfed04265568a26bb7",
+      "mode": "non_human_mannequin",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending",
+      "satisfies_original_model_worn_requirement": false,
+      "checks": {
+        "fully_unfolded": "pass",
+        "exactly_one_verified_garment": "pass",
+        "construction_and_trims": "pass",
+        "source_color_visual_comparison": "pass",
+        "satin_texture_and_drape": "pass",
+        "complete_neckline_to_hem_visibility": "pass",
+        "consistent_non_human_form": "pass",
+        "locked_studio_lighting_camera": "pass",
+        "no_added_text_or_extra_items": "pass",
+        "source_mapping_and_readable_file": "pass",
+        "adult_human_model": "not_applicable_non_human_alternative"
+      },
+      "pose": "Restrained upright front-facing non-human dress-form display, intentionally fixed for accurate comparison."
+    },
+    {
+      "source": "colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg",
+      "color": "vivid hot pink satin",
+      "candidate": "/workspace/generated_images/exec-7226759a-e21a-4ac4-9628-fe9c833cc812.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_note": "Pass: vivid fuchsia/hot-pink from unfolded hanging source, distinct from softer pink variants; complete satin nightdress, black trims and hem, same non-human form and studio.",
+      "output": "generated/color__6ba70d41-fd63-45aa-a441-7ad8886ec461__mannequin.png",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "sha256": "cf4e84082a32bdc23adc130c40c3071f49b7c7398b36355869a734d93229d680",
+      "mode": "non_human_mannequin",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending",
+      "satisfies_original_model_worn_requirement": false,
+      "checks": {
+        "fully_unfolded": "pass",
+        "exactly_one_verified_garment": "pass",
+        "construction_and_trims": "pass",
+        "source_color_visual_comparison": "pass",
+        "satin_texture_and_drape": "pass",
+        "complete_neckline_to_hem_visibility": "pass",
+        "consistent_non_human_form": "pass",
+        "locked_studio_lighting_camera": "pass",
+        "no_added_text_or_extra_items": "pass",
+        "source_mapping_and_readable_file": "pass",
+        "adult_human_model": "not_applicable_non_human_alternative"
+      },
+      "pose": "Restrained upright front-facing non-human dress-form display, intentionally fixed for accurate comparison."
+    }
+  ],
   "generation_history": [
     {
       "source": "main/41121a91-d047-4ede-bd79-182116a518d9.jpg",
@@ -280,7 +639,13 @@
         "/workspace/Life-Style-image-studio-store-/products/61b7971d-fef8-4733-aac7-8a70baf32202/main/41121a91-d047-4ede-bd79-182116a518d9.jpg"
       ],
       "attempt": 1,
-      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 986b6f3c-68b5-487e-b5b3-c2d401f0abf8. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 986b6f3c-68b5-487e-b5b3-c2d401f0abf8. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "mode": "model_worn",
+      "request_id": "986b6f3c-68b5-487e-b5b3-c2d401f0abf8",
+      "moderation_stage": "input",
+      "moderation_category": "sexual",
+      "result": "no_image_returned",
+      "time": "not_recorded_in_legacy_attempt; see historical commit"
     },
     {
       "source": "main/41121a91-d047-4ede-bd79-182116a518d9.jpg",
@@ -290,7 +655,13 @@
         "/workspace/Life-Style-image-studio-store-/products/61b7971d-fef8-4733-aac7-8a70baf32202/colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg"
       ],
       "attempt": 2,
-      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID ea931d31-bf4a-4ef8-a4a5-0ec1ccdb6c88. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID ea931d31-bf4a-4ef8-a4a5-0ec1ccdb6c88. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "mode": "model_worn",
+      "request_id": "ea931d31-bf4a-4ef8-a4a5-0ec1ccdb6c88",
+      "moderation_stage": "input",
+      "moderation_category": "sexual",
+      "result": "no_image_returned",
+      "time": "not_recorded_in_legacy_attempt; see historical commit"
     },
     {
       "source": "colors/c4dfec85-a5af-4852-b20f-69de3ccf2cfe.webp",
@@ -300,7 +671,13 @@
         "/workspace/Life-Style-image-studio-store-/products/61b7971d-fef8-4733-aac7-8a70baf32202/colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg"
       ],
       "attempt": 1,
-      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 1f9f13c6-7af6-482d-9fa1-a1f79ef410d8. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 1f9f13c6-7af6-482d-9fa1-a1f79ef410d8. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "mode": "model_worn",
+      "request_id": "1f9f13c6-7af6-482d-9fa1-a1f79ef410d8",
+      "moderation_stage": "input",
+      "moderation_category": "sexual",
+      "result": "no_image_returned",
+      "time": "not_recorded_in_legacy_attempt; see historical commit"
     },
     {
       "source": "main/41121a91-d047-4ede-bd79-182116a518d9.jpg",
@@ -317,7 +694,180 @@
       "moderation_category": "sexual",
       "request_id": "bbc3ae4a-782c-494f-b08c-bf996b10c3eb",
       "result": "no_image_returned",
-      "requested_model_age": 35
+      "requested_model_age": 35,
+      "mode": "model_worn",
+      "time": "2026-11-04T18:24:40.936Z"
+    },
+    {
+      "source": "main/41121a91-d047-4ede-bd79-182116a518d9.jpg",
+      "mode": "non_human_mannequin",
+      "prompt": "Photorealistic e-commerce garment-only catalog photograph. Display exactly one complete purple satin knee-length nightdress on a clearly non-human freestanding headless, armless matte ivory retail dress form on a slim metal pole and circular base. The folded purple photograph controls the purple color and material; the unfolded pink hanging photograph controls the same garment's construction, in purple for this image. Faithfully preserve the two thin black shoulder straps, narrow gathered purple ruffle along V neckline, shaped satin bodice seams, wide black scalloped floral lace band below the bodice rising toward a small black center bow with short tails, relaxed flared satin skirt and narrow black binding around the complete hem. Dress naturally drapes on the display form and is entirely unfolded, with every edge visible. Clean pale ivory seamless professional product studio, soft even neutral daylight from upper left, subtle floor shadow, centered eye-level straight-on portrait 3:4 catalog composition, complete dress form and circular base in frame. One garment, one non-human display, no people, no extra items or text. Highest native resolution supported.",
+      "reference_paths": [
+        "/workspace/Life-Style-image-studio-store-/products/61b7971d-fef8-4733-aac7-8a70baf32202/colors/6667cf2b-3507-4de9-bb3a-e952f244e280.webp",
+        "/workspace/Life-Style-image-studio-store-/products/61b7971d-fef8-4733-aac7-8a70baf32202/colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg"
+      ],
+      "started_at": "2026-11-04T18:48:18.369Z",
+      "workflow_revision": "61fef9b",
+      "alternative_acceptance": "pending_user_acceptance",
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-2ae3f382-6e7f-4698-b5d2-12f94b9d8f94.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "finished_at": "2026-11-04T18:48:45.984Z"
+    },
+    {
+      "source": "colors/c4dfec85-a5af-4852-b20f-69de3ccf2cfe.webp",
+      "mode": "non_human_mannequin",
+      "prompt": "Create one photorealistic e-commerce garment-only catalog image. Match the first approved purple dress-form image EXACTLY for the same non-human headless armless matte ivory fabric retail form, centered stance, slim metal pole and round base, pale ivory seamless studio, soft diffuse daylight from upper left, eye-level straight-on camera, framing and scale. Change only the garment's satin color to medium candy pink satin according to the second original color photograph. The third original hanging reference confirms this same product's complete structure. Preserve exactly one fully unfolded knee-length satin nightdress, two thin black straps, narrow gathered self-color V-neck ruffle, shaped bodice seams, wide scalloped black floral lace band rising to the center black ribbon bow and short tails, relaxed flared skirt, narrow black binding at the complete hem. Preserve the reference-specific fabric color and trim. Show the complete garment and stand base with the same generous margins as image one. Clearly non-human retail display, no people, no added text or other items. Portrait 3:4, highest native resolution. Keep the display's restrained straight-on stance consistent for product comparison.",
+      "reference_paths": [
+        "/workspace/generated_images/exec-2ae3f382-6e7f-4698-b5d2-12f94b9d8f94.png",
+        "/workspace/Life-Style-image-studio-store-/products/61b7971d-fef8-4733-aac7-8a70baf32202/colors/c4dfec85-a5af-4852-b20f-69de3ccf2cfe.webp",
+        "/workspace/Life-Style-image-studio-store-/products/61b7971d-fef8-4733-aac7-8a70baf32202/colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg"
+      ],
+      "started_at": "2026-11-04T18:49:20.392Z",
+      "alternative_acceptance": "pending_user_acceptance",
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-c199ca3c-7cd4-41d2-998c-855cee78c4f4.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "finished_at": "2026-11-04T18:49:58.266Z",
+      "validation": "rejected_color_too_saturated",
+      "qa_note": "Returned pink is hot candy/fuchsia; source c4df is a lighter, softer pastel pink. Do not save this candidate as approved."
+    },
+    {
+      "source": "colors/c4dfec85-a5af-4852-b20f-69de3ccf2cfe.webp",
+      "mode": "non_human_mannequin",
+      "attempt": 2,
+      "prompt": "Edit the first dress-form catalog image into the color shown in the second original reference: soft light pastel rose pink satin, with low to moderate saturation and near-white pink highlights. Match the second photo's actual pink fabric; preserve the clear difference from bright hot pink. Keep the first image's exact non-human ivory headless armless retail dress form, pose, complete garment construction, black straps, black floral lace and bow, black hem binding, knee-length draped skirt, slim stand, round base, neutral ivory studio, lighting, camera and framing unchanged. Exactly one unfolded garment on one non-human form, no people or text. Portrait3:4 highest native resolution.",
+      "reference_paths": [
+        "/workspace/generated_images/exec-2ae3f382-6e7f-4698-b5d2-12f94b9d8f94.png",
+        "/workspace/Life-Style-image-studio-store-/products/61b7971d-fef8-4733-aac7-8a70baf32202/colors/c4dfec85-a5af-4852-b20f-69de3ccf2cfe.webp"
+      ],
+      "started_at": "2026-11-04T18:50:14.202Z",
+      "alternative_acceptance": "pending_user_acceptance",
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-6a00c8cd-59d1-4ba2-9b77-f0a050a200d9.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "finished_at": "2026-11-04T18:50:45.932Z"
+    },
+    {
+      "source": "colors/6667cf2b-3507-4de9-bb3a-e952f244e280.webp",
+      "mode": "non_human_mannequin",
+      "prompt": "Create one photorealistic e-commerce garment-only catalog image. Match the first approved purple dress-form image EXACTLY for the same non-human headless armless matte ivory fabric retail form, centered stance, slim metal pole and round base, pale ivory seamless studio, soft diffuse daylight from upper left, eye-level straight-on camera, framing and scale. Change only the garment's satin color to medium violet purple satin matching its original medium slightly lighter violet-purple hue according to the second original color photograph. The third original hanging reference confirms this same product's complete structure. Preserve exactly one fully unfolded knee-length satin nightdress, two thin black straps, narrow gathered self-color V-neck ruffle, shaped bodice seams, wide scalloped black floral lace band rising to the center black ribbon bow and short tails, relaxed flared skirt, narrow black binding at the complete hem. Preserve the reference-specific fabric color and trim. Show the complete garment and stand base with the same generous margins as image one. Clearly non-human retail display, no people, no added text or other items. Portrait 3:4, highest native resolution. Keep the display's restrained straight-on stance consistent for product comparison.",
+      "reference_paths": [
+        "/workspace/generated_images/exec-2ae3f382-6e7f-4698-b5d2-12f94b9d8f94.png",
+        "/workspace/Life-Style-image-studio-store-/products/61b7971d-fef8-4733-aac7-8a70baf32202/colors/6667cf2b-3507-4de9-bb3a-e952f244e280.webp",
+        "/workspace/Life-Style-image-studio-store-/products/61b7971d-fef8-4733-aac7-8a70baf32202/colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg"
+      ],
+      "started_at": "2026-11-04T18:51:01.780Z",
+      "alternative_acceptance": "pending_user_acceptance",
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-828dba53-3344-4a2c-b9f9-8e25f36d161d.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "finished_at": "2026-11-04T18:51:39.491Z"
+    },
+    {
+      "source": "colors/60b213fa-0758-4666-91ae-39d74f534874.jpg",
+      "mode": "non_human_mannequin",
+      "prompt": "Create one photorealistic e-commerce garment-only catalog image. Match the first approved purple dress-form image EXACTLY for the same non-human headless armless matte ivory fabric retail form, centered stance, slim metal pole and round base, pale ivory seamless studio, soft diffuse daylight from upper left, eye-level straight-on camera, framing and scale. Change only the garment's satin color to pale blush peach pink satin \u2014 very pale warm blush with peach undertone and near-white highlights, as the second photo according to the second original color photograph. The third original hanging reference confirms this same product's complete structure. Preserve exactly one fully unfolded knee-length satin nightdress, two thin black straps, narrow gathered self-color V-neck ruffle, shaped bodice seams, wide scalloped black floral lace band rising to the center black ribbon bow and short tails, relaxed flared skirt, narrow black binding at the complete hem. Preserve the reference-specific fabric color and trim. Show the complete garment and stand base with the same generous margins as image one. Clearly non-human retail display, no people, no added text or other items. Portrait 3:4, highest native resolution. Keep the display's restrained straight-on stance consistent for product comparison.",
+      "reference_paths": [
+        "/workspace/generated_images/exec-2ae3f382-6e7f-4698-b5d2-12f94b9d8f94.png",
+        "/workspace/Life-Style-image-studio-store-/products/61b7971d-fef8-4733-aac7-8a70baf32202/colors/60b213fa-0758-4666-91ae-39d74f534874.jpg",
+        "/workspace/Life-Style-image-studio-store-/products/61b7971d-fef8-4733-aac7-8a70baf32202/colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg"
+      ],
+      "started_at": "2026-11-04T18:51:53.560Z",
+      "alternative_acceptance": "pending_user_acceptance",
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-163ecc10-6167-48e5-a7dd-17b9a9322390.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "finished_at": "2026-11-04T18:52:27.450Z"
+    },
+    {
+      "source": "colors/6b89f8ba-4394-4c05-a6ac-fcf8e741fd55.webp",
+      "mode": "non_human_mannequin",
+      "prompt": "Create one photorealistic e-commerce garment-only catalog image. Match the first approved purple dress-form image EXACTLY for the same non-human headless armless matte ivory fabric retail form, centered stance, slim metal pole and round base, pale ivory seamless studio, soft diffuse daylight from upper left, eye-level straight-on camera, framing and scale. Change only the garment's satin color to bright royal cobalt blue satin according to the second original color photograph. The third original hanging reference confirms this same product's complete structure. Preserve exactly one fully unfolded knee-length satin nightdress, two thin black straps, narrow gathered self-color V-neck ruffle, shaped bodice seams, wide scalloped black floral lace band rising to the center black ribbon bow and short tails, relaxed flared skirt, narrow black binding at the complete hem. Preserve the reference-specific fabric color and trim. Show the complete garment and stand base with the same generous margins as image one. Clearly non-human retail display, no people, no added text or other items. Portrait 3:4, highest native resolution. Keep the display's restrained straight-on stance consistent for product comparison.",
+      "reference_paths": [
+        "/workspace/generated_images/exec-2ae3f382-6e7f-4698-b5d2-12f94b9d8f94.png",
+        "/workspace/Life-Style-image-studio-store-/products/61b7971d-fef8-4733-aac7-8a70baf32202/colors/6b89f8ba-4394-4c05-a6ac-fcf8e741fd55.webp",
+        "/workspace/Life-Style-image-studio-store-/products/61b7971d-fef8-4733-aac7-8a70baf32202/colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg"
+      ],
+      "started_at": "2026-11-04T18:52:43.188Z",
+      "alternative_acceptance": "pending_user_acceptance",
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-7bfd3466-6655-4541-bea3-9cdea1e07458.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "finished_at": "2026-11-04T18:53:14.436Z"
+    },
+    {
+      "source": "colors/e4b06b3c-c1b0-46c4-9055-67796f6213d1.webp",
+      "mode": "non_human_mannequin",
+      "prompt": "Create one photorealistic e-commerce garment-only catalog image. Match the first approved purple dress-form image EXACTLY for the same non-human headless armless matte ivory fabric retail form, centered stance, slim metal pole and round base, pale ivory seamless studio, soft diffuse daylight from upper left, eye-level straight-on camera, framing and scale. Change only the garment's satin color to deep teal petrol blue satin \u2014 match the second photograph's deep blue with a subtle teal cast, distinct from royal blue and navy according to the second original color photograph. The third original hanging reference confirms this same product's complete structure. Preserve exactly one fully unfolded knee-length satin nightdress, two thin black straps, narrow gathered self-color V-neck ruffle, shaped bodice seams, wide scalloped black floral lace band rising to the center black ribbon bow and short tails, relaxed flared skirt, narrow black binding at the complete hem. Preserve the reference-specific fabric color and trim. Show the complete garment and stand base with the same generous margins as image one. Clearly non-human retail display, no people, no added text or other items. Portrait 3:4, highest native resolution. Keep the display's restrained straight-on stance consistent for product comparison.",
+      "reference_paths": [
+        "/workspace/generated_images/exec-2ae3f382-6e7f-4698-b5d2-12f94b9d8f94.png",
+        "/workspace/Life-Style-image-studio-store-/products/61b7971d-fef8-4733-aac7-8a70baf32202/colors/e4b06b3c-c1b0-46c4-9055-67796f6213d1.webp",
+        "/workspace/Life-Style-image-studio-store-/products/61b7971d-fef8-4733-aac7-8a70baf32202/colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg"
+      ],
+      "started_at": "2026-11-04T18:53:28.717Z",
+      "alternative_acceptance": "pending_user_acceptance",
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-2987bffb-30fd-458d-b10d-23fd6cc6debb.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "finished_at": "2026-11-04T18:54:11.002Z"
+    },
+    {
+      "source": "colors/acabae47-f5a8-4c57-b0a2-fc9e739afb0c.webp",
+      "mode": "non_human_mannequin",
+      "prompt": "Create one photorealistic e-commerce garment-only catalog image. Match the first approved purple dress-form image EXACTLY for the same non-human headless armless matte ivory fabric retail form, centered stance, slim metal pole and round base, pale ivory seamless studio, soft diffuse daylight from upper left, eye-level straight-on camera, framing and scale. Change only the garment's satin color to navy blue satin \u2014 dark navy blue matching the second photograph, visibly darker than royal blue according to the second original color photograph. The third original hanging reference confirms this same product's complete structure. Preserve exactly one fully unfolded knee-length satin nightdress, two thin black straps, narrow gathered self-color V-neck ruffle, shaped bodice seams, wide scalloped black floral lace band rising to the center black ribbon bow and short tails, relaxed flared skirt, narrow black binding at the complete hem. Preserve the reference-specific fabric color and trim. Show the complete garment and stand base with the same generous margins as image one. Clearly non-human retail display, no people, no added text or other items. Portrait 3:4, highest native resolution. Keep the display's restrained straight-on stance consistent for product comparison.",
+      "reference_paths": [
+        "/workspace/generated_images/exec-2ae3f382-6e7f-4698-b5d2-12f94b9d8f94.png",
+        "/workspace/Life-Style-image-studio-store-/products/61b7971d-fef8-4733-aac7-8a70baf32202/colors/acabae47-f5a8-4c57-b0a2-fc9e739afb0c.webp",
+        "/workspace/Life-Style-image-studio-store-/products/61b7971d-fef8-4733-aac7-8a70baf32202/colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg"
+      ],
+      "started_at": "2026-11-04T18:54:25.919Z",
+      "alternative_acceptance": "pending_user_acceptance",
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-6f4490cf-c411-479d-8b62-ce2b4def4101.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "finished_at": "2026-11-04T18:54:57.167Z"
+    },
+    {
+      "source": "colors/45070679-fada-4299-8d66-0016c54b75d9.webp",
+      "mode": "non_human_mannequin",
+      "prompt": "Create one photorealistic e-commerce garment-only catalog image. Match the first approved purple dress-form image EXACTLY for the same non-human headless armless matte ivory fabric retail form, centered stance, slim metal pole and round base, pale ivory seamless studio, soft diffuse daylight from upper left, eye-level straight-on camera, framing and scale. Change only the garment's satin color to warm antique gold satin \u2014 match the muted warm ochre-gold satin of the second photograph according to the second original color photograph. The third original hanging reference confirms this same product's complete structure. Preserve exactly one fully unfolded knee-length satin nightdress, two thin black straps, narrow gathered self-color V-neck ruffle, shaped bodice seams, wide scalloped black floral lace band rising to the center black ribbon bow and short tails, relaxed flared skirt, narrow black binding at the complete hem. Preserve the reference-specific fabric color and trim. Show the complete garment and stand base with the same generous margins as image one. Clearly non-human retail display, no people, no added text or other items. Portrait 3:4, highest native resolution. Keep the display's restrained straight-on stance consistent for product comparison.",
+      "reference_paths": [
+        "/workspace/generated_images/exec-2ae3f382-6e7f-4698-b5d2-12f94b9d8f94.png",
+        "/workspace/Life-Style-image-studio-store-/products/61b7971d-fef8-4733-aac7-8a70baf32202/colors/45070679-fada-4299-8d66-0016c54b75d9.webp",
+        "/workspace/Life-Style-image-studio-store-/products/61b7971d-fef8-4733-aac7-8a70baf32202/colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg"
+      ],
+      "started_at": "2026-11-04T18:55:11.574Z",
+      "alternative_acceptance": "pending_user_acceptance",
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-beffb1c3-ff82-4550-9837-05b8410bb705.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "finished_at": "2026-11-04T18:55:45.236Z"
+    },
+    {
+      "source": "colors/98fbeb3f-7f24-42da-b432-9601b91237a7.webp",
+      "mode": "non_human_mannequin",
+      "prompt": "Create one photorealistic e-commerce garment-only catalog image. Match the first approved purple dress-form image EXACTLY for the same non-human headless armless matte ivory fabric retail form, centered stance, slim metal pole and round base, pale ivory seamless studio, soft diffuse daylight from upper left, eye-level straight-on camera, framing and scale. Change only the garment's satin color to rose pink satin \u2014 match the second original photograph's medium warm rose-pink, moderately saturated rather than neon fuchsia, deeper than pale blush according to the second original color photograph. The third original hanging reference confirms this same product's complete structure. Preserve exactly one fully unfolded knee-length satin nightdress, two thin black straps, narrow gathered self-color V-neck ruffle, shaped bodice seams, wide scalloped black floral lace band rising to the center black ribbon bow and short tails, relaxed flared skirt, narrow black binding at the complete hem. Preserve the reference-specific fabric color and trim. Show the complete garment and stand base with the same generous margins as image one. Clearly non-human retail display, no people, no added text or other items. Portrait 3:4, highest native resolution. Keep the display's restrained straight-on stance consistent for product comparison.",
+      "reference_paths": [
+        "/workspace/generated_images/exec-2ae3f382-6e7f-4698-b5d2-12f94b9d8f94.png",
+        "/workspace/Life-Style-image-studio-store-/products/61b7971d-fef8-4733-aac7-8a70baf32202/colors/98fbeb3f-7f24-42da-b432-9601b91237a7.webp",
+        "/workspace/Life-Style-image-studio-store-/products/61b7971d-fef8-4733-aac7-8a70baf32202/colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg"
+      ],
+      "started_at": "2026-11-04T18:56:01.020Z",
+      "alternative_acceptance": "pending_user_acceptance",
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-4e84e236-3436-47d4-a5e4-f8296c7feb78.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "finished_at": "2026-11-04T18:56:33.333Z",
+      "validation": "rejected_color_too_saturated",
+      "qa_note": "Rose-pink candidate is too vivid and approaches the hot-pink variant; needs softer source-matched rose tone."
+    },
+    {
+      "source": "colors/98fbeb3f-7f24-42da-b432-9601b91237a7.webp",
+      "mode": "non_human_mannequin",
+      "attempt": 2,
+      "prompt": "Edit the first non-human dress-form product photograph, preserving its exact composition, garment construction and studio. Match the second source photograph's satin color: medium soft warm rose pink, a muted dusty candy-rose hue, with gentle near-white highlights. It must be visibly less vivid and less saturated than hot pink, while slightly deeper than pale pastel pink. Use the actual second original fabric color as authority. Keep the purple image's original black straps, black floral scalloped lace band, center black bow, self-color V-neck ruffle, knee-length flared satin skirt and black-bound complete hem unchanged except the satin becomes source rose pink. Same ivory headless armless retail form, slim pole, round base, pale ivory seamless studio, soft neutral light and full centered 3:4 framing. Exactly one complete unfolded garment, one non-human display. No people or text.",
+      "reference_paths": [
+        "/workspace/generated_images/exec-2ae3f382-6e7f-4698-b5d2-12f94b9d8f94.png",
+        "/workspace/Life-Style-image-studio-store-/products/61b7971d-fef8-4733-aac7-8a70baf32202/colors/98fbeb3f-7f24-42da-b432-9601b91237a7.webp"
+      ],
+      "started_at": "2026-11-04T18:56:51.498Z",
+      "alternative_acceptance": "pending_user_acceptance",
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-654e8538-63f1-4bfd-80aa-4d75e1357e25.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "finished_at": "2026-11-04T18:57:17.591Z"
+    },
+    {
+      "source": "colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg",
+      "mode": "non_human_mannequin",
+      "prompt": "Create one photorealistic e-commerce garment-only catalog image. Match the first approved purple dress-form image EXACTLY for the same non-human headless armless matte ivory fabric retail form, centered stance, slim metal pole and round base, pale ivory seamless studio, soft diffuse daylight from upper left, eye-level straight-on camera, framing and scale. Change only the garment's satin color to vivid hot pink satin \u2014 use the original hanging photograph's vivid deep fuchsia-pink satin hue according to the second original color photograph. The second original hanging reference also confirms this same product's complete structure. Preserve exactly one fully unfolded knee-length satin nightdress, two thin black straps, narrow gathered self-color V-neck ruffle, shaped bodice seams, wide scalloped black floral lace band rising to the center black ribbon bow and short tails, relaxed flared skirt, narrow black binding at the complete hem. Preserve the reference-specific fabric color and trim. Show the complete garment and stand base with the same generous margins as image one. Clearly non-human retail display, no people, no added text or other items. Portrait 3:4, highest native resolution. Keep the display's restrained straight-on stance consistent for product comparison.",
+      "reference_paths": [
+        "/workspace/generated_images/exec-2ae3f382-6e7f-4698-b5d2-12f94b9d8f94.png",
+        "/workspace/Life-Style-image-studio-store-/products/61b7971d-fef8-4733-aac7-8a70baf32202/colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg"
+      ],
+      "started_at": "2026-11-04T18:57:32.863Z",
+      "alternative_acceptance": "pending_user_acceptance",
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-7226759a-e21a-4ac4-9628-fe9c833cc812.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "finished_at": "2026-11-04T18:58:08.351Z"
     }
   ],
   "counts": {
@@ -329,77 +879,89 @@
     "accepted_total": 0,
     "blocked": 10,
     "unaccounted": 0,
-    "generation_attempts": 4,
+    "generation_attempts": 16,
     "tool_failed_attempts": 4,
-    "rejected_attempts": 0
+    "rejected_attempts": 2,
+    "submitted_generation_attempts": 16,
+    "moderated_requests": 4,
+    "actual_returned_image_files": 12,
+    "approved_model_images": 0,
+    "approved_mannequin_alternatives": 10,
+    "source_entries_with_alternative": 10,
+    "new_mannequin_attempts": 12,
+    "new_moderated_requests": 0,
+    "new_model_attempts": 0,
+    "approved_main_mannequin_alternatives": 1,
+    "approved_color_mannequin_alternatives": 9
   },
   "blockers": [
     {
       "source": "main/41121a91-d047-4ede-bd79-182116a518d9.jpg",
       "status": "blocked",
-      "reason": "Two reference-conditioned adult retail attempts were rejected by image tool at input: moderation_blocked, sexual category. Request IDs 986b6f3c-68b5-487e-b5b3-c2d401f0abf8 and ea931d31-bf4a-4ef8-a4a5-0ec1ccdb6c88. No image returned. New user-requested retry rejected at OUTPUT moderation, category sexual; request ID bbc3ae4a-782c-494f-b08c-bf996b10c3eb. No image returned.",
+      "reason": "Two reference-conditioned adult retail attempts were rejected by image tool at input: moderation_blocked, sexual category. Request IDs 986b6f3c-68b5-487e-b5b3-c2d401f0abf8 and ea931d31-bf4a-4ef8-a4a5-0ec1ccdb6c88. No image returned. New user-requested retry rejected at OUTPUT moderation, category sexual; request ID bbc3ae4a-782c-494f-b08c-bf996b10c3eb. No image returned. Updated workflow prohibits repeating blocked human depiction. A visually reviewed non-human mannequin alternative now exists, pending acceptance of revised deliverable.",
       "attempted": true
     },
     {
       "source": "colors/c4dfec85-a5af-4852-b20f-69de3ccf2cfe.webp",
       "status": "blocked",
       "attempted": true,
-      "reason": "Adult retail generation rejected by image tool at input: moderation_blocked, sexual category. Request ID 1f9f13c6-7af6-482d-9fa1-a1f79ef410d8. No image returned. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried."
+      "reason": "Adult retail generation rejected by image tool at input: moderation_blocked, sexual category. Request ID 1f9f13c6-7af6-482d-9fa1-a1f79ef410d8. No image returned. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried. Updated workflow prohibits repeating blocked human depiction. A visually reviewed non-human mannequin alternative now exists, pending acceptance of revised deliverable."
     },
     {
       "source": "colors/6667cf2b-3507-4de9-bb3a-e952f244e280.webp",
       "status": "blocked",
       "attempted": false,
-      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried."
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried. Updated workflow prohibits repeating blocked human depiction. A visually reviewed non-human mannequin alternative now exists, pending acceptance of revised deliverable."
     },
     {
       "source": "colors/60b213fa-0758-4666-91ae-39d74f534874.jpg",
       "status": "blocked",
       "attempted": false,
-      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried."
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried. Updated workflow prohibits repeating blocked human depiction. A visually reviewed non-human mannequin alternative now exists, pending acceptance of revised deliverable."
     },
     {
       "source": "colors/6b89f8ba-4394-4c05-a6ac-fcf8e741fd55.webp",
       "status": "blocked",
       "attempted": false,
-      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried."
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried. Updated workflow prohibits repeating blocked human depiction. A visually reviewed non-human mannequin alternative now exists, pending acceptance of revised deliverable."
     },
     {
       "source": "colors/e4b06b3c-c1b0-46c4-9055-67796f6213d1.webp",
       "status": "blocked",
       "attempted": false,
-      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried."
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried. Updated workflow prohibits repeating blocked human depiction. A visually reviewed non-human mannequin alternative now exists, pending acceptance of revised deliverable."
     },
     {
       "source": "colors/acabae47-f5a8-4c57-b0a2-fc9e739afb0c.webp",
       "status": "blocked",
       "attempted": false,
-      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried."
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried. Updated workflow prohibits repeating blocked human depiction. A visually reviewed non-human mannequin alternative now exists, pending acceptance of revised deliverable."
     },
     {
       "source": "colors/45070679-fada-4299-8d66-0016c54b75d9.webp",
       "status": "blocked",
       "attempted": false,
-      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried."
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried. Updated workflow prohibits repeating blocked human depiction. A visually reviewed non-human mannequin alternative now exists, pending acceptance of revised deliverable."
     },
     {
       "source": "colors/98fbeb3f-7f24-42da-b432-9601b91237a7.webp",
       "status": "blocked",
       "attempted": false,
-      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried."
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried. Updated workflow prohibits repeating blocked human depiction. A visually reviewed non-human mannequin alternative now exists, pending acceptance of revised deliverable."
     },
     {
       "source": "colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg",
       "status": "blocked",
       "attempted": false,
-      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried."
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried. Updated workflow prohibits repeating blocked human depiction. A visually reviewed non-human mannequin alternative now exists, pending acceptance of revised deliverable."
     }
   ],
   "validation_limitations": [
-    "Exact physical length is absent from description; knee-length proportions follow the same-folder worn main image.",
-    "Visual source comparison; no physical measurements or calibrated colorimetry.",
-    "Native image dimensions recorded per output; not 4K unless actual dimensions support it. No artificial upscaling.",
-    "No unsupported unseen back details generated; fabric fiber composition not confirmed."
+    "Individual visual comparison against original main and all nine color references; no physical measurements or calibrated colorimetry.",
+    "Generated satin highlights and lace microdetail are approximate photographic representations; no pixel-identical or instrument-verified color claim.",
+    "Native1086x1448 PNG, not4K. No post-generation image edits or upscaling.",
+    "No unseen back construction generated.",
+    "Non-human alternatives pass visual QA but do not fulfill the original adult-model requirement unless expressly accepted."
   ],
   "resumability": "Preserve accepted current-source outputs; regenerate only missing, failed or stale mappings.",
   "persistence": {
@@ -434,6 +996,220 @@
         "colors/6667cf2b-3507-4de9-bb3a-e952f244e280.webp"
       ],
       "photography_location": "Premium neutral ivory bedroom as original main: pale beige wall, warm wood floor, low bed and vertical oak-slat headboard behind left with ivory bedding, small oak bedside cabinet/lamp and tiny plant far left, sheer white curtain/window at right; diffused neutral daylight from right around5000K. Model stands centered in clear foreground."
+    },
+    {
+      "checked_at": "2026-11-04T19:00:09.619517+00:00",
+      "workflow_revision": "61fef9b",
+      "source_files_readable": true,
+      "source_hashes_unchanged": true,
+      "source_count": 10,
+      "source_coverage_verified": true,
+      "catalog_mode": "non_human_mannequin",
+      "preflight_decision": "ready_mannequin_catalog",
+      "new_generation_attempts": 12,
+      "new_moderation_rejections": 0,
+      "new_approved_model_images": 0,
+      "new_approved_mannequin_alternatives": 10,
+      "source_coverage": "10/10 alternative mappings; 0/10 original human-model mappings",
+      "alternative_acceptance": "pending_user_acceptance"
+    }
+  ],
+  "workflow_revision": "61fef9b",
+  "catalog_mode": "non_human_mannequin",
+  "preflight_decision": "ready_mannequin_catalog",
+  "original_model_requirement": "BLOCKED",
+  "original_model_preflight_decision": "moderation_blocked",
+  "alternative_acceptance": {
+    "status": "pending_user_acceptance",
+    "deliverable": "10 non-human mannequin alternatives",
+    "note": "Visual QA passes; original human-model deliverable is not fulfilled without express user acceptance of revised deliverable."
+  },
+  "previous_human_scene_profile": "Premium neutral ivory bedroom as original main: pale beige wall, warm wood floor, low bed and vertical oak-slat headboard behind left with ivory bedding, small oak bedside cabinet/lamp and tiny plant far left, sheer white curtain/window at right; diffused neutral daylight from right around5000K. Model stands centered in clear foreground.",
+  "model_outputs": [],
+  "alternative_source_to_output": [
+    {
+      "source": "main/41121a91-d047-4ede-bd79-182116a518d9.jpg",
+      "source_sha256": "fe2b2852359ad80fceeee89588b42d9b52c167ee933ea4e98a8d7bb158ffdac9",
+      "output": "generated/main__41121a91-d047-4ede-bd79-182116a518d9__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending"
+    },
+    {
+      "source": "colors/c4dfec85-a5af-4852-b20f-69de3ccf2cfe.webp",
+      "source_sha256": "128c4a0269c01ed50102ad1ad9a4821f0a32136f3f869ce79abf806727f8a04e",
+      "output": "generated/color__c4dfec85-a5af-4852-b20f-69de3ccf2cfe__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending"
+    },
+    {
+      "source": "colors/6667cf2b-3507-4de9-bb3a-e952f244e280.webp",
+      "source_sha256": "8da3e5b27de7ffa10fc7db090d3cfb13ce94dd30e3d05ff3f8622aa11bd321ee",
+      "output": "generated/color__6667cf2b-3507-4de9-bb3a-e952f244e280__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending"
+    },
+    {
+      "source": "colors/60b213fa-0758-4666-91ae-39d74f534874.jpg",
+      "source_sha256": "1f0b242d81721e981d8e3ce43fafc2f33add0f1211c357f97105a8025cec3ce2",
+      "output": "generated/color__60b213fa-0758-4666-91ae-39d74f534874__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending"
+    },
+    {
+      "source": "colors/6b89f8ba-4394-4c05-a6ac-fcf8e741fd55.webp",
+      "source_sha256": "a0c2a84f8a91edffc96e8bce3eeb26f5233f057a7cf05f3142dea492dc3974be",
+      "output": "generated/color__6b89f8ba-4394-4c05-a6ac-fcf8e741fd55__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending"
+    },
+    {
+      "source": "colors/e4b06b3c-c1b0-46c4-9055-67796f6213d1.webp",
+      "source_sha256": "97b37c6b4d81c19d601286a9cdbda3075000d1575d9ca12247ed08244cefd79a",
+      "output": "generated/color__e4b06b3c-c1b0-46c4-9055-67796f6213d1__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending"
+    },
+    {
+      "source": "colors/acabae47-f5a8-4c57-b0a2-fc9e739afb0c.webp",
+      "source_sha256": "17693e291b4451a6f980e173193d85e28a60409b48445f552a2dba2e1055b7ae",
+      "output": "generated/color__acabae47-f5a8-4c57-b0a2-fc9e739afb0c__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending"
+    },
+    {
+      "source": "colors/45070679-fada-4299-8d66-0016c54b75d9.webp",
+      "source_sha256": "9c73ccdc69c71bae9ed4b118b8d2bfc9474998997ff5e80735836731e457a0cf",
+      "output": "generated/color__45070679-fada-4299-8d66-0016c54b75d9__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending"
+    },
+    {
+      "source": "colors/98fbeb3f-7f24-42da-b432-9601b91237a7.webp",
+      "source_sha256": "4d1964357f4c6a8096113354e8f466031d88eb263a2b91bdcf588edbe0190fb8",
+      "output": "generated/color__98fbeb3f-7f24-42da-b432-9601b91237a7__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending"
+    },
+    {
+      "source": "colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg",
+      "source_sha256": "576688e3f03d3305fba866e3136c406cf71a7e7416e6ffbddf0496a0a6b23d30",
+      "output": "generated/color__6ba70d41-fd63-45aa-a441-7ad8886ec461__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending"
+    }
+  ],
+  "moderation_failures": [
+    {
+      "source": "main/41121a91-d047-4ede-bd79-182116a518d9.jpg",
+      "mode": "model_worn",
+      "moderation_stage": "input",
+      "moderation_category": "sexual",
+      "request_id": "986b6f3c-68b5-487e-b5b3-c2d401f0abf8",
+      "started_at": null,
+      "finished_at": null,
+      "time": "not_recorded_in_legacy_attempt; see historical commit"
+    },
+    {
+      "source": "main/41121a91-d047-4ede-bd79-182116a518d9.jpg",
+      "mode": "model_worn",
+      "moderation_stage": "input",
+      "moderation_category": "sexual",
+      "request_id": "ea931d31-bf4a-4ef8-a4a5-0ec1ccdb6c88",
+      "started_at": null,
+      "finished_at": null,
+      "time": "not_recorded_in_legacy_attempt; see historical commit"
+    },
+    {
+      "source": "colors/c4dfec85-a5af-4852-b20f-69de3ccf2cfe.webp",
+      "mode": "model_worn",
+      "moderation_stage": "input",
+      "moderation_category": "sexual",
+      "request_id": "1f9f13c6-7af6-482d-9fa1-a1f79ef410d8",
+      "started_at": null,
+      "finished_at": null,
+      "time": "not_recorded_in_legacy_attempt; see historical commit"
+    },
+    {
+      "source": "main/41121a91-d047-4ede-bd79-182116a518d9.jpg",
+      "mode": "model_worn",
+      "moderation_stage": "output",
+      "moderation_category": "sexual",
+      "request_id": "bbc3ae4a-782c-494f-b08c-bf996b10c3eb",
+      "started_at": "2026-11-04T18:24:40.936Z",
+      "finished_at": "2026-11-04T18:25:08.975Z",
+      "time": "2026-11-04T18:24:40.936Z"
+    }
+  ],
+  "original_model_blockers": [
+    {
+      "source": "main/41121a91-d047-4ede-bd79-182116a518d9.jpg",
+      "status": "blocked",
+      "reason": "Two reference-conditioned adult retail attempts were rejected by image tool at input: moderation_blocked, sexual category. Request IDs 986b6f3c-68b5-487e-b5b3-c2d401f0abf8 and ea931d31-bf4a-4ef8-a4a5-0ec1ccdb6c88. No image returned. New user-requested retry rejected at OUTPUT moderation, category sexual; request ID bbc3ae4a-782c-494f-b08c-bf996b10c3eb. No image returned. Updated workflow prohibits repeating blocked human depiction. A visually reviewed non-human mannequin alternative now exists, pending acceptance of revised deliverable.",
+      "attempted": true
+    },
+    {
+      "source": "colors/c4dfec85-a5af-4852-b20f-69de3ccf2cfe.webp",
+      "status": "blocked",
+      "attempted": true,
+      "reason": "Adult retail generation rejected by image tool at input: moderation_blocked, sexual category. Request ID 1f9f13c6-7af6-482d-9fa1-a1f79ef410d8. No image returned. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried. Updated workflow prohibits repeating blocked human depiction. A visually reviewed non-human mannequin alternative now exists, pending acceptance of revised deliverable."
+    },
+    {
+      "source": "colors/6667cf2b-3507-4de9-bb3a-e952f244e280.webp",
+      "status": "blocked",
+      "attempted": false,
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried. Updated workflow prohibits repeating blocked human depiction. A visually reviewed non-human mannequin alternative now exists, pending acceptance of revised deliverable."
+    },
+    {
+      "source": "colors/60b213fa-0758-4666-91ae-39d74f534874.jpg",
+      "status": "blocked",
+      "attempted": false,
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried. Updated workflow prohibits repeating blocked human depiction. A visually reviewed non-human mannequin alternative now exists, pending acceptance of revised deliverable."
+    },
+    {
+      "source": "colors/6b89f8ba-4394-4c05-a6ac-fcf8e741fd55.webp",
+      "status": "blocked",
+      "attempted": false,
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried. Updated workflow prohibits repeating blocked human depiction. A visually reviewed non-human mannequin alternative now exists, pending acceptance of revised deliverable."
+    },
+    {
+      "source": "colors/e4b06b3c-c1b0-46c4-9055-67796f6213d1.webp",
+      "status": "blocked",
+      "attempted": false,
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried. Updated workflow prohibits repeating blocked human depiction. A visually reviewed non-human mannequin alternative now exists, pending acceptance of revised deliverable."
+    },
+    {
+      "source": "colors/acabae47-f5a8-4c57-b0a2-fc9e739afb0c.webp",
+      "status": "blocked",
+      "attempted": false,
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried. Updated workflow prohibits repeating blocked human depiction. A visually reviewed non-human mannequin alternative now exists, pending acceptance of revised deliverable."
+    },
+    {
+      "source": "colors/45070679-fada-4299-8d66-0016c54b75d9.webp",
+      "status": "blocked",
+      "attempted": false,
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried. Updated workflow prohibits repeating blocked human depiction. A visually reviewed non-human mannequin alternative now exists, pending acceptance of revised deliverable."
+    },
+    {
+      "source": "colors/98fbeb3f-7f24-42da-b432-9601b91237a7.webp",
+      "status": "blocked",
+      "attempted": false,
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried. Updated workflow prohibits repeating blocked human depiction. A visually reviewed non-human mannequin alternative now exists, pending acceptance of revised deliverable."
+    },
+    {
+      "source": "colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg",
+      "status": "blocked",
+      "attempted": false,
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried. Updated workflow prohibits repeating blocked human depiction. A visually reviewed non-human mannequin alternative now exists, pending acceptance of revised deliverable."
     }
   ]
 }

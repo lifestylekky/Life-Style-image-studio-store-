@@ -1,0 +1,214 @@
+{
+  "run": "fresh-workflow-after-AGENTS-update",
+  "client_date": "2026-11-05",
+  "client_timezone": "Asia/Calcutta",
+  "checked_at": "2026-11-04T19:00:09.619517+00:00",
+  "workflow": "AGENTS.md",
+  "workflow_revision": "61fef9b",
+  "workflow_sha256": "9576c07321ec4627203baaccec39b90ceefd56f9641d0ce2c5a9a5daa352c3a2",
+  "products": [
+    {
+      "product_id": "1bfc349a-7912-4e6b-b7ec-3aa1457de4d9",
+      "product_name": "Unidentified product \u2014 illustrated portrait references",
+      "main_sources": 1,
+      "color_sources": 1,
+      "approved_model_images": 0,
+      "approved_mannequin_alternatives": 0,
+      "status": "BLOCKED",
+      "photography_location": null,
+      "construction_reference": null,
+      "reason": "Both originals are stylized illustrated male street portraits, not verifiable retail garment photographs. Shirt hem, physical fabric and complete construction are not visible. No product description or unfolded same-product construction reference exists; accurate adult-female product reconstruction would invent details.",
+      "output_directory": "products/1bfc349a-7912-4e6b-b7ec-3aa1457de4d9/generated",
+      "source_hashes_unchanged": true,
+      "source_files_readable": true,
+      "preflight_decision": "needs_reference"
+    },
+    {
+      "product_id": "787a930b-5fa6-42a2-a9aa-a1e7511b3ae2",
+      "product_name": "Unidentified product \u2014 illustrated portrait references",
+      "main_sources": 1,
+      "color_sources": 1,
+      "approved_model_images": 0,
+      "approved_mannequin_alternatives": 0,
+      "status": "BLOCKED",
+      "photography_location": null,
+      "construction_reference": null,
+      "reason": "Both sources are stylized illustrated male street portraits, not verifiable retail garment photographs. Physical fabric, full shirt hem and construction are unconfirmed; no product description or unfolded same-product garment reference exists. Adult-female product reconstruction would invent details.",
+      "output_directory": "products/787a930b-5fa6-42a2-a9aa-a1e7511b3ae2/generated",
+      "source_hashes_unchanged": true,
+      "source_files_readable": true,
+      "preflight_decision": "needs_reference"
+    },
+    {
+      "product_id": "61b7971d-fef8-4733-aac7-8a70baf32202",
+      "product_name": "VELONA SHORT MODEL NIGHTY",
+      "main_sources": 1,
+      "color_sources": 9,
+      "approved_model_images": 0,
+      "approved_mannequin_alternatives": 10,
+      "status": "PARTIAL",
+      "original_model_requirement": "BLOCKED",
+      "alternative_acceptance": "pending_user_acceptance",
+      "photography_location": {
+        "type": "neutral professional product studio",
+        "background": "pale ivory seamless cyclorama and floor; no furniture",
+        "lighting": "soft even neutral daylit illumination from upper left, subtle shadow to right",
+        "display": "one non-human headless armless matte ivory fabric retail dress form, neck cap, slim brushed-metal pole and round base",
+        "camera": "eye-level straight-on portrait3:4; complete form, dress and base visible; same scale and composition throughout",
+        "pose": "fixed restrained upright front product display, intentional consistency for non-human alternative",
+        "alternative_acceptance": "pending_user_acceptance"
+      },
+      "construction_reference": [
+        "main/41121a91-d047-4ede-bd79-182116a518d9.jpg",
+        "colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg"
+      ],
+      "new_attempts": 12,
+      "new_returned_images": 12,
+      "rejected_candidates": 2,
+      "new_moderated_requests": 0,
+      "source_to_alternative": [
+        {
+          "source": "main/41121a91-d047-4ede-bd79-182116a518d9.jpg",
+          "source_sha256": "fe2b2852359ad80fceeee89588b42d9b52c167ee933ea4e98a8d7bb158ffdac9",
+          "output": "generated/main__41121a91-d047-4ede-bd79-182116a518d9__mannequin.png",
+          "status": "ALTERNATIVE_MANNEQUIN",
+          "qa_status": "PASS_VISUAL",
+          "user_acceptance": "pending"
+        },
+        {
+          "source": "colors/c4dfec85-a5af-4852-b20f-69de3ccf2cfe.webp",
+          "source_sha256": "128c4a0269c01ed50102ad1ad9a4821f0a32136f3f869ce79abf806727f8a04e",
+          "output": "generated/color__c4dfec85-a5af-4852-b20f-69de3ccf2cfe__mannequin.png",
+          "status": "ALTERNATIVE_MANNEQUIN",
+          "qa_status": "PASS_VISUAL",
+          "user_acceptance": "pending"
+        },
+        {
+          "source": "colors/6667cf2b-3507-4de9-bb3a-e952f244e280.webp",
+          "source_sha256": "8da3e5b27de7ffa10fc7db090d3cfb13ce94dd30e3d05ff3f8622aa11bd321ee",
+          "output": "generated/color__6667cf2b-3507-4de9-bb3a-e952f244e280__mannequin.png",
+          "status": "ALTERNATIVE_MANNEQUIN",
+          "qa_status": "PASS_VISUAL",
+          "user_acceptance": "pending"
+        },
+        {
+          "source": "colors/60b213fa-0758-4666-91ae-39d74f534874.jpg",
+          "source_sha256": "1f0b242d81721e981d8e3ce43fafc2f33add0f1211c357f97105a8025cec3ce2",
+          "output": "generated/color__60b213fa-0758-4666-91ae-39d74f534874__mannequin.png",
+          "status": "ALTERNATIVE_MANNEQUIN",
+          "qa_status": "PASS_VISUAL",
+          "user_acceptance": "pending"
+        },
+        {
+          "source": "colors/6b89f8ba-4394-4c05-a6ac-fcf8e741fd55.webp",
+          "source_sha256": "a0c2a84f8a91edffc96e8bce3eeb26f5233f057a7cf05f3142dea492dc3974be",
+          "output": "generated/color__6b89f8ba-4394-4c05-a6ac-fcf8e741fd55__mannequin.png",
+          "status": "ALTERNATIVE_MANNEQUIN",
+          "qa_status": "PASS_VISUAL",
+          "user_acceptance": "pending"
+        },
+        {
+          "source": "colors/e4b06b3c-c1b0-46c4-9055-67796f6213d1.webp",
+          "source_sha256": "97b37c6b4d81c19d601286a9cdbda3075000d1575d9ca12247ed08244cefd79a",
+          "output": "generated/color__e4b06b3c-c1b0-46c4-9055-67796f6213d1__mannequin.png",
+          "status": "ALTERNATIVE_MANNEQUIN",
+          "qa_status": "PASS_VISUAL",
+          "user_acceptance": "pending"
+        },
+        {
+          "source": "colors/acabae47-f5a8-4c57-b0a2-fc9e739afb0c.webp",
+          "source_sha256": "17693e291b4451a6f980e173193d85e28a60409b48445f552a2dba2e1055b7ae",
+          "output": "generated/color__acabae47-f5a8-4c57-b0a2-fc9e739afb0c__mannequin.png",
+          "status": "ALTERNATIVE_MANNEQUIN",
+          "qa_status": "PASS_VISUAL",
+          "user_acceptance": "pending"
+        },
+        {
+          "source": "colors/45070679-fada-4299-8d66-0016c54b75d9.webp",
+          "source_sha256": "9c73ccdc69c71bae9ed4b118b8d2bfc9474998997ff5e80735836731e457a0cf",
+          "output": "generated/color__45070679-fada-4299-8d66-0016c54b75d9__mannequin.png",
+          "status": "ALTERNATIVE_MANNEQUIN",
+          "qa_status": "PASS_VISUAL",
+          "user_acceptance": "pending"
+        },
+        {
+          "source": "colors/98fbeb3f-7f24-42da-b432-9601b91237a7.webp",
+          "source_sha256": "4d1964357f4c6a8096113354e8f466031d88eb263a2b91bdcf588edbe0190fb8",
+          "output": "generated/color__98fbeb3f-7f24-42da-b432-9601b91237a7__mannequin.png",
+          "status": "ALTERNATIVE_MANNEQUIN",
+          "qa_status": "PASS_VISUAL",
+          "user_acceptance": "pending"
+        },
+        {
+          "source": "colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg",
+          "source_sha256": "576688e3f03d3305fba866e3136c406cf71a7e7416e6ffbddf0496a0a6b23d30",
+          "output": "generated/color__6ba70d41-fd63-45aa-a441-7ad8886ec461__mannequin.png",
+          "status": "ALTERNATIVE_MANNEQUIN",
+          "qa_status": "PASS_VISUAL",
+          "user_acceptance": "pending"
+        }
+      ],
+      "moderation_failures": [
+        {
+          "source": "main/41121a91-d047-4ede-bd79-182116a518d9.jpg",
+          "mode": "model_worn",
+          "moderation_stage": "input",
+          "moderation_category": "sexual",
+          "request_id": "986b6f3c-68b5-487e-b5b3-c2d401f0abf8",
+          "started_at": null,
+          "finished_at": null,
+          "time": "not_recorded_in_legacy_attempt; see historical commit"
+        },
+        {
+          "source": "main/41121a91-d047-4ede-bd79-182116a518d9.jpg",
+          "mode": "model_worn",
+          "moderation_stage": "input",
+          "moderation_category": "sexual",
+          "request_id": "ea931d31-bf4a-4ef8-a4a5-0ec1ccdb6c88",
+          "started_at": null,
+          "finished_at": null,
+          "time": "not_recorded_in_legacy_attempt; see historical commit"
+        },
+        {
+          "source": "colors/c4dfec85-a5af-4852-b20f-69de3ccf2cfe.webp",
+          "mode": "model_worn",
+          "moderation_stage": "input",
+          "moderation_category": "sexual",
+          "request_id": "1f9f13c6-7af6-482d-9fa1-a1f79ef410d8",
+          "started_at": null,
+          "finished_at": null,
+          "time": "not_recorded_in_legacy_attempt; see historical commit"
+        },
+        {
+          "source": "main/41121a91-d047-4ede-bd79-182116a518d9.jpg",
+          "mode": "model_worn",
+          "moderation_stage": "output",
+          "moderation_category": "sexual",
+          "request_id": "bbc3ae4a-782c-494f-b08c-bf996b10c3eb",
+          "started_at": "2026-11-04T18:24:40.936Z",
+          "finished_at": "2026-11-04T18:25:08.975Z",
+          "time": "2026-11-04T18:24:40.936Z"
+        }
+      ],
+      "output_directory": "products/61b7971d-fef8-4733-aac7-8a70baf32202/generated",
+      "source_hashes_unchanged": true,
+      "source_files_readable": true,
+      "preflight_decision": "ready_mannequin_catalog"
+    }
+  ],
+  "totals": {
+    "products": 3,
+    "source_images": 14,
+    "main_sources": 3,
+    "color_sources": 11,
+    "new_attempts": 12,
+    "new_returned_images": 12,
+    "rejected_candidates": 2,
+    "approved_model_images": 0,
+    "approved_mannequin_alternatives": 10,
+    "source_entries_needing_references": 4,
+    "human_model_source_entries_blocked": 14,
+    "new_moderation_rejections": 0,
+    "original_source_hashes_verified": 14
+  }
+}
