@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "product_id": "1bfc349a-7912-4e6b-b7ec-3aa1457de4d9",
+  "product_name": "Unidentified product \u2014 illustrated portrait references",
+  "status": "BLOCKED",
+  "metadata": {
+    "description.txt": "absent",
+    "updates.txt": "absent"
+  },
+  "source_inventory": [
+    {
+      "path": "main/69536374-9d79-4b28-ae25-52575db7457e.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "76f9feea8f1562aecb975de78cf9761d11bfaf6574e68676ae0f31d7ca221fff",
+      "readable": true
+    },
+    {
+      "path": "colors/56200a26-af0e-4f06-9778-a8900da95249.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "9af1112365e9b92cf60ded557fd8b71c3740b3d006285d687632af025292d654",
+      "readable": true
+    }
+  ],
+  "scene_profile": null,
+  "model_profile": null,
+  "pose_plan": [],
+  "unfolded_construction_references": [],
+  "source_to_output": [
+    {
+      "source": "main/69536374-9d79-4b28-ae25-52575db7457e.png",
+      "source_sha256": "76f9feea8f1562aecb975de78cf9761d11bfaf6574e68676ae0f31d7ca221fff",
+      "output": null,
+      "status": "needs_reference",
+      "reason": "Both originals are stylized illustrated male street portraits, not verifiable retail garment photographs. Shirt hem, physical fabric and complete construction are not visible. No product description or unfolded same-product construction reference exists; accurate adult-female product reconstruction would invent details."
+    },
+    {
+      "source": "colors/56200a26-af0e-4f06-9778-a8900da95249.png",
+      "source_sha256": "9af1112365e9b92cf60ded557fd8b71c3740b3d006285d687632af025292d654",
+      "output": null,
+      "status": "needs_reference",
+      "reason": "Both originals are stylized illustrated male street portraits, not verifiable retail garment photographs. Shirt hem, physical fabric and complete construction are not visible. No product description or unfolded same-product construction reference exists; accurate adult-female product reconstruction would invent details."
+    }
+  ],
+  "outputs": [],
+  "counts": {
+    "main_sources": 1,
+    "color_sources": 1,
+    "accepted": 0,
+    "blocked": 2
+  },
+  "blockers": [
+    "Both originals are stylized illustrated male street portraits, not verifiable retail garment photographs. Shirt hem, physical fabric and complete construction are not visible. No product description or unfolded same-product construction reference exists; accurate adult-female product reconstruction would invent details."
+  ],
+  "generation_attempts": 0,
+  "originals_preserved": true
+}
