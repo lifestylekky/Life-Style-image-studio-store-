@@ -6,5 +6,19 @@
   "output_checks": "not_run \u2014 no reliable product specification",
   "blockers": [
     "Both originals are stylized illustrated male street portraits, not verifiable retail garment photographs. Shirt hem, physical fabric and complete construction are not visible. No product description or unfolded same-product construction reference exists; accurate adult-female product reconstruction would invent details."
+  ],
+  "retry_checks": [
+    {
+      "checked_at": "2026-11-04T18:26:10.270996+00:00",
+      "source_files_readable": true,
+      "source_hashes_unchanged": true,
+      "source_count": 2,
+      "new_generation_attempts": 0,
+      "new_accepted_images": 0,
+      "final_status": "BLOCKED",
+      "reason": "Both originals are stylized illustrated male street portraits, not verifiable retail garment photographs. Shirt hem, physical fabric and complete construction are not visible. No product description or unfolded same-product construction reference exists; accurate adult-female product reconstruction would invent details.",
+      "required_to_resume": "Clear unfolded photographs of the actual full garment in this same product folder, with verifiable construction and variant colors; product description if available.",
+      "photography_location": null
+    }
   ]
 }

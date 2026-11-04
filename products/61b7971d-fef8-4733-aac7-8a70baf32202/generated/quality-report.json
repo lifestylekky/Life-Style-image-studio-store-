@@ -11,8 +11,8 @@
     "accepted_total": 0,
     "blocked": 10,
     "unaccounted": 0,
-    "generation_attempts": 3,
-    "tool_failed_attempts": 3,
+    "generation_attempts": 4,
+    "tool_failed_attempts": 4,
     "rejected_attempts": 0
   },
   "per_output": [],
@@ -25,61 +25,62 @@
     {
       "source": "main/41121a91-d047-4ede-bd79-182116a518d9.jpg",
       "status": "blocked",
-      "reason": "Two reference-conditioned adult retail attempts were rejected by image tool at input: moderation_blocked, sexual category. Request IDs 986b6f3c-68b5-487e-b5b3-c2d401f0abf8 and ea931d31-bf4a-4ef8-a4a5-0ec1ccdb6c88. No image returned."
+      "reason": "Two reference-conditioned adult retail attempts were rejected by image tool at input: moderation_blocked, sexual category. Request IDs 986b6f3c-68b5-487e-b5b3-c2d401f0abf8 and ea931d31-bf4a-4ef8-a4a5-0ec1ccdb6c88. No image returned. New user-requested retry rejected at OUTPUT moderation, category sexual; request ID bbc3ae4a-782c-494f-b08c-bf996b10c3eb. No image returned.",
+      "attempted": true
     },
     {
       "source": "colors/c4dfec85-a5af-4852-b20f-69de3ccf2cfe.webp",
       "status": "blocked",
       "attempted": true,
-      "reason": "Adult retail generation rejected by image tool at input: moderation_blocked, sexual category. Request ID 1f9f13c6-7af6-482d-9fa1-a1f79ef410d8. No image returned."
+      "reason": "Adult retail generation rejected by image tool at input: moderation_blocked, sexual category. Request ID 1f9f13c6-7af6-482d-9fa1-a1f79ef410d8. No image returned. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried."
     },
     {
       "source": "colors/6667cf2b-3507-4de9-bb3a-e952f244e280.webp",
       "status": "blocked",
       "attempted": false,
-      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried."
     },
     {
       "source": "colors/60b213fa-0758-4666-91ae-39d74f534874.jpg",
       "status": "blocked",
       "attempted": false,
-      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried."
     },
     {
       "source": "colors/6b89f8ba-4394-4c05-a6ac-fcf8e741fd55.webp",
       "status": "blocked",
       "attempted": false,
-      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried."
     },
     {
       "source": "colors/e4b06b3c-c1b0-46c4-9055-67796f6213d1.webp",
       "status": "blocked",
       "attempted": false,
-      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried."
     },
     {
       "source": "colors/acabae47-f5a8-4c57-b0a2-fc9e739afb0c.webp",
       "status": "blocked",
       "attempted": false,
-      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried."
     },
     {
       "source": "colors/45070679-fada-4299-8d66-0016c54b75d9.webp",
       "status": "blocked",
       "attempted": false,
-      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried."
     },
     {
       "source": "colors/98fbeb3f-7f24-42da-b432-9601b91237a7.webp",
       "status": "blocked",
       "attempted": false,
-      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried."
     },
     {
       "source": "colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg",
       "status": "blocked",
       "attempted": false,
-      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed."
+      "reason": "Not individually submitted: shared product-generation blocker after two main-reference attempts and one independent folded pink/source-structure attempt were rejected at input by image tool (moderation_blocked, sexual). Same garment construction; no output or quality approval claimed. This retry session submitted only the main reference; shared product blocker remains after its output-stage moderation rejection. This color was not individually retried."
     }
   ],
   "limitations": [
@@ -87,5 +88,33 @@
     "Visual source comparison; no physical measurements or calibrated colorimetry.",
     "Native image dimensions recorded per output; not 4K unless actual dimensions support it. No artificial upscaling.",
     "No unsupported unseen back details generated; fabric fiber composition not confirmed."
+  ],
+  "retry_checks": [
+    {
+      "checked_at": "2026-11-04T18:26:10.270996+00:00",
+      "source_files_readable": true,
+      "source_hashes_unchanged": true,
+      "source_count": 10,
+      "new_generation_attempts": 1,
+      "new_accepted_images": 0,
+      "final_status": "BLOCKED",
+      "reason": "The new adult, non-sexual e-commerce main-image attempt was rejected at OUTPUT moderation: moderation_blocked, category sexual. No image returned. The tool does not disclose a more detailed reason.",
+      "request_id": "bbc3ae4a-782c-494f-b08c-bf996b10c3eb",
+      "individually_retried_sources": [
+        "main/41121a91-d047-4ede-bd79-182116a518d9.jpg"
+      ],
+      "not_individually_retried_sources": [
+        "colors/e4b06b3c-c1b0-46c4-9055-67796f6213d1.webp",
+        "colors/c4dfec85-a5af-4852-b20f-69de3ccf2cfe.webp",
+        "colors/acabae47-f5a8-4c57-b0a2-fc9e739afb0c.webp",
+        "colors/60b213fa-0758-4666-91ae-39d74f534874.jpg",
+        "colors/6b89f8ba-4394-4c05-a6ac-fcf8e741fd55.webp",
+        "colors/6ba70d41-fd63-45aa-a441-7ad8886ec461.jpg",
+        "colors/98fbeb3f-7f24-42da-b432-9601b91237a7.webp",
+        "colors/45070679-fada-4299-8d66-0016c54b75d9.webp",
+        "colors/6667cf2b-3507-4de9-bb3a-e952f244e280.webp"
+      ],
+      "photography_location": "Premium neutral ivory bedroom as original main: pale beige wall, warm wood floor, low bed and vertical oak-slat headboard behind left with ivory bedding, small oak bedside cabinet/lamp and tiny plant far left, sheer white curtain/window at right; diffused neutral daylight from right around5000K. Model stands centered in clear foreground."
+    }
   ]
 }
