@@ -1,0 +1,643 @@
+{
+  "schema_version": 2,
+  "product_id": "c30ac836-7a0d-46e2-8f21-3a72117f5c6d",
+  "product_name": "STRIP PLAZA KIDS",
+  "category": "Children\u2019s ribbed trousers",
+  "requested_url": "https://life-style-image-studio-life-style4.vercel.app/share/c30ac836-7a0d-46e2-8f21-3a72117f5c6d",
+  "repository_product_directory": "products/c30ac836-7a0d-46e2-8f21-3a72117f5c6d",
+  "resolution_method": "Share URL UUID exactly matches product folder UUID in refreshed origin/main; description and upload log confirm product identity.",
+  "updated_at": "2026-11-06T11:53:16.910008+00:00",
+  "client_date": "2026-11-06",
+  "client_timezone": "Asia/Calcutta",
+  "workflow": "AGENTS.md",
+  "workflow_revision": "61fef9bae4da924e3a6fbfcfcf0c0a9182e16ff3",
+  "workflow_sha256": "9576c07321ec4627203baaccec39b90ceefd56f9641d0ce2c5a9a5daa352c3a2",
+  "generation_status": "PARTIAL",
+  "preflight_decision": "ready_mannequin_catalog",
+  "catalog_mode": "non_human_mannequin",
+  "original_model_requirement": "BLOCKED",
+  "original_model_block_reason": "Description identifies KIDS and lists33 inches. Adult waist/hip fit is unverified; using an adult model would require assuming fit or changing the children\u2019s garment. AGENTS.md section3A permits only adult human models. A clearly labeled non-human retail pants-form alternative preserves reference proportions. No moderation rejection occurred for this product.",
+  "alternative_acceptance": {
+    "status": "pending_user_acceptance",
+    "deliverable": "Six reviewed non-human retail pants-form alternatives, one for every main/color reference"
+  },
+  "preflight": {
+    "all_source_images_readable": true,
+    "source_count": 6,
+    "image_tool": "image_gen.imagegen with reference-image support",
+    "output_write_probe": "pass",
+    "github_fetch": "pass",
+    "repository_clean_before_generation": true,
+    "representative_main_image": "passed visual QA before color batch"
+  },
+  "source_metadata": {
+    "description.txt": {
+      "sha256": "4f668a911192ec516b6a73f673f8960f788a448578f498c9722717f550d90c30",
+      "present": true
+    },
+    "updates.txt": {
+      "sha256": "a99a69fea991595fcf97495c357e12fbe70bbf1e40e8381f26a639a28dc2f720",
+      "present": true
+    }
+  },
+  "source_inventory": [
+    {
+      "path": "colors/19476910-98d2-4db7-84f0-999a27930fe5.webp",
+      "dimensions": [
+        2200,
+        1650
+      ],
+      "aspect_ratio": 1.3333333333333333,
+      "sha256": "b2adc4b72574ba94c279997a2b6edb169e1da7268b56c4892e68f6a8e74efaf9",
+      "readable": true,
+      "role": "color",
+      "presentation": "Folded fabric/color reference; use same-folder unfolded main for full trouser construction",
+      "visible_evidence": "Specific source fabric hue and fine alternating rib bands; full construction provided by main"
+    },
+    {
+      "path": "colors/41010275-6821-4ca4-adc4-225a6551a94d.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "aspect_ratio": 0.75,
+      "sha256": "20ba0ae4ce9534fa83fc28160a2290beea93713e6f11c5e2f376ea0284082d65",
+      "readable": true,
+      "role": "color",
+      "presentation": "Folded fabric/color reference; use same-folder unfolded main for full trouser construction",
+      "visible_evidence": "Specific source fabric hue and fine alternating rib bands; full construction provided by main"
+    },
+    {
+      "path": "colors/734053a4-b2c4-49ad-9f98-89f4d9cd359b.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "aspect_ratio": 0.75,
+      "sha256": "c16d8af87fa2f9c6de06e34b8ccbf7b096715fc3e60bea269bb52ee42d7d041c",
+      "readable": true,
+      "role": "color",
+      "presentation": "Folded fabric/color reference; use same-folder unfolded main for full trouser construction",
+      "visible_evidence": "Specific source fabric hue and fine alternating rib bands; full construction provided by main"
+    },
+    {
+      "path": "colors/d27e4760-b297-4411-85a2-90316c541219.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "aspect_ratio": 0.75,
+      "sha256": "a22559b4441765f3aa75bdb3a103b42b5b2cf8c7969a102b7fe44a44a2bd2db6",
+      "readable": true,
+      "role": "color",
+      "presentation": "Folded fabric/color reference; use same-folder unfolded main for full trouser construction",
+      "visible_evidence": "Specific source fabric hue and fine alternating rib bands; full construction provided by main"
+    },
+    {
+      "path": "colors/fc7d8512-22f4-4c3d-b11b-671ef59c0168.webp",
+      "dimensions": [
+        2200,
+        1650
+      ],
+      "aspect_ratio": 1.3333333333333333,
+      "sha256": "8a85afc544dd8afe2355c95fee0168401961239390f3da33dd99686d7f457fdf",
+      "readable": true,
+      "role": "color",
+      "presentation": "Folded fabric/color reference; use same-folder unfolded main for full trouser construction",
+      "visible_evidence": "Specific source fabric hue and fine alternating rib bands; full construction provided by main"
+    },
+    {
+      "path": "main/b1168eb0-756d-4b45-9f72-cb5149c09dad.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "aspect_ratio": 0.75,
+      "sha256": "d69a4ec0e1f7ce941b23a353e2446974ea00befb5209e6d900327df9c3df7b63",
+      "readable": true,
+      "role": "main",
+      "presentation": "Fully unfolded hanging front view, complete waistband and both hems; structural authority",
+      "visible_evidence": "Gathered elastic waistband, center front seam, relaxed straight/slightly tapering legs, plain stitched hems, fine vertical rib bands, lime color"
+    }
+  ],
+  "garment_specification": {
+    "piece_count": 1,
+    "type": "One pair of children\u2019s full-length ribbed trousers",
+    "metadata_length": "33 inches, as stated in description; not independently measured",
+    "construction": "Gathered elastic waistband with fine parallel stitch rows, plain center front seam, relaxed straight legs with slight narrowing toward plain straight stitched hems. No visible fly, belt, drawstring, pockets, cuffs or extra garment.",
+    "fabric": "Fine vertically oriented alternating rib bands with subtle sheen, solid source-specific color; fiber content unconfirmed",
+    "source_colors": [
+      "lime chartreuse",
+      "medium azure blue",
+      "bright raspberry magenta pink",
+      "pale soft baby pink",
+      "clean white",
+      "pale warm buttery cream"
+    ],
+    "unsupported_details": "No unseen back view, pocket/fly additions, fabric composition or adult fit invented"
+  },
+  "unfolded_construction_references": [
+    "main/b1168eb0-756d-4b45-9f72-cb5149c09dad.webp"
+  ],
+  "scene_profile": {
+    "location": "neutral professional garment photography studio",
+    "background_and_architecture": "Pale warm-gray seamless cyclorama and continuous floor, no furniture or decorative elements",
+    "lighting": "Even soft neutral daylight from upper left around5000K, subtle floor shadow",
+    "display": "One clearly artificial matte-white waist-to-feet retail pants mannequin, sized to preserve the children\u2019s trouser proportions; no torso/head/person",
+    "camera": "Eye-level near-front straight-on product perspective, portrait3:4, fixed subject scale and position, complete waistband to both hems and artificial feet visible",
+    "pose": "Neutral upright parallel-foot stance, fixed deliberately for a non-human product comparison set"
+  },
+  "model_profile": "No human model; clearly non-human retail pants form.",
+  "camera_profile": "Eye-level near-front straight-on product perspective, portrait3:4, fixed subject scale and position, complete waistband to both hems and artificial feet visible",
+  "aspect_ratio_rationale": "3:4 matches unfolded main reference and fits complete waistband, both hems and form feet. Consistent across all color references, including landscape folded photos.",
+  "pose_plan": [
+    {
+      "source": "main/b1168eb0-756d-4b45-9f72-cb5149c09dad.webp",
+      "planned": "Fixed near-front upright waist-to-feet retail form; parallel artificial feet, same stance for color comparison.",
+      "accepted_alternative": "Fixed near-front upright waist-to-feet retail form; parallel artificial feet, same stance for color comparison.",
+      "accepted_model_pose": null,
+      "limitation": "Fixed restrained stance appropriate to non-human display; no human pose variety claimed."
+    },
+    {
+      "source": "colors/734053a4-b2c4-49ad-9f98-89f4d9cd359b.webp",
+      "planned": "Fixed near-front upright waist-to-feet retail form; parallel artificial feet, same stance for color comparison.",
+      "accepted_alternative": "Fixed near-front upright waist-to-feet retail form; parallel artificial feet, same stance for color comparison.",
+      "accepted_model_pose": null,
+      "limitation": "Fixed restrained stance appropriate to non-human display; no human pose variety claimed."
+    },
+    {
+      "source": "colors/41010275-6821-4ca4-adc4-225a6551a94d.webp",
+      "planned": "Fixed near-front upright waist-to-feet retail form; parallel artificial feet, same stance for color comparison.",
+      "accepted_alternative": "Fixed near-front upright waist-to-feet retail form; parallel artificial feet, same stance for color comparison.",
+      "accepted_model_pose": null,
+      "limitation": "Fixed restrained stance appropriate to non-human display; no human pose variety claimed."
+    },
+    {
+      "source": "colors/d27e4760-b297-4411-85a2-90316c541219.webp",
+      "planned": "Fixed near-front upright waist-to-feet retail form; parallel artificial feet, same stance for color comparison.",
+      "accepted_alternative": "Fixed near-front upright waist-to-feet retail form; parallel artificial feet, same stance for color comparison.",
+      "accepted_model_pose": null,
+      "limitation": "Fixed restrained stance appropriate to non-human display; no human pose variety claimed."
+    },
+    {
+      "source": "colors/fc7d8512-22f4-4c3d-b11b-671ef59c0168.webp",
+      "planned": "Fixed near-front upright waist-to-feet retail form; parallel artificial feet, same stance for color comparison.",
+      "accepted_alternative": "Fixed near-front upright waist-to-feet retail form; parallel artificial feet, same stance for color comparison.",
+      "accepted_model_pose": null,
+      "limitation": "Fixed restrained stance appropriate to non-human display; no human pose variety claimed."
+    },
+    {
+      "source": "colors/19476910-98d2-4db7-84f0-999a27930fe5.webp",
+      "planned": "Fixed near-front upright waist-to-feet retail form; parallel artificial feet, same stance for color comparison.",
+      "accepted_alternative": "Fixed near-front upright waist-to-feet retail form; parallel artificial feet, same stance for color comparison.",
+      "accepted_model_pose": null,
+      "limitation": "Fixed restrained stance appropriate to non-human display; no human pose variety claimed."
+    }
+  ],
+  "source_to_output": [
+    {
+      "source": "colors/19476910-98d2-4db7-84f0-999a27930fe5.webp",
+      "source_sha256": "b2adc4b72574ba94c279997a2b6edb169e1da7268b56c4892e68f6a8e74efaf9",
+      "output": null,
+      "status": "blocked",
+      "reason": "Description identifies KIDS and lists33 inches. Adult waist/hip fit is unverified; using an adult model would require assuming fit or changing the children\u2019s garment. AGENTS.md section3A permits only adult human models. A clearly labeled non-human retail pants-form alternative preserves reference proportions. No moderation rejection occurred for this product.",
+      "alternative_output": "generated/color__19476910-98d2-4db7-84f0-999a27930fe5__mannequin.png",
+      "alternative_status": "ALTERNATIVE_MANNEQUIN",
+      "alternative_qa_status": "PASS_VISUAL",
+      "alternative_acceptance": "pending_user_acceptance"
+    },
+    {
+      "source": "colors/41010275-6821-4ca4-adc4-225a6551a94d.webp",
+      "source_sha256": "20ba0ae4ce9534fa83fc28160a2290beea93713e6f11c5e2f376ea0284082d65",
+      "output": null,
+      "status": "blocked",
+      "reason": "Description identifies KIDS and lists33 inches. Adult waist/hip fit is unverified; using an adult model would require assuming fit or changing the children\u2019s garment. AGENTS.md section3A permits only adult human models. A clearly labeled non-human retail pants-form alternative preserves reference proportions. No moderation rejection occurred for this product.",
+      "alternative_output": "generated/color__41010275-6821-4ca4-adc4-225a6551a94d__mannequin.png",
+      "alternative_status": "ALTERNATIVE_MANNEQUIN",
+      "alternative_qa_status": "PASS_VISUAL",
+      "alternative_acceptance": "pending_user_acceptance"
+    },
+    {
+      "source": "colors/734053a4-b2c4-49ad-9f98-89f4d9cd359b.webp",
+      "source_sha256": "c16d8af87fa2f9c6de06e34b8ccbf7b096715fc3e60bea269bb52ee42d7d041c",
+      "output": null,
+      "status": "blocked",
+      "reason": "Description identifies KIDS and lists33 inches. Adult waist/hip fit is unverified; using an adult model would require assuming fit or changing the children\u2019s garment. AGENTS.md section3A permits only adult human models. A clearly labeled non-human retail pants-form alternative preserves reference proportions. No moderation rejection occurred for this product.",
+      "alternative_output": "generated/color__734053a4-b2c4-49ad-9f98-89f4d9cd359b__mannequin.png",
+      "alternative_status": "ALTERNATIVE_MANNEQUIN",
+      "alternative_qa_status": "PASS_VISUAL",
+      "alternative_acceptance": "pending_user_acceptance"
+    },
+    {
+      "source": "colors/d27e4760-b297-4411-85a2-90316c541219.webp",
+      "source_sha256": "a22559b4441765f3aa75bdb3a103b42b5b2cf8c7969a102b7fe44a44a2bd2db6",
+      "output": null,
+      "status": "blocked",
+      "reason": "Description identifies KIDS and lists33 inches. Adult waist/hip fit is unverified; using an adult model would require assuming fit or changing the children\u2019s garment. AGENTS.md section3A permits only adult human models. A clearly labeled non-human retail pants-form alternative preserves reference proportions. No moderation rejection occurred for this product.",
+      "alternative_output": "generated/color__d27e4760-b297-4411-85a2-90316c541219__mannequin.png",
+      "alternative_status": "ALTERNATIVE_MANNEQUIN",
+      "alternative_qa_status": "PASS_VISUAL",
+      "alternative_acceptance": "pending_user_acceptance"
+    },
+    {
+      "source": "colors/fc7d8512-22f4-4c3d-b11b-671ef59c0168.webp",
+      "source_sha256": "8a85afc544dd8afe2355c95fee0168401961239390f3da33dd99686d7f457fdf",
+      "output": null,
+      "status": "blocked",
+      "reason": "Description identifies KIDS and lists33 inches. Adult waist/hip fit is unverified; using an adult model would require assuming fit or changing the children\u2019s garment. AGENTS.md section3A permits only adult human models. A clearly labeled non-human retail pants-form alternative preserves reference proportions. No moderation rejection occurred for this product.",
+      "alternative_output": "generated/color__fc7d8512-22f4-4c3d-b11b-671ef59c0168__mannequin.png",
+      "alternative_status": "ALTERNATIVE_MANNEQUIN",
+      "alternative_qa_status": "PASS_VISUAL",
+      "alternative_acceptance": "pending_user_acceptance"
+    },
+    {
+      "source": "main/b1168eb0-756d-4b45-9f72-cb5149c09dad.webp",
+      "source_sha256": "d69a4ec0e1f7ce941b23a353e2446974ea00befb5209e6d900327df9c3df7b63",
+      "output": null,
+      "status": "blocked",
+      "reason": "Description identifies KIDS and lists33 inches. Adult waist/hip fit is unverified; using an adult model would require assuming fit or changing the children\u2019s garment. AGENTS.md section3A permits only adult human models. A clearly labeled non-human retail pants-form alternative preserves reference proportions. No moderation rejection occurred for this product.",
+      "alternative_output": "generated/main__b1168eb0-756d-4b45-9f72-cb5149c09dad__mannequin.png",
+      "alternative_status": "ALTERNATIVE_MANNEQUIN",
+      "alternative_qa_status": "PASS_VISUAL",
+      "alternative_acceptance": "pending_user_acceptance"
+    }
+  ],
+  "alternative_source_to_output": [
+    {
+      "source": "main/b1168eb0-756d-4b45-9f72-cb5149c09dad.webp",
+      "output": "generated/main__b1168eb0-756d-4b45-9f72-cb5149c09dad__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending"
+    },
+    {
+      "source": "colors/734053a4-b2c4-49ad-9f98-89f4d9cd359b.webp",
+      "output": "generated/color__734053a4-b2c4-49ad-9f98-89f4d9cd359b__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending"
+    },
+    {
+      "source": "colors/41010275-6821-4ca4-adc4-225a6551a94d.webp",
+      "output": "generated/color__41010275-6821-4ca4-adc4-225a6551a94d__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending"
+    },
+    {
+      "source": "colors/d27e4760-b297-4411-85a2-90316c541219.webp",
+      "output": "generated/color__d27e4760-b297-4411-85a2-90316c541219__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending"
+    },
+    {
+      "source": "colors/fc7d8512-22f4-4c3d-b11b-671ef59c0168.webp",
+      "output": "generated/color__fc7d8512-22f4-4c3d-b11b-671ef59c0168__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending"
+    },
+    {
+      "source": "colors/19476910-98d2-4db7-84f0-999a27930fe5.webp",
+      "output": "generated/color__19476910-98d2-4db7-84f0-999a27930fe5__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending"
+    }
+  ],
+  "outputs": [
+    {
+      "source": "main/b1168eb0-756d-4b45-9f72-cb5149c09dad.webp",
+      "candidate": "/workspace/generated_images/exec-50805a70-e841-4ae0-8d5f-a6b69ddfd23d.png",
+      "color": "lime chartreuse",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_note": "Visual pass against unfolded original: single pair, gathered stitched elastic waistband, central front seam, fine vertical rib bands, relaxed straight/slightly tapered legs, both plain stitched hems and source-like yellow-green. Complete garment fitted on clearly artificial waist-to-feet pants form; no extra clothing, labels or invented features. Adult fit is not claimed.",
+      "output": "generated/main__b1168eb0-756d-4b45-9f72-cb5149c09dad__mannequin.png",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "sha256": "00aa9b2a43268ffe1c623cb5ecdc0fe227664ee9d190cdfda5ee3b996d147bda",
+      "mode": "non_human_mannequin",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending",
+      "satisfies_original_model_worn_requirement": false,
+      "checks": {
+        "fully_unfolded_on_retail_form": "pass",
+        "one_pair_only": "pass",
+        "source_construction_and_piece_count": "pass",
+        "gathered_elastic_waistband": "pass",
+        "fine_vertical_rib_texture": "pass",
+        "source_color_visual_comparison": "pass",
+        "relaxed_leg_shape_and_plain_hems": "pass",
+        "complete_waistband_and_both_hems_visible": "pass",
+        "natural_fabric_drape": "pass",
+        "same_non_human_form": "pass",
+        "same_studio_light_camera_and_framing": "pass",
+        "no_added_marketing_text_or_extra_garments": "pass",
+        "source_mapping_and_file_decode": "pass",
+        "adult_human_model": "not_applicable_non_human_alternative"
+      },
+      "pose": "Fixed near-front upright waist-to-feet retail form; parallel artificial feet, same stance for color comparison."
+    },
+    {
+      "source": "colors/734053a4-b2c4-49ad-9f98-89f4d9cd359b.webp",
+      "color": "medium azure blue",
+      "candidate": "/workspace/generated_images/exec-0af3294d-1fec-4761-92a9-6d34d906e07a.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_note": "Visual pass: medium azure-blue source hue, narrow vertical textured bands, unchanged gathered elastic waistband/center seam/plain hems; full unfolded single pair; same white non-human pants form and warm-gray studio.",
+      "output": "generated/color__734053a4-b2c4-49ad-9f98-89f4d9cd359b__mannequin.png",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "sha256": "0d6927b71a1becae6178a7d88b3ed2a3bcecccea13c70c16d959c76a44536c28",
+      "mode": "non_human_mannequin",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending",
+      "satisfies_original_model_worn_requirement": false,
+      "checks": {
+        "fully_unfolded_on_retail_form": "pass",
+        "one_pair_only": "pass",
+        "source_construction_and_piece_count": "pass",
+        "gathered_elastic_waistband": "pass",
+        "fine_vertical_rib_texture": "pass",
+        "source_color_visual_comparison": "pass",
+        "relaxed_leg_shape_and_plain_hems": "pass",
+        "complete_waistband_and_both_hems_visible": "pass",
+        "natural_fabric_drape": "pass",
+        "same_non_human_form": "pass",
+        "same_studio_light_camera_and_framing": "pass",
+        "no_added_marketing_text_or_extra_garments": "pass",
+        "source_mapping_and_file_decode": "pass",
+        "adult_human_model": "not_applicable_non_human_alternative"
+      },
+      "pose": "Fixed near-front upright waist-to-feet retail form; parallel artificial feet, same stance for color comparison."
+    },
+    {
+      "source": "colors/41010275-6821-4ca4-adc4-225a6551a94d.webp",
+      "color": "bright raspberry magenta pink",
+      "candidate": "/workspace/generated_images/exec-0535ba83-f354-41c9-87e7-c0a6107ee5ba.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_note": "Visual pass: bright raspberry/magenta source family, fine vertical ribbing, matching gathered waistband/plain hems/leg proportions; full single unfolded pair and consistent non-human display/studio.",
+      "output": "generated/color__41010275-6821-4ca4-adc4-225a6551a94d__mannequin.png",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "sha256": "17b214beef5a6a2ce0064de6b814a077e8392309bbea7c88f1e4fb5127ddaa16",
+      "mode": "non_human_mannequin",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending",
+      "satisfies_original_model_worn_requirement": false,
+      "checks": {
+        "fully_unfolded_on_retail_form": "pass",
+        "one_pair_only": "pass",
+        "source_construction_and_piece_count": "pass",
+        "gathered_elastic_waistband": "pass",
+        "fine_vertical_rib_texture": "pass",
+        "source_color_visual_comparison": "pass",
+        "relaxed_leg_shape_and_plain_hems": "pass",
+        "complete_waistband_and_both_hems_visible": "pass",
+        "natural_fabric_drape": "pass",
+        "same_non_human_form": "pass",
+        "same_studio_light_camera_and_framing": "pass",
+        "no_added_marketing_text_or_extra_garments": "pass",
+        "source_mapping_and_file_decode": "pass",
+        "adult_human_model": "not_applicable_non_human_alternative"
+      },
+      "pose": "Fixed near-front upright waist-to-feet retail form; parallel artificial feet, same stance for color comparison."
+    },
+    {
+      "source": "colors/d27e4760-b297-4411-85a2-90316c541219.webp",
+      "color": "pale soft baby pink",
+      "candidate": "/workspace/generated_images/exec-9df681a3-092a-4a95-98ed-a26d60854f67.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_note": "Visual pass: pale soft baby pink distinct from magenta, same fine vertical rib texture, elastic waist, plain stitched hems and source-like proportions; complete single pair, same display/studio.",
+      "output": "generated/color__d27e4760-b297-4411-85a2-90316c541219__mannequin.png",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "sha256": "00076f8371bc40aec8f88ede2d3e8c394347fb4e6df9f167a1738e30e9113e88",
+      "mode": "non_human_mannequin",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending",
+      "satisfies_original_model_worn_requirement": false,
+      "checks": {
+        "fully_unfolded_on_retail_form": "pass",
+        "one_pair_only": "pass",
+        "source_construction_and_piece_count": "pass",
+        "gathered_elastic_waistband": "pass",
+        "fine_vertical_rib_texture": "pass",
+        "source_color_visual_comparison": "pass",
+        "relaxed_leg_shape_and_plain_hems": "pass",
+        "complete_waistband_and_both_hems_visible": "pass",
+        "natural_fabric_drape": "pass",
+        "same_non_human_form": "pass",
+        "same_studio_light_camera_and_framing": "pass",
+        "no_added_marketing_text_or_extra_garments": "pass",
+        "source_mapping_and_file_decode": "pass",
+        "adult_human_model": "not_applicable_non_human_alternative"
+      },
+      "pose": "Fixed near-front upright waist-to-feet retail form; parallel artificial feet, same stance for color comparison."
+    },
+    {
+      "source": "colors/fc7d8512-22f4-4c3d-b11b-671ef59c0168.webp",
+      "color": "clean white",
+      "candidate": "/workspace/generated_images/exec-8394dfdd-4fed-49f1-ae5d-295e08ed4507.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_note": "Visual pass: clean white with visible fine vertical rib texture and neutral shadows; source construction/waist/hem proportions retained; full single pair and same non-human form/studio.",
+      "output": "generated/color__fc7d8512-22f4-4c3d-b11b-671ef59c0168__mannequin.png",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "sha256": "995ec6e033f859a2e46061971a2d1d14948e2acd850c076fac52784fff35d0f1",
+      "mode": "non_human_mannequin",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending",
+      "satisfies_original_model_worn_requirement": false,
+      "checks": {
+        "fully_unfolded_on_retail_form": "pass",
+        "one_pair_only": "pass",
+        "source_construction_and_piece_count": "pass",
+        "gathered_elastic_waistband": "pass",
+        "fine_vertical_rib_texture": "pass",
+        "source_color_visual_comparison": "pass",
+        "relaxed_leg_shape_and_plain_hems": "pass",
+        "complete_waistband_and_both_hems_visible": "pass",
+        "natural_fabric_drape": "pass",
+        "same_non_human_form": "pass",
+        "same_studio_light_camera_and_framing": "pass",
+        "no_added_marketing_text_or_extra_garments": "pass",
+        "source_mapping_and_file_decode": "pass",
+        "adult_human_model": "not_applicable_non_human_alternative"
+      },
+      "pose": "Fixed near-front upright waist-to-feet retail form; parallel artificial feet, same stance for color comparison."
+    },
+    {
+      "source": "colors/19476910-98d2-4db7-84f0-999a27930fe5.webp",
+      "color": "pale warm buttery cream",
+      "candidate": "/workspace/generated_images/exec-dcff9fef-e93a-4a74-9d5c-0f56e0a78d43.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_note": "Visual pass: pale warm buttery cream distinct from clean white, same vertical ribbed fabric, gathered waistband, center seam, leg shape and plain hems; complete single pair on same non-human form in same warm-gray studio.",
+      "output": "generated/color__19476910-98d2-4db7-84f0-999a27930fe5__mannequin.png",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "sha256": "9ca594ba120cde5c6b97089dc37fb0470e1633254d3f33a7f0930b381e498ff9",
+      "mode": "non_human_mannequin",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending",
+      "satisfies_original_model_worn_requirement": false,
+      "checks": {
+        "fully_unfolded_on_retail_form": "pass",
+        "one_pair_only": "pass",
+        "source_construction_and_piece_count": "pass",
+        "gathered_elastic_waistband": "pass",
+        "fine_vertical_rib_texture": "pass",
+        "source_color_visual_comparison": "pass",
+        "relaxed_leg_shape_and_plain_hems": "pass",
+        "complete_waistband_and_both_hems_visible": "pass",
+        "natural_fabric_drape": "pass",
+        "same_non_human_form": "pass",
+        "same_studio_light_camera_and_framing": "pass",
+        "no_added_marketing_text_or_extra_garments": "pass",
+        "source_mapping_and_file_decode": "pass",
+        "adult_human_model": "not_applicable_non_human_alternative"
+      },
+      "pose": "Fixed near-front upright waist-to-feet retail form; parallel artificial feet, same stance for color comparison."
+    }
+  ],
+  "model_outputs": [],
+  "generation_history": [
+    {
+      "source": "main/b1168eb0-756d-4b45-9f72-cb5149c09dad.webp",
+      "mode": "non_human_mannequin",
+      "prompt": "Create a photorealistic garment-only e-commerce product photograph of exactly the single pair of children's lime-chartreuse trousers in the original reference. Show the trousers completely unfolded and naturally fitted on a clearly artificial matte white waist-to-feet retail pants mannequin sized for these children's trousers, with no person and no torso or head. Preserve the original 33-inch garment length and proportions, gathered elastic waistband with several fine parallel stitch lines, plain center front seam, relaxed straight legs with slight narrowing toward the simple straight stitched hems, original fine vertical alternating ribbed bands and subtle fabric sheen, exact yellow-green lime color. Show the entire waistband and both hems unobstructed; feet of the artificial display stand neutrally parallel a little apart. No invented pockets, fly, belt, drawstring, cuffs, branding, other clothing or text. Centered near-front straight-on eye-level product camera, portrait3:4 framing including small margins around the complete garment and mannequin feet. Lock a pale warm-gray seamless professional studio wall and floor, soft even neutral daylight from upper left, subtle soft floor shadow. Highest native resolution supported.",
+      "reference_paths": [
+        "/workspace/Life-Style-image-studio-store-/products/c30ac836-7a0d-46e2-8f21-3a72117f5c6d/main/b1168eb0-756d-4b45-9f72-cb5149c09dad.webp"
+      ],
+      "started_at": "2026-11-06T11:47:00.227Z",
+      "reason": "Children's product; adult fit unverified and AGENTS restricts human models to adults. Prepare accurate non-human alternative, pending acceptance.",
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-50805a70-e841-4ae0-8d5f-a6b69ddfd23d.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "finished_at": "2026-11-06T11:47:25.133Z"
+    },
+    {
+      "source": "colors/734053a4-b2c4-49ad-9f98-89f4d9cd359b.webp",
+      "mode": "non_human_mannequin",
+      "prompt": "Create a photorealistic e-commerce garment-only catalog photo, matching image one exactly for its clearly artificial matte-white waist-to-feet pants mannequin, neutral parallel stance, pale warm-gray seamless studio floor/background, soft even upper-left daylight, camera, scale, framing and margins. Show exactly one pair of children's 33-inch trousers fully unfolded and fitted on the same appropriately sized non-human form. Set the trousers' color to medium azure blue, precisely matching original fabric photograph two. Original unfolded garment photograph three is the authority for the same product's construction: gathered stitched elastic waistband, center front seam, relaxed straight legs with slight narrowing to plain stitched hems, fine vertical alternating ribbed fabric bands and subtle sheen. Preserve these source proportions and construction and keep both full hems and waistband unobstructed. No other garment, people, text, labels, fly, pockets, belt, drawstrings, elastic ankle cuffs or new features. Complete front view including mannequin waist edge and both artificial feet, portrait3:4, highest native resolution. A restrained fixed front display is intentional for comparing colors.",
+      "reference_paths": [
+        "/workspace/generated_images/exec-50805a70-e841-4ae0-8d5f-a6b69ddfd23d.png",
+        "/workspace/Life-Style-image-studio-store-/products/c30ac836-7a0d-46e2-8f21-3a72117f5c6d/colors/734053a4-b2c4-49ad-9f98-89f4d9cd359b.webp",
+        "/workspace/Life-Style-image-studio-store-/products/c30ac836-7a0d-46e2-8f21-3a72117f5c6d/main/b1168eb0-756d-4b45-9f72-cb5149c09dad.webp"
+      ],
+      "started_at": "2026-11-06T11:48:07.911Z",
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-0af3294d-1fec-4761-92a9-6d34d906e07a.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "finished_at": "2026-11-06T11:48:36.334Z"
+    },
+    {
+      "source": "colors/41010275-6821-4ca4-adc4-225a6551a94d.webp",
+      "mode": "non_human_mannequin",
+      "prompt": "Create a photorealistic e-commerce garment-only catalog photo, matching image one exactly for its clearly artificial matte-white waist-to-feet pants mannequin, neutral parallel stance, pale warm-gray seamless studio floor/background, soft even upper-left daylight, camera, scale, framing and margins. Show exactly one pair of children's 33-inch trousers fully unfolded and fitted on the same appropriately sized non-human form. Set the trousers' color to bright raspberry magenta pink \u2014 match the raspberry hue in reference two, avoiding a neon color, precisely matching original fabric photograph two. Original unfolded garment photograph three is the authority for the same product's construction: gathered stitched elastic waistband, center front seam, relaxed straight legs with slight narrowing to plain stitched hems, fine vertical alternating ribbed fabric bands and subtle sheen. Preserve these source proportions and construction and keep both full hems and waistband unobstructed. No other garment, people, text, labels, fly, pockets, belt, drawstrings, elastic ankle cuffs or new features. Complete front view including mannequin waist edge and both artificial feet, portrait3:4, highest native resolution. A restrained fixed front display is intentional for comparing colors.",
+      "reference_paths": [
+        "/workspace/generated_images/exec-50805a70-e841-4ae0-8d5f-a6b69ddfd23d.png",
+        "/workspace/Life-Style-image-studio-store-/products/c30ac836-7a0d-46e2-8f21-3a72117f5c6d/colors/41010275-6821-4ca4-adc4-225a6551a94d.webp",
+        "/workspace/Life-Style-image-studio-store-/products/c30ac836-7a0d-46e2-8f21-3a72117f5c6d/main/b1168eb0-756d-4b45-9f72-cb5149c09dad.webp"
+      ],
+      "started_at": "2026-11-06T11:48:53.535Z",
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-0535ba83-f354-41c9-87e7-c0a6107ee5ba.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "finished_at": "2026-11-06T11:49:24.030Z"
+    },
+    {
+      "source": "colors/d27e4760-b297-4411-85a2-90316c541219.webp",
+      "mode": "non_human_mannequin",
+      "prompt": "Create a photorealistic e-commerce garment-only catalog photo, matching image one exactly for its clearly artificial matte-white waist-to-feet pants mannequin, neutral parallel stance, pale warm-gray seamless studio floor/background, soft even upper-left daylight, camera, scale, framing and margins. Show exactly one pair of children's 33-inch trousers fully unfolded and fitted on the same appropriately sized non-human form. Set the trousers' color to pale soft baby pink \u2014 a soft low-saturation light pink matching original photo two, precisely matching original fabric photograph two. Original unfolded garment photograph three is the authority for the same product's construction: gathered stitched elastic waistband, center front seam, relaxed straight legs with slight narrowing to plain stitched hems, fine vertical alternating ribbed fabric bands and subtle sheen. Preserve these source proportions and construction and keep both full hems and waistband unobstructed. No other garment, people, text, labels, fly, pockets, belt, drawstrings, elastic ankle cuffs or new features. Complete front view including mannequin waist edge and both artificial feet, portrait3:4, highest native resolution. A restrained fixed front display is intentional for comparing colors.",
+      "reference_paths": [
+        "/workspace/generated_images/exec-50805a70-e841-4ae0-8d5f-a6b69ddfd23d.png",
+        "/workspace/Life-Style-image-studio-store-/products/c30ac836-7a0d-46e2-8f21-3a72117f5c6d/colors/d27e4760-b297-4411-85a2-90316c541219.webp",
+        "/workspace/Life-Style-image-studio-store-/products/c30ac836-7a0d-46e2-8f21-3a72117f5c6d/main/b1168eb0-756d-4b45-9f72-cb5149c09dad.webp"
+      ],
+      "started_at": "2026-11-06T11:49:40.692Z",
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-9df681a3-092a-4a95-98ed-a26d60854f67.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "finished_at": "2026-11-06T11:50:15.537Z"
+    },
+    {
+      "source": "colors/fc7d8512-22f4-4c3d-b11b-671ef59c0168.webp",
+      "mode": "non_human_mannequin",
+      "prompt": "Create a photorealistic e-commerce garment-only catalog photo, matching image one exactly for its clearly artificial matte-white waist-to-feet pants mannequin, neutral parallel stance, pale warm-gray seamless studio floor/background, soft even upper-left daylight, camera, scale, framing and margins. Show exactly one pair of children's 33-inch trousers fully unfolded and fitted on the same appropriately sized non-human form. Set the trousers' color to clean white \u2014 faithfully retain white fabric with neutral gray rib shadows, distinct from cream, precisely matching original fabric photograph two. Original unfolded garment photograph three is the authority for the same product's construction: gathered stitched elastic waistband, center front seam, relaxed straight legs with slight narrowing to plain stitched hems, fine vertical alternating ribbed fabric bands and subtle sheen. Preserve these source proportions and construction and keep both full hems and waistband unobstructed. No other garment, people, text, labels, fly, pockets, belt, drawstrings, elastic ankle cuffs or new features. Complete front view including mannequin waist edge and both artificial feet, portrait3:4, highest native resolution. A restrained fixed front display is intentional for comparing colors.",
+      "reference_paths": [
+        "/workspace/generated_images/exec-50805a70-e841-4ae0-8d5f-a6b69ddfd23d.png",
+        "/workspace/Life-Style-image-studio-store-/products/c30ac836-7a0d-46e2-8f21-3a72117f5c6d/colors/fc7d8512-22f4-4c3d-b11b-671ef59c0168.webp",
+        "/workspace/Life-Style-image-studio-store-/products/c30ac836-7a0d-46e2-8f21-3a72117f5c6d/main/b1168eb0-756d-4b45-9f72-cb5149c09dad.webp"
+      ],
+      "started_at": "2026-11-06T11:50:30.725Z",
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-8394dfdd-4fed-49f1-ae5d-295e08ed4507.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "finished_at": "2026-11-06T11:51:02.022Z"
+    },
+    {
+      "source": "colors/19476910-98d2-4db7-84f0-999a27930fe5.webp",
+      "mode": "non_human_mannequin",
+      "prompt": "Create a photorealistic e-commerce garment-only catalog photo, matching image one exactly for its clearly artificial matte-white waist-to-feet pants mannequin, neutral parallel stance, pale warm-gray seamless studio floor/background, soft even upper-left daylight, camera, scale, framing and margins. Show exactly one pair of children's 33-inch trousers fully unfolded and fitted on the same appropriately sized non-human form. Set the trousers' color to pale warm buttery cream \u2014 match the original's light yellowish ivory/butter cream, visibly warmer than white but not saturated yellow, precisely matching original fabric photograph two. Original unfolded garment photograph three is the authority for the same product's construction: gathered stitched elastic waistband, center front seam, relaxed straight legs with slight narrowing to plain stitched hems, fine vertical alternating ribbed fabric bands and subtle sheen. Preserve these source proportions and construction and keep both full hems and waistband unobstructed. No other garment, people, text, labels, fly, pockets, belt, drawstrings, elastic ankle cuffs or new features. Complete front view including mannequin waist edge and both artificial feet, portrait3:4, highest native resolution. A restrained fixed front display is intentional for comparing colors.",
+      "reference_paths": [
+        "/workspace/generated_images/exec-50805a70-e841-4ae0-8d5f-a6b69ddfd23d.png",
+        "/workspace/Life-Style-image-studio-store-/products/c30ac836-7a0d-46e2-8f21-3a72117f5c6d/colors/19476910-98d2-4db7-84f0-999a27930fe5.webp",
+        "/workspace/Life-Style-image-studio-store-/products/c30ac836-7a0d-46e2-8f21-3a72117f5c6d/main/b1168eb0-756d-4b45-9f72-cb5149c09dad.webp"
+      ],
+      "started_at": "2026-11-06T11:51:19.440Z",
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-dcff9fef-e93a-4a74-9d5c-0f56e0a78d43.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "finished_at": "2026-11-06T11:51:46.247Z"
+    }
+  ],
+  "counts": {
+    "main_sources": 1,
+    "color_sources": 5,
+    "source_images": 6,
+    "source_entries_accounted_for": 6,
+    "source_entries_with_reviewed_alternative": 6,
+    "unaccounted_sources": 0,
+    "submitted_generation_attempts": 6,
+    "moderated_requests": 0,
+    "actual_returned_image_files": 6,
+    "rejected_candidates": 0,
+    "approved_model_images": 0,
+    "approved_mannequin_alternatives": 6,
+    "approved_main_mannequin_alternatives": 1,
+    "approved_color_mannequin_alternatives": 5,
+    "blocked_original_model_entries": 6
+  },
+  "moderation_failures": [],
+  "blockers": [
+    {
+      "scope": "original_human_model_requirement",
+      "source_entries": [
+        "colors/19476910-98d2-4db7-84f0-999a27930fe5.webp",
+        "colors/41010275-6821-4ca4-adc4-225a6551a94d.webp",
+        "colors/734053a4-b2c4-49ad-9f98-89f4d9cd359b.webp",
+        "colors/d27e4760-b297-4411-85a2-90316c541219.webp",
+        "colors/fc7d8512-22f4-4c3d-b11b-671ef59c0168.webp",
+        "main/b1168eb0-756d-4b45-9f72-cb5149c09dad.webp"
+      ],
+      "reason": "Description identifies KIDS and lists33 inches. Adult waist/hip fit is unverified; using an adult model would require assuming fit or changing the children\u2019s garment. AGENTS.md section3A permits only adult human models. A clearly labeled non-human retail pants-form alternative preserves reference proportions. No moderation rejection occurred for this product.",
+      "alternative_available": true
+    }
+  ],
+  "validation_limitations": [
+    "Visual QA against all six originals, not calibrated colorimetry or physical measurement.",
+    "33-inch length is description metadata; actual dimensions, age range, waist/hip measurements, fiber composition and back construction are unverified. No adult fit or exact physical scale is certified.",
+    "Fine rib spacing, fabric highlights and drape are generated photographic approximations; original appearance checked visually.",
+    "Native1086x1448 PNG; not4K. No post-generation editing, cropping, stretching or upscaling.",
+    "Non-human alternatives pass visual QA but do not satisfy an original human-model requirement without express acceptance of the revised deliverable."
+  ],
+  "source_preservation": "pass: all six original SHA-256 hashes unchanged",
+  "source_reconciliation": "pass: exact main/color directory entries accounted for, no omissions or duplicate mappings",
+  "persistence": {
+    "repository": "lifestylekky/Life-Style-image-studio-store-",
+    "branch": "main",
+    "output_directory": "products/c30ac836-7a0d-46e2-8f21-3a72117f5c6d/generated",
+    "verification": "Compare local file hashes with fetched origin/main after push; verified commit supplied in execution response."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "product_id": "c30ac836-7a0d-46e2-8f21-3a72117f5c6d",
+  "product_name": "STRIP PLAZA KIDS",
+  "status": "PARTIAL",
+  "original_model_requirement": "BLOCKED",
+  "original_model_block_reason": "Description identifies KIDS and lists33 inches. Adult waist/hip fit is unverified; using an adult model would require assuming fit or changing the children\u2019s garment. AGENTS.md section3A permits only adult human models. A clearly labeled non-human retail pants-form alternative preserves reference proportions. No moderation rejection occurred for this product.",
+  "alternative_quality_status": "PASS_VISUAL",
+  "alternative_acceptance": "pending_user_acceptance",
+  "preflight_decision": "ready_mannequin_catalog",
+  "catalog_mode": "non_human_mannequin",
+  "review_method": "Individually inspected every original. Compared each generated pants-form image against its exact color source and same-folder unfolded main for construction, full visibility, fabric ribbing, drape and color; cross-output studio/form/framing review, then decode/dimension/hash/source-set verification.",
+  "counts": {
+    "main_sources": 1,
+    "color_sources": 5,
+    "source_images": 6,
+    "source_entries_accounted_for": 6,
+    "source_entries_with_reviewed_alternative": 6,
+    "unaccounted_sources": 0,
+    "submitted_generation_attempts": 6,
+    "moderated_requests": 0,
+    "actual_returned_image_files": 6,
+    "rejected_candidates": 0,
+    "approved_model_images": 0,
+    "approved_mannequin_alternatives": 6,
+    "approved_main_mannequin_alternatives": 1,
+    "approved_color_mannequin_alternatives": 5,
+    "blocked_original_model_entries": 6
+  },
+  "per_output": [
+    {
+      "source": "main/b1168eb0-756d-4b45-9f72-cb5149c09dad.webp",
+      "output": "generated/main__b1168eb0-756d-4b45-9f72-cb5149c09dad__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending",
+      "checks": {
+        "fully_unfolded_on_retail_form": "pass",
+        "one_pair_only": "pass",
+        "source_construction_and_piece_count": "pass",
+        "gathered_elastic_waistband": "pass",
+        "fine_vertical_rib_texture": "pass",
+        "source_color_visual_comparison": "pass",
+        "relaxed_leg_shape_and_plain_hems": "pass",
+        "complete_waistband_and_both_hems_visible": "pass",
+        "natural_fabric_drape": "pass",
+        "same_non_human_form": "pass",
+        "same_studio_light_camera_and_framing": "pass",
+        "no_added_marketing_text_or_extra_garments": "pass",
+        "source_mapping_and_file_decode": "pass",
+        "adult_human_model": "not_applicable_non_human_alternative"
+      },
+      "notes": "Visual pass against unfolded original: single pair, gathered stitched elastic waistband, central front seam, fine vertical rib bands, relaxed straight/slightly tapered legs, both plain stitched hems and source-like yellow-green. Complete garment fitted on clearly artificial waist-to-feet pants form; no extra clothing, labels or invented features. Adult fit is not claimed."
+    },
+    {
+      "source": "colors/734053a4-b2c4-49ad-9f98-89f4d9cd359b.webp",
+      "output": "generated/color__734053a4-b2c4-49ad-9f98-89f4d9cd359b__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending",
+      "checks": {
+        "fully_unfolded_on_retail_form": "pass",
+        "one_pair_only": "pass",
+        "source_construction_and_piece_count": "pass",
+        "gathered_elastic_waistband": "pass",
+        "fine_vertical_rib_texture": "pass",
+        "source_color_visual_comparison": "pass",
+        "relaxed_leg_shape_and_plain_hems": "pass",
+        "complete_waistband_and_both_hems_visible": "pass",
+        "natural_fabric_drape": "pass",
+        "same_non_human_form": "pass",
+        "same_studio_light_camera_and_framing": "pass",
+        "no_added_marketing_text_or_extra_garments": "pass",
+        "source_mapping_and_file_decode": "pass",
+        "adult_human_model": "not_applicable_non_human_alternative"
+      },
+      "notes": "Visual pass: medium azure-blue source hue, narrow vertical textured bands, unchanged gathered elastic waistband/center seam/plain hems; full unfolded single pair; same white non-human pants form and warm-gray studio."
+    },
+    {
+      "source": "colors/41010275-6821-4ca4-adc4-225a6551a94d.webp",
+      "output": "generated/color__41010275-6821-4ca4-adc4-225a6551a94d__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending",
+      "checks": {
+        "fully_unfolded_on_retail_form": "pass",
+        "one_pair_only": "pass",
+        "source_construction_and_piece_count": "pass",
+        "gathered_elastic_waistband": "pass",
+        "fine_vertical_rib_texture": "pass",
+        "source_color_visual_comparison": "pass",
+        "relaxed_leg_shape_and_plain_hems": "pass",
+        "complete_waistband_and_both_hems_visible": "pass",
+        "natural_fabric_drape": "pass",
+        "same_non_human_form": "pass",
+        "same_studio_light_camera_and_framing": "pass",
+        "no_added_marketing_text_or_extra_garments": "pass",
+        "source_mapping_and_file_decode": "pass",
+        "adult_human_model": "not_applicable_non_human_alternative"
+      },
+      "notes": "Visual pass: bright raspberry/magenta source family, fine vertical ribbing, matching gathered waistband/plain hems/leg proportions; full single unfolded pair and consistent non-human display/studio."
+    },
+    {
+      "source": "colors/d27e4760-b297-4411-85a2-90316c541219.webp",
+      "output": "generated/color__d27e4760-b297-4411-85a2-90316c541219__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending",
+      "checks": {
+        "fully_unfolded_on_retail_form": "pass",
+        "one_pair_only": "pass",
+        "source_construction_and_piece_count": "pass",
+        "gathered_elastic_waistband": "pass",
+        "fine_vertical_rib_texture": "pass",
+        "source_color_visual_comparison": "pass",
+        "relaxed_leg_shape_and_plain_hems": "pass",
+        "complete_waistband_and_both_hems_visible": "pass",
+        "natural_fabric_drape": "pass",
+        "same_non_human_form": "pass",
+        "same_studio_light_camera_and_framing": "pass",
+        "no_added_marketing_text_or_extra_garments": "pass",
+        "source_mapping_and_file_decode": "pass",
+        "adult_human_model": "not_applicable_non_human_alternative"
+      },
+      "notes": "Visual pass: pale soft baby pink distinct from magenta, same fine vertical rib texture, elastic waist, plain stitched hems and source-like proportions; complete single pair, same display/studio."
+    },
+    {
+      "source": "colors/fc7d8512-22f4-4c3d-b11b-671ef59c0168.webp",
+      "output": "generated/color__fc7d8512-22f4-4c3d-b11b-671ef59c0168__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending",
+      "checks": {
+        "fully_unfolded_on_retail_form": "pass",
+        "one_pair_only": "pass",
+        "source_construction_and_piece_count": "pass",
+        "gathered_elastic_waistband": "pass",
+        "fine_vertical_rib_texture": "pass",
+        "source_color_visual_comparison": "pass",
+        "relaxed_leg_shape_and_plain_hems": "pass",
+        "complete_waistband_and_both_hems_visible": "pass",
+        "natural_fabric_drape": "pass",
+        "same_non_human_form": "pass",
+        "same_studio_light_camera_and_framing": "pass",
+        "no_added_marketing_text_or_extra_garments": "pass",
+        "source_mapping_and_file_decode": "pass",
+        "adult_human_model": "not_applicable_non_human_alternative"
+      },
+      "notes": "Visual pass: clean white with visible fine vertical rib texture and neutral shadows; source construction/waist/hem proportions retained; full single pair and same non-human form/studio."
+    },
+    {
+      "source": "colors/19476910-98d2-4db7-84f0-999a27930fe5.webp",
+      "output": "generated/color__19476910-98d2-4db7-84f0-999a27930fe5__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending",
+      "checks": {
+        "fully_unfolded_on_retail_form": "pass",
+        "one_pair_only": "pass",
+        "source_construction_and_piece_count": "pass",
+        "gathered_elastic_waistband": "pass",
+        "fine_vertical_rib_texture": "pass",
+        "source_color_visual_comparison": "pass",
+        "relaxed_leg_shape_and_plain_hems": "pass",
+        "complete_waistband_and_both_hems_visible": "pass",
+        "natural_fabric_drape": "pass",
+        "same_non_human_form": "pass",
+        "same_studio_light_camera_and_framing": "pass",
+        "no_added_marketing_text_or_extra_garments": "pass",
+        "source_mapping_and_file_decode": "pass",
+        "adult_human_model": "not_applicable_non_human_alternative"
+      },
+      "notes": "Visual pass: pale warm buttery cream distinct from clean white, same vertical ribbed fabric, gathered waistband, center seam, leg shape and plain hems; complete single pair on same non-human form in same warm-gray studio."
+    }
+  ],
+  "scene_consistency": "pass for all six non-human alternatives",
+  "pose_variety": "not_applicable: fixed non-human display permitted under AGENTS.md",
+  "source_preservation": "pass: all six original hashes unchanged",
+  "source_reconciliation": "pass: one alternative per source, exact6/6 mapping",
+  "rejected_attempts": [],
+  "moderation_failures": [],
+  "missing_or_blocked": [
+    {
+      "scope": "original_human_model_requirement",
+      "source_entries": [
+        "colors/19476910-98d2-4db7-84f0-999a27930fe5.webp",
+        "colors/41010275-6821-4ca4-adc4-225a6551a94d.webp",
+        "colors/734053a4-b2c4-49ad-9f98-89f4d9cd359b.webp",
+        "colors/d27e4760-b297-4411-85a2-90316c541219.webp",
+        "colors/fc7d8512-22f4-4c3d-b11b-671ef59c0168.webp",
+        "main/b1168eb0-756d-4b45-9f72-cb5149c09dad.webp"
+      ],
+      "reason": "Description identifies KIDS and lists33 inches. Adult waist/hip fit is unverified; using an adult model would require assuming fit or changing the children\u2019s garment. AGENTS.md section3A permits only adult human models. A clearly labeled non-human retail pants-form alternative preserves reference proportions. No moderation rejection occurred for this product.",
+      "alternative_available": true
+    }
+  ],
+  "limitations": [
+    "Visual QA against all six originals, not calibrated colorimetry or physical measurement.",
+    "33-inch length is description metadata; actual dimensions, age range, waist/hip measurements, fiber composition and back construction are unverified. No adult fit or exact physical scale is certified.",
+    "Fine rib spacing, fabric highlights and drape are generated photographic approximations; original appearance checked visually.",
+    "Native1086x1448 PNG; not4K. No post-generation editing, cropping, stretching or upscaling.",
+    "Non-human alternatives pass visual QA but do not satisfy an original human-model requirement without express acceptance of the revised deliverable."
+  ]
+}
