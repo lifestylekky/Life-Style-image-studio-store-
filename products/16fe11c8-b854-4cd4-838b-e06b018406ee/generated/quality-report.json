@@ -1,0 +1,88 @@
+{
+  "product_id": "16fe11c8-b854-4cd4-838b-e06b018406ee",
+  "product_name": "CHINESE PANTY",
+  "status": "PARTIAL",
+  "original_model_requirement": "BLOCKED",
+  "alternative_quality_status": "PASS_VISUAL",
+  "alternative_acceptance": "pending_user_acceptance",
+  "catalog_mode": "non_human_mannequin",
+  "preflight_decision": "ready_mannequin_catalog",
+  "review_method": "Inspected the complete original and individually compared returned mannequin image for cut, full product visibility, fabric color/texture, elastic/leg binding and original bear/FASHION grace print. Decode, dimensions, SHA-256 and exact source inventory verified.",
+  "counts": {
+    "main_sources": 1,
+    "color_sources": 0,
+    "source_images": 1,
+    "source_entries_accounted_for": 1,
+    "source_entries_with_reviewed_alternative": 1,
+    "unaccounted_sources": 0,
+    "submitted_generation_attempts": 2,
+    "model_attempts": 1,
+    "mannequin_attempts": 1,
+    "moderated_requests": 1,
+    "actual_returned_image_files": 1,
+    "rejected_visual_candidates": 0,
+    "approved_model_images": 0,
+    "approved_mannequin_alternatives": 1,
+    "blocked_original_model_entries": 1
+  },
+  "per_output": [
+    {
+      "source": "main/a4890df4-116b-48c5-a74d-e808f8e9df20.webp",
+      "output": "generated/main__a4890df4-116b-48c5-a74d-e808f8e9df20__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_status": "PASS_VISUAL",
+      "checks": {
+        "fully_unfolded_and_fitted_on_non_human_display": "pass",
+        "single_brief_only": "pass",
+        "original_brief_cut_and_proportions": "pass",
+        "source_fabric_color_visual_comparison": "pass",
+        "soft_fine_knit_texture": "pass",
+        "ribbed_elastic_waistband_and_stitching": "pass",
+        "bound_leg_openings_and_bottom_visible": "pass",
+        "source_bear_graphic_and_original_FASHION_grace_lettering": "pass",
+        "natural_fabric_drape": "pass",
+        "complete_garment_and_display_visible": "pass",
+        "neutral_studio_product_presentation": "pass",
+        "no_added_marketing_text_or_extra_items": "pass",
+        "source_mapping_and_file_decode": "pass",
+        "adult_human_model": "not_applicable_non_human_alternative"
+      },
+      "notes": "Visual pass against the sole fully unfolded original: one complete brief with source-like pale yellow-beige color, soft knit, ribbed elastic, bound openings, dark brown blank-face bear/heart-ear graphic and readable original FASHION grace print; no design additions. Fully visible on clearly artificial matte-white retail display, studio neutral and unobstructed.",
+      "user_acceptance": "pending"
+    }
+  ],
+  "scene_consistency": "single reviewed alternative in locked neutral product studio; no color series exists",
+  "pose_variety": "not_applicable_single_non_human_output",
+  "moderation_failures": [
+    {
+      "source": "main/a4890df4-116b-48c5-a74d-e808f8e9df20.webp",
+      "mode": "model_worn",
+      "started_at": "2026-11-07T13:38:09.305Z",
+      "finished_at": "2026-11-07T13:38:14.328Z",
+      "moderation_stage": "input",
+      "moderation_category": "sexual",
+      "request_id": "a2e52a22-67f7-4241-8123-593c20f1a2f0",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID a2e52a22-67f7-4241-8123-593c20f1a2f0. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "result": "no_image_returned"
+    }
+  ],
+  "rejected_visual_candidates": [],
+  "missing_or_blocked": [
+    {
+      "source": "main/a4890df4-116b-48c5-a74d-e808f8e9df20.webp",
+      "scope": "original_model_worn_requirement",
+      "reason": "The adult-model catalog request was rejected by the image tool at input moderation, category sexual, code moderation_blocked. Request ID a2e52a22-67f7-4241-8123-593c20f1a2f0. No model image was returned. AGENTS.md section3B requires stopping the blocked depiction; a separately labeled non-human retail-display alternative has passed visual QA and awaits acceptance of the revised deliverable.",
+      "alternative_available": true
+    }
+  ],
+  "source_preservation": "pass: original source SHA-256 unchanged",
+  "source_reconciliation": "pass:1/1 main reference explicitly accounted for; zero color references present",
+  "limitations": [
+    "Visual comparison; no calibrated colorimetry, physical size measurements or instrument-verified fabric/print matching.",
+    "Generated color, knit microtexture, print contours and drape are photographic approximations of source evidence.",
+    "Exact fiber composition, dimensions and unseen back construction are unverified; description states only soft material/free size. No new back view generated.",
+    "Native1086x1448 PNG, not4K; no post-generation editing or upscaling.",
+    "Alternative is non-human and does not fulfill the original adult-model requirement until the user expressly accepts a revised deliverable.",
+    "Tool classification is recorded verbatim; it does not establish a violation by the retailer, and no more detailed moderation rationale was provided."
+  ]
+}

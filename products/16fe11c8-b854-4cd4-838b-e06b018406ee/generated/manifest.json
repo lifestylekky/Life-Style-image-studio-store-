@@ -1,0 +1,219 @@
+{
+  "schema_version": 2,
+  "product_id": "16fe11c8-b854-4cd4-838b-e06b018406ee",
+  "product_name": "CHINESE PANTY",
+  "category": "Underwear",
+  "requested_url": "https://github.com/lifestylekky/Life-Style-image-studio-store-/tree/main/products/16fe11c8-b854-4cd4-838b-e06b018406ee",
+  "updated_at": "2026-11-07T13:40:26.527552+00:00",
+  "client_date": "2026-11-07",
+  "client_timezone": "Asia/Calcutta",
+  "workflow": "AGENTS.md",
+  "workflow_sha256": "9576c07321ec4627203baaccec39b90ceefd56f9641d0ce2c5a9a5daa352c3a2",
+  "workflow_revision": "61fef9bae4da924e3a6fbfcfcf0c0a9182e16ff3",
+  "generation_status": "PARTIAL",
+  "catalog_mode": "non_human_mannequin",
+  "preflight_decision": "ready_mannequin_catalog",
+  "original_model_preflight_decision": "moderation_blocked",
+  "original_model_requirement": "BLOCKED",
+  "alternative_acceptance": {
+    "status": "pending_user_acceptance",
+    "deliverable": "One reviewed non-human retail mannequin product image"
+  },
+  "preflight": {
+    "source_readable": true,
+    "output_write_probe": "pass",
+    "github_fetch": "pass",
+    "image_tool": "image_gen.imagegen with reference-image support",
+    "initial_decision": "ready_model_catalog",
+    "colors_directory_present": false,
+    "additional_reference_images": 0,
+    "existing_generated_images_before_run": 0
+  },
+  "source_metadata": {
+    "description.txt": {
+      "present": true,
+      "sha256": "2ba28c5b3a11a2377e2ebfdb18cadf6c02b571c9247a9add45cea03a479f34aa"
+    },
+    "updates.txt": {
+      "present": true,
+      "sha256": "acf4fdfed5f323fedf942c9b6c273f128f47b5b2696bd306e7d7c40e98c3b04b"
+    }
+  },
+  "source_inventory": [
+    {
+      "path": "main/a4890df4-116b-48c5-a74d-e808f8e9df20.webp",
+      "dimensions": [
+        1650,
+        2200
+      ],
+      "aspect_ratio": 0.75,
+      "sha256": "80f32f020f8b5438e0693049f05cdb988b7c74c5ad6c28f5df89036d90915502",
+      "readable": true,
+      "role": "main",
+      "presentation": "Fully unfolded front view on an original retail lower-torso mannequin; complete waistband, leg openings and garment bottom visible",
+      "visible_evidence": "One pale muted yellow-beige fine-knit brief, narrow ribbed elastic waistband and stitch lines, bound leg openings; dark brown teddy-bear line art with heart-shaped ear details, blank circular face, uppercase FASHION and cursive grace. Original shelf setting is incidental."
+    }
+  ],
+  "garment_specification": {
+    "piece_count": 1,
+    "type": "Women\u2019s brief",
+    "construction": "Original rise, broad side panels, narrow ribbed elastic waistband and bottom stitch line, soft fine-knit front, curved bound leg openings, source-visible bottom seam/panel.",
+    "color": "Pale muted yellow-beige, original dark brown print",
+    "print": "Source teddy-bear line art with blank face and heart shapes inside ears; large uppercase FASHION above cursive grace. Genuine original garment print preserved under AGENTS.md rule6.",
+    "unverified": "Exact fiber composition, dimensions and back design are unknown. No other piece or variant is evidenced."
+  },
+  "unfolded_construction_references": [
+    "main/a4890df4-116b-48c5-a74d-e808f8e9df20.webp"
+  ],
+  "scene_profile": {
+    "location": "neutral professional retail product studio",
+    "background": "pale warm-gray seamless wall and continuous floor, no furniture/decor",
+    "lighting": "even soft neutral daylight from upper left, subtle floor shadow",
+    "display": "clearly non-human freestanding matte-white retail lower-torso form with flat top and short leg stubs",
+    "camera": "near-front straight-on product view, centered portrait3:4, entire display and complete garment visible with margins",
+    "pose": "fixed upright front non-human display; only one output required"
+  },
+  "model_profile": "No human in accepted output; one clearly artificial retail display form. Rejected request specified a clearly adult professional woman age30.",
+  "camera_profile": "near-front straight-on product view, centered portrait3:4, entire display and complete garment visible with margins",
+  "aspect_ratio_rationale": "Portrait3:4 matches original reference and provides margins around the entire garment and display.",
+  "pose_plan": [
+    {
+      "source": "main/a4890df4-116b-48c5-a74d-e808f8e9df20.webp",
+      "planned_human": "Upright neutral near-front catalog stance, product unobstructed",
+      "accepted_human": null,
+      "accepted_alternative": "fixed upright front non-human display; only one output required"
+    }
+  ],
+  "source_to_output": [
+    {
+      "source": "main/a4890df4-116b-48c5-a74d-e808f8e9df20.webp",
+      "source_sha256": "80f32f020f8b5438e0693049f05cdb988b7c74c5ad6c28f5df89036d90915502",
+      "output": null,
+      "status": "blocked",
+      "reason": "The adult-model catalog request was rejected by the image tool at input moderation, category sexual, code moderation_blocked. Request ID a2e52a22-67f7-4241-8123-593c20f1a2f0. No model image was returned. AGENTS.md section3B requires stopping the blocked depiction; a separately labeled non-human retail-display alternative has passed visual QA and awaits acceptance of the revised deliverable.",
+      "alternative_output": "generated/main__a4890df4-116b-48c5-a74d-e808f8e9df20__mannequin.png",
+      "alternative_status": "ALTERNATIVE_MANNEQUIN",
+      "alternative_qa_status": "PASS_VISUAL",
+      "alternative_acceptance": "pending_user_acceptance"
+    }
+  ],
+  "outputs": [
+    {
+      "source": "main/a4890df4-116b-48c5-a74d-e808f8e9df20.webp",
+      "source_sha256": "80f32f020f8b5438e0693049f05cdb988b7c74c5ad6c28f5df89036d90915502",
+      "output": "generated/main__a4890df4-116b-48c5-a74d-e808f8e9df20__mannequin.png",
+      "sha256": "8c530bb412e8450952b27899014a9fc522d660195fd4f79783c9d337f55f753b",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "mode": "non_human_mannequin",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa_status": "PASS_VISUAL",
+      "user_acceptance": "pending",
+      "satisfies_original_model_worn_requirement": false,
+      "checks": {
+        "fully_unfolded_and_fitted_on_non_human_display": "pass",
+        "single_brief_only": "pass",
+        "original_brief_cut_and_proportions": "pass",
+        "source_fabric_color_visual_comparison": "pass",
+        "soft_fine_knit_texture": "pass",
+        "ribbed_elastic_waistband_and_stitching": "pass",
+        "bound_leg_openings_and_bottom_visible": "pass",
+        "source_bear_graphic_and_original_FASHION_grace_lettering": "pass",
+        "natural_fabric_drape": "pass",
+        "complete_garment_and_display_visible": "pass",
+        "neutral_studio_product_presentation": "pass",
+        "no_added_marketing_text_or_extra_items": "pass",
+        "source_mapping_and_file_decode": "pass",
+        "adult_human_model": "not_applicable_non_human_alternative"
+      },
+      "notes": "Visual pass against the sole fully unfolded original: one complete brief with source-like pale yellow-beige color, soft knit, ribbed elastic, bound openings, dark brown blank-face bear/heart-ear graphic and readable original FASHION grace print; no design additions. Fully visible on clearly artificial matte-white retail display, studio neutral and unobstructed."
+    }
+  ],
+  "model_outputs": [],
+  "generation_history": [
+    {
+      "source": "main/a4890df4-116b-48c5-a74d-e808f8e9df20.webp",
+      "mode": "model_worn",
+      "prompt": "Create a straightforward photorealistic e-commerce apparel catalog photograph of the exact women's brief in the product reference, naturally worn by a clearly adult professional female catalog model age30 standing upright in a neutral near-front stance. Frame only the product area from just above the waistband to below both leg openings, with comfortable margins showing the complete garment unobstructed. Faithfully match its pale muted yellow-beige soft knit fabric, original rise and side width, narrow ribbed elastic waistband with bottom stitching, curved bound leg openings and source proportions. Preserve the original dark brown line-drawn teddy bear graphic with heart shapes in its ears and blank face, the exact large uppercase FASHION and cursive grace print below it, including original placement and scale. This print is part of the actual garment. Pale warm-gray seamless professional studio, even soft neutral daylight from upper left, eye-level straight-on product camera, portrait3:4. Exactly one brief, no other product, no added labels, accessories or marketing text. Highest native resolution supported.",
+      "reference_paths": [
+        "/workspace/Life-Style-image-studio-store-/products/16fe11c8-b854-4cd4-838b-e06b018406ee/main/a4890df4-116b-48c5-a74d-e808f8e9df20.webp"
+      ],
+      "started_at": "2026-11-07T13:38:09.305Z",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID a2e52a22-67f7-4241-8123-593c20f1a2f0. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "finished_at": "2026-11-07T13:38:14.328Z",
+      "result": "no_image_returned",
+      "moderation_stage": "input",
+      "moderation_category": "sexual",
+      "request_id": "a2e52a22-67f7-4241-8123-593c20f1a2f0"
+    },
+    {
+      "source": "main/a4890df4-116b-48c5-a74d-e808f8e9df20.webp",
+      "mode": "non_human_mannequin",
+      "prompt": "Create a photorealistic garment-only e-commerce catalog photograph of exactly the one women's brief in the supplied product photograph, fully unfolded and fitted on a clearly non-human freestanding matte-white retail lower-torso display form with a flat top and short leg stubs. Show the whole display form and the entire brief with margins. Match the original pale muted yellow-beige soft fine-knit fabric, original brief cut and proportions, narrow ribbed elastic waistband and lower stitch line, curved bound leg openings. Faithfully preserve the dark brown teddy-bear line-art graphic with blank circular face and heart shapes inside the ears, large uppercase FASHION and cursive grace below it, matching their original scale and position; these are authentic printed garment details. Near-front straight-on product photograph, pale warm-gray seamless commercial studio and floor, soft even neutral upper-left daylight, subtle floor shadow. One garment on one artificial retail display, no people, no other items, no added labels, watermarks or text. Portrait3:4, highest native resolution supported.",
+      "reference_paths": [
+        "/workspace/Life-Style-image-studio-store-/products/16fe11c8-b854-4cd4-838b-e06b018406ee/main/a4890df4-116b-48c5-a74d-e808f8e9df20.webp"
+      ],
+      "started_at": "2026-11-07T13:38:33.175Z",
+      "alternative_acceptance": "pending_user_acceptance",
+      "result_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-4fd61ac1-fc0e-4f22-9fdf-a2f30d1852cf.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "finished_at": "2026-11-07T13:39:07.618Z"
+    }
+  ],
+  "moderation_failures": [
+    {
+      "source": "main/a4890df4-116b-48c5-a74d-e808f8e9df20.webp",
+      "mode": "model_worn",
+      "started_at": "2026-11-07T13:38:09.305Z",
+      "finished_at": "2026-11-07T13:38:14.328Z",
+      "moderation_stage": "input",
+      "moderation_category": "sexual",
+      "request_id": "a2e52a22-67f7-4241-8123-593c20f1a2f0",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID a2e52a22-67f7-4241-8123-593c20f1a2f0. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "result": "no_image_returned"
+    }
+  ],
+  "counts": {
+    "main_sources": 1,
+    "color_sources": 0,
+    "source_images": 1,
+    "source_entries_accounted_for": 1,
+    "source_entries_with_reviewed_alternative": 1,
+    "unaccounted_sources": 0,
+    "submitted_generation_attempts": 2,
+    "model_attempts": 1,
+    "mannequin_attempts": 1,
+    "moderated_requests": 1,
+    "actual_returned_image_files": 1,
+    "rejected_visual_candidates": 0,
+    "approved_model_images": 0,
+    "approved_mannequin_alternatives": 1,
+    "blocked_original_model_entries": 1
+  },
+  "blockers": [
+    {
+      "source": "main/a4890df4-116b-48c5-a74d-e808f8e9df20.webp",
+      "scope": "original_model_worn_requirement",
+      "reason": "The adult-model catalog request was rejected by the image tool at input moderation, category sexual, code moderation_blocked. Request ID a2e52a22-67f7-4241-8123-593c20f1a2f0. No model image was returned. AGENTS.md section3B requires stopping the blocked depiction; a separately labeled non-human retail-display alternative has passed visual QA and awaits acceptance of the revised deliverable.",
+      "alternative_available": true
+    }
+  ],
+  "source_preservation": "pass: original source SHA-256 unchanged",
+  "source_reconciliation": "pass:1/1 main reference explicitly accounted for; zero color references present",
+  "validation_limitations": [
+    "Visual comparison; no calibrated colorimetry, physical size measurements or instrument-verified fabric/print matching.",
+    "Generated color, knit microtexture, print contours and drape are photographic approximations of source evidence.",
+    "Exact fiber composition, dimensions and unseen back construction are unverified; description states only soft material/free size. No new back view generated.",
+    "Native1086x1448 PNG, not4K; no post-generation editing or upscaling.",
+    "Alternative is non-human and does not fulfill the original adult-model requirement until the user expressly accepts a revised deliverable.",
+    "Tool classification is recorded verbatim; it does not establish a violation by the retailer, and no more detailed moderation rationale was provided."
+  ],
+  "resumability": "Preserve reviewed alternative; do not automatically repeat the blocked human depiction. Original requirement remains blocked pending accepted revised deliverable or provider review.",
+  "persistence": {
+    "repository": "lifestylekky/Life-Style-image-studio-store-",
+    "branch": "main",
+    "output_directory": "products/16fe11c8-b854-4cd4-838b-e06b018406ee/generated",
+    "verification": "Compare local files with fetched origin/main blobs after push; verified commit supplied in execution response."
+  }
+}
