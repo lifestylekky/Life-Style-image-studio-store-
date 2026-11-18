@@ -1,9 +1,9 @@
 {
   "product_id": "0fa68c72-dbab-42b3-9d7a-f476aa1feb73",
-  "status": "BLOCKED",
+  "status": "PARTIAL",
   "source_review": "All main and color source photos visually reviewed. Each local image blob hash matched the repository inventory.",
-  "scene_consistency": "Pending accepted catalog outputs.",
-  "result": "Model-worn main request blocked at input moderation. Further substantially equivalent requests were withheld.",
+  "scene_consistency": "Main display-form image matches the neutral studio profile. Cross-variant QA remains pending.",
+  "result": "Main display-form image passed visual QA and was saved. Six color variants remain pending.",
   "counts": {
     "main_sources": 1,
     "color_sources": 6,
@@ -12,8 +12,9 @@
     "moderated_requests": 1,
     "returned_image_files": 1,
     "approved_model_images": 0,
-    "approved_mannequin_alternatives": 0,
-    "display_form_previews": 1
+    "approved_mannequin_alternatives": 1,
+    "display_form_previews": 1,
+    "published_mannequin_images": 1
   },
   "moderation": {
     "stage": "input",
@@ -24,22 +25,46 @@
     "mode": "model_worn"
   },
   "related_moderation": null,
-  "approved_outputs": [],
+  "approved_outputs": [
+    {
+      "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp",
+      "source_git_blob": "8db560d5a98f1ef607ceb1e71c5e9e9bcb3c0dbc",
+      "path": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/main__beb2f9a0-ace9-42b3-a9dc-bffa5286a43e__mannequin.webp",
+      "git_blob": "c2ee73af2560027d762773c3cfe7e34cf70fd2c3",
+      "dimensions": {
+        "width": 1086,
+        "height": 1448
+      },
+      "catalog_mode": "non_human_mannequin",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "validation": "pass"
+    }
+  ],
   "alternative_preview": {
-    "status": "alternative_needs_review",
+    "status": "ALTERNATIVE_MANNEQUIN",
     "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp",
     "width": 1086,
     "height": 1448,
     "visual_qa": "Representative preview preserves the teal color, floral and butterfly arrangement, bound leg openings and full unfolded silhouette.",
-    "published": false
+    "published": true,
+    "output": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/main__beb2f9a0-ace9-42b3-a9dc-bffa5286a43e__mannequin.webp",
+    "output_git_blob": "c2ee73af2560027d762773c3cfe7e34cf70fd2c3"
   },
   "source_results": [
     {
       "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp",
       "source_git_blob": "8db560d5a98f1ef607ceb1e71c5e9e9bcb3c0dbc",
-      "output": null,
-      "status": "moderation_blocked",
-      "model_worn_attempts": 1
+      "output": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/main__beb2f9a0-ace9-42b3-a9dc-bffa5286a43e__mannequin.webp",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 1,
+      "output_git_blob": "c2ee73af2560027d762773c3cfe7e34cf70fd2c3",
+      "output_dimensions": {
+        "width": 1086,
+        "height": 1448
+      },
+      "model_worn_status": "moderation_blocked",
+      "catalog_mode": "non_human_mannequin",
+      "validation": "pass"
     },
     {
       "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/36a3a7eb-aa1d-4e3e-8abd-382fa15e29e8.webp",
@@ -85,6 +110,9 @@
     }
   ],
   "blockers": [
-    "Model-worn main request blocked at input moderation. Further substantially equivalent requests were withheld."
-  ]
+    "Model-worn request blocked at input moderation.",
+    "Six color variants remain without generated images."
+  ],
+  "model_worn_status": "BLOCKED",
+  "alternative_acceptance": "approved_for_existing_main_image"
 }
