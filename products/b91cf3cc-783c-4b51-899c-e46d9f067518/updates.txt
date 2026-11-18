@@ -1,0 +1,5 @@
+Life Style product image uploads
+2026-11-18T17:13:38.478Z [70ea1eb2-ae4d-4c36-a85f-be116733c2d6] main | IMG_20261118_223013.jpg | github:products/b91cf3cc-783c-4b51-899c-e46d9f067518/main/0ac8cc6f-5ad2-4dfc-8bc0-f8bcfec04b09.webp
+2026-11-18T17:13:38.478Z [b557420a-6a0f-4519-b400-4f838d020e8b] color | IMG_20261118_223103.jpg | github:products/b91cf3cc-783c-4b51-899c-e46d9f067518/colors/d1c2bfc4-6110-403f-b0f8-af402263ce1a.webp
+2026-11-18T17:13:38.478Z [afd19efd-b2d4-4973-9334-a8c258097648] color | IMG_20261118_223052.jpg | github:products/b91cf3cc-783c-4b51-899c-e46d9f067518/colors/035f7899-06b8-4f35-9906-7d000379bc84.webp
+2026-11-18T17:13:38.478Z [d94111f8-6605-4562-82ed-a609854eee94] color | IMG_20261118_223033.jpg | github:products/b91cf3cc-783c-4b51-899c-e46d9f067518/colors/c1d041a3-7c81-45cb-b0a1-50006ae40b9a.webp
