@@ -1,0 +1,101 @@
+{
+  "product_id": "d706a5eb-166e-484f-b6ee-751ba045b1f7",
+  "status": "PASS",
+  "review": "Visual comparison to all three corresponding unfolded front sources, followed by WebP identification and Git blob hash checks.",
+  "counts": {
+    "main_sources": 1,
+    "color_sources": 2,
+    "accounted_for_sources": 3,
+    "generation_attempts": 7,
+    "moderated_attempts": 0,
+    "returned_image_files": 7,
+    "approved_model_images": 3,
+    "approved_main": 1,
+    "approved_color": 2,
+    "approved_detail": 0,
+    "approved_mannequin_alternatives": 0,
+    "qa_rejections": 4
+  },
+  "scene_consistency": "Pass. The three approved shots share the same model, warm-gray seamless studio, soft left light, camera scale and portrait frame.",
+  "source_coverage": "All three source entries reconciled against main.",
+  "notes": "Approved for full-length catalog use. The light gray-blue output renders the fine denim weave softly. The original photo remains the reference for close-up texture.",
+  "results": [
+    {
+      "source": "products/d706a5eb-166e-484f-b6ee-751ba045b1f7/main/bc2ac512-bf96-4283-9e81-b09f4e39518f.webp",
+      "output": "products/d706a5eb-166e-484f-b6ee-751ba045b1f7/generated/main__bc2ac512-bf96-4283-9e81-b09f4e39518f__model.webp",
+      "output_git_blob": "428fc6270f4506c23d2cb318970de441a4065a35",
+      "checks": {
+        "single_complete_garment": "pass",
+        "visible_waistband_pockets_and_both_hems": "pass",
+        "construction_and_wash": "pass",
+        "natural_pose_and_drape": "pass",
+        "consistent_studio_and_model": "pass",
+        "no_added_text": "pass",
+        "webp_decode": "pass"
+      },
+      "status": "pass",
+      "attempts": [
+        {
+          "result": "accepted"
+        }
+      ]
+    },
+    {
+      "source": "products/d706a5eb-166e-484f-b6ee-751ba045b1f7/colors/4f6b0fe1-38cb-416a-bf13-85368d847845.webp",
+      "output": "products/d706a5eb-166e-484f-b6ee-751ba045b1f7/generated/color__4f6b0fe1-38cb-416a-bf13-85368d847845__model.webp",
+      "output_git_blob": "4ebf2d045e8a376ae0033edc264d17f38dd46096",
+      "checks": {
+        "single_complete_garment": "pass",
+        "visible_waistband_pockets_and_both_hems": "pass",
+        "construction_and_wash": "pass",
+        "natural_pose_and_drape": "pass",
+        "consistent_studio_and_model": "pass",
+        "no_added_text": "pass",
+        "webp_decode": "pass"
+      },
+      "status": "pass",
+      "attempts": [
+        {
+          "result": "rejected_qa",
+          "reason": "Near-duplicate of the main pose and wash too saturated."
+        },
+        {
+          "result": "accepted"
+        }
+      ]
+    },
+    {
+      "source": "products/d706a5eb-166e-484f-b6ee-751ba045b1f7/colors/ce8674ee-a4e3-4be9-af92-2ab7b44a6a85.webp",
+      "output": "products/d706a5eb-166e-484f-b6ee-751ba045b1f7/generated/color__ce8674ee-a4e3-4be9-af92-2ab7b44a6a85__model.webp",
+      "output_git_blob": "c88b8f1d5d3d1966c3a7b7a013c06fdc5eba3917",
+      "checks": {
+        "single_complete_garment": "pass",
+        "visible_waistband_pockets_and_both_hems": "pass",
+        "construction_and_wash": "pass",
+        "natural_pose_and_drape": "pass",
+        "consistent_studio_and_model": "pass",
+        "no_added_text": "pass",
+        "webp_decode": "pass"
+      },
+      "status": "pass",
+      "attempts": [
+        {
+          "result": "rejected_qa",
+          "reason": "Faint but visible synthetic maze-like fabric texture."
+        },
+        {
+          "result": "rejected_qa",
+          "reason": "Light wash rendered too dark."
+        },
+        {
+          "result": "rejected_qa",
+          "reason": "Synthetic fabric texture persisted."
+        },
+        {
+          "result": "accepted"
+        }
+      ]
+    }
+  ],
+  "blockers": []
+}

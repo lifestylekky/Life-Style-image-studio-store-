@@ -1,0 +1,188 @@
+{
+  "product_id": "d706a5eb-166e-484f-b6ee-751ba045b1f7",
+  "product_name": "High-Rise Flared Jeans",
+  "product_name_basis": "Descriptive name inferred from the photos. Source description lists sizes and price only.",
+  "source_ref": "d8aff280cb7855fa39d13f4ea8ccdfb07ffd39b5",
+  "workflow_path": "AGENTS.md",
+  "workflow_git_blob": "ff1216a3fe7ae20f32a8abff94203ba2716ceaf1",
+  "status": "COMPLETE",
+  "preflight_decision": "ready_model_catalog",
+  "catalog_mode": "model_worn",
+  "moderation_failures": [],
+  "alternative_acceptance": "not_applicable",
+  "garment_spec": {
+    "pieces": 1,
+    "category": "Denim jeans",
+    "construction": "High-rise broad yoke, shallow V raw upper edge, three brass-tone front buttons, short front belt loops, curved riveted pockets with coin pocket, fly seam, gently flared legs, raw hems.",
+    "reference_view": "Unfolded front. Back construction and material composition were not independently documented."
+  },
+  "construction_references": [
+    "products/d706a5eb-166e-484f-b6ee-751ba045b1f7/main/bc2ac512-bf96-4283-9e81-b09f4e39518f.webp",
+    "products/d706a5eb-166e-484f-b6ee-751ba045b1f7/colors/4f6b0fe1-38cb-416a-bf13-85368d847845.webp"
+  ],
+  "scene_profile": {
+    "location": "Commercial fashion studio",
+    "architecture": "Single uninterrupted warm-gray paper sweep",
+    "walls": "Light warm gray seamless backdrop",
+    "floor": "Matching matte warm-gray studio floor",
+    "furniture": "None",
+    "lighting": "Soft neutral daylight from camera left with gentle floor shadows",
+    "camera": "Eye-level catalog camera, consistent portrait 3:4 head-to-shoes frame",
+    "subject_position": "Centered with visible waistband and both complete hems",
+    "depth_of_field": "Garment and model sharp with visually uniform backdrop",
+    "mood": "Neutral retail product photography"
+  },
+  "model_profile": "Same adult South Asian catalog model, dark hair tied back, cream tucked T-shirt and off-white sneakers.",
+  "camera_profile": {
+    "aspect_ratio": "3:4",
+    "width": 1086,
+    "height": 1448,
+    "framing_reason": "The source ratio accommodates the full garment and the studio composition."
+  },
+  "source_inventory": [
+    {
+      "path": "products/d706a5eb-166e-484f-b6ee-751ba045b1f7/main/bc2ac512-bf96-4283-9e81-b09f4e39518f.webp",
+      "git_blob": "8fdb5700b2b50157f6503d79ed06793697e90f4a",
+      "dimensions": {
+        "width": 1650,
+        "height": 2200
+      },
+      "aspect_ratio": "3:4",
+      "presentation": "unfolded front",
+      "wash": "Very dark navy indigo",
+      "evidence": "Complete held-up front view shows the long gently flared leg, wide high-rise waistband, raw top edge and hems, and three front buttons."
+    },
+    {
+      "path": "products/d706a5eb-166e-484f-b6ee-751ba045b1f7/colors/4f6b0fe1-38cb-416a-bf13-85368d847845.webp",
+      "git_blob": "73a61c8edcc3b7c4f16990c7c91d646b4886f755",
+      "dimensions": {
+        "width": 1650,
+        "height": 2200
+      },
+      "aspect_ratio": "3:4",
+      "presentation": "unfolded front",
+      "wash": "Medium-dark cool indigo",
+      "evidence": "Complete held-up front view confirms the raw V-shaped waistband, loops, curved pockets with a coin pocket, brass buttons, fly seam, and frayed hems."
+    },
+    {
+      "path": "products/d706a5eb-166e-484f-b6ee-751ba045b1f7/colors/ce8674ee-a4e3-4be9-af92-2ab7b44a6a85.webp",
+      "git_blob": "f49484622708a179fc7e8f84ef35d52b50245cc1",
+      "dimensions": {
+        "width": 1650,
+        "height": 2200
+      },
+      "aspect_ratio": "3:4",
+      "presentation": "unfolded front",
+      "wash": "Light smoky gray-blue",
+      "evidence": "Complete held-up front view shows the light muted denim wash and matching waistband, hardware, pockets, flare, and raw hems."
+    }
+  ],
+  "blockers": [],
+  "counts": {
+    "main_sources": 1,
+    "color_sources": 2,
+    "accounted_for_sources": 3,
+    "generation_attempts": 7,
+    "moderated_attempts": 0,
+    "returned_image_files": 7,
+    "approved_model_images": 3,
+    "approved_main": 1,
+    "approved_color": 2,
+    "approved_detail": 0,
+    "approved_mannequin_alternatives": 0,
+    "qa_rejections": 4
+  },
+  "pose_plan": [
+    {
+      "source": "products/d706a5eb-166e-484f-b6ee-751ba045b1f7/main/bc2ac512-bf96-4283-9e81-b09f4e39518f.webp",
+      "planned": "Straight-on stance with a subtle weight shift, both feet planted and hands away from the pockets.",
+      "accepted": "Straight-on stance with a subtle weight shift, both feet planted and hands away from the pockets.",
+      "visibility_constraint": "Keep the front closure, pockets and both hems visible."
+    },
+    {
+      "source": "products/d706a5eb-166e-484f-b6ee-751ba045b1f7/colors/4f6b0fe1-38cb-416a-bf13-85368d847845.webp",
+      "planned": "Slight three-quarter turn with staggered feet and relaxed arms, keeping both hems and the front closures visible.",
+      "accepted": "Slight three-quarter turn with staggered feet and relaxed arms, keeping both hems and the front closures visible.",
+      "visibility_constraint": "Keep the front closure, pockets and both hems visible."
+    },
+    {
+      "source": "products/d706a5eb-166e-484f-b6ee-751ba045b1f7/colors/ce8674ee-a4e3-4be9-af92-2ab7b44a6a85.webp",
+      "planned": "Near-front stance with an outward-angled foot and slight head tilt, hands clear of the pockets.",
+      "accepted": "Near-front stance with an outward-angled foot and slight head tilt, hands clear of the pockets.",
+      "visibility_constraint": "Keep the front closure, pockets and both hems visible."
+    }
+  ],
+  "mappings": [
+    {
+      "source": "products/d706a5eb-166e-484f-b6ee-751ba045b1f7/main/bc2ac512-bf96-4283-9e81-b09f4e39518f.webp",
+      "source_git_blob": "8fdb5700b2b50157f6503d79ed06793697e90f4a",
+      "output": "products/d706a5eb-166e-484f-b6ee-751ba045b1f7/generated/main__bc2ac512-bf96-4283-9e81-b09f4e39518f__model.webp",
+      "output_git_blob": "428fc6270f4506c23d2cb318970de441a4065a35",
+      "dimensions": {
+        "width": 1086,
+        "height": 1448
+      },
+      "status": "accepted",
+      "validation": "pass",
+      "retries": 0,
+      "attempts": [
+        {
+          "result": "accepted"
+        }
+      ]
+    },
+    {
+      "source": "products/d706a5eb-166e-484f-b6ee-751ba045b1f7/colors/4f6b0fe1-38cb-416a-bf13-85368d847845.webp",
+      "source_git_blob": "73a61c8edcc3b7c4f16990c7c91d646b4886f755",
+      "output": "products/d706a5eb-166e-484f-b6ee-751ba045b1f7/generated/color__4f6b0fe1-38cb-416a-bf13-85368d847845__model.webp",
+      "output_git_blob": "4ebf2d045e8a376ae0033edc264d17f38dd46096",
+      "dimensions": {
+        "width": 1086,
+        "height": 1448
+      },
+      "status": "accepted",
+      "validation": "pass",
+      "retries": 1,
+      "attempts": [
+        {
+          "result": "rejected_qa",
+          "reason": "Near-duplicate of the main pose and wash too saturated."
+        },
+        {
+          "result": "accepted"
+        }
+      ]
+    },
+    {
+      "source": "products/d706a5eb-166e-484f-b6ee-751ba045b1f7/colors/ce8674ee-a4e3-4be9-af92-2ab7b44a6a85.webp",
+      "source_git_blob": "f49484622708a179fc7e8f84ef35d52b50245cc1",
+      "output": "products/d706a5eb-166e-484f-b6ee-751ba045b1f7/generated/color__ce8674ee-a4e3-4be9-af92-2ab7b44a6a85__model.webp",
+      "output_git_blob": "c88b8f1d5d3d1966c3a7b7a013c06fdc5eba3917",
+      "dimensions": {
+        "width": 1086,
+        "height": 1448
+      },
+      "status": "accepted",
+      "validation": "pass",
+      "retries": 3,
+      "attempts": [
+        {
+          "result": "rejected_qa",
+          "reason": "Faint but visible synthetic maze-like fabric texture."
+        },
+        {
+          "result": "rejected_qa",
+          "reason": "Light wash rendered too dark."
+        },
+        {
+          "result": "rejected_qa",
+          "reason": "Synthetic fabric texture persisted."
+        },
+        {
+          "result": "accepted"
+        }
+      ]
+    }
+  ],
+  "notes": "Approved for full-length catalog use. The light gray-blue output renders the fine denim weave softly. The original photo remains the reference for close-up texture."
+}
