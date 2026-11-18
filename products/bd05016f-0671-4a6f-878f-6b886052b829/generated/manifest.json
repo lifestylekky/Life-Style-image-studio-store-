@@ -1,0 +1,236 @@
+{
+  "product_id": "bd05016f-0671-4a6f-878f-6b886052b829",
+  "product_name": "XXL High-Rise Briefs",
+  "product_name_basis": "Description and visible garment construction",
+  "workflow": "AGENTS.md",
+  "workflow_git_blob": "ff1216a3fe7ae20f32a8abff94203ba2716ceaf1",
+  "source_revision": "76e16b0e214dfffaf92fc98b8e6ce2b105657057",
+  "status": "BLOCKED",
+  "preflight_decision": "not_submitted_equivalent_presentation",
+  "catalog_mode": "model_worn",
+  "garment_spec": {
+    "pieces": 1,
+    "construction": "High smooth waistband with horizontal seam, matching leg binding and a small tone-on-tone script emblem toward upper right as viewed."
+  },
+  "source_metadata": [
+    {
+      "path": "products/bd05016f-0671-4a6f-878f-6b886052b829/description.txt",
+      "git_blob": "0295553eff9a2193365066a726926e1c8e7beb2a"
+    },
+    {
+      "path": "products/bd05016f-0671-4a6f-878f-6b886052b829/updates.txt",
+      "git_blob": "4bc0071aa0b8899d9a0eba072f40e475b3b828fa"
+    }
+  ],
+  "source_inventory": [
+    {
+      "path": "products/bd05016f-0671-4a6f-878f-6b886052b829/main/c58056d0-ba3f-4f68-b66a-723ef522ed10.jpg",
+      "git_blob": "bdb866df39c24d26272b7bcb5efb751a540dde6a",
+      "role": "main",
+      "dimensions": {
+        "width": 1840,
+        "height": 4000
+      },
+      "color": "Pale blush",
+      "presentation": "unfolded on shop form",
+      "uploaded_at": "2026-11-18T16:40:05.952Z",
+      "original_upload_name": "IMG_20261118_205222.jpg",
+      "aspect_ratio": "23:50",
+      "duplicate_reference_paths": []
+    },
+    {
+      "path": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/22ac9b6d-c58b-4115-b318-9ae4410fb225.webp",
+      "git_blob": "2da660fb454de6d4506b14e33d34433e8593e63b",
+      "role": "color",
+      "dimensions": {
+        "width": 1650,
+        "height": 2200
+      },
+      "color": "Light blush-beige",
+      "presentation": "unfolded laid out",
+      "uploaded_at": "2026-11-18T16:40:05.952Z",
+      "original_upload_name": "IMG_20261118_205549.jpg",
+      "aspect_ratio": "3:4",
+      "duplicate_reference_paths": []
+    },
+    {
+      "path": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/52725539-5021-457c-9b86-4afc334360e5.webp",
+      "git_blob": "c65917518afbb350b0d4aa44171edd7deb6e1dd8",
+      "role": "color",
+      "dimensions": {
+        "width": 1650,
+        "height": 2200
+      },
+      "color": "Warm peach-beige",
+      "presentation": "unfolded laid out",
+      "uploaded_at": "2026-11-18T16:40:05.952Z",
+      "original_upload_name": "IMG_20261118_205610.jpg",
+      "aspect_ratio": "3:4",
+      "duplicate_reference_paths": []
+    },
+    {
+      "path": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/66fc9bc0-8175-4a01-9895-3e72a346cfc5.webp",
+      "git_blob": "022f97d1ad7c7683eed5840684952be46bbdb10b",
+      "role": "color",
+      "dimensions": {
+        "width": 1650,
+        "height": 2200
+      },
+      "color": "Dusty pink",
+      "presentation": "unfolded laid out",
+      "uploaded_at": "2026-11-18T16:40:05.952Z",
+      "original_upload_name": "IMG_20261118_205636.jpg",
+      "aspect_ratio": "3:4",
+      "duplicate_reference_paths": []
+    },
+    {
+      "path": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/ae36c281-0efe-46a2-a0e4-4a44decfb6da.webp",
+      "git_blob": "3d868fa9c83bc666f154b87660f8ffb62ce5e0cf",
+      "role": "color",
+      "dimensions": {
+        "width": 1650,
+        "height": 2200
+      },
+      "color": "Cream",
+      "presentation": "unfolded laid out",
+      "uploaded_at": "2026-11-18T16:40:05.952Z",
+      "original_upload_name": "IMG_20261118_205529.jpg",
+      "aspect_ratio": "3:4",
+      "duplicate_reference_paths": []
+    },
+    {
+      "path": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/ce2ad37a-61d4-48c7-b6b3-873173ea6fb5.webp",
+      "git_blob": "beca6c8e2bd62bb9d946ca983f7db47cf1f3a092",
+      "role": "color",
+      "dimensions": {
+        "width": 1650,
+        "height": 2200
+      },
+      "color": "Muted yellow-beige",
+      "presentation": "unfolded laid out",
+      "uploaded_at": "2026-11-18T16:40:05.952Z",
+      "original_upload_name": "IMG_20261118_205403.jpg",
+      "aspect_ratio": "3:4",
+      "duplicate_reference_paths": []
+    }
+  ],
+  "construction_references": [
+    "products/bd05016f-0671-4a6f-878f-6b886052b829/main/c58056d0-ba3f-4f68-b66a-723ef522ed10.jpg"
+  ],
+  "scene_profile": {
+    "location": "Neutral commercial product studio",
+    "backdrop": "Pale warm-gray seamless paper",
+    "floor": "Matching matte warm-gray floor",
+    "lighting": "Diffuse daylight from camera left",
+    "camera": "Centered, straight-on 3:4 catalog frame",
+    "furniture": "None",
+    "status": "Proposed for display-form run"
+  },
+  "model_profile": "Neutral adult model-worn catalog presentation on hold.",
+  "camera_profile": {
+    "aspect_ratio": "3:4",
+    "status": "proposed"
+  },
+  "pose_plan": [
+    {
+      "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/main/c58056d0-ba3f-4f68-b66a-723ef522ed10.jpg",
+      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
+      "accepted": null
+    },
+    {
+      "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/22ac9b6d-c58b-4115-b318-9ae4410fb225.webp",
+      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
+      "accepted": null
+    },
+    {
+      "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/52725539-5021-457c-9b86-4afc334360e5.webp",
+      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
+      "accepted": null
+    },
+    {
+      "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/66fc9bc0-8175-4a01-9895-3e72a346cfc5.webp",
+      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
+      "accepted": null
+    },
+    {
+      "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/ae36c281-0efe-46a2-a0e4-4a44decfb6da.webp",
+      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
+      "accepted": null
+    },
+    {
+      "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/ce2ad37a-61d4-48c7-b6b3-873173ea6fb5.webp",
+      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
+      "accepted": null
+    }
+  ],
+  "moderation_failures": [],
+  "related_moderation": {
+    "stage": "input",
+    "category": "sexual",
+    "request_id": "132d53dc-f8e3-49af-ae53-61f9cad07ac2",
+    "recorded_at": "2026-11-18T20:30:43.152Z",
+    "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp",
+    "mode": "model_worn"
+  },
+  "alternative_mode": "non_human_mannequin",
+  "alternative_acceptance": "pending_user_approval",
+  "alternative_preview": null,
+  "counts": {
+    "main_sources": 1,
+    "color_sources": 5,
+    "accounted_for_sources": 6,
+    "submitted_generation_attempts": 0,
+    "moderated_requests": 0,
+    "returned_image_files": 0,
+    "approved_model_images": 0,
+    "approved_mannequin_alternatives": 0,
+    "display_form_previews": 0
+  },
+  "mappings": [
+    {
+      "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/main/c58056d0-ba3f-4f68-b66a-723ef522ed10.jpg",
+      "source_git_blob": "bdb866df39c24d26272b7bcb5efb751a540dde6a",
+      "output": null,
+      "status": "not_submitted",
+      "model_worn_attempts": 0
+    },
+    {
+      "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/22ac9b6d-c58b-4115-b318-9ae4410fb225.webp",
+      "source_git_blob": "2da660fb454de6d4506b14e33d34433e8593e63b",
+      "output": null,
+      "status": "not_submitted",
+      "model_worn_attempts": 0
+    },
+    {
+      "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/52725539-5021-457c-9b86-4afc334360e5.webp",
+      "source_git_blob": "c65917518afbb350b0d4aa44171edd7deb6e1dd8",
+      "output": null,
+      "status": "not_submitted",
+      "model_worn_attempts": 0
+    },
+    {
+      "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/66fc9bc0-8175-4a01-9895-3e72a346cfc5.webp",
+      "source_git_blob": "022f97d1ad7c7683eed5840684952be46bbdb10b",
+      "output": null,
+      "status": "not_submitted",
+      "model_worn_attempts": 0
+    },
+    {
+      "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/ae36c281-0efe-46a2-a0e4-4a44decfb6da.webp",
+      "source_git_blob": "3d868fa9c83bc666f154b87660f8ffb62ce5e0cf",
+      "output": null,
+      "status": "not_submitted",
+      "model_worn_attempts": 0
+    },
+    {
+      "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/ce2ad37a-61d4-48c7-b6b3-873173ea6fb5.webp",
+      "source_git_blob": "beca6c8e2bd62bb9d946ca983f7db47cf1f3a092",
+      "output": null,
+      "status": "not_submitted",
+      "model_worn_attempts": 0
+    }
+  ],
+  "blockers": [
+    "Model-worn submissions withheld after an equivalent presentation for the first brief in this batch was blocked at input moderation."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "product_id": "fa7adb75-b967-404f-89a7-23e8c8df4650",
+  "status": "BLOCKED",
+  "source_review": "All main and color source photos visually reviewed. Each local image blob hash matched the repository inventory.",
+  "scene_consistency": "Pending accepted catalog outputs.",
+  "result": "Model-worn submissions withheld after an equivalent presentation for the first brief in this batch was blocked at input moderation.",
+  "counts": {
+    "main_sources": 1,
+    "color_sources": 3,
+    "accounted_for_sources": 4,
+    "submitted_generation_attempts": 0,
+    "moderated_requests": 0,
+    "returned_image_files": 0,
+    "approved_model_images": 0,
+    "approved_mannequin_alternatives": 0,
+    "display_form_previews": 0
+  },
+  "moderation": null,
+  "related_moderation": {
+    "stage": "input",
+    "category": "sexual",
+    "request_id": "132d53dc-f8e3-49af-ae53-61f9cad07ac2",
+    "recorded_at": "2026-11-18T20:30:43.152Z",
+    "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp",
+    "mode": "model_worn"
+  },
+  "approved_outputs": [],
+  "alternative_preview": null,
+  "source_results": [
+    {
+      "source": "products/fa7adb75-b967-404f-89a7-23e8c8df4650/main/27b8ccac-5c6a-48a8-a88b-4df067b2b3a4.webp",
+      "source_git_blob": "48422c1359b289f6ded53775ff25efdd4167d110",
+      "output": null,
+      "status": "not_submitted",
+      "model_worn_attempts": 0
+    },
+    {
+      "source": "products/fa7adb75-b967-404f-89a7-23e8c8df4650/colors/07b6d2c9-aa62-4cde-a2dc-d17e10cd764e.webp",
+      "source_git_blob": "b4391e8d2caa7a6863b4100ed4ba674e57cf7a89",
+      "output": null,
+      "status": "not_submitted",
+      "model_worn_attempts": 0
+    },
+    {
+      "source": "products/fa7adb75-b967-404f-89a7-23e8c8df4650/colors/1a3a3dbe-2ca5-42b2-b89c-fa8ea3ccd799.webp",
+      "source_git_blob": "5fabed730cef03cc3833b6dc70abb07c2e467e3e",
+      "output": null,
+      "status": "not_submitted",
+      "model_worn_attempts": 0
+    },
+    {
+      "source": "products/fa7adb75-b967-404f-89a7-23e8c8df4650/colors/cf66b05d-1466-42ee-b335-a2e9e0ce6bde.webp",
+      "source_git_blob": "6d2299a15f98ee4b49cecadb0dfd0fb689961c0c",
+      "output": null,
+      "status": "not_submitted",
+      "model_worn_attempts": 0
+    }
+  ],
+  "blockers": [
+    "Model-worn submissions withheld after an equivalent presentation for the first brief in this batch was blocked at input moderation."
+  ]
+}
