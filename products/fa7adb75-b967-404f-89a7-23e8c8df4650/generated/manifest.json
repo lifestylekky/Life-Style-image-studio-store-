@@ -186,5 +186,61 @@
   ],
   "blockers": [
     "Model-worn submissions withheld after an equivalent presentation for the first brief in this batch was blocked at input moderation."
-  ]
+  ],
+  "rerun_checks": [
+    {
+      "run_id": "image-empty-audit-2026-11-20",
+      "checked_at": "2026-11-20T08:03:49.997Z",
+      "selection": "generated folder has zero image files at run start; tracking files do not count as product images",
+      "source_count": 4,
+      "source_inventory_complete": true,
+      "source_versions_unchanged": true,
+      "all_sources_visually_reviewed": true,
+      "current_git_blobs": [
+        {
+          "path": "products/fa7adb75-b967-404f-89a7-23e8c8df4650/colors/07b6d2c9-aa62-4cde-a2dc-d17e10cd764e.webp",
+          "git_blob": "b4391e8d2caa7a6863b4100ed4ba674e57cf7a89",
+          "dimensions": [
+            1650,
+            2200
+          ],
+          "sha256": "3d378674f3612fd796efa82c4662646e227b4c2bc513fa672d425f4f6d7a081d"
+        },
+        {
+          "path": "products/fa7adb75-b967-404f-89a7-23e8c8df4650/colors/1a3a3dbe-2ca5-42b2-b89c-fa8ea3ccd799.webp",
+          "git_blob": "5fabed730cef03cc3833b6dc70abb07c2e467e3e",
+          "dimensions": [
+            1650,
+            2200
+          ],
+          "sha256": "71103bd08bed3935aead862c1607c01d0046a85b5447cb81ed07284b05fe8e1b"
+        },
+        {
+          "path": "products/fa7adb75-b967-404f-89a7-23e8c8df4650/colors/cf66b05d-1466-42ee-b335-a2e9e0ce6bde.webp",
+          "git_blob": "6d2299a15f98ee4b49cecadb0dfd0fb689961c0c",
+          "dimensions": [
+            1650,
+            2200
+          ],
+          "sha256": "142ab24c858a4ce71ea49a01119c0e7dce2b796ea7d095749fce4e4660c6d7e4"
+        },
+        {
+          "path": "products/fa7adb75-b967-404f-89a7-23e8c8df4650/main/27b8ccac-5c6a-48a8-a88b-4df067b2b3a4.webp",
+          "git_blob": "48422c1359b289f6ded53775ff25efdd4167d110",
+          "dimensions": [
+            1650,
+            2200
+          ],
+          "sha256": "068c44921e42c8ba5cadb06542138ddb76b469bd520dad3e4091a600ad492b43"
+        }
+      ],
+      "new_model_requests": 0,
+      "new_moderation_rejections": 0,
+      "new_preview_requests": 0,
+      "decision": "AWAITING_MANNEQUIN_ACCEPTANCE",
+      "reason": "Existing model-worn moderation hold preserved; non-human catalog deliverable awaits explicit user acceptance."
+    }
+  ],
+  "updated_at": "2026-11-20T08:03:49.997Z",
+  "original_model_requirement": "BLOCKED"
 }

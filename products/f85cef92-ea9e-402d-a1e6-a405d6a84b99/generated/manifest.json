@@ -244,5 +244,79 @@
   ],
   "blockers": [
     "Model-worn submissions withheld after an equivalent presentation for the first brief in this batch was blocked at input moderation."
-  ]
+  ],
+  "rerun_checks": [
+    {
+      "run_id": "image-empty-audit-2026-11-20",
+      "checked_at": "2026-11-20T08:03:49.997Z",
+      "selection": "generated folder has zero image files at run start; tracking files do not count as product images",
+      "source_count": 6,
+      "source_inventory_complete": true,
+      "source_versions_unchanged": true,
+      "all_sources_visually_reviewed": true,
+      "current_git_blobs": [
+        {
+          "path": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/39ffd1dc-4889-48fa-9093-18bc3c4343e8.webp",
+          "git_blob": "b57928466f08a03db10ef0e835d69951a7f14031",
+          "dimensions": [
+            1650,
+            2200
+          ],
+          "sha256": "8cafcc7769fc3f305ff73cd880c56923c141151545b78db7782072f506657543"
+        },
+        {
+          "path": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/7f1bdb4a-7a70-428e-a56b-d6d8e8598b6e.webp",
+          "git_blob": "b231fe7c20d8f14b8cd012d146120639c4c83d44",
+          "dimensions": [
+            1650,
+            2200
+          ],
+          "sha256": "bf000aee8d393fa7d13044b3310fef7b7da06d2164761f59a011d7a8f854fcd1"
+        },
+        {
+          "path": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/8f0285bb-dd23-4092-93f2-a15bbf78ae81.webp",
+          "git_blob": "33bec4daeacf9ad140792bcf5db0549fb1f677eb",
+          "dimensions": [
+            1650,
+            2200
+          ],
+          "sha256": "a693d2c4fc0f8c16594c5adff75f29617e69b6ca35ad297e5c2758d91139f01a"
+        },
+        {
+          "path": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/ad767310-92e1-4be0-b398-c08c8cebf0a7.webp",
+          "git_blob": "df9465bd69c0e39d5b6816a3e7e4ad6eaba194ba",
+          "dimensions": [
+            1650,
+            2200
+          ],
+          "sha256": "6b55bdc1338539411c37e996121bb03139dba489e455aedec997f731b7c0dec0"
+        },
+        {
+          "path": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/bc5ea94e-4d07-48d0-a980-b4b08ca2e2f6.webp",
+          "git_blob": "0c34bbecdffa39cb6ea4999cf7dfcc753dc8f483",
+          "dimensions": [
+            1650,
+            2200
+          ],
+          "sha256": "3ee1b473102888fae8384f60d782f115b58a909ecc268928cdb88899b1c36f47"
+        },
+        {
+          "path": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/main/e5dfb5ad-dbd6-40a9-a7c7-9635ed908d11.webp",
+          "git_blob": "8db560d5a98f1ef607ceb1e71c5e9e9bcb3c0dbc",
+          "dimensions": [
+            1650,
+            2200
+          ],
+          "sha256": "afa17e05864d40d4b7eb26f4f7a88a92cbedb38ca65c0ea3bd108adfacc6effb"
+        }
+      ],
+      "new_model_requests": 0,
+      "new_moderation_rejections": 0,
+      "new_preview_requests": 0,
+      "decision": "AWAITING_MANNEQUIN_ACCEPTANCE",
+      "reason": "Existing model-worn moderation hold preserved; non-human catalog deliverable awaits explicit user acceptance."
+    }
+  ],
+  "updated_at": "2026-11-20T08:03:49.997Z",
+  "original_model_requirement": "BLOCKED"
 }

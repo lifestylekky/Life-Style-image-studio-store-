@@ -3,17 +3,17 @@
   "status": "BLOCKED",
   "source_review": "All main and color source photos visually reviewed. Each local image blob hash matched the repository inventory.",
   "scene_consistency": "Pending accepted catalog outputs.",
-  "result": "Model-worn submissions withheld after an equivalent presentation for the first brief in this batch was blocked at input moderation.",
+  "result": "One non-human display-form preview returned and visually checked; awaiting user acceptance. Original model-worn requirement remains blocked.",
   "counts": {
     "main_sources": 1,
     "color_sources": 3,
     "accounted_for_sources": 4,
-    "submitted_generation_attempts": 0,
+    "submitted_generation_attempts": 1,
     "moderated_requests": 0,
-    "returned_image_files": 0,
+    "returned_image_files": 1,
     "approved_model_images": 0,
     "approved_mannequin_alternatives": 0,
-    "display_form_previews": 0
+    "display_form_previews": 1
   },
   "moderation": null,
   "related_moderation": {
@@ -25,7 +25,30 @@
     "mode": "model_worn"
   },
   "approved_outputs": [],
-  "alternative_preview": null,
+  "alternative_preview": {
+    "path": "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/generated/main__aac3ee62-0677-4a8a-acb3-2e009a321f50__mannequin-preview.png",
+    "source": "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/main/aac3ee62-0677-4a8a-acb3-2e009a321f50.webp",
+    "source_git_blob": "04d8e6233fbb6617afd6bd17161add5080e5ff7f",
+    "status": "alternative_needs_review",
+    "catalog_mode": "non_human_mannequin",
+    "user_acceptance": "pending",
+    "generated_at": "2026-11-20T08:03:49.997Z",
+    "dimensions": [
+      1086,
+      1448
+    ],
+    "bytes": 2052165,
+    "visual_qa": "passed_for_user_review",
+    "qa_checks": [
+      "one complete unfolded garment",
+      "genuine front script and brown polka dots retained",
+      "warm peach fabric and broad waistband",
+      "rigid matte-white display form; no person",
+      "neutral warm-gray studio, diffuse light from camera left",
+      "no shop metadata or added advertising text"
+    ],
+    "limitations": "Preview is a mannequin alternative; it does not fulfill the original model-worn requirement. Final commercial approval remains pending."
+  },
   "source_results": [
     {
       "source": "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/main/aac3ee62-0677-4a8a-acb3-2e009a321f50.webp",
@@ -58,5 +81,59 @@
   ],
   "blockers": [
     "Model-worn submissions withheld after an equivalent presentation for the first brief in this batch was blocked at input moderation."
+  ],
+  "rerun_checks": [
+    {
+      "run_id": "image-empty-audit-2026-11-20",
+      "checked_at": "2026-11-20T08:03:49.997Z",
+      "selection": "generated folder has zero image files at run start; tracking files do not count as product images",
+      "source_count": 4,
+      "source_inventory_complete": true,
+      "source_versions_unchanged": true,
+      "all_sources_visually_reviewed": true,
+      "current_git_blobs": [
+        {
+          "path": "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/colors/6e45f7e1-4085-4dbb-9f3a-28efc0c46152.webp",
+          "git_blob": "a3fe88d865e1063a56968d01be8871e4c4ff9af3",
+          "dimensions": [
+            1650,
+            2200
+          ],
+          "sha256": "9b1867cbeb124fc9c15402da63b3e00ea22b87afb70fac45250c85368bc3d82b"
+        },
+        {
+          "path": "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/colors/a56c1f87-a572-4a3b-b204-be1cfa424da5.webp",
+          "git_blob": "fd793e34eff57ad3b0a30dba68bbc2ff5b49898f",
+          "dimensions": [
+            1650,
+            2200
+          ],
+          "sha256": "1a8728a5d42f86823f7f03a152263023c4b6cedb6ac177d7408b241f34f1c234"
+        },
+        {
+          "path": "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/colors/e2e4074f-39c9-424f-8431-5c94d49a07ce.webp",
+          "git_blob": "6a58d1997176010ecf6b279ff3cbbfc54d87f638",
+          "dimensions": [
+            1650,
+            2200
+          ],
+          "sha256": "eb4a172a6605803fb4fa0c99b17c9caa07cf07b7eccdd0304da687e29278f1a7"
+        },
+        {
+          "path": "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/main/aac3ee62-0677-4a8a-acb3-2e009a321f50.webp",
+          "git_blob": "04d8e6233fbb6617afd6bd17161add5080e5ff7f",
+          "dimensions": [
+            1650,
+            2200
+          ],
+          "sha256": "ec6d433bc0fa1ede9046adca47d5f6fb0673b72bf39a9163c7a1ebbe58fa5c16"
+        }
+      ],
+      "new_model_requests": 0,
+      "new_moderation_rejections": 0,
+      "new_preview_requests": 1,
+      "decision": "AWAITING_MANNEQUIN_ACCEPTANCE",
+      "reason": "Existing model-worn moderation hold preserved; non-human catalog deliverable awaits explicit user acceptance."
+    }
   ]
 }

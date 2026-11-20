@@ -3,7 +3,7 @@
   "status": "BLOCKED",
   "source_readability": "pass",
   "source_reconciliation": "2 of 2 accounted for as needs_reference",
-  "output_checks": "not_run \u2014 no reliable product specification",
+  "output_checks": "not_run — no reliable product specification",
   "blockers": [
     "Both originals are stylized illustrated male street portraits, not verifiable retail garment photographs. Shirt hem, physical fabric and complete construction are not visible. No product description or unfolded same-product construction reference exists; accurate adult-female product reconstruction would invent details."
   ],
@@ -48,5 +48,41 @@
     "approved_model_images": 0,
     "approved_mannequin_alternatives": 0,
     "source_entries_with_alternative": 0
-  }
+  },
+  "rerun_checks": [
+    {
+      "run_id": "image-empty-audit-2026-11-20",
+      "checked_at": "2026-11-20T08:03:49.997Z",
+      "selection": "generated folder has zero image files at run start; tracking files do not count as product images",
+      "source_count": 2,
+      "source_inventory_complete": true,
+      "source_versions_unchanged": true,
+      "all_sources_visually_reviewed": true,
+      "current_git_blobs": [
+        {
+          "path": "products/1bfc349a-7912-4e6b-b7ec-3aa1457de4d9/colors/56200a26-af0e-4f06-9778-a8900da95249.png",
+          "git_blob": "73e7bd97025add722f44de0d08785cb9f62f4dcb",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "sha256": "9af1112365e9b92cf60ded557fd8b71c3740b3d006285d687632af025292d654"
+        },
+        {
+          "path": "products/1bfc349a-7912-4e6b-b7ec-3aa1457de4d9/main/69536374-9d79-4b28-ae25-52575db7457e.png",
+          "git_blob": "f681f8db10670aa3af22bae5cd4e5a87aed233fa",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "sha256": "76f9feea8f1562aecb975de78cf9761d11bfaf6574e68676ae0f31d7ca221fff"
+        }
+      ],
+      "new_model_requests": 0,
+      "new_moderation_rejections": 0,
+      "new_preview_requests": 0,
+      "decision": "NEEDS_REFERENCE",
+      "reason": "Sources remain illustrated street portraits without verifiable complete retail garments."
+    }
+  ]
 }
