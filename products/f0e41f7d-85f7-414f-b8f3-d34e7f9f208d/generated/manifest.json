@@ -5,12 +5,16 @@
   "workflow": "AGENTS.md",
   "workflow_git_blob": "ff1216a3fe7ae20f32a8abff94203ba2716ceaf1",
   "source_revision": "76e16b0e214dfffaf92fc98b8e6ce2b105657057",
-  "status": "BLOCKED",
-  "preflight_decision": "not_submitted_equivalent_presentation",
+  "status": "PARTIAL",
+  "preflight_decision": "ready_model_catalog",
   "catalog_mode": "model_worn",
   "garment_spec": {
     "pieces": 1,
-    "construction": "Opaque soft cotton as listed, narrow waistband and matching bound leg openings, small pale script graphic with star motif at upper right as viewed."
+    "category": "Adult full-coverage cotton briefs",
+    "material_basis": "Description states soft cotton; original photos show opaque smooth knit",
+    "construction": "Narrow matching elastic waistband; matching curved double-stitched leg bands; front gusset seam; small pale True heart ribbon/bow wordmark at upper right as viewed; solid colors; no added closures or physical bows.",
+    "back_construction": "Unverified; no back views requested",
+    "styling": "Plain white short-sleeved crew-neck T-shirt is neutral styling only and is not part of the retail product."
   },
   "source_metadata": [
     {
@@ -118,49 +122,77 @@
     "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/main/30b5d5a1-32b8-488c-9dc5-33fe62c70e0a.webp"
   ],
   "scene_profile": {
-    "location": "Neutral commercial product studio",
-    "backdrop": "Pale warm-gray seamless paper",
-    "floor": "Matching matte warm-gray floor",
-    "lighting": "Diffuse daylight from camera left",
-    "camera": "Centered, straight-on 3:4 catalog frame",
+    "location": "Neutral professional commercial catalog studio",
+    "architecture": "Single warm-gray seamless backdrop and matte matching floor; no furniture",
+    "walls": "Pale warm-gray",
+    "floor": "Matte warm-gray with gentle horizontal backdrop-floor transition",
     "furniture": "None",
-    "status": "Proposed for display-form run"
+    "lighting_direction": "Soft diffuse large source from camera left; gentle front fill",
+    "lighting_temperature": "Neutral daylight approximately 5200K",
+    "camera_perspective": "Eye-level front-facing full-length 3:4 portrait",
+    "subject_position": "Centered with complete head and feet visible; consistent scale",
+    "depth_of_field": "Entire model and garment sharp; backdrop unobtrusive",
+    "mood": "Neutral retail product catalog",
+    "locked_reference": "generated/main__30b5d5a1-32b8-488c-9dc5-33fe62c70e0a__model.png"
   },
-  "model_profile": "Neutral adult model-worn catalog presentation on hold.",
+  "model_profile": {
+    "age": 30,
+    "appearance": "Adult woman with medium complexion, dark eyes, dark hair in a neat ponytail; natural proportions and neutral friendly expression",
+    "identity_reference": "generated/main__30b5d5a1-32b8-488c-9dc5-33fe62c70e0a__model.png",
+    "styling": "Plain white short-sleeved crew-neck T-shirt tucked neatly at waist, no jewelry, bare feet"
+  },
   "camera_profile": {
     "aspect_ratio": "3:4",
-    "status": "proposed"
+    "dimensions": [
+      1086,
+      1448
+    ],
+    "framing": "Full-length model with full head and feet, full garment visible",
+    "native_resolution": true,
+    "reason": "Generated representative returned full-length view rather than head-to-knees; full-length accepted and locked for all subsequent variants."
   },
   "pose_plan": [
     {
       "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/main/30b5d5a1-32b8-488c-9dc5-33fe62c70e0a.webp",
-      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
-      "accepted": null
+      "color": "Royal blue",
+      "planned": "Balanced near-front stance, arms naturally down",
+      "accepted": "Balanced near-front stance, arms naturally down",
+      "limitations": "Restrained variations only, to retain full visibility of the briefs."
     },
     {
       "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1b186bac-92f4-442a-8c1e-621a82fb4141.webp",
-      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
-      "accepted": null
+      "color": "Golden beige",
+      "planned": "Subtle weight shift to left leg, slight head turn right, hands away from garment",
+      "accepted": null,
+      "limitations": "Restrained variations only, to retain full visibility of the briefs."
     },
     {
       "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1ec3713d-27ca-4c99-9963-20736195f4a1.webp",
-      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
-      "accepted": null
+      "color": "Muted taupe",
+      "planned": "Subtle weight shift to right leg, head nearly forward, relaxed arms",
+      "accepted": null,
+      "limitations": "Restrained variations only, to retain full visibility of the briefs."
     },
     {
       "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/28cfbbb1-2121-40b1-b31c-d786e94cf016.webp",
-      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
-      "accepted": null
+      "color": "Charcoal black",
+      "planned": "Torso turned about five degrees left, slight balanced stance change, arms down",
+      "accepted": null,
+      "limitations": "Restrained variations only, to retain full visibility of the briefs."
     },
     {
       "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/2f6e4129-1922-4453-9c83-d788a2fa8f1d.webp",
-      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
-      "accepted": null
+      "color": "Warm brown",
+      "planned": "Shoulders turned about five degrees right, small stance change, arms relaxed clear of garment",
+      "accepted": null,
+      "limitations": "Restrained variations only, to retain full visibility of the briefs."
     },
     {
       "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/d07a146f-1e1d-4657-901b-7b748ff9bb2b.webp",
-      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
-      "accepted": null
+      "color": "Muted purple",
+      "planned": "Near-front weight shift left, head slightly left, hands relaxed at sides",
+      "accepted": null,
+      "limitations": "Restrained variations only, to retain full visibility of the briefs."
     }
   ],
   "moderation_failures": [],
@@ -173,16 +205,16 @@
     "mode": "model_worn"
   },
   "alternative_mode": "non_human_mannequin",
-  "alternative_acceptance": "pending_user_approval",
+  "alternative_acceptance": "not_required_model_catalog_accepted",
   "alternative_preview": null,
   "counts": {
     "main_sources": 1,
     "color_sources": 5,
     "accounted_for_sources": 6,
-    "submitted_generation_attempts": 0,
+    "submitted_generation_attempts": 1,
     "moderated_requests": 0,
-    "returned_image_files": 0,
-    "approved_model_images": 0,
+    "returned_image_files": 1,
+    "approved_model_images": 1,
     "approved_mannequin_alternatives": 0,
     "display_form_previews": 0
   },
@@ -190,49 +222,61 @@
     {
       "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/main/30b5d5a1-32b8-488c-9dc5-33fe62c70e0a.webp",
       "source_git_blob": "cda4dbe93be59a54e5311bf3cc57d45accd6ea43",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
+      "output": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/main__30b5d5a1-32b8-488c-9dc5-33fe62c70e0a__model.png",
+      "status": "approved_model_catalog",
+      "model_worn_attempts": 1,
+      "output_git_blob": "caf8b8e6a80ee07ea93f6d3a38ae14af14ca02fa",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "bytes": 1751982,
+      "validation": {
+        "complete_unfolded_garment": true,
+        "one_retail_product": true,
+        "construction_color_and_wordmark_reviewed": true,
+        "scene_and_model_consistent": true,
+        "all_garment_edges_visible": true,
+        "no_added_marketing_copy": true
+      }
     },
     {
       "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1b186bac-92f4-442a-8c1e-621a82fb4141.webp",
       "source_git_blob": "94bab056ba74986c048b7eb4587c9e926fd6f0fb",
       "output": null,
-      "status": "not_submitted",
+      "status": "pending_generation",
       "model_worn_attempts": 0
     },
     {
       "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1ec3713d-27ca-4c99-9963-20736195f4a1.webp",
       "source_git_blob": "b0d6282c70fe0473cf5ce73e7ef8b40fd15eb5d4",
       "output": null,
-      "status": "not_submitted",
+      "status": "pending_generation",
       "model_worn_attempts": 0
     },
     {
       "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/28cfbbb1-2121-40b1-b31c-d786e94cf016.webp",
       "source_git_blob": "10dea978334452cf05d70c844f9f6cfd268523d2",
       "output": null,
-      "status": "not_submitted",
+      "status": "pending_generation",
       "model_worn_attempts": 0
     },
     {
       "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/2f6e4129-1922-4453-9c83-d788a2fa8f1d.webp",
       "source_git_blob": "612ba70c56782e78261b581a15c293df3b482ac0",
       "output": null,
-      "status": "not_submitted",
+      "status": "pending_generation",
       "model_worn_attempts": 0
     },
     {
       "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/d07a146f-1e1d-4657-901b-7b748ff9bb2b.webp",
       "source_git_blob": "8f66bf7cee114de29fb210472ff5e0f41e07bd35",
       "output": null,
-      "status": "not_submitted",
+      "status": "pending_generation",
       "model_worn_attempts": 0
     }
   ],
-  "blockers": [
-    "Model-worn submissions withheld after an equivalent presentation for the first brief in this batch was blocked at input moderation."
-  ],
+  "blockers": [],
   "rerun_checks": [
     {
       "run_id": "image-empty-audit-2026-11-20",
@@ -305,6 +349,77 @@
       "reason": "Existing model-worn moderation hold preserved; non-human catalog deliverable awaits explicit user acceptance."
     }
   ],
-  "updated_at": "2026-11-20T08:03:49.997Z",
-  "original_model_requirement": "BLOCKED"
+  "updated_at": "2026-11-20T13:31:06.385Z",
+  "original_model_requirement": "PARTIAL",
+  "previous_runs": [
+    {
+      "status": "BLOCKED",
+      "preflight_decision": "not_submitted_equivalent_presentation",
+      "blockers": [
+        "Model-worn submissions withheld after an equivalent presentation for the first brief in this batch was blocked at input moderation."
+      ],
+      "counts": {
+        "main_sources": 1,
+        "color_sources": 5,
+        "accounted_for_sources": 6,
+        "submitted_generation_attempts": 0,
+        "moderated_requests": 0,
+        "returned_image_files": 0,
+        "approved_model_images": 0,
+        "approved_mannequin_alternatives": 0,
+        "display_form_previews": 0
+      },
+      "updated_at": "2026-11-20T08:03:49.997Z",
+      "scope_note": "Historical hold was based on a different product; zero requests had been submitted for this product."
+    }
+  ],
+  "generation_attempts": [
+    {
+      "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/main/30b5d5a1-32b8-488c-9dc5-33fe62c70e0a.webp",
+      "catalog_mode": "model_worn",
+      "submitted_at": "2026-11-20T13:31:06.385Z",
+      "result": "image_returned",
+      "accepted": true,
+      "prompt": "Create a photorealistic ordinary retail clothing catalog photo showing the exact royal-blue adult cotton briefs in the reference on a professional adult female catalog model age 30. Preserve the original full-coverage cut, narrow matching elastic waistband, curved double-stitched leg bands, smooth opaque soft cotton fabric, front construction and small pale 'True heart' ribbon graphic at the upper right as viewed. Remove the paper hang tag. The model wears a plain white short-sleeved crew-neck T-shirt tucked neatly into the waistband as neutral styling so the entire briefs remain unobstructed. Use a relaxed upright near-front stance, arms resting naturally at her sides, neutral friendly expression, dark hair tied back. Frame from the full head to below the knees in a 3:4 portrait, with the complete garment visible and natural proportions. Clean pale warm-gray seamless professional photography studio, matching matte floor, soft diffuse daylight from camera left, eye-level camera, accurate neutral color and realistic fabric drape. One featured product, no collage, no added text or accessories.",
+      "output": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/main__30b5d5a1-32b8-488c-9dc5-33fe62c70e0a__model.png"
+    }
+  ],
+  "last_run": {
+    "started_at": "2026-11-20T13:29:28.973Z",
+    "updated_at": "2026-11-20T13:31:06.385Z",
+    "scope": "This product only",
+    "preflight": "Source evidence reviewed and independent representative adult-model request accepted. No prior direct rejection existed for this product.",
+    "source_reconciliation": [
+      {
+        "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/main/30b5d5a1-32b8-488c-9dc5-33fe62c70e0a.webp",
+        "git_blob": "cda4dbe93be59a54e5311bf3cc57d45accd6ea43",
+        "status": "approved_model_catalog"
+      },
+      {
+        "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1b186bac-92f4-442a-8c1e-621a82fb4141.webp",
+        "git_blob": "94bab056ba74986c048b7eb4587c9e926fd6f0fb",
+        "status": "pending_generation"
+      },
+      {
+        "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1ec3713d-27ca-4c99-9963-20736195f4a1.webp",
+        "git_blob": "b0d6282c70fe0473cf5ce73e7ef8b40fd15eb5d4",
+        "status": "pending_generation"
+      },
+      {
+        "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/28cfbbb1-2121-40b1-b31c-d786e94cf016.webp",
+        "git_blob": "10dea978334452cf05d70c844f9f6cfd268523d2",
+        "status": "pending_generation"
+      },
+      {
+        "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/2f6e4129-1922-4453-9c83-d788a2fa8f1d.webp",
+        "git_blob": "612ba70c56782e78261b581a15c293df3b482ac0",
+        "status": "pending_generation"
+      },
+      {
+        "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/d07a146f-1e1d-4657-901b-7b748ff9bb2b.webp",
+        "git_blob": "8f66bf7cee114de29fb210472ff5e0f41e07bd35",
+        "status": "pending_generation"
+      }
+    ]
+  }
 }
