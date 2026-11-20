@@ -2,20 +2,30 @@
   "product_id": "f0e41f7d-85f7-414f-b8f3-d34e7f9f208d",
   "status": "PARTIAL",
   "source_review": "All main and color source photos visually reviewed. Each local image blob hash matched the repository inventory.",
-  "scene_consistency": "Verified against representative main photo: same model, white styling T-shirt, gray studio, diffuse light direction and full-length 3:4 frame. Restrained pose variation preserves garment visibility.",
-  "result": "Representative and 0 color outputs accepted; 5 color sources pending.",
+  "scene_consistency": "One approved model image establishes the original warm-gray studio/model profile; no cross-color model consistency is claimed. The mannequin preview has its own separately documented display-form profile.",
+  "result": "Royal-blue main model-worn image approved. Beige model-worn request rejected at input; a separate beige mannequin preview was generated for user review. Remaining four color model requests withheld; no complete batch claimed.",
   "counts": {
     "main_sources": 1,
     "color_sources": 5,
     "accounted_for_sources": 6,
-    "submitted_generation_attempts": 1,
-    "moderated_requests": 0,
-    "returned_image_files": 1,
+    "submitted_generation_attempts": 3,
+    "moderated_requests": 1,
+    "returned_image_files": 2,
     "approved_model_images": 1,
     "approved_mannequin_alternatives": 0,
-    "display_form_previews": 0
+    "display_form_previews": 1
   },
-  "moderation": null,
+  "moderation": {
+    "stage": "input",
+    "category": "sexual",
+    "request_id": "866d2d7e-fec1-4c36-8524-d8a03d296b89",
+    "recorded_at": "2026-11-20T13:31:57.197Z",
+    "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1b186bac-92f4-442a-8c1e-621a82fb4141.webp",
+    "mode": "model_worn",
+    "prompt": "Create one professional retail catalog photograph of the GOLDEN BEIGE cotton briefs in reference 1, using the blue garment in reference 2 only to verify the unfolded construction. Reference 3 locks the same clearly adult female model age 30, white tucked crew-neck T-shirt styling, tied-back dark hair, pale warm-gray studio and matte floor, soft diffuse daylight from camera left, eye-level full-length 3:4 framing with head and feet fully visible. Preserve the exact warm golden beige fabric tone from reference 1, narrow waistband, matching curved double-stitched leg bands, complete full-coverage cut, front seams and small pale 'True heart' ribbon wordmark at upper right as viewed. Remove paper tags and garments behind the referenced item. One pair of briefs is the featured product; no added advertising text. Pose: slight weight shift onto her left leg and small head turn to her right, relaxed hands clear of the entire garment. Natural upright catalog stance and realistic cotton drape. Preserve model identity, lighting, scale and scene from reference 3.",
+    "result": "moderation_blocked",
+    "returned_image": false
+  },
   "related_moderation": {
     "stage": "input",
     "category": "sexual",
@@ -50,7 +60,30 @@
       "pose": "Balanced near-front stance, arms naturally down"
     }
   ],
-  "alternative_preview": null,
+  "alternative_preview": {
+    "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/color__1b186bac-92f4-442a-8c1e-621a82fb4141__mannequin-preview.png",
+    "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1b186bac-92f4-442a-8c1e-621a82fb4141.webp",
+    "source_git_blob": "94bab056ba74986c048b7eb4587c9e926fd6f0fb",
+    "output_git_blob": "1cc62a7ca2910c3d02f8de162df393955fbfea50",
+    "status": "alternative_needs_review",
+    "catalog_mode": "non_human_mannequin",
+    "acceptance": "pending_user_approval",
+    "dimensions": [
+      1086,
+      1448
+    ],
+    "bytes": 1953639,
+    "generated_at": "2026-11-20T13:33:41.033Z",
+    "qa": "Passed visual inspection for complete garment, original golden-beige color family, front seams, narrow waistband, curved leg bands and original printed wordmark. Needs user acceptance as revised deliverable.",
+    "scene_profile": {
+      "location": "Pale warm-gray commercial product studio",
+      "lighting": "Diffuse daylight from camera left",
+      "camera": "Centered front 3:4 portrait",
+      "display": "Matte-white rigid lower-body retail form with flat waist edge and short leg stubs on a round low white plinth",
+      "furniture": "No furniture other than display plinth"
+    },
+    "model_worn": false
+  },
   "source_results": [
     {
       "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/main/30b5d5a1-32b8-488c-9dc5-33fe62c70e0a.webp",
@@ -77,39 +110,52 @@
       "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1b186bac-92f4-442a-8c1e-621a82fb4141.webp",
       "source_git_blob": "94bab056ba74986c048b7eb4587c9e926fd6f0fb",
       "output": null,
-      "status": "pending_generation",
-      "model_worn_attempts": 0
+      "status": "moderation_blocked",
+      "model_worn_attempts": 1,
+      "blocker": "866d2d7e-fec1-4c36-8524-d8a03d296b89",
+      "alternative_output": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/color__1b186bac-92f4-442a-8c1e-621a82fb4141__mannequin-preview.png",
+      "alternative_status": "alternative_needs_review",
+      "alternative_dimensions": [
+        1086,
+        1448
+      ]
     },
     {
       "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1ec3713d-27ca-4c99-9963-20736195f4a1.webp",
       "source_git_blob": "b0d6282c70fe0473cf5ce73e7ef8b40fd15eb5d4",
       "output": null,
-      "status": "pending_generation",
-      "model_worn_attempts": 0
+      "status": "not_submitted_after_related_variant_rejection",
+      "model_worn_attempts": 0,
+      "blocker": "866d2d7e-fec1-4c36-8524-d8a03d296b89"
     },
     {
       "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/28cfbbb1-2121-40b1-b31c-d786e94cf016.webp",
       "source_git_blob": "10dea978334452cf05d70c844f9f6cfd268523d2",
       "output": null,
-      "status": "pending_generation",
-      "model_worn_attempts": 0
+      "status": "not_submitted_after_related_variant_rejection",
+      "model_worn_attempts": 0,
+      "blocker": "866d2d7e-fec1-4c36-8524-d8a03d296b89"
     },
     {
       "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/2f6e4129-1922-4453-9c83-d788a2fa8f1d.webp",
       "source_git_blob": "612ba70c56782e78261b581a15c293df3b482ac0",
       "output": null,
-      "status": "pending_generation",
-      "model_worn_attempts": 0
+      "status": "not_submitted_after_related_variant_rejection",
+      "model_worn_attempts": 0,
+      "blocker": "866d2d7e-fec1-4c36-8524-d8a03d296b89"
     },
     {
       "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/d07a146f-1e1d-4657-901b-7b748ff9bb2b.webp",
       "source_git_blob": "8f66bf7cee114de29fb210472ff5e0f41e07bd35",
       "output": null,
-      "status": "pending_generation",
-      "model_worn_attempts": 0
+      "status": "not_submitted_after_related_variant_rejection",
+      "model_worn_attempts": 0,
+      "blocker": "866d2d7e-fec1-4c36-8524-d8a03d296b89"
     }
   ],
-  "blockers": [],
+  "blockers": [
+    "Beige model-worn request rejected by the image tool at input moderation. Equivalent model-worn color submissions stopped; remaining colors require an accepted alternative deliverable."
+  ],
   "rerun_checks": [
     {
       "run_id": "image-empty-audit-2026-11-20",
@@ -182,7 +228,7 @@
       "reason": "Existing model-worn moderation hold preserved; non-human catalog deliverable awaits explicit user acceptance."
     }
   ],
-  "updated_at": "2026-11-20T13:31:06.385Z",
+  "updated_at": "2026-11-20T13:33:41.033Z",
   "checks": {
     "originals_preserved": true,
     "source_to_output_mapping_verified": true,
@@ -193,6 +239,8 @@
       1086,
       1448
     ],
-    "file_limit_bytes": 4000000
+    "file_limit_bytes": 4000000,
+    "all_required_model_sources_complete": false,
+    "mannequin_preview_separately_labelled": true
   }
 }
