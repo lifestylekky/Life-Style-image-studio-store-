@@ -1,20 +1,18 @@
 {
   "product_id": "f0e41f7d-85f7-414f-b8f3-d34e7f9f208d",
   "product_name": "L Soft Cotton Wordmark Briefs",
-  "product_name_basis": "Description and visible garment construction",
   "workflow": "AGENTS.md",
-  "workflow_git_blob": "ff1216a3fe7ae20f32a8abff94203ba2716ceaf1",
-  "source_revision": "76e16b0e214dfffaf92fc98b8e6ce2b105657057",
-  "status": "PARTIAL",
-  "preflight_decision": "moderation_blocked",
-  "catalog_mode": "model_worn",
+  "source_revision": "8d29ce05d1cf41e83da43a09c206906c9fde82f5",
+  "status": "COMPLETE",
+  "preflight_decision": "ready_mannequin_catalog",
+  "catalog_mode": "non_human_mannequin",
   "garment_spec": {
     "pieces": 1,
     "category": "Adult full-coverage cotton briefs",
     "material_basis": "Description states soft cotton; original photos show opaque smooth knit",
-    "construction": "Narrow matching elastic waistband; matching curved double-stitched leg bands; front gusset seam; small pale True heart ribbon/bow wordmark at upper right as viewed; solid colors; no added closures or physical bows.",
+    "construction": "Full-coverage smooth opaque soft cotton briefs; narrow matching elastic waistband, curved double-stitched matching leg bands and transverse lower front gusset seam. Small genuine pale True heart wordmark with ribbon/bow and tiny LOVE YOU beneath at upper right as viewed. No physical bow.",
     "back_construction": "Unverified; no back views requested",
-    "styling": "Plain white short-sleeved crew-neck T-shirt is neutral styling only and is not part of the retail product."
+    "styling": "Garment-only simplified non-human hip display; no additional clothing."
   },
   "source_metadata": [
     {
@@ -40,7 +38,9 @@
       "uploaded_at": "2026-11-18T15:10:26.102Z",
       "original_upload_name": "IMG_20261118_203454.jpg",
       "aspect_ratio": "3:4",
-      "duplicate_reference_paths": []
+      "duplicate_reference_paths": [],
+      "sha256": "be1ee51e1f2ecd0673276cfe1f8a443d0436b768e5190a6b4d1fd3226cfeac6c",
+      "visually_reviewed_at": "2026-11-22T07:10:41.285642+00:00"
     },
     {
       "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1b186bac-92f4-442a-8c1e-621a82fb4141.webp",
@@ -55,7 +55,9 @@
       "uploaded_at": "2026-11-18T15:10:26.102Z",
       "original_upload_name": "IMG_20261118_203353.jpg",
       "aspect_ratio": "3:4",
-      "duplicate_reference_paths": []
+      "duplicate_reference_paths": [],
+      "sha256": "b8da7a395bc13e82eff35d9e05b34422e3a7482543c6cdea48ad43f24a169b51",
+      "visually_reviewed_at": "2026-11-22T07:10:41.285642+00:00"
     },
     {
       "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1ec3713d-27ca-4c99-9963-20736195f4a1.webp",
@@ -65,12 +67,14 @@
         "width": 1650,
         "height": 2200
       },
-      "color": "Muted taupe",
+      "color": "Taupe mauve",
       "presentation": "unfolded laid out",
       "uploaded_at": "2026-11-18T15:10:26.102Z",
       "original_upload_name": "IMG_20261118_203300.jpg",
       "aspect_ratio": "3:4",
-      "duplicate_reference_paths": []
+      "duplicate_reference_paths": [],
+      "sha256": "2548263eb15090464388c0f0de1bca0d3ca680dbf3782c97e507d771a52628b6",
+      "visually_reviewed_at": "2026-11-22T07:10:41.285642+00:00"
     },
     {
       "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/28cfbbb1-2121-40b1-b31c-d786e94cf016.webp",
@@ -80,12 +84,14 @@
         "width": 1650,
         "height": 2200
       },
-      "color": "Charcoal black",
+      "color": "Deep charcoal",
       "presentation": "unfolded laid out",
       "uploaded_at": "2026-11-18T15:10:26.102Z",
       "original_upload_name": "IMG_20261118_203420.jpg",
       "aspect_ratio": "3:4",
-      "duplicate_reference_paths": []
+      "duplicate_reference_paths": [],
+      "sha256": "242367171959b1142513720c5b2f83ec8970bc8e03117a028c183da1917af3ed",
+      "visually_reviewed_at": "2026-11-22T07:10:41.285642+00:00"
     },
     {
       "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/2f6e4129-1922-4453-9c83-d788a2fa8f1d.webp",
@@ -95,12 +101,14 @@
         "width": 1650,
         "height": 2200
       },
-      "color": "Warm brown",
+      "color": "Chocolate brown",
       "presentation": "unfolded laid out",
       "uploaded_at": "2026-11-18T15:10:26.102Z",
       "original_upload_name": "IMG_20261118_203434.jpg",
       "aspect_ratio": "3:4",
-      "duplicate_reference_paths": []
+      "duplicate_reference_paths": [],
+      "sha256": "3d9e8fbf025d0ce66097cbb68fb4a3a46adabd1c5c910fee4d2967dbf5f6683f",
+      "visually_reviewed_at": "2026-11-22T07:10:41.285642+00:00"
     },
     {
       "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/d07a146f-1e1d-4657-901b-7b748ff9bb2b.webp",
@@ -115,84 +123,76 @@
       "uploaded_at": "2026-11-18T15:10:26.102Z",
       "original_upload_name": "IMG_20261118_203334.jpg",
       "aspect_ratio": "3:4",
-      "duplicate_reference_paths": []
+      "duplicate_reference_paths": [],
+      "sha256": "0cf75d0f1cedb0aedcfc3434f5099bd4488b2867113476740491ee3fe7483e8c",
+      "visually_reviewed_at": "2026-11-22T07:10:41.285642+00:00"
     }
   ],
   "construction_references": [
     "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/main/30b5d5a1-32b8-488c-9dc5-33fe62c70e0a.webp"
   ],
+  "owner_authorization": {
+    "time": "2026-11-22T06:58:57.574166+00:00",
+    "scope": "Delete previous generated images, regenerate both named products using delegated established workflow and publish without questions.",
+    "catalog_choice": "non_human_mannequin",
+    "reason": "Uniform garment-only catalog alternative; respect existing model-worn moderation holds.",
+    "batch_authorized": true,
+    "publication_authorized": true
+  },
   "scene_profile": {
-    "location": "Neutral professional commercial catalog studio",
-    "architecture": "Single warm-gray seamless backdrop and matte matching floor; no furniture",
-    "walls": "Pale warm-gray",
-    "floor": "Matte warm-gray with gentle horizontal backdrop-floor transition",
+    "location": "Neutral commercial product studio",
+    "backdrop": "Pale warm-gray seamless",
+    "floor": "Matching matte floor",
     "furniture": "None",
-    "lighting_direction": "Soft diffuse large source from camera left; gentle front fill",
-    "lighting_temperature": "Neutral daylight approximately 5200K",
-    "camera_perspective": "Eye-level front-facing full-length 3:4 portrait",
-    "subject_position": "Centered with complete head and feet visible; consistent scale",
-    "depth_of_field": "Entire model and garment sharp; backdrop unobtrusive",
-    "mood": "Neutral retail product catalog",
-    "locked_reference": "generated/main__30b5d5a1-32b8-488c-9dc5-33fe62c70e0a__model.png"
+    "lighting": "Diffuse daylight from camera left",
+    "temperature": "Neutral daylight",
+    "camera": "Centered straight-on 1312:1199 framing; full garment visible",
+    "subject_position": "Centered",
+    "depth_of_field": "Entire product sharp",
+    "mood": "Ordinary catalog",
+    "status": "Locked from QA-passed representative"
   },
-  "model_profile": {
-    "age": 30,
-    "appearance": "Adult woman with medium complexion, dark eyes, dark hair in a neat ponytail; natural proportions and neutral friendly expression",
-    "identity_reference": "generated/main__30b5d5a1-32b8-488c-9dc5-33fe62c70e0a__model.png",
-    "styling": "Plain white short-sleeved crew-neck T-shirt tucked neatly at waist, no jewelry, bare feet"
-  },
+  "model_profile": "Simplified matte-white freestanding non-human hip display form.",
   "camera_profile": {
-    "aspect_ratio": "3:4",
-    "dimensions": [
-      1086,
-      1448
+    "view": "Straight-on",
+    "actual_dimensions": [
+      1312,
+      1199
     ],
-    "framing": "Full-length model with full head and feet, full garment visible",
-    "native_resolution": true,
-    "reason": "Generated representative returned full-length view rather than head-to-knees; full-length accepted and locked for all subsequent variants."
+    "aspect_ratio": "1312:1199",
+    "note": "Actual 1312x1199 tool framing accepted after representative QA; all color outputs match. No stretching.",
+    "requested_aspect_ratio": "square"
   },
   "pose_plan": [
     {
-      "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/main/30b5d5a1-32b8-488c-9dc5-33fe62c70e0a.webp",
-      "color": "Royal blue",
-      "planned": "Balanced near-front stance, arms naturally down",
-      "accepted": "Balanced near-front stance, arms naturally down",
-      "limitations": "Restrained variations only, to retain full visibility of the briefs."
-    },
-    {
       "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1b186bac-92f4-442a-8c1e-621a82fb4141.webp",
-      "color": "Golden beige",
-      "planned": "Subtle weight shift to left leg, slight head turn right, hands away from garment",
-      "accepted": null,
-      "limitations": "Restrained variations only, to retain full visibility of the briefs."
+      "planned": "Upright straight-on non-human form; complete garment unobstructed; pose variety not applicable.",
+      "accepted": "Straight-on upright non-human hip display; full garment unobstructed."
     },
     {
       "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1ec3713d-27ca-4c99-9963-20736195f4a1.webp",
-      "color": "Muted taupe",
-      "planned": "Subtle weight shift to right leg, head nearly forward, relaxed arms",
-      "accepted": null,
-      "limitations": "Restrained variations only, to retain full visibility of the briefs."
+      "planned": "Upright straight-on non-human form; complete garment unobstructed; pose variety not applicable.",
+      "accepted": "Straight-on upright non-human hip display; full garment unobstructed."
     },
     {
       "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/28cfbbb1-2121-40b1-b31c-d786e94cf016.webp",
-      "color": "Charcoal black",
-      "planned": "Torso turned about five degrees left, slight balanced stance change, arms down",
-      "accepted": null,
-      "limitations": "Restrained variations only, to retain full visibility of the briefs."
+      "planned": "Upright straight-on non-human form; complete garment unobstructed; pose variety not applicable.",
+      "accepted": "Straight-on upright non-human hip display; full garment unobstructed."
     },
     {
       "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/2f6e4129-1922-4453-9c83-d788a2fa8f1d.webp",
-      "color": "Warm brown",
-      "planned": "Shoulders turned about five degrees right, small stance change, arms relaxed clear of garment",
-      "accepted": null,
-      "limitations": "Restrained variations only, to retain full visibility of the briefs."
+      "planned": "Upright straight-on non-human form; complete garment unobstructed; pose variety not applicable.",
+      "accepted": "Straight-on upright non-human hip display; full garment unobstructed."
     },
     {
       "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/d07a146f-1e1d-4657-901b-7b748ff9bb2b.webp",
-      "color": "Muted purple",
-      "planned": "Near-front weight shift left, head slightly left, hands relaxed at sides",
-      "accepted": null,
-      "limitations": "Restrained variations only, to retain full visibility of the briefs."
+      "planned": "Upright straight-on non-human form; complete garment unobstructed; pose variety not applicable.",
+      "accepted": "Straight-on upright non-human hip display; full garment unobstructed."
+    },
+    {
+      "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/main/30b5d5a1-32b8-488c-9dc5-33fe62c70e0a.webp",
+      "planned": "Upright straight-on non-human form; complete garment unobstructed; pose variety not applicable.",
+      "accepted": "Straight-on upright non-human hip display; full garment unobstructed."
     }
   ],
   "moderation_failures": [
@@ -216,302 +216,1413 @@
     "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp",
     "mode": "model_worn"
   },
-  "alternative_mode": "non_human_mannequin",
-  "alternative_acceptance": "pending_user_approval",
+  "original_model_requirement": "BLOCKED",
+  "alternative_acceptance": "owner_delegated_replacement_batch",
   "alternative_preview": {
-    "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/color__1b186bac-92f4-442a-8c1e-621a82fb4141__mannequin-preview.png",
-    "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1b186bac-92f4-442a-8c1e-621a82fb4141.webp",
-    "source_git_blob": "94bab056ba74986c048b7eb4587c9e926fd6f0fb",
-    "output_git_blob": "1cc62a7ca2910c3d02f8de162df393955fbfea50",
-    "status": "alternative_needs_review",
-    "catalog_mode": "non_human_mannequin",
-    "acceptance": "pending_user_approval",
+    "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/main/30b5d5a1-32b8-488c-9dc5-33fe62c70e0a.webp",
+    "output": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/main__30b5d5a1-32b8-488c-9dc5-33fe62c70e0a__mannequin.png",
+    "status": "ALTERNATIVE_MANNEQUIN",
     "dimensions": [
-      1086,
-      1448
+      1312,
+      1199
     ],
-    "bytes": 1953639,
-    "generated_at": "2026-11-20T13:33:41.033Z",
-    "qa": "Passed visual inspection for complete garment, original golden-beige color family, front seams, narrow waistband, curved leg bands and original printed wordmark. Needs user acceptance as revised deliverable.",
-    "scene_profile": {
-      "location": "Pale warm-gray commercial product studio",
-      "lighting": "Diffuse daylight from camera left",
-      "camera": "Centered front 3:4 portrait",
-      "display": "Matte-white rigid lower-body retail form with flat waist edge and short leg stubs on a round low white plinth",
-      "furniture": "No furniture other than display plinth"
-    },
-    "model_worn": false
+    "sha256": "c5285e8dedba1b0601275bcb707021510306f7539e5b1a4fd01c1776824da6c4",
+    "variant_color": "Royal blue",
+    "request_id": "4dd9d431-7d84-4003-83e4-31e05e3f94d5",
+    "qa": {
+      "decision": "PASS",
+      "full_unfolded_single_product": true,
+      "construction_material_color_visual_match": true,
+      "genuine_print_emblem_visual_match": true,
+      "neutral_non_human_studio": true,
+      "no_added_text_or_extra_garments": true,
+      "complete_garment_visibility": true,
+      "scene_form_camera_consistency": true,
+      "limitations": [
+        "Visual color match; not colorimetrically calibrated.",
+        "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+      ],
+      "wordmark": "True heart outline script and printed ribbon visually matched; tiny sublettering not independently certified",
+      "construction": "Narrow band, curved double stitching and lower seam match original"
+    }
   },
-  "counts": {
-    "main_sources": 1,
-    "color_sources": 5,
-    "accounted_for_sources": 6,
-    "submitted_generation_attempts": 3,
-    "moderated_requests": 1,
-    "returned_image_files": 2,
-    "approved_model_images": 1,
-    "approved_mannequin_alternatives": 0,
-    "display_form_previews": 1
-  },
-  "mappings": [
+  "alternative_outputs": [
     {
       "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/main/30b5d5a1-32b8-488c-9dc5-33fe62c70e0a.webp",
-      "source_git_blob": "cda4dbe93be59a54e5311bf3cc57d45accd6ea43",
-      "output": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/main__30b5d5a1-32b8-488c-9dc5-33fe62c70e0a__model.png",
-      "status": "approved_model_catalog",
-      "model_worn_attempts": 1,
-      "output_git_blob": "caf8b8e6a80ee07ea93f6d3a38ae14af14ca02fa",
+      "output": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/main__30b5d5a1-32b8-488c-9dc5-33fe62c70e0a__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
       "dimensions": [
-        1086,
-        1448
+        1312,
+        1199
       ],
-      "bytes": 1751982,
-      "validation": {
-        "complete_unfolded_garment": true,
-        "one_retail_product": true,
-        "construction_color_and_wordmark_reviewed": true,
-        "scene_and_model_consistent": true,
-        "all_garment_edges_visible": true,
-        "no_added_marketing_copy": true
+      "sha256": "c5285e8dedba1b0601275bcb707021510306f7539e5b1a4fd01c1776824da6c4",
+      "variant_color": "Royal blue",
+      "request_id": "4dd9d431-7d84-4003-83e4-31e05e3f94d5",
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "wordmark": "True heart outline script and printed ribbon visually matched; tiny sublettering not independently certified",
+        "construction": "Narrow band, curved double stitching and lower seam match original"
       }
     },
     {
       "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1b186bac-92f4-442a-8c1e-621a82fb4141.webp",
-      "source_git_blob": "94bab056ba74986c048b7eb4587c9e926fd6f0fb",
-      "output": null,
-      "status": "moderation_blocked",
-      "model_worn_attempts": 1,
-      "blocker": "866d2d7e-fec1-4c36-8524-d8a03d296b89",
-      "alternative_output": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/color__1b186bac-92f4-442a-8c1e-621a82fb4141__mannequin-preview.png",
-      "alternative_status": "alternative_needs_review",
-      "alternative_dimensions": [
-        1086,
-        1448
-      ]
+      "output": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/color__1b186bac-92f4-442a-8c1e-621a82fb4141__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "sha256": "2cc70ee6bd77d4c126a6b58eaf8caa86f3d3f82c64e605ec14d334b4725f48ef",
+      "variant_color": "Golden beige",
+      "request_id": "952e5086-fcce-46b7-8ff2-5cfefcf99447",
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "wordmark": "True heart outline script and printed ribbon visually matched; tiny sublettering not independently certified",
+        "construction": "Narrow band, curved double stitching and lower seam match original"
+      }
     },
     {
       "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1ec3713d-27ca-4c99-9963-20736195f4a1.webp",
-      "source_git_blob": "b0d6282c70fe0473cf5ce73e7ef8b40fd15eb5d4",
-      "output": null,
-      "status": "not_submitted_after_related_variant_rejection",
-      "model_worn_attempts": 0,
-      "blocker": "866d2d7e-fec1-4c36-8524-d8a03d296b89"
+      "output": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/color__1ec3713d-27ca-4c99-9963-20736195f4a1__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "sha256": "c066ba39e4ac4043fc87b97f99779e8fe9214a83cbab700d5e654b2d68bab06a",
+      "variant_color": "Taupe mauve",
+      "request_id": "b32192cb-a1fc-4063-a9dd-84d4a3d7b875",
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "wordmark": "True heart outline script and printed ribbon visually matched; tiny sublettering not independently certified",
+        "construction": "Narrow band, curved double stitching and lower seam match original"
+      }
     },
     {
       "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/28cfbbb1-2121-40b1-b31c-d786e94cf016.webp",
-      "source_git_blob": "10dea978334452cf05d70c844f9f6cfd268523d2",
-      "output": null,
-      "status": "not_submitted_after_related_variant_rejection",
-      "model_worn_attempts": 0,
-      "blocker": "866d2d7e-fec1-4c36-8524-d8a03d296b89"
+      "output": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/color__28cfbbb1-2121-40b1-b31c-d786e94cf016__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "sha256": "a8b22adac281b83c1eb02d484dfb088644d7a76132b69c38c2e2d8ad475c7130",
+      "variant_color": "Deep charcoal",
+      "request_id": "e38341d3-1ff2-910c-acf0-8383e91b7b2f",
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "wordmark": "True heart outline script and printed ribbon visually matched; tiny sublettering not independently certified",
+        "construction": "Narrow band, curved double stitching and lower seam match original"
+      }
     },
     {
       "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/2f6e4129-1922-4453-9c83-d788a2fa8f1d.webp",
-      "source_git_blob": "612ba70c56782e78261b581a15c293df3b482ac0",
-      "output": null,
-      "status": "not_submitted_after_related_variant_rejection",
-      "model_worn_attempts": 0,
-      "blocker": "866d2d7e-fec1-4c36-8524-d8a03d296b89"
+      "output": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/color__2f6e4129-1922-4453-9c83-d788a2fa8f1d__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "sha256": "44e0385082cc81a0a11c0737cf242fa31c2ec40f6cecae43d8437b49cac106c6",
+      "variant_color": "Chocolate brown",
+      "request_id": "ef20d557-b989-4f6c-937c-bb409578eb5c",
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "wordmark": "True heart outline script and printed ribbon visually matched; tiny sublettering not independently certified",
+        "construction": "Narrow band, curved double stitching and lower seam match original"
+      }
     },
     {
       "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/d07a146f-1e1d-4657-901b-7b748ff9bb2b.webp",
-      "source_git_blob": "8f66bf7cee114de29fb210472ff5e0f41e07bd35",
-      "output": null,
-      "status": "not_submitted_after_related_variant_rejection",
-      "model_worn_attempts": 0,
-      "blocker": "866d2d7e-fec1-4c36-8524-d8a03d296b89"
-    }
-  ],
-  "blockers": [
-    "Beige model-worn request rejected by the image tool at input moderation. Equivalent model-worn color submissions stopped; remaining colors require an accepted alternative deliverable."
-  ],
-  "rerun_checks": [
-    {
-      "run_id": "image-empty-audit-2026-11-20",
-      "checked_at": "2026-11-20T08:03:49.997Z",
-      "selection": "generated folder has zero image files at run start; tracking files do not count as product images",
-      "source_count": 6,
-      "source_inventory_complete": true,
-      "source_versions_unchanged": true,
-      "all_sources_visually_reviewed": true,
-      "current_git_blobs": [
-        {
-          "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1b186bac-92f4-442a-8c1e-621a82fb4141.webp",
-          "git_blob": "94bab056ba74986c048b7eb4587c9e926fd6f0fb",
-          "dimensions": [
-            1650,
-            2200
-          ],
-          "sha256": "b8da7a395bc13e82eff35d9e05b34422e3a7482543c6cdea48ad43f24a169b51"
-        },
-        {
-          "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1ec3713d-27ca-4c99-9963-20736195f4a1.webp",
-          "git_blob": "b0d6282c70fe0473cf5ce73e7ef8b40fd15eb5d4",
-          "dimensions": [
-            1650,
-            2200
-          ],
-          "sha256": "2548263eb15090464388c0f0de1bca0d3ca680dbf3782c97e507d771a52628b6"
-        },
-        {
-          "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/28cfbbb1-2121-40b1-b31c-d786e94cf016.webp",
-          "git_blob": "10dea978334452cf05d70c844f9f6cfd268523d2",
-          "dimensions": [
-            1650,
-            2200
-          ],
-          "sha256": "242367171959b1142513720c5b2f83ec8970bc8e03117a028c183da1917af3ed"
-        },
-        {
-          "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/2f6e4129-1922-4453-9c83-d788a2fa8f1d.webp",
-          "git_blob": "612ba70c56782e78261b581a15c293df3b482ac0",
-          "dimensions": [
-            1650,
-            2200
-          ],
-          "sha256": "3d9e8fbf025d0ce66097cbb68fb4a3a46adabd1c5c910fee4d2967dbf5f6683f"
-        },
-        {
-          "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/d07a146f-1e1d-4657-901b-7b748ff9bb2b.webp",
-          "git_blob": "8f66bf7cee114de29fb210472ff5e0f41e07bd35",
-          "dimensions": [
-            1650,
-            2200
-          ],
-          "sha256": "0cf75d0f1cedb0aedcfc3434f5099bd4488b2867113476740491ee3fe7483e8c"
-        },
-        {
-          "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/main/30b5d5a1-32b8-488c-9dc5-33fe62c70e0a.webp",
-          "git_blob": "cda4dbe93be59a54e5311bf3cc57d45accd6ea43",
-          "dimensions": [
-            1650,
-            2200
-          ],
-          "sha256": "be1ee51e1f2ecd0673276cfe1f8a443d0436b768e5190a6b4d1fd3226cfeac6c"
-        }
+      "output": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/color__d07a146f-1e1d-4657-901b-7b748ff9bb2b__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
       ],
-      "new_model_requests": 0,
-      "new_moderation_rejections": 0,
-      "new_preview_requests": 0,
-      "decision": "AWAITING_MANNEQUIN_ACCEPTANCE",
-      "reason": "Existing model-worn moderation hold preserved; non-human catalog deliverable awaits explicit user acceptance."
-    }
-  ],
-  "updated_at": "2026-11-20T13:33:41.033Z",
-  "original_model_requirement": "BLOCKED",
-  "previous_runs": [
-    {
-      "status": "BLOCKED",
-      "preflight_decision": "not_submitted_equivalent_presentation",
-      "blockers": [
-        "Model-worn submissions withheld after an equivalent presentation for the first brief in this batch was blocked at input moderation."
-      ],
-      "counts": {
-        "main_sources": 1,
-        "color_sources": 5,
-        "accounted_for_sources": 6,
-        "submitted_generation_attempts": 0,
-        "moderated_requests": 0,
-        "returned_image_files": 0,
-        "approved_model_images": 0,
-        "approved_mannequin_alternatives": 0,
-        "display_form_previews": 0
-      },
-      "updated_at": "2026-11-20T08:03:49.997Z",
-      "scope_note": "Historical hold was based on a different product; zero requests had been submitted for this product."
+      "sha256": "96652ffa2e328c02257b30b209706001f08392f809c9772e84caff63a64c3394",
+      "variant_color": "Muted purple",
+      "request_id": "d3cf4624-f8d7-4e10-b5ec-3257493f3036",
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "wordmark": "True heart outline script and printed ribbon visually matched; tiny sublettering not independently certified",
+        "construction": "Narrow band, curved double stitching and lower seam match original"
+      }
     }
   ],
   "generation_attempts": [
     {
+      "time": "2026-11-22T07:11:38.939392+00:00",
+      "tool": "image_generate",
+      "provider": "openai-codex",
+      "model": "gpt-image-2-medium",
       "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/main/30b5d5a1-32b8-488c-9dc5-33fe62c70e0a.webp",
-      "catalog_mode": "model_worn",
-      "submitted_at": "2026-11-20T13:31:06.385Z",
-      "result": "image_returned",
-      "accepted": true,
-      "prompt": "Create a photorealistic ordinary retail clothing catalog photo showing the exact royal-blue adult cotton briefs in the reference on a professional adult female catalog model age 30. Preserve the original full-coverage cut, narrow matching elastic waistband, curved double-stitched leg bands, smooth opaque soft cotton fabric, front construction and small pale 'True heart' ribbon graphic at the upper right as viewed. Remove the paper hang tag. The model wears a plain white short-sleeved crew-neck T-shirt tucked neatly into the waistband as neutral styling so the entire briefs remain unobstructed. Use a relaxed upright near-front stance, arms resting naturally at her sides, neutral friendly expression, dark hair tied back. Frame from the full head to below the knees in a 3:4 portrait, with the complete garment visible and natural proportions. Clean pale warm-gray seamless professional photography studio, matching matte floor, soft diffuse daylight from camera left, eye-level camera, accurate neutral color and realistic fabric drape. One featured product, no collage, no added text or accessories.",
-      "output": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/main__30b5d5a1-32b8-488c-9dc5-33fe62c70e0a__model.png"
-    },
-    {
-      "stage": "input",
-      "category": "sexual",
-      "request_id": "866d2d7e-fec1-4c36-8524-d8a03d296b89",
-      "recorded_at": "2026-11-20T13:31:57.197Z",
-      "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1b186bac-92f4-442a-8c1e-621a82fb4141.webp",
-      "mode": "model_worn",
-      "prompt": "Create one professional retail catalog photograph of the GOLDEN BEIGE cotton briefs in reference 1, using the blue garment in reference 2 only to verify the unfolded construction. Reference 3 locks the same clearly adult female model age 30, white tucked crew-neck T-shirt styling, tied-back dark hair, pale warm-gray studio and matte floor, soft diffuse daylight from camera left, eye-level full-length 3:4 framing with head and feet fully visible. Preserve the exact warm golden beige fabric tone from reference 1, narrow waistband, matching curved double-stitched leg bands, complete full-coverage cut, front seams and small pale 'True heart' ribbon wordmark at upper right as viewed. Remove paper tags and garments behind the referenced item. One pair of briefs is the featured product; no added advertising text. Pose: slight weight shift onto her left leg and small head turn to her right, relaxed hands clear of the entire garment. Natural upright catalog stance and realistic cotton drape. Preserve model identity, lighting, scale and scene from reference 3.",
-      "result": "moderation_blocked",
-      "returned_image": false,
-      "accepted": false
-    },
-    {
-      "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1b186bac-92f4-442a-8c1e-621a82fb4141.webp",
+      "request_id": "4dd9d431-7d84-4003-83e4-31e05e3f94d5",
       "mode": "non_human_mannequin",
-      "submitted_at": "2026-11-20T13:33:41.033Z",
-      "result": "image_returned",
-      "accepted_as": "preview_only",
-      "prompt": "Create one ordinary e-commerce product photograph of the exact golden-beige cotton briefs in reference 1, fully unfolded and neatly fitted on a rigid matte-white NON-HUMAN retail lower-body display form with a flat upper edge and flat-ended short leg stubs, standing on a simple low plinth. Use reference 2 only for verified same-product front construction. Preserve the warm golden-beige knit, narrow matching elastic waistband, curved double-stitched leg bands, authentic full-coverage silhouette, front gusset seam and small pale printed 'True heart' ribbon graphic at upper right as viewed. This is a printed motif, not a physical ribbon. Remove paper hang tags and all other garments. Neutral pale warm-gray commercial product studio and matching matte floor, soft diffuse daylight from camera left, centered front view, 3:4 portrait, full garment and complete display form visible with margins. One garment only. No person or added advertising text. Accurate retail garment display.",
-      "output": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/color__1b186bac-92f4-442a-8c1e-621a82fb4141__mannequin-preview.png"
+      "result": "returned_image",
+      "retries": 0,
+      "actual_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "wordmark": "True heart outline script and printed ribbon visually matched; tiny sublettering not independently certified",
+        "construction": "Narrow band, curved double stitching and lower seam match original"
+      },
+      "reference_paths": [
+        "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/main/30b5d5a1-32b8-488c-9dc5-33fe62c70e0a.webp"
+      ]
+    },
+    {
+      "time": "2026-11-22T07:13:46.984308+00:00",
+      "tool": "image_generate",
+      "provider": "openai-codex",
+      "model": "gpt-image-2-medium",
+      "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1b186bac-92f4-442a-8c1e-621a82fb4141.webp",
+      "request_id": "952e5086-fcce-46b7-8ff2-5cfefcf99447",
+      "mode": "non_human_mannequin",
+      "result": "returned_image",
+      "retries": 0,
+      "actual_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "wordmark": "True heart outline script and printed ribbon visually matched; tiny sublettering not independently certified",
+        "construction": "Narrow band, curved double stitching and lower seam match original"
+      },
+      "reference_paths": [
+        "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/main__30b5d5a1-32b8-488c-9dc5-33fe62c70e0a__mannequin.png",
+        "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1b186bac-92f4-442a-8c1e-621a82fb4141.webp"
+      ]
+    },
+    {
+      "time": "2026-11-22T07:13:47.579974+00:00",
+      "tool": "image_generate",
+      "provider": "openai-codex",
+      "model": "gpt-image-2-medium",
+      "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1ec3713d-27ca-4c99-9963-20736195f4a1.webp",
+      "request_id": "b32192cb-a1fc-4063-a9dd-84d4a3d7b875",
+      "mode": "non_human_mannequin",
+      "result": "returned_image",
+      "retries": 0,
+      "actual_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "wordmark": "True heart outline script and printed ribbon visually matched; tiny sublettering not independently certified",
+        "construction": "Narrow band, curved double stitching and lower seam match original"
+      },
+      "reference_paths": [
+        "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/main__30b5d5a1-32b8-488c-9dc5-33fe62c70e0a__mannequin.png",
+        "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1ec3713d-27ca-4c99-9963-20736195f4a1.webp"
+      ]
+    },
+    {
+      "time": "2026-11-22T07:13:48.263726+00:00",
+      "tool": "image_generate",
+      "provider": "openai-codex",
+      "model": "gpt-image-2-medium",
+      "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/28cfbbb1-2121-40b1-b31c-d786e94cf016.webp",
+      "request_id": "e38341d3-1ff2-910c-acf0-8383e91b7b2f",
+      "mode": "non_human_mannequin",
+      "result": "returned_image",
+      "retries": 0,
+      "actual_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "wordmark": "True heart outline script and printed ribbon visually matched; tiny sublettering not independently certified",
+        "construction": "Narrow band, curved double stitching and lower seam match original"
+      },
+      "reference_paths": [
+        "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/main__30b5d5a1-32b8-488c-9dc5-33fe62c70e0a__mannequin.png",
+        "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/28cfbbb1-2121-40b1-b31c-d786e94cf016.webp"
+      ]
+    },
+    {
+      "time": "2026-11-22T07:13:48.847353+00:00",
+      "tool": "image_generate",
+      "provider": "openai-codex",
+      "model": "gpt-image-2-medium",
+      "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/2f6e4129-1922-4453-9c83-d788a2fa8f1d.webp",
+      "request_id": "ef20d557-b989-4f6c-937c-bb409578eb5c",
+      "mode": "non_human_mannequin",
+      "result": "returned_image",
+      "retries": 0,
+      "actual_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "wordmark": "True heart outline script and printed ribbon visually matched; tiny sublettering not independently certified",
+        "construction": "Narrow band, curved double stitching and lower seam match original"
+      },
+      "reference_paths": [
+        "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/main__30b5d5a1-32b8-488c-9dc5-33fe62c70e0a__mannequin.png",
+        "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/2f6e4129-1922-4453-9c83-d788a2fa8f1d.webp"
+      ]
+    },
+    {
+      "time": "2026-11-22T07:13:49.327325+00:00",
+      "tool": "image_generate",
+      "provider": "openai-codex",
+      "model": "gpt-image-2-medium",
+      "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/d07a146f-1e1d-4657-901b-7b748ff9bb2b.webp",
+      "request_id": "d3cf4624-f8d7-4e10-b5ec-3257493f3036",
+      "mode": "non_human_mannequin",
+      "result": "returned_image",
+      "retries": 0,
+      "actual_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "wordmark": "True heart outline script and printed ribbon visually matched; tiny sublettering not independently certified",
+        "construction": "Narrow band, curved double stitching and lower seam match original"
+      },
+      "reference_paths": [
+        "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/main__30b5d5a1-32b8-488c-9dc5-33fe62c70e0a__mannequin.png",
+        "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/d07a146f-1e1d-4657-901b-7b748ff9bb2b.webp"
+      ]
     }
   ],
-  "last_run": {
-    "started_at": "2026-11-20T13:29:28.973Z",
-    "updated_at": "2026-11-20T13:33:41.033Z",
-    "scope": "This product only",
-    "preflight": "Source evidence reviewed and independent representative adult-model request accepted. No prior direct rejection existed for this product.",
-    "source_reconciliation": [
-      {
-        "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/main/30b5d5a1-32b8-488c-9dc5-33fe62c70e0a.webp",
-        "source_git_blob": "cda4dbe93be59a54e5311bf3cc57d45accd6ea43",
-        "status": "approved_model_catalog",
-        "output": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/main__30b5d5a1-32b8-488c-9dc5-33fe62c70e0a__model.png",
-        "alternative_output": null
-      },
-      {
-        "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1b186bac-92f4-442a-8c1e-621a82fb4141.webp",
-        "source_git_blob": "94bab056ba74986c048b7eb4587c9e926fd6f0fb",
-        "status": "moderation_blocked",
-        "output": null,
-        "alternative_output": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/color__1b186bac-92f4-442a-8c1e-621a82fb4141__mannequin-preview.png"
-      },
-      {
-        "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1ec3713d-27ca-4c99-9963-20736195f4a1.webp",
-        "source_git_blob": "b0d6282c70fe0473cf5ce73e7ef8b40fd15eb5d4",
-        "status": "not_submitted_after_related_variant_rejection",
-        "output": null,
-        "alternative_output": null
-      },
-      {
-        "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/28cfbbb1-2121-40b1-b31c-d786e94cf016.webp",
-        "source_git_blob": "10dea978334452cf05d70c844f9f6cfd268523d2",
-        "status": "not_submitted_after_related_variant_rejection",
-        "output": null,
-        "alternative_output": null
-      },
-      {
-        "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/2f6e4129-1922-4453-9c83-d788a2fa8f1d.webp",
-        "source_git_blob": "612ba70c56782e78261b581a15c293df3b482ac0",
-        "status": "not_submitted_after_related_variant_rejection",
-        "output": null,
-        "alternative_output": null
-      },
-      {
-        "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/d07a146f-1e1d-4657-901b-7b748ff9bb2b.webp",
-        "source_git_blob": "8f66bf7cee114de29fb210472ff5e0f41e07bd35",
-        "status": "not_submitted_after_related_variant_rejection",
-        "output": null,
-        "alternative_output": null
-      }
-    ],
-    "status": "PARTIAL",
-    "original_model_status": "BLOCKED",
-    "model_outputs": 1,
-    "mannequin_previews": 1
+  "counts": {
+    "main_sources": 1,
+    "color_sources": 5,
+    "accounted_for_sources": 6,
+    "submitted_generation_attempts": 6,
+    "moderated_requests": 0,
+    "returned_image_files": 6,
+    "approved_model_images": 0,
+    "approved_mannequin_alternatives": 6,
+    "display_form_previews": 1,
+    "approved_main_alternatives": 1,
+    "approved_color_alternatives": 5,
+    "approved_detail_images": 0
   },
-  "alternative_scene_profile": {
-    "location": "Pale warm-gray commercial product studio",
-    "lighting": "Diffuse daylight from camera left",
-    "camera": "Centered front 3:4 portrait",
-    "display": "Matte-white rigid lower-body retail form with flat waist edge and short leg stubs on a round low white plinth",
-    "furniture": "No furniture other than display plinth"
-  }
+  "mappings": [
+    {
+      "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1b186bac-92f4-442a-8c1e-621a82fb4141.webp",
+      "output": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/color__1b186bac-92f4-442a-8c1e-621a82fb4141__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 0,
+      "alternative_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "wordmark": "True heart outline script and printed ribbon visually matched; tiny sublettering not independently certified",
+        "construction": "Narrow band, curved double stitching and lower seam match original"
+      },
+      "alternative_attempts": 1
+    },
+    {
+      "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1ec3713d-27ca-4c99-9963-20736195f4a1.webp",
+      "output": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/color__1ec3713d-27ca-4c99-9963-20736195f4a1__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 0,
+      "alternative_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "wordmark": "True heart outline script and printed ribbon visually matched; tiny sublettering not independently certified",
+        "construction": "Narrow band, curved double stitching and lower seam match original"
+      },
+      "alternative_attempts": 1
+    },
+    {
+      "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/28cfbbb1-2121-40b1-b31c-d786e94cf016.webp",
+      "output": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/color__28cfbbb1-2121-40b1-b31c-d786e94cf016__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 0,
+      "alternative_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "wordmark": "True heart outline script and printed ribbon visually matched; tiny sublettering not independently certified",
+        "construction": "Narrow band, curved double stitching and lower seam match original"
+      },
+      "alternative_attempts": 1
+    },
+    {
+      "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/2f6e4129-1922-4453-9c83-d788a2fa8f1d.webp",
+      "output": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/color__2f6e4129-1922-4453-9c83-d788a2fa8f1d__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 0,
+      "alternative_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "wordmark": "True heart outline script and printed ribbon visually matched; tiny sublettering not independently certified",
+        "construction": "Narrow band, curved double stitching and lower seam match original"
+      },
+      "alternative_attempts": 1
+    },
+    {
+      "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/d07a146f-1e1d-4657-901b-7b748ff9bb2b.webp",
+      "output": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/color__d07a146f-1e1d-4657-901b-7b748ff9bb2b__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 0,
+      "alternative_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "wordmark": "True heart outline script and printed ribbon visually matched; tiny sublettering not independently certified",
+        "construction": "Narrow band, curved double stitching and lower seam match original"
+      },
+      "alternative_attempts": 1
+    },
+    {
+      "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/main/30b5d5a1-32b8-488c-9dc5-33fe62c70e0a.webp",
+      "output": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/main__30b5d5a1-32b8-488c-9dc5-33fe62c70e0a__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 0,
+      "alternative_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "wordmark": "True heart outline script and printed ribbon visually matched; tiny sublettering not independently certified",
+        "construction": "Narrow band, curved double stitching and lower seam match original"
+      },
+      "alternative_attempts": 1
+    }
+  ],
+  "blockers": [],
+  "rerun_checks": [
+    {
+      "time": "2026-11-22T07:13:49.831421+00:00",
+      "individual_source_reconciliation": true,
+      "sources": 6,
+      "approved_images": 6,
+      "source_integrity": "PASS",
+      "scene_consistency": "PASS",
+      "all_images_directly_in_generated": true,
+      "same_product_references_only": true
+    }
+  ],
+  "replacement_history": [
+    {
+      "time": "2026-11-22T06:58:57.574166+00:00",
+      "reason": "Owner explicitly requested deletion and fresh generation of all images for these two products.",
+      "deleted_images": [
+        {
+          "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/color__1b186bac-92f4-442a-8c1e-621a82fb4141__mannequin-preview.png",
+          "dimensions": [
+            1086,
+            1448
+          ],
+          "sha256": "cc685eb08540638569a7053faae08bc2b1f9850a33c8d878c66fcd3916c7527d"
+        },
+        {
+          "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/main__30b5d5a1-32b8-488c-9dc5-33fe62c70e0a__model.png",
+          "dimensions": [
+            1086,
+            1448
+          ],
+          "sha256": "b0c2a2c416138f3cfc9a793d83ee663769788adaddebee79b1933f93357a81e1"
+        }
+      ],
+      "previous_manifest": {
+        "product_id": "f0e41f7d-85f7-414f-b8f3-d34e7f9f208d",
+        "product_name": "L Soft Cotton Wordmark Briefs",
+        "product_name_basis": "Description and visible garment construction",
+        "workflow": "AGENTS.md",
+        "workflow_git_blob": "ff1216a3fe7ae20f32a8abff94203ba2716ceaf1",
+        "source_revision": "76e16b0e214dfffaf92fc98b8e6ce2b105657057",
+        "status": "PARTIAL",
+        "preflight_decision": "moderation_blocked",
+        "catalog_mode": "model_worn",
+        "garment_spec": {
+          "pieces": 1,
+          "category": "Adult full-coverage cotton briefs",
+          "material_basis": "Description states soft cotton; original photos show opaque smooth knit",
+          "construction": "Full-coverage smooth opaque soft cotton briefs; narrow matching elastic waistband, curved double-stitched matching leg bands and transverse lower front gusset seam. Small genuine pale True heart wordmark with ribbon/bow and tiny LOVE YOU beneath at upper right as viewed. No physical bow.",
+          "back_construction": "Unverified; no back views requested",
+          "styling": "Garment-only simplified non-human hip display; no additional clothing."
+        },
+        "source_metadata": [
+          {
+            "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/description.txt",
+            "git_blob": "aadf9cb886f369ee34362beb376408cd31c1011a"
+          },
+          {
+            "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/updates.txt",
+            "git_blob": "e8ba6797d72cbc7a57294a0535102328e934f160"
+          }
+        ],
+        "source_inventory": [
+          {
+            "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/main/30b5d5a1-32b8-488c-9dc5-33fe62c70e0a.webp",
+            "git_blob": "cda4dbe93be59a54e5311bf3cc57d45accd6ea43",
+            "role": "main",
+            "dimensions": {
+              "width": 1650,
+              "height": 2200
+            },
+            "color": "Royal blue",
+            "presentation": "unfolded on shop form",
+            "uploaded_at": "2026-11-18T15:10:26.102Z",
+            "original_upload_name": "IMG_20261118_203454.jpg",
+            "aspect_ratio": "3:4",
+            "duplicate_reference_paths": [],
+            "sha256": "be1ee51e1f2ecd0673276cfe1f8a443d0436b768e5190a6b4d1fd3226cfeac6c",
+            "visually_reviewed_at": "2026-11-22T07:10:41.285642+00:00"
+          },
+          {
+            "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1b186bac-92f4-442a-8c1e-621a82fb4141.webp",
+            "git_blob": "94bab056ba74986c048b7eb4587c9e926fd6f0fb",
+            "role": "color",
+            "dimensions": {
+              "width": 1650,
+              "height": 2200
+            },
+            "color": "Golden beige",
+            "presentation": "unfolded laid out",
+            "uploaded_at": "2026-11-18T15:10:26.102Z",
+            "original_upload_name": "IMG_20261118_203353.jpg",
+            "aspect_ratio": "3:4",
+            "duplicate_reference_paths": [],
+            "sha256": "b8da7a395bc13e82eff35d9e05b34422e3a7482543c6cdea48ad43f24a169b51",
+            "visually_reviewed_at": "2026-11-22T07:10:41.285642+00:00"
+          },
+          {
+            "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1ec3713d-27ca-4c99-9963-20736195f4a1.webp",
+            "git_blob": "b0d6282c70fe0473cf5ce73e7ef8b40fd15eb5d4",
+            "role": "color",
+            "dimensions": {
+              "width": 1650,
+              "height": 2200
+            },
+            "color": "Taupe mauve",
+            "presentation": "unfolded laid out",
+            "uploaded_at": "2026-11-18T15:10:26.102Z",
+            "original_upload_name": "IMG_20261118_203300.jpg",
+            "aspect_ratio": "3:4",
+            "duplicate_reference_paths": [],
+            "sha256": "2548263eb15090464388c0f0de1bca0d3ca680dbf3782c97e507d771a52628b6",
+            "visually_reviewed_at": "2026-11-22T07:10:41.285642+00:00"
+          },
+          {
+            "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/28cfbbb1-2121-40b1-b31c-d786e94cf016.webp",
+            "git_blob": "10dea978334452cf05d70c844f9f6cfd268523d2",
+            "role": "color",
+            "dimensions": {
+              "width": 1650,
+              "height": 2200
+            },
+            "color": "Deep charcoal",
+            "presentation": "unfolded laid out",
+            "uploaded_at": "2026-11-18T15:10:26.102Z",
+            "original_upload_name": "IMG_20261118_203420.jpg",
+            "aspect_ratio": "3:4",
+            "duplicate_reference_paths": [],
+            "sha256": "242367171959b1142513720c5b2f83ec8970bc8e03117a028c183da1917af3ed",
+            "visually_reviewed_at": "2026-11-22T07:10:41.285642+00:00"
+          },
+          {
+            "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/2f6e4129-1922-4453-9c83-d788a2fa8f1d.webp",
+            "git_blob": "612ba70c56782e78261b581a15c293df3b482ac0",
+            "role": "color",
+            "dimensions": {
+              "width": 1650,
+              "height": 2200
+            },
+            "color": "Chocolate brown",
+            "presentation": "unfolded laid out",
+            "uploaded_at": "2026-11-18T15:10:26.102Z",
+            "original_upload_name": "IMG_20261118_203434.jpg",
+            "aspect_ratio": "3:4",
+            "duplicate_reference_paths": [],
+            "sha256": "3d9e8fbf025d0ce66097cbb68fb4a3a46adabd1c5c910fee4d2967dbf5f6683f",
+            "visually_reviewed_at": "2026-11-22T07:10:41.285642+00:00"
+          },
+          {
+            "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/d07a146f-1e1d-4657-901b-7b748ff9bb2b.webp",
+            "git_blob": "8f66bf7cee114de29fb210472ff5e0f41e07bd35",
+            "role": "color",
+            "dimensions": {
+              "width": 1650,
+              "height": 2200
+            },
+            "color": "Muted purple",
+            "presentation": "unfolded laid out",
+            "uploaded_at": "2026-11-18T15:10:26.102Z",
+            "original_upload_name": "IMG_20261118_203334.jpg",
+            "aspect_ratio": "3:4",
+            "duplicate_reference_paths": [],
+            "sha256": "0cf75d0f1cedb0aedcfc3434f5099bd4488b2867113476740491ee3fe7483e8c",
+            "visually_reviewed_at": "2026-11-22T07:10:41.285642+00:00"
+          }
+        ],
+        "construction_references": [
+          "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/main/30b5d5a1-32b8-488c-9dc5-33fe62c70e0a.webp"
+        ],
+        "scene_profile": {
+          "location": "Neutral professional commercial catalog studio",
+          "architecture": "Single warm-gray seamless backdrop and matte matching floor; no furniture",
+          "walls": "Pale warm-gray",
+          "floor": "Matte warm-gray with gentle horizontal backdrop-floor transition",
+          "furniture": "None",
+          "lighting_direction": "Soft diffuse large source from camera left; gentle front fill",
+          "lighting_temperature": "Neutral daylight approximately 5200K",
+          "camera_perspective": "Eye-level front-facing full-length 3:4 portrait",
+          "subject_position": "Centered with complete head and feet visible; consistent scale",
+          "depth_of_field": "Entire model and garment sharp; backdrop unobtrusive",
+          "mood": "Neutral retail product catalog",
+          "locked_reference": "generated/main__30b5d5a1-32b8-488c-9dc5-33fe62c70e0a__model.png"
+        },
+        "model_profile": {
+          "age": 30,
+          "appearance": "Adult woman with medium complexion, dark eyes, dark hair in a neat ponytail; natural proportions and neutral friendly expression",
+          "identity_reference": "generated/main__30b5d5a1-32b8-488c-9dc5-33fe62c70e0a__model.png",
+          "styling": "Plain white short-sleeved crew-neck T-shirt tucked neatly at waist, no jewelry, bare feet"
+        },
+        "camera_profile": {
+          "aspect_ratio": "3:4",
+          "dimensions": [
+            1086,
+            1448
+          ],
+          "framing": "Full-length model with full head and feet, full garment visible",
+          "native_resolution": true,
+          "reason": "Generated representative returned full-length view rather than head-to-knees; full-length accepted and locked for all subsequent variants."
+        },
+        "pose_plan": [
+          {
+            "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/main/30b5d5a1-32b8-488c-9dc5-33fe62c70e0a.webp",
+            "color": "Royal blue",
+            "planned": "Balanced near-front stance, arms naturally down",
+            "accepted": "Balanced near-front stance, arms naturally down",
+            "limitations": "Restrained variations only, to retain full visibility of the briefs."
+          },
+          {
+            "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1b186bac-92f4-442a-8c1e-621a82fb4141.webp",
+            "color": "Golden beige",
+            "planned": "Subtle weight shift to left leg, slight head turn right, hands away from garment",
+            "accepted": null,
+            "limitations": "Restrained variations only, to retain full visibility of the briefs."
+          },
+          {
+            "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1ec3713d-27ca-4c99-9963-20736195f4a1.webp",
+            "color": "Muted taupe",
+            "planned": "Subtle weight shift to right leg, head nearly forward, relaxed arms",
+            "accepted": null,
+            "limitations": "Restrained variations only, to retain full visibility of the briefs."
+          },
+          {
+            "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/28cfbbb1-2121-40b1-b31c-d786e94cf016.webp",
+            "color": "Charcoal black",
+            "planned": "Torso turned about five degrees left, slight balanced stance change, arms down",
+            "accepted": null,
+            "limitations": "Restrained variations only, to retain full visibility of the briefs."
+          },
+          {
+            "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/2f6e4129-1922-4453-9c83-d788a2fa8f1d.webp",
+            "color": "Warm brown",
+            "planned": "Shoulders turned about five degrees right, small stance change, arms relaxed clear of garment",
+            "accepted": null,
+            "limitations": "Restrained variations only, to retain full visibility of the briefs."
+          },
+          {
+            "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/d07a146f-1e1d-4657-901b-7b748ff9bb2b.webp",
+            "color": "Muted purple",
+            "planned": "Near-front weight shift left, head slightly left, hands relaxed at sides",
+            "accepted": null,
+            "limitations": "Restrained variations only, to retain full visibility of the briefs."
+          }
+        ],
+        "moderation_failures": [
+          {
+            "stage": "input",
+            "category": "sexual",
+            "request_id": "866d2d7e-fec1-4c36-8524-d8a03d296b89",
+            "recorded_at": "2026-11-20T13:31:57.197Z",
+            "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1b186bac-92f4-442a-8c1e-621a82fb4141.webp",
+            "mode": "model_worn",
+            "prompt": "Create one professional retail catalog photograph of the GOLDEN BEIGE cotton briefs in reference 1, using the blue garment in reference 2 only to verify the unfolded construction. Reference 3 locks the same clearly adult female model age 30, white tucked crew-neck T-shirt styling, tied-back dark hair, pale warm-gray studio and matte floor, soft diffuse daylight from camera left, eye-level full-length 3:4 framing with head and feet fully visible. Preserve the exact warm golden beige fabric tone from reference 1, narrow waistband, matching curved double-stitched leg bands, complete full-coverage cut, front seams and small pale 'True heart' ribbon wordmark at upper right as viewed. Remove paper tags and garments behind the referenced item. One pair of briefs is the featured product; no added advertising text. Pose: slight weight shift onto her left leg and small head turn to her right, relaxed hands clear of the entire garment. Natural upright catalog stance and realistic cotton drape. Preserve model identity, lighting, scale and scene from reference 3.",
+            "result": "moderation_blocked",
+            "returned_image": false
+          }
+        ],
+        "related_moderation": {
+          "stage": "input",
+          "category": "sexual",
+          "request_id": "132d53dc-f8e3-49af-ae53-61f9cad07ac2",
+          "recorded_at": "2026-11-18T20:30:43.152Z",
+          "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp",
+          "mode": "model_worn"
+        },
+        "alternative_mode": "non_human_mannequin",
+        "alternative_acceptance": "pending_user_approval",
+        "alternative_preview": {
+          "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/color__1b186bac-92f4-442a-8c1e-621a82fb4141__mannequin-preview.png",
+          "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1b186bac-92f4-442a-8c1e-621a82fb4141.webp",
+          "source_git_blob": "94bab056ba74986c048b7eb4587c9e926fd6f0fb",
+          "output_git_blob": "1cc62a7ca2910c3d02f8de162df393955fbfea50",
+          "status": "alternative_needs_review",
+          "catalog_mode": "non_human_mannequin",
+          "acceptance": "pending_user_approval",
+          "dimensions": [
+            1086,
+            1448
+          ],
+          "bytes": 1953639,
+          "generated_at": "2026-11-20T13:33:41.033Z",
+          "qa": "Passed visual inspection for complete garment, original golden-beige color family, front seams, narrow waistband, curved leg bands and original printed wordmark. Needs user acceptance as revised deliverable.",
+          "scene_profile": {
+            "location": "Pale warm-gray commercial product studio",
+            "lighting": "Diffuse daylight from camera left",
+            "camera": "Centered front 3:4 portrait",
+            "display": "Matte-white rigid lower-body retail form with flat waist edge and short leg stubs on a round low white plinth",
+            "furniture": "No furniture other than display plinth"
+          },
+          "model_worn": false
+        },
+        "counts": {
+          "main_sources": 1,
+          "color_sources": 5,
+          "accounted_for_sources": 6,
+          "submitted_generation_attempts": 3,
+          "moderated_requests": 1,
+          "returned_image_files": 2,
+          "approved_model_images": 1,
+          "approved_mannequin_alternatives": 0,
+          "display_form_previews": 1
+        },
+        "mappings": [
+          {
+            "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/main/30b5d5a1-32b8-488c-9dc5-33fe62c70e0a.webp",
+            "source_git_blob": "cda4dbe93be59a54e5311bf3cc57d45accd6ea43",
+            "output": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/main__30b5d5a1-32b8-488c-9dc5-33fe62c70e0a__model.png",
+            "status": "approved_model_catalog",
+            "model_worn_attempts": 1,
+            "output_git_blob": "caf8b8e6a80ee07ea93f6d3a38ae14af14ca02fa",
+            "dimensions": [
+              1086,
+              1448
+            ],
+            "bytes": 1751982,
+            "validation": {
+              "complete_unfolded_garment": true,
+              "one_retail_product": true,
+              "construction_color_and_wordmark_reviewed": true,
+              "scene_and_model_consistent": true,
+              "all_garment_edges_visible": true,
+              "no_added_marketing_copy": true
+            }
+          },
+          {
+            "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1b186bac-92f4-442a-8c1e-621a82fb4141.webp",
+            "source_git_blob": "94bab056ba74986c048b7eb4587c9e926fd6f0fb",
+            "output": null,
+            "status": "moderation_blocked",
+            "model_worn_attempts": 1,
+            "blocker": "866d2d7e-fec1-4c36-8524-d8a03d296b89",
+            "alternative_output": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/color__1b186bac-92f4-442a-8c1e-621a82fb4141__mannequin-preview.png",
+            "alternative_status": "alternative_needs_review",
+            "alternative_dimensions": [
+              1086,
+              1448
+            ]
+          },
+          {
+            "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1ec3713d-27ca-4c99-9963-20736195f4a1.webp",
+            "source_git_blob": "b0d6282c70fe0473cf5ce73e7ef8b40fd15eb5d4",
+            "output": null,
+            "status": "not_submitted_after_related_variant_rejection",
+            "model_worn_attempts": 0,
+            "blocker": "866d2d7e-fec1-4c36-8524-d8a03d296b89"
+          },
+          {
+            "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/28cfbbb1-2121-40b1-b31c-d786e94cf016.webp",
+            "source_git_blob": "10dea978334452cf05d70c844f9f6cfd268523d2",
+            "output": null,
+            "status": "not_submitted_after_related_variant_rejection",
+            "model_worn_attempts": 0,
+            "blocker": "866d2d7e-fec1-4c36-8524-d8a03d296b89"
+          },
+          {
+            "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/2f6e4129-1922-4453-9c83-d788a2fa8f1d.webp",
+            "source_git_blob": "612ba70c56782e78261b581a15c293df3b482ac0",
+            "output": null,
+            "status": "not_submitted_after_related_variant_rejection",
+            "model_worn_attempts": 0,
+            "blocker": "866d2d7e-fec1-4c36-8524-d8a03d296b89"
+          },
+          {
+            "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/d07a146f-1e1d-4657-901b-7b748ff9bb2b.webp",
+            "source_git_blob": "8f66bf7cee114de29fb210472ff5e0f41e07bd35",
+            "output": null,
+            "status": "not_submitted_after_related_variant_rejection",
+            "model_worn_attempts": 0,
+            "blocker": "866d2d7e-fec1-4c36-8524-d8a03d296b89"
+          }
+        ],
+        "blockers": [
+          "Beige model-worn request rejected by the image tool at input moderation. Equivalent model-worn color submissions stopped; remaining colors require an accepted alternative deliverable."
+        ],
+        "rerun_checks": [
+          {
+            "run_id": "image-empty-audit-2026-11-20",
+            "checked_at": "2026-11-20T08:03:49.997Z",
+            "selection": "generated folder has zero image files at run start; tracking files do not count as product images",
+            "source_count": 6,
+            "source_inventory_complete": true,
+            "source_versions_unchanged": true,
+            "all_sources_visually_reviewed": true,
+            "current_git_blobs": [
+              {
+                "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1b186bac-92f4-442a-8c1e-621a82fb4141.webp",
+                "git_blob": "94bab056ba74986c048b7eb4587c9e926fd6f0fb",
+                "dimensions": [
+                  1650,
+                  2200
+                ],
+                "sha256": "b8da7a395bc13e82eff35d9e05b34422e3a7482543c6cdea48ad43f24a169b51"
+              },
+              {
+                "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1ec3713d-27ca-4c99-9963-20736195f4a1.webp",
+                "git_blob": "b0d6282c70fe0473cf5ce73e7ef8b40fd15eb5d4",
+                "dimensions": [
+                  1650,
+                  2200
+                ],
+                "sha256": "2548263eb15090464388c0f0de1bca0d3ca680dbf3782c97e507d771a52628b6"
+              },
+              {
+                "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/28cfbbb1-2121-40b1-b31c-d786e94cf016.webp",
+                "git_blob": "10dea978334452cf05d70c844f9f6cfd268523d2",
+                "dimensions": [
+                  1650,
+                  2200
+                ],
+                "sha256": "242367171959b1142513720c5b2f83ec8970bc8e03117a028c183da1917af3ed"
+              },
+              {
+                "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/2f6e4129-1922-4453-9c83-d788a2fa8f1d.webp",
+                "git_blob": "612ba70c56782e78261b581a15c293df3b482ac0",
+                "dimensions": [
+                  1650,
+                  2200
+                ],
+                "sha256": "3d9e8fbf025d0ce66097cbb68fb4a3a46adabd1c5c910fee4d2967dbf5f6683f"
+              },
+              {
+                "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/d07a146f-1e1d-4657-901b-7b748ff9bb2b.webp",
+                "git_blob": "8f66bf7cee114de29fb210472ff5e0f41e07bd35",
+                "dimensions": [
+                  1650,
+                  2200
+                ],
+                "sha256": "0cf75d0f1cedb0aedcfc3434f5099bd4488b2867113476740491ee3fe7483e8c"
+              },
+              {
+                "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/main/30b5d5a1-32b8-488c-9dc5-33fe62c70e0a.webp",
+                "git_blob": "cda4dbe93be59a54e5311bf3cc57d45accd6ea43",
+                "dimensions": [
+                  1650,
+                  2200
+                ],
+                "sha256": "be1ee51e1f2ecd0673276cfe1f8a443d0436b768e5190a6b4d1fd3226cfeac6c"
+              }
+            ],
+            "new_model_requests": 0,
+            "new_moderation_rejections": 0,
+            "new_preview_requests": 0,
+            "decision": "AWAITING_MANNEQUIN_ACCEPTANCE",
+            "reason": "Existing model-worn moderation hold preserved; non-human catalog deliverable awaits explicit user acceptance."
+          }
+        ],
+        "updated_at": "2026-11-20T13:33:41.033Z",
+        "original_model_requirement": "BLOCKED",
+        "previous_runs": [
+          {
+            "status": "BLOCKED",
+            "preflight_decision": "not_submitted_equivalent_presentation",
+            "blockers": [
+              "Model-worn submissions withheld after an equivalent presentation for the first brief in this batch was blocked at input moderation."
+            ],
+            "counts": {
+              "main_sources": 1,
+              "color_sources": 5,
+              "accounted_for_sources": 6,
+              "submitted_generation_attempts": 0,
+              "moderated_requests": 0,
+              "returned_image_files": 0,
+              "approved_model_images": 0,
+              "approved_mannequin_alternatives": 0,
+              "display_form_previews": 0
+            },
+            "updated_at": "2026-11-20T08:03:49.997Z",
+            "scope_note": "Historical hold was based on a different product; zero requests had been submitted for this product."
+          }
+        ],
+        "generation_attempts": [
+          {
+            "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/main/30b5d5a1-32b8-488c-9dc5-33fe62c70e0a.webp",
+            "catalog_mode": "model_worn",
+            "submitted_at": "2026-11-20T13:31:06.385Z",
+            "result": "image_returned",
+            "accepted": true,
+            "prompt": "Create a photorealistic ordinary retail clothing catalog photo showing the exact royal-blue adult cotton briefs in the reference on a professional adult female catalog model age 30. Preserve the original full-coverage cut, narrow matching elastic waistband, curved double-stitched leg bands, smooth opaque soft cotton fabric, front construction and small pale 'True heart' ribbon graphic at the upper right as viewed. Remove the paper hang tag. The model wears a plain white short-sleeved crew-neck T-shirt tucked neatly into the waistband as neutral styling so the entire briefs remain unobstructed. Use a relaxed upright near-front stance, arms resting naturally at her sides, neutral friendly expression, dark hair tied back. Frame from the full head to below the knees in a 3:4 portrait, with the complete garment visible and natural proportions. Clean pale warm-gray seamless professional photography studio, matching matte floor, soft diffuse daylight from camera left, eye-level camera, accurate neutral color and realistic fabric drape. One featured product, no collage, no added text or accessories.",
+            "output": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/main__30b5d5a1-32b8-488c-9dc5-33fe62c70e0a__model.png"
+          },
+          {
+            "stage": "input",
+            "category": "sexual",
+            "request_id": "866d2d7e-fec1-4c36-8524-d8a03d296b89",
+            "recorded_at": "2026-11-20T13:31:57.197Z",
+            "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1b186bac-92f4-442a-8c1e-621a82fb4141.webp",
+            "mode": "model_worn",
+            "prompt": "Create one professional retail catalog photograph of the GOLDEN BEIGE cotton briefs in reference 1, using the blue garment in reference 2 only to verify the unfolded construction. Reference 3 locks the same clearly adult female model age 30, white tucked crew-neck T-shirt styling, tied-back dark hair, pale warm-gray studio and matte floor, soft diffuse daylight from camera left, eye-level full-length 3:4 framing with head and feet fully visible. Preserve the exact warm golden beige fabric tone from reference 1, narrow waistband, matching curved double-stitched leg bands, complete full-coverage cut, front seams and small pale 'True heart' ribbon wordmark at upper right as viewed. Remove paper tags and garments behind the referenced item. One pair of briefs is the featured product; no added advertising text. Pose: slight weight shift onto her left leg and small head turn to her right, relaxed hands clear of the entire garment. Natural upright catalog stance and realistic cotton drape. Preserve model identity, lighting, scale and scene from reference 3.",
+            "result": "moderation_blocked",
+            "returned_image": false,
+            "accepted": false
+          },
+          {
+            "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1b186bac-92f4-442a-8c1e-621a82fb4141.webp",
+            "mode": "non_human_mannequin",
+            "submitted_at": "2026-11-20T13:33:41.033Z",
+            "result": "image_returned",
+            "accepted_as": "preview_only",
+            "prompt": "Create one ordinary e-commerce product photograph of the exact golden-beige cotton briefs in reference 1, fully unfolded and neatly fitted on a rigid matte-white NON-HUMAN retail lower-body display form with a flat upper edge and flat-ended short leg stubs, standing on a simple low plinth. Use reference 2 only for verified same-product front construction. Preserve the warm golden-beige knit, narrow matching elastic waistband, curved double-stitched leg bands, authentic full-coverage silhouette, front gusset seam and small pale printed 'True heart' ribbon graphic at upper right as viewed. This is a printed motif, not a physical ribbon. Remove paper hang tags and all other garments. Neutral pale warm-gray commercial product studio and matching matte floor, soft diffuse daylight from camera left, centered front view, 3:4 portrait, full garment and complete display form visible with margins. One garment only. No person or added advertising text. Accurate retail garment display.",
+            "output": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/color__1b186bac-92f4-442a-8c1e-621a82fb4141__mannequin-preview.png"
+          }
+        ],
+        "last_run": {
+          "started_at": "2026-11-20T13:29:28.973Z",
+          "updated_at": "2026-11-20T13:33:41.033Z",
+          "scope": "This product only",
+          "preflight": "Source evidence reviewed and independent representative adult-model request accepted. No prior direct rejection existed for this product.",
+          "source_reconciliation": [
+            {
+              "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/main/30b5d5a1-32b8-488c-9dc5-33fe62c70e0a.webp",
+              "source_git_blob": "cda4dbe93be59a54e5311bf3cc57d45accd6ea43",
+              "status": "approved_model_catalog",
+              "output": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/main__30b5d5a1-32b8-488c-9dc5-33fe62c70e0a__model.png",
+              "alternative_output": null
+            },
+            {
+              "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1b186bac-92f4-442a-8c1e-621a82fb4141.webp",
+              "source_git_blob": "94bab056ba74986c048b7eb4587c9e926fd6f0fb",
+              "status": "moderation_blocked",
+              "output": null,
+              "alternative_output": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/color__1b186bac-92f4-442a-8c1e-621a82fb4141__mannequin-preview.png"
+            },
+            {
+              "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1ec3713d-27ca-4c99-9963-20736195f4a1.webp",
+              "source_git_blob": "b0d6282c70fe0473cf5ce73e7ef8b40fd15eb5d4",
+              "status": "not_submitted_after_related_variant_rejection",
+              "output": null,
+              "alternative_output": null
+            },
+            {
+              "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/28cfbbb1-2121-40b1-b31c-d786e94cf016.webp",
+              "source_git_blob": "10dea978334452cf05d70c844f9f6cfd268523d2",
+              "status": "not_submitted_after_related_variant_rejection",
+              "output": null,
+              "alternative_output": null
+            },
+            {
+              "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/2f6e4129-1922-4453-9c83-d788a2fa8f1d.webp",
+              "source_git_blob": "612ba70c56782e78261b581a15c293df3b482ac0",
+              "status": "not_submitted_after_related_variant_rejection",
+              "output": null,
+              "alternative_output": null
+            },
+            {
+              "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/d07a146f-1e1d-4657-901b-7b748ff9bb2b.webp",
+              "source_git_blob": "8f66bf7cee114de29fb210472ff5e0f41e07bd35",
+              "status": "not_submitted_after_related_variant_rejection",
+              "output": null,
+              "alternative_output": null
+            }
+          ],
+          "status": "PARTIAL",
+          "original_model_status": "BLOCKED",
+          "model_outputs": 1,
+          "mannequin_previews": 1
+        },
+        "alternative_scene_profile": {
+          "location": "Pale warm-gray commercial product studio",
+          "lighting": "Diffuse daylight from camera left",
+          "camera": "Centered front 3:4 portrait",
+          "display": "Matte-white rigid lower-body retail form with flat waist edge and short leg stubs on a round low white plinth",
+          "furniture": "No furniture other than display plinth"
+        }
+      },
+      "previous_quality_report": {
+        "product_id": "f0e41f7d-85f7-414f-b8f3-d34e7f9f208d",
+        "status": "PARTIAL",
+        "source_review": "All main and color source photos visually reviewed. Each local image blob hash matched the repository inventory.",
+        "scene_consistency": "One approved model image establishes the original warm-gray studio/model profile; no cross-color model consistency is claimed. The mannequin preview has its own separately documented display-form profile.",
+        "result": "Royal-blue main model-worn image approved. Beige model-worn request rejected at input; a separate beige mannequin preview was generated for user review. Remaining four color model requests withheld; no complete batch claimed.",
+        "counts": {
+          "main_sources": 1,
+          "color_sources": 5,
+          "accounted_for_sources": 6,
+          "submitted_generation_attempts": 3,
+          "moderated_requests": 1,
+          "returned_image_files": 2,
+          "approved_model_images": 1,
+          "approved_mannequin_alternatives": 0,
+          "display_form_previews": 1
+        },
+        "moderation": {
+          "stage": "input",
+          "category": "sexual",
+          "request_id": "866d2d7e-fec1-4c36-8524-d8a03d296b89",
+          "recorded_at": "2026-11-20T13:31:57.197Z",
+          "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1b186bac-92f4-442a-8c1e-621a82fb4141.webp",
+          "mode": "model_worn",
+          "prompt": "Create one professional retail catalog photograph of the GOLDEN BEIGE cotton briefs in reference 1, using the blue garment in reference 2 only to verify the unfolded construction. Reference 3 locks the same clearly adult female model age 30, white tucked crew-neck T-shirt styling, tied-back dark hair, pale warm-gray studio and matte floor, soft diffuse daylight from camera left, eye-level full-length 3:4 framing with head and feet fully visible. Preserve the exact warm golden beige fabric tone from reference 1, narrow waistband, matching curved double-stitched leg bands, complete full-coverage cut, front seams and small pale 'True heart' ribbon wordmark at upper right as viewed. Remove paper tags and garments behind the referenced item. One pair of briefs is the featured product; no added advertising text. Pose: slight weight shift onto her left leg and small head turn to her right, relaxed hands clear of the entire garment. Natural upright catalog stance and realistic cotton drape. Preserve model identity, lighting, scale and scene from reference 3.",
+          "result": "moderation_blocked",
+          "returned_image": false
+        },
+        "related_moderation": {
+          "stage": "input",
+          "category": "sexual",
+          "request_id": "132d53dc-f8e3-49af-ae53-61f9cad07ac2",
+          "recorded_at": "2026-11-18T20:30:43.152Z",
+          "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp",
+          "mode": "model_worn"
+        },
+        "approved_outputs": [
+          {
+            "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/main/30b5d5a1-32b8-488c-9dc5-33fe62c70e0a.webp",
+            "source_git_blob": "cda4dbe93be59a54e5311bf3cc57d45accd6ea43",
+            "output": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/main__30b5d5a1-32b8-488c-9dc5-33fe62c70e0a__model.png",
+            "output_git_blob": "caf8b8e6a80ee07ea93f6d3a38ae14af14ca02fa",
+            "role": "main",
+            "color": "Royal blue",
+            "dimensions": [
+              1086,
+              1448
+            ],
+            "bytes": 1751982,
+            "status": "approved_model_catalog",
+            "catalog_mode": "model_worn",
+            "qa": {
+              "complete_unfolded_garment": true,
+              "one_retail_product": true,
+              "construction_color_and_wordmark_reviewed": true,
+              "scene_and_model_consistent": true,
+              "all_garment_edges_visible": true,
+              "no_added_marketing_copy": true
+            },
+            "pose": "Balanced near-front stance, arms naturally down"
+          }
+        ],
+        "alternative_preview": {
+          "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/color__1b186bac-92f4-442a-8c1e-621a82fb4141__mannequin-preview.png",
+          "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1b186bac-92f4-442a-8c1e-621a82fb4141.webp",
+          "source_git_blob": "94bab056ba74986c048b7eb4587c9e926fd6f0fb",
+          "output_git_blob": "1cc62a7ca2910c3d02f8de162df393955fbfea50",
+          "status": "alternative_needs_review",
+          "catalog_mode": "non_human_mannequin",
+          "acceptance": "pending_user_approval",
+          "dimensions": [
+            1086,
+            1448
+          ],
+          "bytes": 1953639,
+          "generated_at": "2026-11-20T13:33:41.033Z",
+          "qa": "Passed visual inspection for complete garment, original golden-beige color family, front seams, narrow waistband, curved leg bands and original printed wordmark. Needs user acceptance as revised deliverable.",
+          "scene_profile": {
+            "location": "Pale warm-gray commercial product studio",
+            "lighting": "Diffuse daylight from camera left",
+            "camera": "Centered front 3:4 portrait",
+            "display": "Matte-white rigid lower-body retail form with flat waist edge and short leg stubs on a round low white plinth",
+            "furniture": "No furniture other than display plinth"
+          },
+          "model_worn": false
+        },
+        "source_results": [
+          {
+            "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/main/30b5d5a1-32b8-488c-9dc5-33fe62c70e0a.webp",
+            "source_git_blob": "cda4dbe93be59a54e5311bf3cc57d45accd6ea43",
+            "output": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/main__30b5d5a1-32b8-488c-9dc5-33fe62c70e0a__model.png",
+            "status": "approved_model_catalog",
+            "model_worn_attempts": 1,
+            "output_git_blob": "caf8b8e6a80ee07ea93f6d3a38ae14af14ca02fa",
+            "dimensions": [
+              1086,
+              1448
+            ],
+            "bytes": 1751982,
+            "validation": {
+              "complete_unfolded_garment": true,
+              "one_retail_product": true,
+              "construction_color_and_wordmark_reviewed": true,
+              "scene_and_model_consistent": true,
+              "all_garment_edges_visible": true,
+              "no_added_marketing_copy": true
+            }
+          },
+          {
+            "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1b186bac-92f4-442a-8c1e-621a82fb4141.webp",
+            "source_git_blob": "94bab056ba74986c048b7eb4587c9e926fd6f0fb",
+            "output": null,
+            "status": "moderation_blocked",
+            "model_worn_attempts": 1,
+            "blocker": "866d2d7e-fec1-4c36-8524-d8a03d296b89",
+            "alternative_output": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/color__1b186bac-92f4-442a-8c1e-621a82fb4141__mannequin-preview.png",
+            "alternative_status": "alternative_needs_review",
+            "alternative_dimensions": [
+              1086,
+              1448
+            ]
+          },
+          {
+            "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1ec3713d-27ca-4c99-9963-20736195f4a1.webp",
+            "source_git_blob": "b0d6282c70fe0473cf5ce73e7ef8b40fd15eb5d4",
+            "output": null,
+            "status": "not_submitted_after_related_variant_rejection",
+            "model_worn_attempts": 0,
+            "blocker": "866d2d7e-fec1-4c36-8524-d8a03d296b89"
+          },
+          {
+            "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/28cfbbb1-2121-40b1-b31c-d786e94cf016.webp",
+            "source_git_blob": "10dea978334452cf05d70c844f9f6cfd268523d2",
+            "output": null,
+            "status": "not_submitted_after_related_variant_rejection",
+            "model_worn_attempts": 0,
+            "blocker": "866d2d7e-fec1-4c36-8524-d8a03d296b89"
+          },
+          {
+            "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/2f6e4129-1922-4453-9c83-d788a2fa8f1d.webp",
+            "source_git_blob": "612ba70c56782e78261b581a15c293df3b482ac0",
+            "output": null,
+            "status": "not_submitted_after_related_variant_rejection",
+            "model_worn_attempts": 0,
+            "blocker": "866d2d7e-fec1-4c36-8524-d8a03d296b89"
+          },
+          {
+            "source": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/d07a146f-1e1d-4657-901b-7b748ff9bb2b.webp",
+            "source_git_blob": "8f66bf7cee114de29fb210472ff5e0f41e07bd35",
+            "output": null,
+            "status": "not_submitted_after_related_variant_rejection",
+            "model_worn_attempts": 0,
+            "blocker": "866d2d7e-fec1-4c36-8524-d8a03d296b89"
+          }
+        ],
+        "blockers": [
+          "Beige model-worn request rejected by the image tool at input moderation. Equivalent model-worn color submissions stopped; remaining colors require an accepted alternative deliverable."
+        ],
+        "rerun_checks": [
+          {
+            "run_id": "image-empty-audit-2026-11-20",
+            "checked_at": "2026-11-20T08:03:49.997Z",
+            "selection": "generated folder has zero image files at run start; tracking files do not count as product images",
+            "source_count": 6,
+            "source_inventory_complete": true,
+            "source_versions_unchanged": true,
+            "all_sources_visually_reviewed": true,
+            "current_git_blobs": [
+              {
+                "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1b186bac-92f4-442a-8c1e-621a82fb4141.webp",
+                "git_blob": "94bab056ba74986c048b7eb4587c9e926fd6f0fb",
+                "dimensions": [
+                  1650,
+                  2200
+                ],
+                "sha256": "b8da7a395bc13e82eff35d9e05b34422e3a7482543c6cdea48ad43f24a169b51"
+              },
+              {
+                "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/1ec3713d-27ca-4c99-9963-20736195f4a1.webp",
+                "git_blob": "b0d6282c70fe0473cf5ce73e7ef8b40fd15eb5d4",
+                "dimensions": [
+                  1650,
+                  2200
+                ],
+                "sha256": "2548263eb15090464388c0f0de1bca0d3ca680dbf3782c97e507d771a52628b6"
+              },
+              {
+                "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/28cfbbb1-2121-40b1-b31c-d786e94cf016.webp",
+                "git_blob": "10dea978334452cf05d70c844f9f6cfd268523d2",
+                "dimensions": [
+                  1650,
+                  2200
+                ],
+                "sha256": "242367171959b1142513720c5b2f83ec8970bc8e03117a028c183da1917af3ed"
+              },
+              {
+                "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/2f6e4129-1922-4453-9c83-d788a2fa8f1d.webp",
+                "git_blob": "612ba70c56782e78261b581a15c293df3b482ac0",
+                "dimensions": [
+                  1650,
+                  2200
+                ],
+                "sha256": "3d9e8fbf025d0ce66097cbb68fb4a3a46adabd1c5c910fee4d2967dbf5f6683f"
+              },
+              {
+                "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/colors/d07a146f-1e1d-4657-901b-7b748ff9bb2b.webp",
+                "git_blob": "8f66bf7cee114de29fb210472ff5e0f41e07bd35",
+                "dimensions": [
+                  1650,
+                  2200
+                ],
+                "sha256": "0cf75d0f1cedb0aedcfc3434f5099bd4488b2867113476740491ee3fe7483e8c"
+              },
+              {
+                "path": "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/main/30b5d5a1-32b8-488c-9dc5-33fe62c70e0a.webp",
+                "git_blob": "cda4dbe93be59a54e5311bf3cc57d45accd6ea43",
+                "dimensions": [
+                  1650,
+                  2200
+                ],
+                "sha256": "be1ee51e1f2ecd0673276cfe1f8a443d0436b768e5190a6b4d1fd3226cfeac6c"
+              }
+            ],
+            "new_model_requests": 0,
+            "new_moderation_rejections": 0,
+            "new_preview_requests": 0,
+            "decision": "AWAITING_MANNEQUIN_ACCEPTANCE",
+            "reason": "Existing model-worn moderation hold preserved; non-human catalog deliverable awaits explicit user acceptance."
+          }
+        ],
+        "updated_at": "2026-11-20T13:33:41.033Z",
+        "checks": {
+          "originals_preserved": true,
+          "source_to_output_mapping_verified": true,
+          "no_folded_showcases": true,
+          "no_collage": true,
+          "complete_garments_visible": true,
+          "native_resolution": [
+            1086,
+            1448
+          ],
+          "file_limit_bytes": 4000000,
+          "all_required_model_sources_complete": false,
+          "mannequin_preview_separately_labelled": true
+        }
+      }
+    }
+  ],
+  "updated_at": "2026-11-22T07:14:32.683894+00:00",
+  "completion_scope": "Owner-delegated approved non-human mannequin deliverable",
+  "alternative_status": "COMPLETE",
+  "counts_scope": "Current replacement run only. Historical attempts, deleted outputs and moderation retained in replacement_history and moderation_failures.",
+  "superseded_image_paths": [
+    "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/color__1b186bac-92f4-442a-8c1e-621a82fb4141__mannequin-preview.png",
+    "products/f0e41f7d-85f7-414f-b8f3-d34e7f9f208d/generated/main__30b5d5a1-32b8-488c-9dc5-33fe62c70e0a__model.png"
+  ]
 }

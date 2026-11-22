@@ -1,139 +1,293 @@
 {
   "product_id": "18e0aef7-7e6b-4245-b40e-d5521e4cc65b",
-  "status": "BLOCKED",
-  "source_review": "All main and color source photos visually reviewed. Each local image blob hash matched the repository inventory.",
-  "scene_consistency": "Pending accepted catalog outputs.",
-  "result": "One non-human display-form preview returned and visually checked; awaiting user acceptance. Original model-worn requirement remains blocked.",
+  "status": "COMPLETE",
   "counts": {
     "main_sources": 1,
     "color_sources": 3,
     "accounted_for_sources": 4,
-    "submitted_generation_attempts": 1,
+    "submitted_generation_attempts": 4,
     "moderated_requests": 0,
-    "returned_image_files": 1,
+    "returned_image_files": 4,
     "approved_model_images": 0,
-    "approved_mannequin_alternatives": 0,
-    "display_form_previews": 1
+    "approved_mannequin_alternatives": 4,
+    "display_form_previews": 1,
+    "approved_main_alternatives": 1,
+    "approved_color_alternatives": 3,
+    "approved_detail_images": 0
   },
-  "moderation": null,
-  "related_moderation": {
-    "stage": "input",
-    "category": "sexual",
-    "request_id": "132d53dc-f8e3-49af-ae53-61f9cad07ac2",
-    "recorded_at": "2026-11-18T20:30:43.152Z",
-    "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp",
-    "mode": "model_worn"
-  },
-  "approved_outputs": [],
-  "alternative_preview": {
-    "path": "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/generated/main__aac3ee62-0677-4a8a-acb3-2e009a321f50__mannequin-preview.png",
-    "source": "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/main/aac3ee62-0677-4a8a-acb3-2e009a321f50.webp",
-    "source_git_blob": "04d8e6233fbb6617afd6bd17161add5080e5ff7f",
-    "status": "alternative_needs_review",
-    "catalog_mode": "non_human_mannequin",
-    "user_acceptance": "pending",
-    "generated_at": "2026-11-20T08:03:49.997Z",
-    "dimensions": [
-      1086,
-      1448
-    ],
-    "bytes": 2052165,
-    "visual_qa": "passed_for_user_review",
-    "qa_checks": [
-      "one complete unfolded garment",
-      "genuine front script and brown polka dots retained",
-      "warm peach fabric and broad waistband",
-      "rigid matte-white display form; no person",
-      "neutral warm-gray studio, diffuse light from camera left",
-      "no shop metadata or added advertising text"
-    ],
-    "limitations": "Preview is a mannequin alternative; it does not fulfill the original model-worn requirement. Final commercial approval remains pending."
-  },
-  "source_results": [
+  "source_review": "Every source visually inspected; per-file hashes and dimensions verified.",
+  "scene_consistency": "PASS: locked same-product form, studio, lighting and camera.",
+  "result": "All sources have QA-passed complete unfolded non-human mannequin images under owner-delegated scope.",
+  "approved_outputs": [
     {
       "source": "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/main/aac3ee62-0677-4a8a-acb3-2e009a321f50.webp",
-      "source_git_blob": "04d8e6233fbb6617afd6bd17161add5080e5ff7f",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
+      "output": "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/generated/main__aac3ee62-0677-4a8a-acb3-2e009a321f50__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "sha256": "aeaa99a1ac48aa96d0f3c66b245504248dc4ccb0a0c4a49f3b55db2933c7cd40",
+      "variant_color": "Salmon blush pink",
+      "request_id": "414b24d6-3594-4531-838a-9fb1158888f1",
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "genuine_script": "This girl / is the wonderful \u2014 two lines visually verified",
+        "dot_color": "Brown"
+      }
     },
     {
       "source": "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/colors/6e45f7e1-4085-4dbb-9f3a-28efc0c46152.webp",
-      "source_git_blob": "a3fe88d865e1063a56968d01be8871e4c4ff9af3",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
+      "output": "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/generated/color__6e45f7e1-4085-4dbb-9f3a-28efc0c46152__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "sha256": "f47d312d2ca4e09641e9ecb242a6f63098d06e162656c5ffae6b8f1727544786",
+      "variant_color": "Dusty mauve rose",
+      "request_id": "aa24fde4-f07e-41e3-8607-c9df657bed4e",
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "genuine_script": "This girl / is the wonderful \u2014 visually verified two lines",
+        "dot_color": "Brown"
+      }
     },
     {
       "source": "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/colors/a56c1f87-a572-4a3b-b204-be1cfa424da5.webp",
-      "source_git_blob": "fd793e34eff57ad3b0a30dba68bbc2ff5b49898f",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
+      "output": "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/generated/color__a56c1f87-a572-4a3b-b204-be1cfa424da5__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "sha256": "dd72b651a73369d30a6b050425f04ca975884b811baf34cf15fb1e4b7bb2dedd",
+      "variant_color": "Rust orange",
+      "request_id": "ddbc4c29-3a42-4b21-bd76-12ab8aaea3ef",
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "genuine_script": "This girl / is the wonderful \u2014 visually verified two lines",
+        "dot_color": "Dark brown"
+      }
     },
     {
       "source": "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/colors/e2e4074f-39c9-424f-8431-5c94d49a07ce.webp",
-      "source_git_blob": "6a58d1997176010ecf6b279ff3cbbfc54d87f638",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
-    }
-  ],
-  "blockers": [
-    "Model-worn submissions withheld after an equivalent presentation for the first brief in this batch was blocked at input moderation."
-  ],
-  "rerun_checks": [
-    {
-      "run_id": "image-empty-audit-2026-11-20",
-      "checked_at": "2026-11-20T08:03:49.997Z",
-      "selection": "generated folder has zero image files at run start; tracking files do not count as product images",
-      "source_count": 4,
-      "source_inventory_complete": true,
-      "source_versions_unchanged": true,
-      "all_sources_visually_reviewed": true,
-      "current_git_blobs": [
-        {
-          "path": "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/colors/6e45f7e1-4085-4dbb-9f3a-28efc0c46152.webp",
-          "git_blob": "a3fe88d865e1063a56968d01be8871e4c4ff9af3",
-          "dimensions": [
-            1650,
-            2200
-          ],
-          "sha256": "9b1867cbeb124fc9c15402da63b3e00ea22b87afb70fac45250c85368bc3d82b"
-        },
-        {
-          "path": "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/colors/a56c1f87-a572-4a3b-b204-be1cfa424da5.webp",
-          "git_blob": "fd793e34eff57ad3b0a30dba68bbc2ff5b49898f",
-          "dimensions": [
-            1650,
-            2200
-          ],
-          "sha256": "1a8728a5d42f86823f7f03a152263023c4b6cedb6ac177d7408b241f34f1c234"
-        },
-        {
-          "path": "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/colors/e2e4074f-39c9-424f-8431-5c94d49a07ce.webp",
-          "git_blob": "6a58d1997176010ecf6b279ff3cbbfc54d87f638",
-          "dimensions": [
-            1650,
-            2200
-          ],
-          "sha256": "eb4a172a6605803fb4fa0c99b17c9caa07cf07b7eccdd0304da687e29278f1a7"
-        },
-        {
-          "path": "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/main/aac3ee62-0677-4a8a-acb3-2e009a321f50.webp",
-          "git_blob": "04d8e6233fbb6617afd6bd17161add5080e5ff7f",
-          "dimensions": [
-            1650,
-            2200
-          ],
-          "sha256": "ec6d433bc0fa1ede9046adca47d5f6fb0673b72bf39a9163c7a1ebbe58fa5c16"
-        }
+      "output": "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/generated/color__e2e4074f-39c9-424f-8431-5c94d49a07ce__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
       ],
-      "new_model_requests": 0,
-      "new_moderation_rejections": 0,
-      "new_preview_requests": 1,
-      "decision": "AWAITING_MANNEQUIN_ACCEPTANCE",
-      "reason": "Existing model-worn moderation hold preserved; non-human catalog deliverable awaits explicit user acceptance."
+      "sha256": "725f0030c4f72dfc143e3cd3beeb15733ab8a9d230ed4775bd24ef99d8f167b0",
+      "variant_color": "Lavender",
+      "request_id": "caab0248-764b-416d-9351-c693919aaba6",
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "genuine_script": "This girl / is the wonderful \u2014 visually verified two lines",
+        "dot_color": "Muted purple mauve"
+      }
     }
-  ]
+  ],
+  "source_results": [
+    {
+      "source": "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/colors/6e45f7e1-4085-4dbb-9f3a-28efc0c46152.webp",
+      "output": "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/generated/color__6e45f7e1-4085-4dbb-9f3a-28efc0c46152__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 0,
+      "alternative_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "genuine_script": "This girl / is the wonderful \u2014 visually verified two lines",
+        "dot_color": "Brown"
+      },
+      "alternative_attempts": 1
+    },
+    {
+      "source": "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/colors/a56c1f87-a572-4a3b-b204-be1cfa424da5.webp",
+      "output": "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/generated/color__a56c1f87-a572-4a3b-b204-be1cfa424da5__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 0,
+      "alternative_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "genuine_script": "This girl / is the wonderful \u2014 visually verified two lines",
+        "dot_color": "Dark brown"
+      },
+      "alternative_attempts": 1
+    },
+    {
+      "source": "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/colors/e2e4074f-39c9-424f-8431-5c94d49a07ce.webp",
+      "output": "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/generated/color__e2e4074f-39c9-424f-8431-5c94d49a07ce__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 0,
+      "alternative_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "genuine_script": "This girl / is the wonderful \u2014 visually verified two lines",
+        "dot_color": "Muted purple mauve"
+      },
+      "alternative_attempts": 1
+    },
+    {
+      "source": "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/main/aac3ee62-0677-4a8a-acb3-2e009a321f50.webp",
+      "output": "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/generated/main__aac3ee62-0677-4a8a-acb3-2e009a321f50__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 0,
+      "alternative_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "genuine_script": "This girl / is the wonderful \u2014 two lines visually verified",
+        "dot_color": "Brown"
+      },
+      "alternative_attempts": 1
+    }
+  ],
+  "blockers": [],
+  "rerun_checks": [],
+  "historical_moderation_preserved_in_manifest": true,
+  "alternative_preview": {
+    "source": "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/main/aac3ee62-0677-4a8a-acb3-2e009a321f50.webp",
+    "output": "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/generated/main__aac3ee62-0677-4a8a-acb3-2e009a321f50__mannequin.png",
+    "status": "ALTERNATIVE_MANNEQUIN",
+    "dimensions": [
+      1312,
+      1199
+    ],
+    "sha256": "aeaa99a1ac48aa96d0f3c66b245504248dc4ccb0a0c4a49f3b55db2933c7cd40",
+    "variant_color": "Salmon blush pink",
+    "request_id": "414b24d6-3594-4531-838a-9fb1158888f1",
+    "qa": {
+      "decision": "PASS",
+      "full_unfolded_single_product": true,
+      "construction_material_color_visual_match": true,
+      "genuine_print_emblem_visual_match": true,
+      "neutral_non_human_studio": true,
+      "no_added_text_or_extra_garments": true,
+      "complete_garment_visibility": true,
+      "scene_form_camera_consistency": true,
+      "limitations": [
+        "Visual color match; not colorimetrically calibrated.",
+        "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+      ],
+      "genuine_script": "This girl / is the wonderful \u2014 two lines visually verified",
+      "dot_color": "Brown"
+    }
+  },
+  "updated_at": "2026-11-22T07:09:50.639214+00:00",
+  "completion_scope": "Owner-delegated approved non-human mannequin deliverable",
+  "final_reconciliation": {
+    "time": "2026-11-22T07:09:50.707581+00:00",
+    "individual_source_reconciliation": true,
+    "sources": 4,
+    "approved_images": 4,
+    "source_integrity": "PASS",
+    "scene_consistency": "PASS",
+    "all_images_directly_in_generated": true,
+    "same_product_references_only": true
+  },
+  "original_model_requirement": "BLOCKED historical hold; uniform owner-delegated mannequin replacement scope COMPLETE",
+  "superseded_image_paths": [
+    "products/18e0aef7-7e6b-4245-b40e-d5521e4cc65b/generated/main__aac3ee62-0677-4a8a-acb3-2e009a321f50__mannequin-preview.png"
+  ],
+  "counts_scope": "Current replacement run only. Historical attempts, deleted outputs and moderation retained in replacement_history and moderation_failures."
 }

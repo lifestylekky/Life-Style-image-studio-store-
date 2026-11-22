@@ -1,22 +1,20 @@
-# Product workflow result — PARTIAL
+# Product workflow result — COMPLETE (mannequin replacement)
 
-Product: L Soft Cotton Wordmark Briefs (f0e41f7d-85f7-414f-b8f3-d34e7f9f208d).
+Product: L Soft Cotton Wordmark Briefs (`f0e41f7d-85f7-414f-b8f3-d34e7f9f208d`).
 
-Reviewed all six original source photos (one main and five color sources), description.txt and updates.txt. Sources remain unchanged. All originals are 1650 × 2200 pixels; the main photograph is the unfolded construction reference.
+The owner authorized removal of the previous generated images, fresh generation, and publication. The two old image files were removed and replaced by a uniform non-human mannequin catalog set. This completion applies only to the revised mannequin deliverable; no new model-worn requests were submitted.
 
-## Generated files
+## Current images
 
-- `main__30b5d5a1-32b8-488c-9dc5-33fe62c70e0a__model.png`: approved royal-blue adult-model catalog photo, 1086 × 1448 pixels, 1,751,982 bytes.
-- `color__1b186bac-92f4-442a-8c1e-621a82fb4141__mannequin-preview.png`: golden-beige non-human mannequin alternative for review, 1086 × 1448 pixels, 1,953,639 bytes. Pending user acceptance; not an approved replacement for the original model requirement.
+- `main__30b5d5a1-32b8-488c-9dc5-33fe62c70e0a__mannequin.png` — Royal blue, 1312 × 1199, visual QA passed.
+- `color__1b186bac-92f4-442a-8c1e-621a82fb4141__mannequin.png` — Golden beige, 1312 × 1199, visual QA passed.
+- `color__1ec3713d-27ca-4c99-9963-20736195f4a1__mannequin.png` — Taupe mauve, 1312 × 1199, visual QA passed.
+- `color__28cfbbb1-2121-40b1-b31c-d786e94cf016__mannequin.png` — Deep charcoal, 1312 × 1199, visual QA passed.
+- `color__2f6e4129-1922-4453-9c83-d788a2fa8f1d__mannequin.png` — Chocolate brown, 1312 × 1199, visual QA passed.
+- `color__d07a146f-1e1d-4657-901b-7b748ff9bb2b__mannequin.png` — Muted purple, 1312 × 1199, visual QA passed.
 
-Both files show a single complete unfolded retail product in a neutral warm-gray commercial studio with diffuse daylight from camera left. The model image uses a plain white T-shirt as neutral styling; it is not included in the retail product. The mannequin uses a separately documented white display form and plinth.
+## Verification
 
-## Blocker
+All six original sources were visually reviewed and individually mapped. Source hashes remain unchanged. Each image shows one complete unfolded garment on the same matte-white non-human form in a neutral warm-gray commercial studio with diffuse daylight from camera left. All outputs are directly in generated/, without subfolders. Color and fine branding are visually assessed, not colorimetrically or pixel-identically certified.
 
-The beige model-worn image request was rejected by the image tool at input moderation. Category: sexual. Request ID: `866d2d7e-fec1-4c36-8524-d8a03d296b89`. No beige model image was returned. This tool outcome does not establish a policy violation by the retailer. The blocked depiction was not resubmitted. Taupe, charcoal, brown and purple model-worn requests were not submitted after that same-product rejection.
-
-## Counts
-
-Three submitted requests: one approved model image, one input-moderated model request, one returned mannequin preview. Actual returned image files: two. Approved mannequin replacements: zero. Main model source coverage: 1/1; color model source coverage: 0/5; detail images: zero. No missing-reference blocker. Original model-worn batch remains BLOCKED/PARTIAL.
-
-See manifest.json for every source-to-output mapping, source Git hashes, prompts, pose plan, scene profiles, moderation record and pending sources. See quality-report.json for review results. A complete workflow is not claimed. To continue with a uniform mannequin batch, explicit user acceptance of the revised non-human deliverable is required by AGENTS.md §3B and §12.
+Current replacement run: six requests, six returned images, six QA-passed mannequin outputs, zero new moderation rejections. Original historical model-worn rejection remains recorded in manifest.json, including request ID 866d2d7e-fec1-4c36-8524-d8a03d296b89. Previous manifests, reports and removed output hashes are retained in replacement_history. See manifest.json and quality-report.json for mappings and checks.
