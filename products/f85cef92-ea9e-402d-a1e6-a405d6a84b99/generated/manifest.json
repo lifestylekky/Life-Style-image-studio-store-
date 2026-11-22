@@ -4,10 +4,10 @@
   "product_name_basis": "Description and visible garment construction",
   "workflow": "AGENTS.md",
   "workflow_git_blob": "ff1216a3fe7ae20f32a8abff94203ba2716ceaf1",
-  "source_revision": "76e16b0e214dfffaf92fc98b8e6ce2b105657057",
-  "status": "BLOCKED",
-  "preflight_decision": "not_submitted_equivalent_presentation",
-  "catalog_mode": "model_worn",
+  "source_revision": "be782913f1b0589ba4a98730e15d38ea56ff3fd9",
+  "status": "COMPLETE",
+  "preflight_decision": "ready_mannequin_catalog",
+  "catalog_mode": "non_human_mannequin",
   "garment_spec": {
     "pieces": 1,
     "construction": "Wide smooth waistband, small multicolored flower motifs arranged in an arc across the upper front, full seat coverage and matching leg binding."
@@ -38,7 +38,9 @@
       "aspect_ratio": "3:4",
       "duplicate_reference_paths": [
         "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp"
-      ]
+      ],
+      "sha256": "afa17e05864d40d4b7eb26f4f7a88a92cbedb38ca65c0ea3bd108adfacc6effb",
+      "visually_reviewed_at": "2026-11-22T06:05:31.285659+00:00"
     },
     {
       "path": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/39ffd1dc-4889-48fa-9093-18bc3c4343e8.webp",
@@ -55,7 +57,9 @@
       "aspect_ratio": "3:4",
       "duplicate_reference_paths": [
         "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/7e4c3d78-a5ba-48ad-aff5-e6c841b3f9a0.webp"
-      ]
+      ],
+      "sha256": "8cafcc7769fc3f305ff73cd880c56923c141151545b78db7782072f506657543",
+      "visually_reviewed_at": "2026-11-22T06:05:31.285659+00:00"
     },
     {
       "path": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/7f1bdb4a-7a70-428e-a56b-d6d8e8598b6e.webp",
@@ -72,7 +76,9 @@
       "aspect_ratio": "3:4",
       "duplicate_reference_paths": [
         "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/de3fc058-7bc2-4f69-a06e-7ccb19a0df54.webp"
-      ]
+      ],
+      "sha256": "bf000aee8d393fa7d13044b3310fef7b7da06d2164761f59a011d7a8f854fcd1",
+      "visually_reviewed_at": "2026-11-22T06:05:31.285659+00:00"
     },
     {
       "path": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/8f0285bb-dd23-4092-93f2-a15bbf78ae81.webp",
@@ -89,7 +95,9 @@
       "aspect_ratio": "3:4",
       "duplicate_reference_paths": [
         "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/f288ac22-5fb5-468f-a0d9-db2a30147316.webp"
-      ]
+      ],
+      "sha256": "a693d2c4fc0f8c16594c5adff75f29617e69b6ca35ad297e5c2758d91139f01a",
+      "visually_reviewed_at": "2026-11-22T06:05:31.285659+00:00"
     },
     {
       "path": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/ad767310-92e1-4be0-b398-c08c8cebf0a7.webp",
@@ -106,7 +114,9 @@
       "aspect_ratio": "3:4",
       "duplicate_reference_paths": [
         "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/c830d6ff-4284-4771-9b8b-8cc4e9e3acb3.webp"
-      ]
+      ],
+      "sha256": "6b55bdc1338539411c37e996121bb03139dba489e455aedec997f731b7c0dec0",
+      "visually_reviewed_at": "2026-11-22T06:05:31.285659+00:00"
     },
     {
       "path": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/bc5ea94e-4d07-48d0-a980-b4b08ca2e2f6.webp",
@@ -123,7 +133,9 @@
       "aspect_ratio": "3:4",
       "duplicate_reference_paths": [
         "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/510e7409-16bc-4210-9b1c-2d96c3bfd724.webp"
-      ]
+      ],
+      "sha256": "3ee1b473102888fae8384f60d782f115b58a909ecc268928cdb88899b1c36f47",
+      "visually_reviewed_at": "2026-11-22T06:05:31.285659+00:00"
     }
   ],
   "construction_references": [
@@ -134,45 +146,54 @@
     "backdrop": "Pale warm-gray seamless paper",
     "floor": "Matching matte warm-gray floor",
     "lighting": "Diffuse daylight from camera left",
-    "camera": "Centered, straight-on 3:4 catalog frame",
+    "camera": "Centered straight-on 1312:1199 composition",
     "furniture": "None",
-    "status": "Proposed for display-form run"
+    "status": "Locked from QA-passed preview",
+    "subject_position": "Centered",
+    "depth_of_field": "Entire garment sharp",
+    "mood": "Ordinary commercial catalog",
+    "temperature": "Neutral daylight"
   },
-  "model_profile": "Neutral adult model-worn catalog presentation on hold.",
+  "model_profile": "Matte white simplified non-human retail hip display form.",
   "camera_profile": {
-    "aspect_ratio": "3:4",
-    "status": "proposed"
+    "requested_aspect_ratio": "square",
+    "actual_dimensions": [
+      1312,
+      1199
+    ],
+    "actual_ratio": "1312:1199",
+    "note": "All six returned images match actual owner-approved 1312x1199 framing; retained without stretching."
   },
   "pose_plan": [
     {
       "source": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/main/e5dfb5ad-dbd6-40a9-a7c7-9635ed908d11.webp",
-      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
-      "accepted": null
+      "planned": "Upright straight-on non-human retail form; unobstructed full garment; pose variety not applicable.",
+      "accepted": "Upright straight-on non-human retail form; unobstructed full garment; pose variety not applicable."
     },
     {
       "source": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/39ffd1dc-4889-48fa-9093-18bc3c4343e8.webp",
-      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
-      "accepted": null
+      "planned": "Upright straight-on non-human retail form; unobstructed full garment; pose variety not applicable.",
+      "accepted": "Upright straight-on non-human retail form; unobstructed full garment; pose variety not applicable."
     },
     {
       "source": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/7f1bdb4a-7a70-428e-a56b-d6d8e8598b6e.webp",
-      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
-      "accepted": null
+      "planned": "Upright straight-on non-human retail form; unobstructed full garment; pose variety not applicable.",
+      "accepted": "Upright straight-on non-human retail form; unobstructed full garment; pose variety not applicable."
     },
     {
       "source": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/8f0285bb-dd23-4092-93f2-a15bbf78ae81.webp",
-      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
-      "accepted": null
+      "planned": "Upright straight-on non-human retail form; unobstructed full garment; pose variety not applicable.",
+      "accepted": "Upright straight-on non-human retail form; unobstructed full garment; pose variety not applicable."
     },
     {
       "source": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/ad767310-92e1-4be0-b398-c08c8cebf0a7.webp",
-      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
-      "accepted": null
+      "planned": "Upright straight-on non-human retail form; unobstructed full garment; pose variety not applicable.",
+      "accepted": "Upright straight-on non-human retail form; unobstructed full garment; pose variety not applicable."
     },
     {
       "source": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/bc5ea94e-4d07-48d0-a980-b4b08ca2e2f6.webp",
-      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
-      "accepted": null
+      "planned": "Upright straight-on non-human retail form; unobstructed full garment; pose variety not applicable.",
+      "accepted": "Upright straight-on non-human retail form; unobstructed full garment; pose variety not applicable."
     }
   ],
   "moderation_failures": [],
@@ -185,66 +206,190 @@
     "mode": "model_worn"
   },
   "alternative_mode": "non_human_mannequin",
-  "alternative_acceptance": "pending_user_approval",
-  "alternative_preview": null,
+  "alternative_acceptance": "owner_accepted_revised_mannequin_deliverable_and_approved_preview",
+  "alternative_preview": {
+    "source": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/main/e5dfb5ad-dbd6-40a9-a7c7-9635ed908d11.webp",
+    "output": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/generated/main__e5dfb5ad-dbd6-40a9-a7c7-9635ed908d11__mannequin.png",
+    "status": "ALTERNATIVE_MANNEQUIN",
+    "dimensions": [
+      1312,
+      1199
+    ],
+    "sha256": "6c1705345c61bb198950c011715cdda4d0d6695cc2de57c1d887d19614cb51ad",
+    "request_id": "b1c6eadf-46e3-4f65-a982-2e5063af074f",
+    "qa": {
+      "decision": "PASS",
+      "complete_unfolded_single_garment": true,
+      "construction_and_bound_leg_openings": true,
+      "teal_color_visual_match": true,
+      "floral_butterfly_order_scale_geometry_visual_match": true,
+      "neutral_studio_non_human": true,
+      "no_added_text": true,
+      "owner_preview_acceptance": "approved",
+      "limitations": [
+        "Source lighting prevents colorimetric certification.",
+        "Fine print dots assessed visually, not pixel-identical certification."
+      ]
+    }
+  },
   "counts": {
     "main_sources": 1,
     "color_sources": 5,
     "accounted_for_sources": 6,
-    "submitted_generation_attempts": 0,
+    "submitted_generation_attempts": 6,
     "moderated_requests": 0,
-    "returned_image_files": 0,
+    "returned_image_files": 6,
     "approved_model_images": 0,
-    "approved_mannequin_alternatives": 0,
-    "display_form_previews": 0
+    "approved_mannequin_alternatives": 6,
+    "display_form_previews": 1,
+    "approved_main_alternatives": 1,
+    "approved_color_alternatives": 5,
+    "approved_detail_images": 0
   },
   "mappings": [
     {
       "source": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/main/e5dfb5ad-dbd6-40a9-a7c7-9635ed908d11.webp",
       "source_git_blob": "8db560d5a98f1ef607ceb1e71c5e9e9bcb3c0dbc",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
+      "output": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/generated/main__e5dfb5ad-dbd6-40a9-a7c7-9635ed908d11__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 0,
+      "alternative_dimensions": [
+        1312,
+        1199
+      ]
     },
     {
       "source": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/39ffd1dc-4889-48fa-9093-18bc3c4343e8.webp",
       "source_git_blob": "b57928466f08a03db10ef0e835d69951a7f14031",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
+      "output": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/generated/color__39ffd1dc-4889-48fa-9093-18bc3c4343e8__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 0,
+      "alternative_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": true,
+        "correct_waistband_leg_bindings_front_seams": true,
+        "variant_color_visual_match": "Black",
+        "floral_butterfly_motif_order_scale_geometry_visual_match": true,
+        "opaque_knit_appearance": true,
+        "same_mannequin_studio_lighting_camera": true,
+        "no_added_text_or_extra_garments": true,
+        "limitations": [
+          "Color matched visually, not colorimetrically calibrated.",
+          "Fine print dots assessed visually, not pixel-identical certification."
+        ]
+      },
+      "alternative_attempts": 1
     },
     {
       "source": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/7f1bdb4a-7a70-428e-a56b-d6d8e8598b6e.webp",
       "source_git_blob": "b231fe7c20d8f14b8cd012d146120639c4c83d44",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
+      "output": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/generated/color__7f1bdb4a-7a70-428e-a56b-d6d8e8598b6e__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 0,
+      "alternative_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": true,
+        "correct_waistband_leg_bindings_front_seams": true,
+        "variant_color_visual_match": "Dusty blush-beige",
+        "floral_butterfly_motif_order_scale_geometry_visual_match": true,
+        "opaque_knit_appearance": true,
+        "same_mannequin_studio_lighting_camera": true,
+        "no_added_text_or_extra_garments": true,
+        "limitations": [
+          "Color matched visually, not colorimetrically calibrated.",
+          "Fine print dots assessed visually, not pixel-identical certification."
+        ]
+      },
+      "alternative_attempts": 1
     },
     {
       "source": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/8f0285bb-dd23-4092-93f2-a15bbf78ae81.webp",
       "source_git_blob": "33bec4daeacf9ad140792bcf5db0549fb1f677eb",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
+      "output": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/generated/color__8f0285bb-dd23-4092-93f2-a15bbf78ae81__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 0,
+      "alternative_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": true,
+        "correct_waistband_leg_bindings_front_seams": true,
+        "variant_color_visual_match": "Lavender",
+        "floral_butterfly_motif_order_scale_geometry_visual_match": true,
+        "opaque_knit_appearance": true,
+        "same_mannequin_studio_lighting_camera": true,
+        "no_added_text_or_extra_garments": true,
+        "limitations": [
+          "Color matched visually, not colorimetrically calibrated.",
+          "Fine print dots assessed visually, not pixel-identical certification."
+        ]
+      },
+      "alternative_attempts": 1
     },
     {
       "source": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/ad767310-92e1-4be0-b398-c08c8cebf0a7.webp",
       "source_git_blob": "df9465bd69c0e39d5b6816a3e7e4ad6eaba194ba",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
+      "output": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/generated/color__ad767310-92e1-4be0-b398-c08c8cebf0a7__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 0,
+      "alternative_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": true,
+        "correct_waistband_leg_bindings_front_seams": true,
+        "variant_color_visual_match": "Slate gray",
+        "floral_butterfly_motif_order_scale_geometry_visual_match": true,
+        "opaque_knit_appearance": true,
+        "same_mannequin_studio_lighting_camera": true,
+        "no_added_text_or_extra_garments": true,
+        "limitations": [
+          "Color matched visually, not colorimetrically calibrated.",
+          "Fine print dots assessed visually, not pixel-identical certification."
+        ]
+      },
+      "alternative_attempts": 1
     },
     {
       "source": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/bc5ea94e-4d07-48d0-a980-b4b08ca2e2f6.webp",
       "source_git_blob": "0c34bbecdffa39cb6ea4999cf7dfcc753dc8f483",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
+      "output": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/generated/color__bc5ea94e-4d07-48d0-a980-b4b08ca2e2f6__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 0,
+      "alternative_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": true,
+        "correct_waistband_leg_bindings_front_seams": true,
+        "variant_color_visual_match": "Rose pink",
+        "floral_butterfly_motif_order_scale_geometry_visual_match": true,
+        "opaque_knit_appearance": true,
+        "same_mannequin_studio_lighting_camera": true,
+        "no_added_text_or_extra_garments": true,
+        "limitations": [
+          "Color matched visually, not colorimetrically calibrated.",
+          "Fine print dots assessed visually, not pixel-identical certification."
+        ]
+      },
+      "alternative_attempts": 1
     }
   ],
-  "blockers": [
-    "Model-worn submissions withheld after an equivalent presentation for the first brief in this batch was blocked at input moderation."
-  ],
+  "blockers": [],
   "rerun_checks": [
     {
       "run_id": "image-empty-audit-2026-11-20",
@@ -315,8 +460,370 @@
       "new_preview_requests": 0,
       "decision": "AWAITING_MANNEQUIN_ACCEPTANCE",
       "reason": "Existing model-worn moderation hold preserved; non-human catalog deliverable awaits explicit user acceptance."
+    },
+    {
+      "checked_at": "2026-11-22T06:05:31.285659+00:00",
+      "sources_individually_reconciled": 6,
+      "all_visually_reviewed": true,
+      "new_attempts": 1,
+      "new_moderation_rejections": 0,
+      "decision": "PREVIEW_READY_FOR_OWNER_REVIEW"
+    },
+    {
+      "checked_at": "2026-11-22T06:11:20.990555+00:00",
+      "source_count": 6,
+      "all_sources_individually_reconciled": true,
+      "source_hashes_unchanged": true,
+      "actual_readable_outputs": 6,
+      "all_dimensions_equal": true,
+      "cross_variant_scene_qa": "PASS",
+      "all_images_directly_in_generated": true,
+      "alternative_deliverable": "COMPLETE",
+      "original_model_requirement": "BLOCKED"
     }
   ],
-  "updated_at": "2026-11-20T08:03:49.997Z",
-  "original_model_requirement": "BLOCKED"
+  "updated_at": "2026-11-22T06:11:20.990555+00:00",
+  "original_model_requirement": "BLOCKED",
+  "alternative_outputs": [
+    {
+      "source": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/main/e5dfb5ad-dbd6-40a9-a7c7-9635ed908d11.webp",
+      "output": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/generated/main__e5dfb5ad-dbd6-40a9-a7c7-9635ed908d11__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "sha256": "6c1705345c61bb198950c011715cdda4d0d6695cc2de57c1d887d19614cb51ad",
+      "request_id": "b1c6eadf-46e3-4f65-a982-2e5063af074f",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": true,
+        "construction_and_bound_leg_openings": true,
+        "teal_color_visual_match": true,
+        "floral_butterfly_order_scale_geometry_visual_match": true,
+        "neutral_studio_non_human": true,
+        "no_added_text": true,
+        "owner_preview_acceptance": "approved",
+        "limitations": [
+          "Source lighting prevents colorimetric certification.",
+          "Fine print dots assessed visually, not pixel-identical certification."
+        ]
+      }
+    },
+    {
+      "source": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/39ffd1dc-4889-48fa-9093-18bc3c4343e8.webp",
+      "output": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/generated/color__39ffd1dc-4889-48fa-9093-18bc3c4343e8__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "sha256": "6263c54bc9f00bf02cc711b01be60f55c074bd270005fd634240b4e8a5ac3175",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": true,
+        "correct_waistband_leg_bindings_front_seams": true,
+        "variant_color_visual_match": "Black",
+        "floral_butterfly_motif_order_scale_geometry_visual_match": true,
+        "opaque_knit_appearance": true,
+        "same_mannequin_studio_lighting_camera": true,
+        "no_added_text_or_extra_garments": true,
+        "limitations": [
+          "Color matched visually, not colorimetrically calibrated.",
+          "Fine print dots assessed visually, not pixel-identical certification."
+        ]
+      },
+      "request_id": "a6df032e-dc4c-45a9-aac1-69922b630774"
+    },
+    {
+      "source": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/7f1bdb4a-7a70-428e-a56b-d6d8e8598b6e.webp",
+      "output": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/generated/color__7f1bdb4a-7a70-428e-a56b-d6d8e8598b6e__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "sha256": "70874e2a0ea16c0469e7d1ac5d02fdc60513f0b5b3b0554e2af845289bb14ed2",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": true,
+        "correct_waistband_leg_bindings_front_seams": true,
+        "variant_color_visual_match": "Dusty blush-beige",
+        "floral_butterfly_motif_order_scale_geometry_visual_match": true,
+        "opaque_knit_appearance": true,
+        "same_mannequin_studio_lighting_camera": true,
+        "no_added_text_or_extra_garments": true,
+        "limitations": [
+          "Color matched visually, not colorimetrically calibrated.",
+          "Fine print dots assessed visually, not pixel-identical certification."
+        ]
+      },
+      "request_id": "9f96e914-dece-489b-ac3c-011a5eee802c"
+    },
+    {
+      "source": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/8f0285bb-dd23-4092-93f2-a15bbf78ae81.webp",
+      "output": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/generated/color__8f0285bb-dd23-4092-93f2-a15bbf78ae81__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "sha256": "c7d664cc2465802a5f2aa7a33441f964c91c37e9e15c384c6a734e3b41ec1235",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": true,
+        "correct_waistband_leg_bindings_front_seams": true,
+        "variant_color_visual_match": "Lavender",
+        "floral_butterfly_motif_order_scale_geometry_visual_match": true,
+        "opaque_knit_appearance": true,
+        "same_mannequin_studio_lighting_camera": true,
+        "no_added_text_or_extra_garments": true,
+        "limitations": [
+          "Color matched visually, not colorimetrically calibrated.",
+          "Fine print dots assessed visually, not pixel-identical certification."
+        ]
+      },
+      "request_id": "05baa71b-61bc-48ba-b40c-cdde531f92e8"
+    },
+    {
+      "source": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/ad767310-92e1-4be0-b398-c08c8cebf0a7.webp",
+      "output": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/generated/color__ad767310-92e1-4be0-b398-c08c8cebf0a7__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "sha256": "d06318114622ab884313bf3c9a20d7e91ab8a7fe7fb53e8bea775533685f2940",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": true,
+        "correct_waistband_leg_bindings_front_seams": true,
+        "variant_color_visual_match": "Slate gray",
+        "floral_butterfly_motif_order_scale_geometry_visual_match": true,
+        "opaque_knit_appearance": true,
+        "same_mannequin_studio_lighting_camera": true,
+        "no_added_text_or_extra_garments": true,
+        "limitations": [
+          "Color matched visually, not colorimetrically calibrated.",
+          "Fine print dots assessed visually, not pixel-identical certification."
+        ]
+      },
+      "request_id": "64ae43cb-f37a-4007-ba5c-04b650f4575d"
+    },
+    {
+      "source": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/bc5ea94e-4d07-48d0-a980-b4b08ca2e2f6.webp",
+      "output": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/generated/color__bc5ea94e-4d07-48d0-a980-b4b08ca2e2f6__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "sha256": "2476d50206ea785929f9f824a0bbdda9d63d0b6dd92d99bb1732bcfca31fa225",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": true,
+        "correct_waistband_leg_bindings_front_seams": true,
+        "variant_color_visual_match": "Rose pink",
+        "floral_butterfly_motif_order_scale_geometry_visual_match": true,
+        "opaque_knit_appearance": true,
+        "same_mannequin_studio_lighting_camera": true,
+        "no_added_text_or_extra_garments": true,
+        "limitations": [
+          "Color matched visually, not colorimetrically calibrated.",
+          "Fine print dots assessed visually, not pixel-identical certification."
+        ]
+      },
+      "request_id": "a1185112-5917-4465-9b4b-e6069e0cf6b7"
+    }
+  ],
+  "generation_attempts": [
+    {
+      "time": "2026-11-22T06:05:31.285659+00:00",
+      "tool": "image_generate",
+      "model": "gpt-image-2-medium",
+      "provider": "openai-codex",
+      "mode": "non_human_mannequin",
+      "source": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/main/e5dfb5ad-dbd6-40a9-a7c7-9635ed908d11.webp",
+      "references": [
+        "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/main/e5dfb5ad-dbd6-40a9-a7c7-9635ed908d11.webp",
+        "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/8f0285bb-dd23-4092-93f2-a15bbf78ae81.webp"
+      ],
+      "request_id": "b1c6eadf-46e3-4f65-a982-2e5063af074f",
+      "result": "returned_image",
+      "reported_quality": "low",
+      "retries": 0
+    },
+    {
+      "time": "2026-11-22T06:11:20.990555+00:00",
+      "tool": "image_generate",
+      "provider": "openai-codex",
+      "model": "gpt-image-2-medium",
+      "request_id": "a6df032e-dc4c-45a9-aac1-69922b630774",
+      "source": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/39ffd1dc-4889-48fa-9093-18bc3c4343e8.webp",
+      "mode": "non_human_mannequin",
+      "result": "returned_image",
+      "retries": 0,
+      "requested_aspect_ratio": "square",
+      "reported_quality": "low",
+      "actual_dimensions": [
+        1312,
+        1199
+      ],
+      "primary_reference": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/generated/main__e5dfb5ad-dbd6-40a9-a7c7-9635ed908d11__mannequin.png",
+      "variant_reference": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/39ffd1dc-4889-48fa-9093-18bc3c4343e8.webp",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": true,
+        "correct_waistband_leg_bindings_front_seams": true,
+        "variant_color_visual_match": "Black",
+        "floral_butterfly_motif_order_scale_geometry_visual_match": true,
+        "opaque_knit_appearance": true,
+        "same_mannequin_studio_lighting_camera": true,
+        "no_added_text_or_extra_garments": true,
+        "limitations": [
+          "Color matched visually, not colorimetrically calibrated.",
+          "Fine print dots assessed visually, not pixel-identical certification."
+        ]
+      }
+    },
+    {
+      "time": "2026-11-22T06:11:20.990555+00:00",
+      "tool": "image_generate",
+      "provider": "openai-codex",
+      "model": "gpt-image-2-medium",
+      "request_id": "9f96e914-dece-489b-ac3c-011a5eee802c",
+      "source": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/7f1bdb4a-7a70-428e-a56b-d6d8e8598b6e.webp",
+      "mode": "non_human_mannequin",
+      "result": "returned_image",
+      "retries": 0,
+      "requested_aspect_ratio": "square",
+      "reported_quality": "low",
+      "actual_dimensions": [
+        1312,
+        1199
+      ],
+      "primary_reference": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/generated/main__e5dfb5ad-dbd6-40a9-a7c7-9635ed908d11__mannequin.png",
+      "variant_reference": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/7f1bdb4a-7a70-428e-a56b-d6d8e8598b6e.webp",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": true,
+        "correct_waistband_leg_bindings_front_seams": true,
+        "variant_color_visual_match": "Dusty blush-beige",
+        "floral_butterfly_motif_order_scale_geometry_visual_match": true,
+        "opaque_knit_appearance": true,
+        "same_mannequin_studio_lighting_camera": true,
+        "no_added_text_or_extra_garments": true,
+        "limitations": [
+          "Color matched visually, not colorimetrically calibrated.",
+          "Fine print dots assessed visually, not pixel-identical certification."
+        ]
+      }
+    },
+    {
+      "time": "2026-11-22T06:11:20.990555+00:00",
+      "tool": "image_generate",
+      "provider": "openai-codex",
+      "model": "gpt-image-2-medium",
+      "request_id": "05baa71b-61bc-48ba-b40c-cdde531f92e8",
+      "source": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/8f0285bb-dd23-4092-93f2-a15bbf78ae81.webp",
+      "mode": "non_human_mannequin",
+      "result": "returned_image",
+      "retries": 0,
+      "requested_aspect_ratio": "square",
+      "reported_quality": "low",
+      "actual_dimensions": [
+        1312,
+        1199
+      ],
+      "primary_reference": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/generated/main__e5dfb5ad-dbd6-40a9-a7c7-9635ed908d11__mannequin.png",
+      "variant_reference": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/8f0285bb-dd23-4092-93f2-a15bbf78ae81.webp",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": true,
+        "correct_waistband_leg_bindings_front_seams": true,
+        "variant_color_visual_match": "Lavender",
+        "floral_butterfly_motif_order_scale_geometry_visual_match": true,
+        "opaque_knit_appearance": true,
+        "same_mannequin_studio_lighting_camera": true,
+        "no_added_text_or_extra_garments": true,
+        "limitations": [
+          "Color matched visually, not colorimetrically calibrated.",
+          "Fine print dots assessed visually, not pixel-identical certification."
+        ]
+      }
+    },
+    {
+      "time": "2026-11-22T06:11:20.990555+00:00",
+      "tool": "image_generate",
+      "provider": "openai-codex",
+      "model": "gpt-image-2-medium",
+      "request_id": "64ae43cb-f37a-4007-ba5c-04b650f4575d",
+      "source": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/ad767310-92e1-4be0-b398-c08c8cebf0a7.webp",
+      "mode": "non_human_mannequin",
+      "result": "returned_image",
+      "retries": 0,
+      "requested_aspect_ratio": "square",
+      "reported_quality": "low",
+      "actual_dimensions": [
+        1312,
+        1199
+      ],
+      "primary_reference": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/generated/main__e5dfb5ad-dbd6-40a9-a7c7-9635ed908d11__mannequin.png",
+      "variant_reference": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/ad767310-92e1-4be0-b398-c08c8cebf0a7.webp",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": true,
+        "correct_waistband_leg_bindings_front_seams": true,
+        "variant_color_visual_match": "Slate gray",
+        "floral_butterfly_motif_order_scale_geometry_visual_match": true,
+        "opaque_knit_appearance": true,
+        "same_mannequin_studio_lighting_camera": true,
+        "no_added_text_or_extra_garments": true,
+        "limitations": [
+          "Color matched visually, not colorimetrically calibrated.",
+          "Fine print dots assessed visually, not pixel-identical certification."
+        ]
+      }
+    },
+    {
+      "time": "2026-11-22T06:11:20.990555+00:00",
+      "tool": "image_generate",
+      "provider": "openai-codex",
+      "model": "gpt-image-2-medium",
+      "request_id": "a1185112-5917-4465-9b4b-e6069e0cf6b7",
+      "source": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/bc5ea94e-4d07-48d0-a980-b4b08ca2e2f6.webp",
+      "mode": "non_human_mannequin",
+      "result": "returned_image",
+      "retries": 0,
+      "requested_aspect_ratio": "square",
+      "reported_quality": "low",
+      "actual_dimensions": [
+        1312,
+        1199
+      ],
+      "primary_reference": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/generated/main__e5dfb5ad-dbd6-40a9-a7c7-9635ed908d11__mannequin.png",
+      "variant_reference": "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/bc5ea94e-4d07-48d0-a980-b4b08ca2e2f6.webp",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": true,
+        "correct_waistband_leg_bindings_front_seams": true,
+        "variant_color_visual_match": "Rose pink",
+        "floral_butterfly_motif_order_scale_geometry_visual_match": true,
+        "opaque_knit_appearance": true,
+        "same_mannequin_studio_lighting_camera": true,
+        "no_added_text_or_extra_garments": true,
+        "limitations": [
+          "Color matched visually, not colorimetrically calibrated.",
+          "Fine print dots assessed visually, not pixel-identical certification."
+        ]
+      }
+    }
+  ],
+  "owner_approval": {
+    "recorded_at": "2026-11-22T06:11:20.990555+00:00",
+    "message": "Approve \u2014 generate all 5 colors",
+    "scope": "Approved preview and authorized five color outputs; publication not yet authorized."
+  },
+  "completion_scope": "Owner-approved revised non-human mannequin deliverable only",
+  "alternative_status": "COMPLETE"
 }
