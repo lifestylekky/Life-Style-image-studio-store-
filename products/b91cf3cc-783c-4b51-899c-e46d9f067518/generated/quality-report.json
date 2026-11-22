@@ -1,19 +1,22 @@
 {
   "product_id": "b91cf3cc-783c-4b51-899c-e46d9f067518",
-  "status": "BLOCKED",
-  "source_review": "All main and color source photos visually reviewed. Each local image blob hash matched the repository inventory.",
-  "scene_consistency": "Pending accepted catalog outputs.",
-  "result": "Model-worn submissions withheld after an equivalent presentation for the first brief in this batch was blocked at input moderation.",
+  "status": "COMPLETE",
+  "source_review": "All 4 source images visually reviewed and reconciled individually in this session.",
+  "scene_consistency": "PASS: same white non-human form, warm-gray studio, diffuse camera-left daylight, framing and scale.",
+  "result": "All 1 main and 3 color sources mapped to QA-passed non-human mannequin outputs under owner-approved revised scope.",
   "counts": {
     "main_sources": 1,
     "color_sources": 3,
     "accounted_for_sources": 4,
-    "submitted_generation_attempts": 0,
+    "submitted_generation_attempts": 4,
     "moderated_requests": 0,
-    "returned_image_files": 0,
+    "returned_image_files": 4,
     "approved_model_images": 0,
-    "approved_mannequin_alternatives": 0,
-    "display_form_previews": 0
+    "approved_mannequin_alternatives": 4,
+    "display_form_previews": 1,
+    "approved_main_alternatives": 1,
+    "approved_color_alternatives": 3,
+    "approved_detail_images": 0
   },
   "moderation": null,
   "related_moderation": {
@@ -24,41 +27,247 @@
     "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp",
     "mode": "model_worn"
   },
-  "approved_outputs": [],
-  "alternative_preview": null,
+  "approved_outputs": [
+    {
+      "source": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/main/0ac8cc6f-5ad2-4dfc-8bc0-f8bcfec04b09.webp",
+      "output": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/generated/alternatives/main__0ac8cc6f-5ad2-4dfc-8bc0-f8bcfec04b09__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "sha256": "aa18b92f237e2adf3894d6bd9e2f94186215b74013f90aa3458aefccac24462d",
+      "qa": {
+        "full_unfolded_garment": true,
+        "one_product_one_piece": true,
+        "waistband_leg_bindings_front_seam": true,
+        "primary_blush_beige_color_visual_match": true,
+        "neutral_studio_non_human": true,
+        "no_added_text": true,
+        "genuine_wordmark_preserved_visually": true,
+        "limitations": [
+          "Source lighting prevents colorimetric certification.",
+          "Fine wordmark lettering is not independently certified.",
+          "Tool returned 1312x1199 rather than requested portrait; actual dimensions retained without stretching."
+        ],
+        "decision": "PASS",
+        "owner_preview_acceptance": "approved"
+      },
+      "request_id": "5d097cae-e461-46b1-8340-67bd79b23814"
+    },
+    {
+      "source": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/colors/035f7899-06b8-4f35-9906-7d000379bc84.webp",
+      "output": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/generated/alternatives/color__035f7899-06b8-4f35-9906-7d000379bc84__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "sha256": "39c2a369965c3092c7ebed0edce9786785804e8c9e208333d7ccb1af26592580",
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_garment": true,
+        "one_product_one_piece": true,
+        "correct_high_rise_waistband_leg_bindings_front_seams": true,
+        "variant_color_visual_match": "Ivory beige",
+        "fabric_appearance": "Opaque soft knit, visually consistent",
+        "complete_product_visibility": true,
+        "same_mannequin_studio_lighting_camera": true,
+        "genuine_wordmark_position_and_general_style": true,
+        "no_added_text_or_extra_garments": true,
+        "limitations": [
+          "Color matched visually, not colorimetrically calibrated.",
+          "Tiny genuine wordmark lettering not independently certified."
+        ],
+        "owner_individual_color_review": "not_requested"
+      },
+      "request_id": "936099a6-ecdd-40a9-8b38-13efd3b1353e"
+    },
+    {
+      "source": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/colors/c1d041a3-7c81-45cb-b0a1-50006ae40b9a.webp",
+      "output": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/generated/alternatives/color__c1d041a3-7c81-45cb-b0a1-50006ae40b9a__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "sha256": "6fd09173af4d0515079388bf406bcd7725c5e1fba386309d7331d0ed65e2ef1f",
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_garment": true,
+        "one_product_one_piece": true,
+        "correct_high_rise_waistband_leg_bindings_front_seams": true,
+        "variant_color_visual_match": "Light peach-beige",
+        "fabric_appearance": "Opaque soft knit, visually consistent",
+        "complete_product_visibility": true,
+        "same_mannequin_studio_lighting_camera": true,
+        "genuine_wordmark_position_and_general_style": true,
+        "no_added_text_or_extra_garments": true,
+        "limitations": [
+          "Color matched visually, not colorimetrically calibrated.",
+          "Tiny genuine wordmark lettering not independently certified."
+        ],
+        "owner_individual_color_review": "not_requested"
+      },
+      "request_id": "6cddc481-623f-4477-b14e-cc9a9a8dcb53"
+    },
+    {
+      "source": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/colors/d1c2bfc4-6110-403f-b0f8-af402263ce1a.webp",
+      "output": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/generated/alternatives/color__d1c2bfc4-6110-403f-b0f8-af402263ce1a__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "sha256": "4defa6317c6384e3feb9178f8b2f359fe5dc5c212b79162d0fd8b941fa03ebbd",
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_garment": true,
+        "one_product_one_piece": true,
+        "correct_high_rise_waistband_leg_bindings_front_seams": true,
+        "variant_color_visual_match": "Rosy beige",
+        "fabric_appearance": "Opaque soft knit, visually consistent",
+        "complete_product_visibility": true,
+        "same_mannequin_studio_lighting_camera": true,
+        "genuine_wordmark_position_and_general_style": true,
+        "no_added_text_or_extra_garments": true,
+        "limitations": [
+          "Color matched visually, not colorimetrically calibrated.",
+          "Tiny genuine wordmark lettering not independently certified."
+        ],
+        "owner_individual_color_review": "not_requested"
+      },
+      "request_id": "c66d483f-3591-4a3b-83a3-c79b9f0de2a5"
+    }
+  ],
+  "alternative_preview": {
+    "source": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/main/0ac8cc6f-5ad2-4dfc-8bc0-f8bcfec04b09.webp",
+    "output": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/generated/alternatives/main__0ac8cc6f-5ad2-4dfc-8bc0-f8bcfec04b09__mannequin.png",
+    "status": "ALTERNATIVE_MANNEQUIN",
+    "dimensions": [
+      1312,
+      1199
+    ],
+    "sha256": "aa18b92f237e2adf3894d6bd9e2f94186215b74013f90aa3458aefccac24462d",
+    "qa": {
+      "full_unfolded_garment": true,
+      "one_product_one_piece": true,
+      "waistband_leg_bindings_front_seam": true,
+      "primary_blush_beige_color_visual_match": true,
+      "neutral_studio_non_human": true,
+      "no_added_text": true,
+      "genuine_wordmark_preserved_visually": true,
+      "limitations": [
+        "Source lighting prevents colorimetric certification.",
+        "Fine wordmark lettering is not independently certified.",
+        "Tool returned 1312x1199 rather than requested portrait; actual dimensions retained without stretching."
+      ],
+      "decision": "PASS",
+      "owner_preview_acceptance": "approved"
+    },
+    "request_id": "5d097cae-e461-46b1-8340-67bd79b23814"
+  },
   "source_results": [
     {
       "source": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/main/0ac8cc6f-5ad2-4dfc-8bc0-f8bcfec04b09.webp",
       "source_git_blob": "48422c1359b289f6ded53775ff25efdd4167d110",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
+      "output": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/generated/alternatives/main__0ac8cc6f-5ad2-4dfc-8bc0-f8bcfec04b09__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 0,
+      "alternative_dimensions": [
+        1312,
+        1199
+      ]
     },
     {
       "source": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/colors/035f7899-06b8-4f35-9906-7d000379bc84.webp",
       "source_git_blob": "5fabed730cef03cc3833b6dc70abb07c2e467e3e",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
+      "output": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/generated/alternatives/color__035f7899-06b8-4f35-9906-7d000379bc84__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 0,
+      "alternative_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_garment": true,
+        "one_product_one_piece": true,
+        "correct_high_rise_waistband_leg_bindings_front_seams": true,
+        "variant_color_visual_match": "Ivory beige",
+        "fabric_appearance": "Opaque soft knit, visually consistent",
+        "complete_product_visibility": true,
+        "same_mannequin_studio_lighting_camera": true,
+        "genuine_wordmark_position_and_general_style": true,
+        "no_added_text_or_extra_garments": true,
+        "limitations": [
+          "Color matched visually, not colorimetrically calibrated.",
+          "Tiny genuine wordmark lettering not independently certified."
+        ],
+        "owner_individual_color_review": "not_requested"
+      },
+      "alternative_attempts": 1
     },
     {
       "source": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/colors/c1d041a3-7c81-45cb-b0a1-50006ae40b9a.webp",
       "source_git_blob": "b4391e8d2caa7a6863b4100ed4ba674e57cf7a89",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
+      "output": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/generated/alternatives/color__c1d041a3-7c81-45cb-b0a1-50006ae40b9a__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 0,
+      "alternative_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_garment": true,
+        "one_product_one_piece": true,
+        "correct_high_rise_waistband_leg_bindings_front_seams": true,
+        "variant_color_visual_match": "Light peach-beige",
+        "fabric_appearance": "Opaque soft knit, visually consistent",
+        "complete_product_visibility": true,
+        "same_mannequin_studio_lighting_camera": true,
+        "genuine_wordmark_position_and_general_style": true,
+        "no_added_text_or_extra_garments": true,
+        "limitations": [
+          "Color matched visually, not colorimetrically calibrated.",
+          "Tiny genuine wordmark lettering not independently certified."
+        ],
+        "owner_individual_color_review": "not_requested"
+      },
+      "alternative_attempts": 1
     },
     {
       "source": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/colors/d1c2bfc4-6110-403f-b0f8-af402263ce1a.webp",
       "source_git_blob": "6d2299a15f98ee4b49cecadb0dfd0fb689961c0c",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
+      "output": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/generated/alternatives/color__d1c2bfc4-6110-403f-b0f8-af402263ce1a__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 0,
+      "alternative_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_garment": true,
+        "one_product_one_piece": true,
+        "correct_high_rise_waistband_leg_bindings_front_seams": true,
+        "variant_color_visual_match": "Rosy beige",
+        "fabric_appearance": "Opaque soft knit, visually consistent",
+        "complete_product_visibility": true,
+        "same_mannequin_studio_lighting_camera": true,
+        "genuine_wordmark_position_and_general_style": true,
+        "no_added_text_or_extra_garments": true,
+        "limitations": [
+          "Color matched visually, not colorimetrically calibrated.",
+          "Tiny genuine wordmark lettering not independently certified."
+        ],
+        "owner_individual_color_review": "not_requested"
+      },
+      "alternative_attempts": 1
     }
   ],
-  "blockers": [
-    "Model-worn submissions withheld after an equivalent presentation for the first brief in this batch was blocked at input moderation."
-  ],
+  "blockers": [],
   "rerun_checks": [
     {
       "run_id": "image-empty-audit-2026-11-20",
@@ -111,6 +320,76 @@
       "new_preview_requests": 0,
       "decision": "AWAITING_MANNEQUIN_ACCEPTANCE",
       "reason": "Existing model-worn moderation hold preserved; non-human catalog deliverable awaits explicit user acceptance."
+    },
+    {
+      "checked_at": "2026-11-22T05:52:07.454914+00:00",
+      "source_count": 4,
+      "sources": [
+        {
+          "path": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/main/0ac8cc6f-5ad2-4dfc-8bc0-f8bcfec04b09.webp",
+          "sha256": "068c44921e42c8ba5cadb06542138ddb76b469bd520dad3e4091a600ad492b43",
+          "dimensions": [
+            1650,
+            2200
+          ],
+          "visually_reviewed": true
+        },
+        {
+          "path": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/colors/035f7899-06b8-4f35-9906-7d000379bc84.webp",
+          "sha256": "71103bd08bed3935aead862c1607c01d0046a85b5447cb81ed07284b05fe8e1b",
+          "dimensions": [
+            1650,
+            2200
+          ],
+          "visually_reviewed": true
+        },
+        {
+          "path": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/colors/c1d041a3-7c81-45cb-b0a1-50006ae40b9a.webp",
+          "sha256": "3d378674f3612fd796efa82c4662646e227b4c2bc513fa672d425f4f6d7a081d",
+          "dimensions": [
+            1650,
+            2200
+          ],
+          "visually_reviewed": true
+        },
+        {
+          "path": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/colors/d1c2bfc4-6110-403f-b0f8-af402263ce1a.webp",
+          "sha256": "142ab24c858a4ce71ea49a01119c0e7dce2b796ea7d095749fce4e4660c6d7e4",
+          "dimensions": [
+            1650,
+            2200
+          ],
+          "visually_reviewed": true
+        }
+      ],
+      "new_generation_attempts": 1,
+      "new_moderation_rejections": 0,
+      "decision": "MANNEQUIN_PREVIEW_READY_OWNER_REVIEW"
+    },
+    {
+      "checked_at": "2026-11-22T05:56:02.286485+00:00",
+      "source_count": 4,
+      "all_sources_individually_reconciled": true,
+      "source_hashes_unchanged": true,
+      "actual_readable_outputs": 4,
+      "all_dimensions_equal": true,
+      "cross_variant_scene_qa": "PASS",
+      "alternative_deliverable": "COMPLETE",
+      "original_model_requirement": "BLOCKED"
     }
-  ]
+  ],
+  "updated_at": "2026-11-22T05:56:02.286485+00:00",
+  "completion_scope": "Owner-approved revised non-human mannequin deliverable only",
+  "original_model_requirement": "BLOCKED",
+  "final_reconciliation": {
+    "checked_at": "2026-11-22T05:56:02.286485+00:00",
+    "source_count": 4,
+    "all_sources_individually_reconciled": true,
+    "source_hashes_unchanged": true,
+    "actual_readable_outputs": 4,
+    "all_dimensions_equal": true,
+    "cross_variant_scene_qa": "PASS",
+    "alternative_deliverable": "COMPLETE",
+    "original_model_requirement": "BLOCKED"
+  }
 }
