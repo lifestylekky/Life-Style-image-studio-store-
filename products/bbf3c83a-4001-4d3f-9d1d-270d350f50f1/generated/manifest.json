@@ -4,13 +4,13 @@
   "product_name_basis": "Description and visible garment construction",
   "workflow": "AGENTS.md",
   "workflow_git_blob": "ff1216a3fe7ae20f32a8abff94203ba2716ceaf1",
-  "source_revision": "76e16b0e214dfffaf92fc98b8e6ce2b105657057",
-  "status": "BLOCKED",
-  "preflight_decision": "not_submitted_equivalent_presentation",
-  "catalog_mode": "model_worn",
+  "source_revision": "e6f80179e24210510a6ea653ecee0abf860289aa",
+  "status": "COMPLETE",
+  "preflight_decision": "ready_mannequin_catalog",
+  "catalog_mode": "non_human_mannequin",
   "garment_spec": {
     "pieces": 1,
-    "construction": "Opaque high-rise brief with a slim elastic top band, matching leg binding, and a fine repeat of small two-tone illustrated motifs."
+    "construction": "Single high-rise soft opaque knit brief, plain narrow-to-medium folded elastic top band, matching leg binding, lower transverse front seam; sparse staggered tiny animal heads, black-eared white dog, colored floppy-eared dog and taupe cat faces. Preserve each variant motif colors independently."
   },
   "source_metadata": [
     {
@@ -31,12 +31,14 @@
         "width": 1650,
         "height": 2200
       },
-      "color": "Pale cream",
-      "presentation": "unfolded on shop form",
+      "color": "Pale sage cream",
+      "presentation": "Unfolded on shop form",
       "uploaded_at": "2026-11-18T15:19:55.219Z",
       "original_upload_name": "IMG_20261118_204333.jpg",
       "aspect_ratio": "3:4",
-      "duplicate_reference_paths": []
+      "duplicate_reference_paths": [],
+      "sha256": "38b3c5b94d32d2b4033510cc843a621433ce34321341700847cd7e709b73b8cb",
+      "visually_reviewed_at": "2026-11-22T06:25:46.683342+00:00"
     },
     {
       "path": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/colors/0a6e5289-834e-4f08-8be5-32adae19c555.webp",
@@ -46,12 +48,14 @@
         "width": 1650,
         "height": 2200
       },
-      "color": "Blush pink",
-      "presentation": "unfolded laid out",
+      "color": "Pale pink lilac",
+      "presentation": "Unfolded laid out",
       "uploaded_at": "2026-11-18T15:19:55.219Z",
       "original_upload_name": "IMG_20261118_204258.jpg",
       "aspect_ratio": "3:4",
-      "duplicate_reference_paths": []
+      "duplicate_reference_paths": [],
+      "sha256": "357c7c580e9c17dd1f8638fb72d2794298dfd1ec94f3229845d82b13735c36bc",
+      "visually_reviewed_at": "2026-11-22T06:25:46.683342+00:00"
     },
     {
       "path": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/colors/3875a35d-9edf-4849-90f1-a0b803794d57.webp",
@@ -61,12 +65,14 @@
         "width": 1650,
         "height": 2200
       },
-      "color": "Light gray",
-      "presentation": "unfolded laid out",
+      "color": "Light cool gray",
+      "presentation": "Unfolded laid out",
       "uploaded_at": "2026-11-18T15:19:55.219Z",
       "original_upload_name": "IMG_20261118_204245.jpg",
       "aspect_ratio": "3:4",
-      "duplicate_reference_paths": []
+      "duplicate_reference_paths": [],
+      "sha256": "fa8eb529ab568dfdde30ce7c2bca226ab48529dab48bf62287846023fb718a84",
+      "visually_reviewed_at": "2026-11-22T06:25:46.683342+00:00"
     },
     {
       "path": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/colors/53f3a1c6-8162-4b6d-af45-59ac843ffca7.webp",
@@ -77,11 +83,13 @@
         "height": 2200
       },
       "color": "Warm ivory",
-      "presentation": "unfolded laid out",
+      "presentation": "Unfolded laid out",
       "uploaded_at": "2026-11-18T15:19:55.219Z",
       "original_upload_name": "IMG_20261118_204231.jpg",
       "aspect_ratio": "3:4",
-      "duplicate_reference_paths": []
+      "duplicate_reference_paths": [],
+      "sha256": "3aea7ecb2eef9acc0e3947719a5eaa9daf5e3c5f146d69b81575dd4f69bfcd50",
+      "visually_reviewed_at": "2026-11-22T06:25:46.683342+00:00"
     },
     {
       "path": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/colors/dc0606b1-f59c-44e1-85c4-c7947c821f58.webp",
@@ -91,12 +99,14 @@
         "width": 1650,
         "height": 2200
       },
-      "color": "Pale yellow cream",
-      "presentation": "unfolded laid out",
+      "color": "Pale yellow",
+      "presentation": "Unfolded laid out",
       "uploaded_at": "2026-11-18T15:19:55.219Z",
       "original_upload_name": "IMG_20261118_204251.jpg",
       "aspect_ratio": "3:4",
-      "duplicate_reference_paths": []
+      "duplicate_reference_paths": [],
+      "sha256": "5d4b8c44cd314a09654784976df623b58f9f5d058b72c08484b5785bb018e45c",
+      "visually_reviewed_at": "2026-11-22T06:25:46.683342+00:00"
     }
   ],
   "construction_references": [
@@ -104,43 +114,54 @@
   ],
   "scene_profile": {
     "location": "Neutral commercial product studio",
-    "backdrop": "Pale warm-gray seamless paper",
-    "floor": "Matching matte warm-gray floor",
-    "lighting": "Diffuse daylight from camera left",
-    "camera": "Centered, straight-on 3:4 catalog frame",
+    "backdrop": "Pale warm-gray seamless",
+    "floor": "Matching matte floor",
     "furniture": "None",
-    "status": "Proposed for display-form run"
+    "lighting": "Diffuse daylight from camera left",
+    "temperature": "Neutral daylight",
+    "camera": "Straight-on centered 1199:1312 full-garment framing",
+    "subject_position": "Centered with full waistband and both leg openings visible",
+    "depth_of_field": "Entire garment sharp",
+    "mood": "Ordinary commercial catalog",
+    "status": "Locked from QA-passed representative"
   },
-  "model_profile": "Neutral adult model-worn catalog presentation on hold.",
+  "model_profile": "Freestanding simplified matte-white non-human retail hip form; product-specific approved representative locks display.",
   "camera_profile": {
-    "aspect_ratio": "3:4",
-    "status": "proposed"
+    "view": "Straight-on",
+    "actual_dimensions": [
+      1199,
+      1312
+    ],
+    "aspect_ratio": "1199:1312",
+    "note": "Actual representative dimensions retained without stretch; use representative for same-product variants.",
+    "requested_tool_aspect_ratio": "square",
+    "aspect_ratio_discrepancy": "Actual tool-returned framing accepted after full-garment QA; no resampling or stretching."
   },
   "pose_plan": [
     {
       "source": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/main/3d3f50dd-d10d-48e3-8c99-0fd9d7de2c69.webp",
-      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
-      "accepted": null
+      "planned": "Upright straight-on non-human form; no human pose variety; prioritize complete product.",
+      "accepted": "Straight-on upright non-human hip display; full garment unobstructed."
     },
     {
       "source": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/colors/0a6e5289-834e-4f08-8be5-32adae19c555.webp",
-      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
-      "accepted": null
+      "planned": "Upright straight-on non-human form; no human pose variety; prioritize complete product.",
+      "accepted": "Straight-on upright non-human hip display; full garment unobstructed."
     },
     {
       "source": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/colors/3875a35d-9edf-4849-90f1-a0b803794d57.webp",
-      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
-      "accepted": null
+      "planned": "Upright straight-on non-human form; no human pose variety; prioritize complete product.",
+      "accepted": "Straight-on upright non-human hip display; full garment unobstructed."
     },
     {
       "source": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/colors/53f3a1c6-8162-4b6d-af45-59ac843ffca7.webp",
-      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
-      "accepted": null
+      "planned": "Upright straight-on non-human form; no human pose variety; prioritize complete product.",
+      "accepted": "Straight-on upright non-human hip display; full garment unobstructed."
     },
     {
       "source": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/colors/dc0606b1-f59c-44e1-85c4-c7947c821f58.webp",
-      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
-      "accepted": null
+      "planned": "Upright straight-on non-human form; no human pose variety; prioritize complete product.",
+      "accepted": "Straight-on upright non-human hip display; full garment unobstructed."
     }
   ],
   "moderation_failures": [],
@@ -153,59 +174,186 @@
     "mode": "model_worn"
   },
   "alternative_mode": "non_human_mannequin",
-  "alternative_acceptance": "pending_user_approval",
-  "alternative_preview": null,
+  "alternative_acceptance": "owner_delegated_choice_full_run",
+  "alternative_preview": {
+    "source": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/main/3d3f50dd-d10d-48e3-8c99-0fd9d7de2c69.webp",
+    "output": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/generated/main__3d3f50dd-d10d-48e3-8c99-0fd9d7de2c69__mannequin.png",
+    "status": "ALTERNATIVE_MANNEQUIN",
+    "dimensions": [
+      1199,
+      1312
+    ],
+    "sha256": "0ab2eb6c1769274ae94619e0542f30fb81843bf2e3e5db7e7488d86ddb4dce60",
+    "variant_color": "Pale sage cream",
+    "request_id": "fdc57930-312f-4ab1-af96-e0450e4cc5c5",
+    "qa": {
+      "decision": "PASS",
+      "full_unfolded_single_product": true,
+      "construction_material_color_visual_match": true,
+      "genuine_print_emblem_visual_match": true,
+      "neutral_non_human_studio": true,
+      "no_added_text_or_extra_garments": true,
+      "complete_garment_visibility": true,
+      "scene_form_camera_consistency": true,
+      "limitations": [
+        "Visual color match; not colorimetrically calibrated.",
+        "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+      ],
+      "tiny_animal_motifs_identity_scale_density": "PASS visual; not pixel-identical print certification"
+    }
+  },
   "counts": {
     "main_sources": 1,
     "color_sources": 4,
     "accounted_for_sources": 5,
-    "submitted_generation_attempts": 0,
+    "submitted_generation_attempts": 5,
     "moderated_requests": 0,
-    "returned_image_files": 0,
+    "returned_image_files": 5,
     "approved_model_images": 0,
-    "approved_mannequin_alternatives": 0,
-    "display_form_previews": 0
+    "approved_mannequin_alternatives": 5,
+    "display_form_previews": 1,
+    "approved_main_alternatives": 1,
+    "approved_color_alternatives": 4,
+    "approved_detail_images": 0
   },
   "mappings": [
     {
       "source": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/main/3d3f50dd-d10d-48e3-8c99-0fd9d7de2c69.webp",
       "source_git_blob": "e43ce2d096196ff0fd97f28e402827de022f528b",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
+      "output": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/generated/main__3d3f50dd-d10d-48e3-8c99-0fd9d7de2c69__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 0,
+      "alternative_dimensions": [
+        1199,
+        1312
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "tiny_animal_motifs_identity_scale_density": "PASS visual; not pixel-identical print certification"
+      },
+      "alternative_attempts": 1
     },
     {
       "source": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/colors/0a6e5289-834e-4f08-8be5-32adae19c555.webp",
       "source_git_blob": "3f664b08c37b83b1424448bbaef517de1b1c856f",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
+      "output": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/generated/color__0a6e5289-834e-4f08-8be5-32adae19c555__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 0,
+      "alternative_dimensions": [
+        1199,
+        1312
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "tiny_animal_motifs_identity_scale_density": "PASS visual; not pixel-identical print certification"
+      },
+      "alternative_attempts": 1
     },
     {
       "source": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/colors/3875a35d-9edf-4849-90f1-a0b803794d57.webp",
       "source_git_blob": "5bafda060312e21ccd56ee046c87bb30c7802710",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
+      "output": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/generated/color__3875a35d-9edf-4849-90f1-a0b803794d57__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 0,
+      "alternative_dimensions": [
+        1199,
+        1312
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "tiny_animal_motifs_identity_scale_density": "PASS visual; not pixel-identical print certification"
+      },
+      "alternative_attempts": 1
     },
     {
       "source": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/colors/53f3a1c6-8162-4b6d-af45-59ac843ffca7.webp",
       "source_git_blob": "2e97a5217a3f1b739103298363b4889098a0bccc",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
+      "output": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/generated/color__53f3a1c6-8162-4b6d-af45-59ac843ffca7__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 0,
+      "alternative_dimensions": [
+        1199,
+        1312
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "tiny_animal_motifs_identity_scale_density": "PASS visual; not pixel-identical print certification"
+      },
+      "alternative_attempts": 1
     },
     {
       "source": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/colors/dc0606b1-f59c-44e1-85c4-c7947c821f58.webp",
       "source_git_blob": "dcb3e628bfcae9df83c0e72e0250bc478f6cbc48",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
+      "output": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/generated/color__dc0606b1-f59c-44e1-85c4-c7947c821f58__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 0,
+      "alternative_dimensions": [
+        1199,
+        1312
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "tiny_animal_motifs_identity_scale_density": "PASS visual; not pixel-identical print certification"
+      },
+      "alternative_attempts": 1
     }
   ],
-  "blockers": [
-    "Model-worn submissions withheld after an equivalent presentation for the first brief in this batch was blocked at input moderation."
-  ],
+  "blockers": [],
   "rerun_checks": [
     {
       "run_id": "image-empty-audit-2026-11-20",
@@ -267,8 +415,341 @@
       "new_preview_requests": 0,
       "decision": "AWAITING_MANNEQUIN_ACCEPTANCE",
       "reason": "Existing model-worn moderation hold preserved; non-human catalog deliverable awaits explicit user acceptance."
+    },
+    {
+      "time": "2026-11-22T06:28:28.356586+00:00",
+      "individual_source_reconciliation": true,
+      "sources": 5,
+      "approved_images": 5,
+      "source_integrity": "PASS",
+      "scene_consistency": "PASS",
+      "all_images_directly_in_generated": true,
+      "same_product_references_only": true
     }
   ],
-  "updated_at": "2026-11-20T08:03:49.997Z",
-  "original_model_requirement": "BLOCKED"
+  "updated_at": "2026-11-22T06:28:27.995158+00:00",
+  "original_model_requirement": "BLOCKED",
+  "owner_authorization": {
+    "time": "2026-11-22T06:18:25.447015+00:00",
+    "scope": "Owner delegated presentation choice, full generation, QA and publication for these three specific products; no questions requested.",
+    "catalog_choice": "non_human_mannequin",
+    "reason": "Ordinary neutral garment display suitable for briefs; preserve existing model-worn moderation hold.",
+    "batch_authorized": true,
+    "publication_authorized": true
+  },
+  "alternative_outputs": [
+    {
+      "source": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/main/3d3f50dd-d10d-48e3-8c99-0fd9d7de2c69.webp",
+      "output": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/generated/main__3d3f50dd-d10d-48e3-8c99-0fd9d7de2c69__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1199,
+        1312
+      ],
+      "sha256": "0ab2eb6c1769274ae94619e0542f30fb81843bf2e3e5db7e7488d86ddb4dce60",
+      "variant_color": "Pale sage cream",
+      "request_id": "fdc57930-312f-4ab1-af96-e0450e4cc5c5",
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "tiny_animal_motifs_identity_scale_density": "PASS visual; not pixel-identical print certification"
+      }
+    },
+    {
+      "source": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/colors/0a6e5289-834e-4f08-8be5-32adae19c555.webp",
+      "output": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/generated/color__0a6e5289-834e-4f08-8be5-32adae19c555__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1199,
+        1312
+      ],
+      "sha256": "0444315a28573d731270d0eff1bf3fa0e57df2d1395613376ec54f1754e75ae1",
+      "variant_color": "Pale pink lilac",
+      "request_id": "c8e9d046-07dc-4329-8b23-0a20d52b11dd",
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "tiny_animal_motifs_identity_scale_density": "PASS visual; not pixel-identical print certification"
+      }
+    },
+    {
+      "source": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/colors/3875a35d-9edf-4849-90f1-a0b803794d57.webp",
+      "output": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/generated/color__3875a35d-9edf-4849-90f1-a0b803794d57__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1199,
+        1312
+      ],
+      "sha256": "6641a6a8b4d637e4fff5e5c50ae6ed87fe2fbdd85d06fa9dd9b98f0848dbdf20",
+      "variant_color": "Light cool gray",
+      "request_id": "53b999bc-7e8c-4ad1-bb5a-1248ba84303a",
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "tiny_animal_motifs_identity_scale_density": "PASS visual; not pixel-identical print certification"
+      }
+    },
+    {
+      "source": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/colors/53f3a1c6-8162-4b6d-af45-59ac843ffca7.webp",
+      "output": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/generated/color__53f3a1c6-8162-4b6d-af45-59ac843ffca7__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1199,
+        1312
+      ],
+      "sha256": "f2cb2ef0bd6dc63d4581e49c618fb9e91eceeaf265a71de7d285ac078b07ea8b",
+      "variant_color": "Warm ivory",
+      "request_id": "7acf9a3b-72c0-450f-a957-3e17c46ec429",
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "tiny_animal_motifs_identity_scale_density": "PASS visual; not pixel-identical print certification"
+      }
+    },
+    {
+      "source": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/colors/dc0606b1-f59c-44e1-85c4-c7947c821f58.webp",
+      "output": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/generated/color__dc0606b1-f59c-44e1-85c4-c7947c821f58__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1199,
+        1312
+      ],
+      "sha256": "c8d1bed7c8b8d4fe08a445a80262ab8bb279eb4f236ab797e261b9c0b909e618",
+      "variant_color": "Pale yellow",
+      "request_id": "35cb1cef-8687-4c5c-98b1-fa75f163bb2f",
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "tiny_animal_motifs_identity_scale_density": "PASS visual; not pixel-identical print certification"
+      }
+    }
+  ],
+  "generation_attempts": [
+    {
+      "time": "2026-11-22T06:26:45.571768+00:00",
+      "tool": "image_generate",
+      "provider": "openai-codex",
+      "model": "gpt-image-2-medium",
+      "source": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/main/3d3f50dd-d10d-48e3-8c99-0fd9d7de2c69.webp",
+      "request_id": "fdc57930-312f-4ab1-af96-e0450e4cc5c5",
+      "mode": "non_human_mannequin",
+      "result": "returned_image",
+      "retries": 0,
+      "actual_dimensions": [
+        1199,
+        1312
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "tiny_animal_motifs_identity_scale_density": "PASS visual; not pixel-identical print certification"
+      },
+      "reference_paths": [
+        "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/main/3d3f50dd-d10d-48e3-8c99-0fd9d7de2c69.webp"
+      ],
+      "reference_roles": "For main: original shape and color, optional same-product detail. For colors: accepted product representative locks scene/form; individual original variant controls color and print."
+    },
+    {
+      "time": "2026-11-22T06:28:26.952757+00:00",
+      "tool": "image_generate",
+      "provider": "openai-codex",
+      "model": "gpt-image-2-medium",
+      "source": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/colors/0a6e5289-834e-4f08-8be5-32adae19c555.webp",
+      "request_id": "c8e9d046-07dc-4329-8b23-0a20d52b11dd",
+      "mode": "non_human_mannequin",
+      "result": "returned_image",
+      "retries": 0,
+      "actual_dimensions": [
+        1199,
+        1312
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "tiny_animal_motifs_identity_scale_density": "PASS visual; not pixel-identical print certification"
+      },
+      "reference_paths": [
+        "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/generated/main__3d3f50dd-d10d-48e3-8c99-0fd9d7de2c69__mannequin.png",
+        "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/colors/0a6e5289-834e-4f08-8be5-32adae19c555.webp"
+      ],
+      "reference_roles": "For main: original shape and color, optional same-product detail. For colors: accepted product representative locks scene/form; individual original variant controls color and print."
+    },
+    {
+      "time": "2026-11-22T06:28:27.370876+00:00",
+      "tool": "image_generate",
+      "provider": "openai-codex",
+      "model": "gpt-image-2-medium",
+      "source": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/colors/3875a35d-9edf-4849-90f1-a0b803794d57.webp",
+      "request_id": "53b999bc-7e8c-4ad1-bb5a-1248ba84303a",
+      "mode": "non_human_mannequin",
+      "result": "returned_image",
+      "retries": 0,
+      "actual_dimensions": [
+        1199,
+        1312
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "tiny_animal_motifs_identity_scale_density": "PASS visual; not pixel-identical print certification"
+      },
+      "reference_paths": [
+        "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/generated/main__3d3f50dd-d10d-48e3-8c99-0fd9d7de2c69__mannequin.png",
+        "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/colors/3875a35d-9edf-4849-90f1-a0b803794d57.webp"
+      ],
+      "reference_roles": "For main: original shape and color, optional same-product detail. For colors: accepted product representative locks scene/form; individual original variant controls color and print."
+    },
+    {
+      "time": "2026-11-22T06:28:27.673705+00:00",
+      "tool": "image_generate",
+      "provider": "openai-codex",
+      "model": "gpt-image-2-medium",
+      "source": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/colors/53f3a1c6-8162-4b6d-af45-59ac843ffca7.webp",
+      "request_id": "7acf9a3b-72c0-450f-a957-3e17c46ec429",
+      "mode": "non_human_mannequin",
+      "result": "returned_image",
+      "retries": 0,
+      "actual_dimensions": [
+        1199,
+        1312
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "tiny_animal_motifs_identity_scale_density": "PASS visual; not pixel-identical print certification"
+      },
+      "reference_paths": [
+        "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/generated/main__3d3f50dd-d10d-48e3-8c99-0fd9d7de2c69__mannequin.png",
+        "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/colors/53f3a1c6-8162-4b6d-af45-59ac843ffca7.webp"
+      ],
+      "reference_roles": "For main: original shape and color, optional same-product detail. For colors: accepted product representative locks scene/form; individual original variant controls color and print."
+    },
+    {
+      "time": "2026-11-22T06:28:27.995158+00:00",
+      "tool": "image_generate",
+      "provider": "openai-codex",
+      "model": "gpt-image-2-medium",
+      "source": "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/colors/dc0606b1-f59c-44e1-85c4-c7947c821f58.webp",
+      "request_id": "35cb1cef-8687-4c5c-98b1-fa75f163bb2f",
+      "mode": "non_human_mannequin",
+      "result": "returned_image",
+      "retries": 0,
+      "actual_dimensions": [
+        1199,
+        1312
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "tiny_animal_motifs_identity_scale_density": "PASS visual; not pixel-identical print certification"
+      },
+      "reference_paths": [
+        "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/generated/main__3d3f50dd-d10d-48e3-8c99-0fd9d7de2c69__mannequin.png",
+        "products/bbf3c83a-4001-4d3f-9d1d-270d350f50f1/colors/dc0606b1-f59c-44e1-85c4-c7947c821f58.webp"
+      ],
+      "reference_roles": "For main: original shape and color, optional same-product detail. For colors: accepted product representative locks scene/form; individual original variant controls color and print."
+    }
+  ],
+  "completion_scope": "Owner-delegated approved non-human mannequin deliverable",
+  "alternative_status": "COMPLETE"
 }

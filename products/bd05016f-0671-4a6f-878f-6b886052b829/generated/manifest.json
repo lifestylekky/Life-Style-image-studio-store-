@@ -4,13 +4,13 @@
   "product_name_basis": "Description and visible garment construction",
   "workflow": "AGENTS.md",
   "workflow_git_blob": "ff1216a3fe7ae20f32a8abff94203ba2716ceaf1",
-  "source_revision": "76e16b0e214dfffaf92fc98b8e6ce2b105657057",
-  "status": "BLOCKED",
-  "preflight_decision": "not_submitted_equivalent_presentation",
-  "catalog_mode": "model_worn",
+  "source_revision": "e6f80179e24210510a6ea653ecee0abf860289aa",
+  "status": "COMPLETE",
+  "preflight_decision": "ready_mannequin_catalog",
+  "catalog_mode": "non_human_mannequin",
   "garment_spec": {
     "pieces": 1,
-    "construction": "High smooth waistband with horizontal seam, matching leg binding and a small tone-on-tone script emblem toward upper right as viewed."
+    "construction": "High-rise briefs with tall finely vertically ribbed waistband, horizontal waistband/body seam, smooth opaque knit body, bound leg openings and lower transverse seam; small genuine Flourish script with white flower on upper-right waistband where visible in laid-out same-product sources."
   },
   "source_metadata": [
     {
@@ -31,12 +31,14 @@
         "width": 1840,
         "height": 4000
       },
-      "color": "Pale blush",
-      "presentation": "unfolded on shop form",
+      "color": "Very pale pink-lilac",
+      "presentation": "Unfolded on shop form",
       "uploaded_at": "2026-11-18T16:40:05.952Z",
       "original_upload_name": "IMG_20261118_205222.jpg",
       "aspect_ratio": "23:50",
-      "duplicate_reference_paths": []
+      "duplicate_reference_paths": [],
+      "sha256": "0931695e804a5dd325e40a888c0b92c674543ad10614c5c24c54b18f6ba15fcc",
+      "visually_reviewed_at": "2026-11-22T06:22:06.534147+00:00"
     },
     {
       "path": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/22ac9b6d-c58b-4115-b318-9ae4410fb225.webp",
@@ -46,12 +48,14 @@
         "width": 1650,
         "height": 2200
       },
-      "color": "Light blush-beige",
-      "presentation": "unfolded laid out",
+      "color": "Light blush pink",
+      "presentation": "Unfolded laid out",
       "uploaded_at": "2026-11-18T16:40:05.952Z",
       "original_upload_name": "IMG_20261118_205549.jpg",
       "aspect_ratio": "3:4",
-      "duplicate_reference_paths": []
+      "duplicate_reference_paths": [],
+      "sha256": "6e2920a1bd69fc348991fd00a484a5e3dbecfa898d59085dc9b3f10442003403",
+      "visually_reviewed_at": "2026-11-22T06:22:06.534147+00:00"
     },
     {
       "path": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/52725539-5021-457c-9b86-4afc334360e5.webp",
@@ -61,12 +65,14 @@
         "width": 1650,
         "height": 2200
       },
-      "color": "Warm peach-beige",
-      "presentation": "unfolded laid out",
+      "color": "Peach beige",
+      "presentation": "Unfolded laid out",
       "uploaded_at": "2026-11-18T16:40:05.952Z",
       "original_upload_name": "IMG_20261118_205610.jpg",
       "aspect_ratio": "3:4",
-      "duplicate_reference_paths": []
+      "duplicate_reference_paths": [],
+      "sha256": "4db21fd9a6d9d6e82e6f7f9087ab8ba2c265d764bec7a734c08b394ebfaca8b3",
+      "visually_reviewed_at": "2026-11-22T06:22:06.534147+00:00"
     },
     {
       "path": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/66fc9bc0-8175-4a01-9895-3e72a346cfc5.webp",
@@ -76,12 +82,14 @@
         "width": 1650,
         "height": 2200
       },
-      "color": "Dusty pink",
-      "presentation": "unfolded laid out",
+      "color": "Dusty rose",
+      "presentation": "Unfolded laid out",
       "uploaded_at": "2026-11-18T16:40:05.952Z",
       "original_upload_name": "IMG_20261118_205636.jpg",
       "aspect_ratio": "3:4",
-      "duplicate_reference_paths": []
+      "duplicate_reference_paths": [],
+      "sha256": "793a92c6b541d9ac2139f8eebc97999dd73d6b10f37d3fd969b68755a16d1c7e",
+      "visually_reviewed_at": "2026-11-22T06:22:06.534147+00:00"
     },
     {
       "path": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/ae36c281-0efe-46a2-a0e4-4a44decfb6da.webp",
@@ -91,12 +99,14 @@
         "width": 1650,
         "height": 2200
       },
-      "color": "Cream",
-      "presentation": "unfolded laid out",
+      "color": "Ivory cream",
+      "presentation": "Unfolded laid out",
       "uploaded_at": "2026-11-18T16:40:05.952Z",
       "original_upload_name": "IMG_20261118_205529.jpg",
       "aspect_ratio": "3:4",
-      "duplicate_reference_paths": []
+      "duplicate_reference_paths": [],
+      "sha256": "31266e96e3ad8fdc0f34e609acf53ef664b1d43c6e002a62542656d061b624b8",
+      "visually_reviewed_at": "2026-11-22T06:22:06.534147+00:00"
     },
     {
       "path": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/ce2ad37a-61d4-48c7-b6b3-873173ea6fb5.webp",
@@ -106,12 +116,14 @@
         "width": 1650,
         "height": 2200
       },
-      "color": "Muted yellow-beige",
-      "presentation": "unfolded laid out",
+      "color": "Pale sage green",
+      "presentation": "Unfolded laid out",
       "uploaded_at": "2026-11-18T16:40:05.952Z",
       "original_upload_name": "IMG_20261118_205403.jpg",
       "aspect_ratio": "3:4",
-      "duplicate_reference_paths": []
+      "duplicate_reference_paths": [],
+      "sha256": "8ce329acd057d3d3fd7d8200bd0942a535ccec8ddc2adb1f2c0b7bde3ae3a496",
+      "visually_reviewed_at": "2026-11-22T06:22:06.534147+00:00"
     }
   ],
   "construction_references": [
@@ -119,48 +131,59 @@
   ],
   "scene_profile": {
     "location": "Neutral commercial product studio",
-    "backdrop": "Pale warm-gray seamless paper",
-    "floor": "Matching matte warm-gray floor",
-    "lighting": "Diffuse daylight from camera left",
-    "camera": "Centered, straight-on 3:4 catalog frame",
+    "backdrop": "Pale warm-gray seamless",
+    "floor": "Matching matte floor",
     "furniture": "None",
-    "status": "Proposed for display-form run"
+    "lighting": "Diffuse daylight from camera left",
+    "temperature": "Neutral daylight",
+    "camera": "Straight-on centered 1312:1199 full-garment framing",
+    "subject_position": "Centered with full waistband and both leg openings visible",
+    "depth_of_field": "Entire garment sharp",
+    "mood": "Ordinary commercial catalog",
+    "status": "Locked from QA-passed representative"
   },
-  "model_profile": "Neutral adult model-worn catalog presentation on hold.",
+  "model_profile": "Freestanding simplified matte-white non-human retail hip form; product-specific approved representative locks display.",
   "camera_profile": {
-    "aspect_ratio": "3:4",
-    "status": "proposed"
+    "view": "Straight-on",
+    "actual_dimensions": [
+      1312,
+      1199
+    ],
+    "aspect_ratio": "1312:1199",
+    "note": "Actual representative dimensions retained without stretch; use representative for same-product variants.",
+    "requested_tool_aspect_ratio": "square",
+    "aspect_ratio_discrepancy": "Actual tool-returned framing accepted after full-garment QA; no resampling or stretching."
   },
   "pose_plan": [
     {
       "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/main/c58056d0-ba3f-4f68-b66a-723ef522ed10.jpg",
-      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
-      "accepted": null
+      "planned": "Upright straight-on non-human form; no human pose variety; prioritize complete product.",
+      "accepted": "Straight-on upright non-human hip display; full garment unobstructed."
     },
     {
       "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/22ac9b6d-c58b-4115-b318-9ae4410fb225.webp",
-      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
-      "accepted": null
+      "planned": "Upright straight-on non-human form; no human pose variety; prioritize complete product.",
+      "accepted": "Straight-on upright non-human hip display; full garment unobstructed."
     },
     {
       "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/52725539-5021-457c-9b86-4afc334360e5.webp",
-      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
-      "accepted": null
+      "planned": "Upright straight-on non-human form; no human pose variety; prioritize complete product.",
+      "accepted": "Straight-on upright non-human hip display; full garment unobstructed."
     },
     {
       "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/66fc9bc0-8175-4a01-9895-3e72a346cfc5.webp",
-      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
-      "accepted": null
+      "planned": "Upright straight-on non-human form; no human pose variety; prioritize complete product.",
+      "accepted": "Straight-on upright non-human hip display; full garment unobstructed."
     },
     {
       "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/ae36c281-0efe-46a2-a0e4-4a44decfb6da.webp",
-      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
-      "accepted": null
+      "planned": "Upright straight-on non-human form; no human pose variety; prioritize complete product.",
+      "accepted": "Straight-on upright non-human hip display; full garment unobstructed."
     },
     {
       "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/ce2ad37a-61d4-48c7-b6b3-873173ea6fb5.webp",
-      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
-      "accepted": null
+      "planned": "Upright straight-on non-human form; no human pose variety; prioritize complete product.",
+      "accepted": "Straight-on upright non-human hip display; full garment unobstructed."
     }
   ],
   "moderation_failures": [],
@@ -173,66 +196,213 @@
     "mode": "model_worn"
   },
   "alternative_mode": "non_human_mannequin",
-  "alternative_acceptance": "pending_user_approval",
-  "alternative_preview": null,
+  "alternative_acceptance": "owner_delegated_choice_full_run",
+  "alternative_preview": {
+    "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/main/c58056d0-ba3f-4f68-b66a-723ef522ed10.jpg",
+    "output": "products/bd05016f-0671-4a6f-878f-6b886052b829/generated/main__c58056d0-ba3f-4f68-b66a-723ef522ed10__mannequin.png",
+    "status": "ALTERNATIVE_MANNEQUIN",
+    "dimensions": [
+      1312,
+      1199
+    ],
+    "sha256": "b3f0d1bc8c540b7d91d2416a6c630047e0c7c2b46be2e6a1e920111cadf4c905",
+    "variant_color": "Very pale pink-lilac",
+    "request_id": "deada331-4518-4d2b-839c-384fc568621b",
+    "qa": {
+      "decision": "PASS",
+      "full_unfolded_single_product": true,
+      "construction_material_color_visual_match": true,
+      "genuine_print_emblem_visual_match": true,
+      "neutral_non_human_studio": true,
+      "no_added_text_or_extra_garments": true,
+      "complete_garment_visibility": true,
+      "scene_form_camera_consistency": true,
+      "limitations": [
+        "Visual color match; not colorimetrically calibrated.",
+        "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+      ],
+      "ribbed_waistband_and_flourish_emblem": "PASS"
+    }
+  },
   "counts": {
     "main_sources": 1,
     "color_sources": 5,
     "accounted_for_sources": 6,
-    "submitted_generation_attempts": 0,
+    "submitted_generation_attempts": 6,
     "moderated_requests": 0,
-    "returned_image_files": 0,
+    "returned_image_files": 6,
     "approved_model_images": 0,
-    "approved_mannequin_alternatives": 0,
-    "display_form_previews": 0
+    "approved_mannequin_alternatives": 6,
+    "display_form_previews": 1,
+    "approved_main_alternatives": 1,
+    "approved_color_alternatives": 5,
+    "approved_detail_images": 0
   },
   "mappings": [
     {
       "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/main/c58056d0-ba3f-4f68-b66a-723ef522ed10.jpg",
       "source_git_blob": "bdb866df39c24d26272b7bcb5efb751a540dde6a",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
+      "output": "products/bd05016f-0671-4a6f-878f-6b886052b829/generated/main__c58056d0-ba3f-4f68-b66a-723ef522ed10__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 0,
+      "alternative_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "ribbed_waistband_and_flourish_emblem": "PASS"
+      },
+      "alternative_attempts": 1
     },
     {
       "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/22ac9b6d-c58b-4115-b318-9ae4410fb225.webp",
       "source_git_blob": "2da660fb454de6d4506b14e33d34433e8593e63b",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
+      "output": "products/bd05016f-0671-4a6f-878f-6b886052b829/generated/color__22ac9b6d-c58b-4115-b318-9ae4410fb225__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 0,
+      "alternative_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "ribbed_waistband_and_flourish_emblem": "PASS"
+      },
+      "alternative_attempts": 1
     },
     {
       "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/52725539-5021-457c-9b86-4afc334360e5.webp",
       "source_git_blob": "c65917518afbb350b0d4aa44171edd7deb6e1dd8",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
+      "output": "products/bd05016f-0671-4a6f-878f-6b886052b829/generated/color__52725539-5021-457c-9b86-4afc334360e5__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 0,
+      "alternative_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "ribbed_waistband_and_flourish_emblem": "PASS"
+      },
+      "alternative_attempts": 1
     },
     {
       "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/66fc9bc0-8175-4a01-9895-3e72a346cfc5.webp",
       "source_git_blob": "022f97d1ad7c7683eed5840684952be46bbdb10b",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
+      "output": "products/bd05016f-0671-4a6f-878f-6b886052b829/generated/color__66fc9bc0-8175-4a01-9895-3e72a346cfc5__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 0,
+      "alternative_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "ribbed_waistband_and_flourish_emblem": "PASS"
+      },
+      "alternative_attempts": 1
     },
     {
       "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/ae36c281-0efe-46a2-a0e4-4a44decfb6da.webp",
       "source_git_blob": "3d868fa9c83bc666f154b87660f8ffb62ce5e0cf",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
+      "output": "products/bd05016f-0671-4a6f-878f-6b886052b829/generated/color__ae36c281-0efe-46a2-a0e4-4a44decfb6da__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 0,
+      "alternative_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "ribbed_waistband_and_flourish_emblem": "PASS"
+      },
+      "alternative_attempts": 1
     },
     {
       "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/ce2ad37a-61d4-48c7-b6b3-873173ea6fb5.webp",
       "source_git_blob": "beca6c8e2bd62bb9d946ca983f7db47cf1f3a092",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
+      "output": "products/bd05016f-0671-4a6f-878f-6b886052b829/generated/color__ce2ad37a-61d4-48c7-b6b3-873173ea6fb5__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "model_worn_attempts": 0,
+      "alternative_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "ribbed_waistband_and_flourish_emblem": "PASS"
+      },
+      "alternative_attempts": 1
     }
   ],
-  "blockers": [
-    "Model-worn submissions withheld after an equivalent presentation for the first brief in this batch was blocked at input moderation."
-  ],
+  "blockers": [],
   "rerun_checks": [
     {
       "run_id": "image-empty-audit-2026-11-20",
@@ -303,8 +473,404 @@
       "new_preview_requests": 0,
       "decision": "AWAITING_MANNEQUIN_ACCEPTANCE",
       "reason": "Existing model-worn moderation hold preserved; non-human catalog deliverable awaits explicit user acceptance."
+    },
+    {
+      "time": "2026-11-22T06:25:00.452878+00:00",
+      "individual_source_reconciliation": true,
+      "sources": 6,
+      "approved_images": 6,
+      "source_integrity": "PASS",
+      "scene_consistency": "PASS",
+      "all_images_directly_in_generated": true,
+      "same_product_references_only": true
     }
   ],
-  "updated_at": "2026-11-20T08:03:49.997Z",
-  "original_model_requirement": "BLOCKED"
+  "updated_at": "2026-11-22T06:24:59.798044+00:00",
+  "original_model_requirement": "BLOCKED",
+  "owner_authorization": {
+    "time": "2026-11-22T06:18:25.393879+00:00",
+    "scope": "Owner delegated presentation choice, full generation, QA and publication for these three specific products; no questions requested.",
+    "catalog_choice": "non_human_mannequin",
+    "reason": "Ordinary neutral garment display suitable for briefs; preserve existing model-worn moderation hold.",
+    "batch_authorized": true,
+    "publication_authorized": true
+  },
+  "alternative_outputs": [
+    {
+      "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/main/c58056d0-ba3f-4f68-b66a-723ef522ed10.jpg",
+      "output": "products/bd05016f-0671-4a6f-878f-6b886052b829/generated/main__c58056d0-ba3f-4f68-b66a-723ef522ed10__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "sha256": "b3f0d1bc8c540b7d91d2416a6c630047e0c7c2b46be2e6a1e920111cadf4c905",
+      "variant_color": "Very pale pink-lilac",
+      "request_id": "deada331-4518-4d2b-839c-384fc568621b",
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "ribbed_waistband_and_flourish_emblem": "PASS"
+      }
+    },
+    {
+      "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/22ac9b6d-c58b-4115-b318-9ae4410fb225.webp",
+      "output": "products/bd05016f-0671-4a6f-878f-6b886052b829/generated/color__22ac9b6d-c58b-4115-b318-9ae4410fb225__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "sha256": "ab27ff3598611f921dcdf76b181bd5fd69d4757150f389b8cb17dc9475a227d9",
+      "variant_color": "Light blush pink",
+      "request_id": "21e6af6f-5d30-4e36-a7a6-c832d6fb24bc",
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "ribbed_waistband_and_flourish_emblem": "PASS"
+      }
+    },
+    {
+      "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/52725539-5021-457c-9b86-4afc334360e5.webp",
+      "output": "products/bd05016f-0671-4a6f-878f-6b886052b829/generated/color__52725539-5021-457c-9b86-4afc334360e5__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "sha256": "873acbb075c31e350e1ea1479b2bfd06b7fbb6d202f4d13e7d4e219a3687431b",
+      "variant_color": "Peach beige",
+      "request_id": "6025a4c4-564a-42bd-b4e6-e78c10361807",
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "ribbed_waistband_and_flourish_emblem": "PASS"
+      }
+    },
+    {
+      "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/66fc9bc0-8175-4a01-9895-3e72a346cfc5.webp",
+      "output": "products/bd05016f-0671-4a6f-878f-6b886052b829/generated/color__66fc9bc0-8175-4a01-9895-3e72a346cfc5__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "sha256": "9d8ec3ff9f627e11f6744dce6749ac3579157064d3fa747d9a1fc29602f11609",
+      "variant_color": "Dusty rose",
+      "request_id": "ab1e8ac0-3c7f-4790-94ba-40d38a16e911",
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "ribbed_waistband_and_flourish_emblem": "PASS"
+      }
+    },
+    {
+      "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/ae36c281-0efe-46a2-a0e4-4a44decfb6da.webp",
+      "output": "products/bd05016f-0671-4a6f-878f-6b886052b829/generated/color__ae36c281-0efe-46a2-a0e4-4a44decfb6da__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "sha256": "b70c236f5b3197693e2d68d1b1b1cb2192facfac687e919d6799e3467595f737",
+      "variant_color": "Ivory cream",
+      "request_id": "9bb89dd9-bde4-4523-97e8-16d13813fcbf",
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "ribbed_waistband_and_flourish_emblem": "PASS"
+      }
+    },
+    {
+      "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/ce2ad37a-61d4-48c7-b6b3-873173ea6fb5.webp",
+      "output": "products/bd05016f-0671-4a6f-878f-6b886052b829/generated/color__ce2ad37a-61d4-48c7-b6b3-873173ea6fb5__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "sha256": "3f59876f2e6ea1b229cb1627734a6b2072d0b51f340ef5eb793fe0f16ba24d25",
+      "variant_color": "Pale sage green",
+      "request_id": "224523fe-db8a-44a6-b311-691d3255de0f",
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "ribbed_waistband_and_flourish_emblem": "PASS"
+      }
+    }
+  ],
+  "generation_attempts": [
+    {
+      "time": "2026-11-22T06:23:03.277809+00:00",
+      "tool": "image_generate",
+      "provider": "openai-codex",
+      "model": "gpt-image-2-medium",
+      "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/main/c58056d0-ba3f-4f68-b66a-723ef522ed10.jpg",
+      "request_id": "deada331-4518-4d2b-839c-384fc568621b",
+      "mode": "non_human_mannequin",
+      "result": "returned_image",
+      "retries": 0,
+      "actual_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "ribbed_waistband_and_flourish_emblem": "PASS"
+      },
+      "reference_paths": [
+        "products/bd05016f-0671-4a6f-878f-6b886052b829/main/c58056d0-ba3f-4f68-b66a-723ef522ed10.jpg",
+        "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/22ac9b6d-c58b-4115-b318-9ae4410fb225.webp"
+      ],
+      "reference_roles": "For main: original shape and color, optional same-product detail. For colors: accepted product representative locks scene/form; individual original variant controls color and print."
+    },
+    {
+      "time": "2026-11-22T06:24:58.265697+00:00",
+      "tool": "image_generate",
+      "provider": "openai-codex",
+      "model": "gpt-image-2-medium",
+      "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/22ac9b6d-c58b-4115-b318-9ae4410fb225.webp",
+      "request_id": "21e6af6f-5d30-4e36-a7a6-c832d6fb24bc",
+      "mode": "non_human_mannequin",
+      "result": "returned_image",
+      "retries": 0,
+      "actual_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "ribbed_waistband_and_flourish_emblem": "PASS"
+      },
+      "reference_paths": [
+        "products/bd05016f-0671-4a6f-878f-6b886052b829/generated/main__c58056d0-ba3f-4f68-b66a-723ef522ed10__mannequin.png",
+        "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/22ac9b6d-c58b-4115-b318-9ae4410fb225.webp"
+      ],
+      "reference_roles": "For main: original shape and color, optional same-product detail. For colors: accepted product representative locks scene/form; individual original variant controls color and print."
+    },
+    {
+      "time": "2026-11-22T06:24:58.678847+00:00",
+      "tool": "image_generate",
+      "provider": "openai-codex",
+      "model": "gpt-image-2-medium",
+      "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/52725539-5021-457c-9b86-4afc334360e5.webp",
+      "request_id": "6025a4c4-564a-42bd-b4e6-e78c10361807",
+      "mode": "non_human_mannequin",
+      "result": "returned_image",
+      "retries": 0,
+      "actual_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "ribbed_waistband_and_flourish_emblem": "PASS"
+      },
+      "reference_paths": [
+        "products/bd05016f-0671-4a6f-878f-6b886052b829/generated/main__c58056d0-ba3f-4f68-b66a-723ef522ed10__mannequin.png",
+        "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/52725539-5021-457c-9b86-4afc334360e5.webp"
+      ],
+      "reference_roles": "For main: original shape and color, optional same-product detail. For colors: accepted product representative locks scene/form; individual original variant controls color and print."
+    },
+    {
+      "time": "2026-11-22T06:24:59.123568+00:00",
+      "tool": "image_generate",
+      "provider": "openai-codex",
+      "model": "gpt-image-2-medium",
+      "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/66fc9bc0-8175-4a01-9895-3e72a346cfc5.webp",
+      "request_id": "ab1e8ac0-3c7f-4790-94ba-40d38a16e911",
+      "mode": "non_human_mannequin",
+      "result": "returned_image",
+      "retries": 0,
+      "actual_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "ribbed_waistband_and_flourish_emblem": "PASS"
+      },
+      "reference_paths": [
+        "products/bd05016f-0671-4a6f-878f-6b886052b829/generated/main__c58056d0-ba3f-4f68-b66a-723ef522ed10__mannequin.png",
+        "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/66fc9bc0-8175-4a01-9895-3e72a346cfc5.webp"
+      ],
+      "reference_roles": "For main: original shape and color, optional same-product detail. For colors: accepted product representative locks scene/form; individual original variant controls color and print."
+    },
+    {
+      "time": "2026-11-22T06:24:59.424153+00:00",
+      "tool": "image_generate",
+      "provider": "openai-codex",
+      "model": "gpt-image-2-medium",
+      "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/ae36c281-0efe-46a2-a0e4-4a44decfb6da.webp",
+      "request_id": "9bb89dd9-bde4-4523-97e8-16d13813fcbf",
+      "mode": "non_human_mannequin",
+      "result": "returned_image",
+      "retries": 0,
+      "actual_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "ribbed_waistband_and_flourish_emblem": "PASS"
+      },
+      "reference_paths": [
+        "products/bd05016f-0671-4a6f-878f-6b886052b829/generated/main__c58056d0-ba3f-4f68-b66a-723ef522ed10__mannequin.png",
+        "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/ae36c281-0efe-46a2-a0e4-4a44decfb6da.webp"
+      ],
+      "reference_roles": "For main: original shape and color, optional same-product detail. For colors: accepted product representative locks scene/form; individual original variant controls color and print."
+    },
+    {
+      "time": "2026-11-22T06:24:59.798044+00:00",
+      "tool": "image_generate",
+      "provider": "openai-codex",
+      "model": "gpt-image-2-medium",
+      "source": "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/ce2ad37a-61d4-48c7-b6b3-873173ea6fb5.webp",
+      "request_id": "224523fe-db8a-44a6-b311-691d3255de0f",
+      "mode": "non_human_mannequin",
+      "result": "returned_image",
+      "retries": 0,
+      "actual_dimensions": [
+        1312,
+        1199
+      ],
+      "qa": {
+        "decision": "PASS",
+        "full_unfolded_single_product": true,
+        "construction_material_color_visual_match": true,
+        "genuine_print_emblem_visual_match": true,
+        "neutral_non_human_studio": true,
+        "no_added_text_or_extra_garments": true,
+        "complete_garment_visibility": true,
+        "scene_form_camera_consistency": true,
+        "limitations": [
+          "Visual color match; not colorimetrically calibrated.",
+          "Tiny genuine branding marks are visually assessed, not exact lettering certification."
+        ],
+        "ribbed_waistband_and_flourish_emblem": "PASS"
+      },
+      "reference_paths": [
+        "products/bd05016f-0671-4a6f-878f-6b886052b829/generated/main__c58056d0-ba3f-4f68-b66a-723ef522ed10__mannequin.png",
+        "products/bd05016f-0671-4a6f-878f-6b886052b829/colors/ce2ad37a-61d4-48c7-b6b3-873173ea6fb5.webp"
+      ],
+      "reference_roles": "For main: original shape and color, optional same-product detail. For colors: accepted product representative locks scene/form; individual original variant controls color and print."
+    }
+  ],
+  "completion_scope": "Owner-delegated approved non-human mannequin deliverable",
+  "alternative_status": "COMPLETE"
 }
