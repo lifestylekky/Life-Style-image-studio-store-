@@ -30,7 +30,7 @@
   "approved_outputs": [
     {
       "source": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/main/0ac8cc6f-5ad2-4dfc-8bc0-f8bcfec04b09.webp",
-      "output": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/generated/alternatives/main__0ac8cc6f-5ad2-4dfc-8bc0-f8bcfec04b09__mannequin.png",
+      "output": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/generated/main__0ac8cc6f-5ad2-4dfc-8bc0-f8bcfec04b09__mannequin.png",
       "status": "ALTERNATIVE_MANNEQUIN",
       "dimensions": [
         1312,
@@ -57,7 +57,7 @@
     },
     {
       "source": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/colors/035f7899-06b8-4f35-9906-7d000379bc84.webp",
-      "output": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/generated/alternatives/color__035f7899-06b8-4f35-9906-7d000379bc84__mannequin.png",
+      "output": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/generated/color__035f7899-06b8-4f35-9906-7d000379bc84__mannequin.png",
       "status": "ALTERNATIVE_MANNEQUIN",
       "dimensions": [
         1312,
@@ -85,7 +85,7 @@
     },
     {
       "source": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/colors/c1d041a3-7c81-45cb-b0a1-50006ae40b9a.webp",
-      "output": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/generated/alternatives/color__c1d041a3-7c81-45cb-b0a1-50006ae40b9a__mannequin.png",
+      "output": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/generated/color__c1d041a3-7c81-45cb-b0a1-50006ae40b9a__mannequin.png",
       "status": "ALTERNATIVE_MANNEQUIN",
       "dimensions": [
         1312,
@@ -113,7 +113,7 @@
     },
     {
       "source": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/colors/d1c2bfc4-6110-403f-b0f8-af402263ce1a.webp",
-      "output": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/generated/alternatives/color__d1c2bfc4-6110-403f-b0f8-af402263ce1a__mannequin.png",
+      "output": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/generated/color__d1c2bfc4-6110-403f-b0f8-af402263ce1a__mannequin.png",
       "status": "ALTERNATIVE_MANNEQUIN",
       "dimensions": [
         1312,
@@ -142,7 +142,7 @@
   ],
   "alternative_preview": {
     "source": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/main/0ac8cc6f-5ad2-4dfc-8bc0-f8bcfec04b09.webp",
-    "output": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/generated/alternatives/main__0ac8cc6f-5ad2-4dfc-8bc0-f8bcfec04b09__mannequin.png",
+    "output": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/generated/main__0ac8cc6f-5ad2-4dfc-8bc0-f8bcfec04b09__mannequin.png",
     "status": "ALTERNATIVE_MANNEQUIN",
     "dimensions": [
       1312,
@@ -171,7 +171,7 @@
     {
       "source": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/main/0ac8cc6f-5ad2-4dfc-8bc0-f8bcfec04b09.webp",
       "source_git_blob": "48422c1359b289f6ded53775ff25efdd4167d110",
-      "output": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/generated/alternatives/main__0ac8cc6f-5ad2-4dfc-8bc0-f8bcfec04b09__mannequin.png",
+      "output": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/generated/main__0ac8cc6f-5ad2-4dfc-8bc0-f8bcfec04b09__mannequin.png",
       "status": "ALTERNATIVE_MANNEQUIN",
       "model_worn_attempts": 0,
       "alternative_dimensions": [
@@ -182,7 +182,7 @@
     {
       "source": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/colors/035f7899-06b8-4f35-9906-7d000379bc84.webp",
       "source_git_blob": "5fabed730cef03cc3833b6dc70abb07c2e467e3e",
-      "output": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/generated/alternatives/color__035f7899-06b8-4f35-9906-7d000379bc84__mannequin.png",
+      "output": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/generated/color__035f7899-06b8-4f35-9906-7d000379bc84__mannequin.png",
       "status": "ALTERNATIVE_MANNEQUIN",
       "model_worn_attempts": 0,
       "alternative_dimensions": [
@@ -211,7 +211,7 @@
     {
       "source": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/colors/c1d041a3-7c81-45cb-b0a1-50006ae40b9a.webp",
       "source_git_blob": "b4391e8d2caa7a6863b4100ed4ba674e57cf7a89",
-      "output": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/generated/alternatives/color__c1d041a3-7c81-45cb-b0a1-50006ae40b9a__mannequin.png",
+      "output": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/generated/color__c1d041a3-7c81-45cb-b0a1-50006ae40b9a__mannequin.png",
       "status": "ALTERNATIVE_MANNEQUIN",
       "model_worn_attempts": 0,
       "alternative_dimensions": [
@@ -240,7 +240,7 @@
     {
       "source": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/colors/d1c2bfc4-6110-403f-b0f8-af402263ce1a.webp",
       "source_git_blob": "6d2299a15f98ee4b49cecadb0dfd0fb689961c0c",
-      "output": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/generated/alternatives/color__d1c2bfc4-6110-403f-b0f8-af402263ce1a__mannequin.png",
+      "output": "products/b91cf3cc-783c-4b51-899c-e46d9f067518/generated/color__d1c2bfc4-6110-403f-b0f8-af402263ce1a__mannequin.png",
       "status": "ALTERNATIVE_MANNEQUIN",
       "model_worn_attempts": 0,
       "alternative_dimensions": [
