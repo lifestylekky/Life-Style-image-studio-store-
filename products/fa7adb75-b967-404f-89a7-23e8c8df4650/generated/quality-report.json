@@ -1,116 +1,216 @@
 {
   "product_id": "fa7adb75-b967-404f-89a7-23e8c8df4650",
-  "status": "BLOCKED",
-  "source_review": "All main and color source photos visually reviewed. Each local image blob hash matched the repository inventory.",
-  "scene_consistency": "Pending accepted catalog outputs.",
-  "result": "Model-worn submissions withheld after an equivalent presentation for the first brief in this batch was blocked at input moderation.",
+  "status": "COMPLETE",
   "counts": {
     "main_sources": 1,
     "color_sources": 3,
     "accounted_for_sources": 4,
-    "submitted_generation_attempts": 0,
+    "submitted_generation_attempts": 4,
     "moderated_requests": 0,
-    "returned_image_files": 0,
+    "returned_image_files": 4,
     "approved_model_images": 0,
-    "approved_mannequin_alternatives": 0,
-    "display_form_previews": 0
+    "approved_mannequin_alternatives": 4,
+    "approved_main_alternatives": 1,
+    "approved_color_alternatives": 3,
+    "approved_detail_images": 0
   },
-  "moderation": null,
-  "related_moderation": {
-    "stage": "input",
-    "category": "sexual",
-    "request_id": "132d53dc-f8e3-49af-ae53-61f9cad07ac2",
-    "recorded_at": "2026-11-18T20:30:43.152Z",
-    "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp",
-    "mode": "model_worn"
-  },
-  "approved_outputs": [],
-  "alternative_preview": null,
-  "source_results": [
+  "result": "All sources mapped to QA-passed complete unfolded mannequin deliverables.",
+  "approved_outputs": [
     {
       "source": "products/fa7adb75-b967-404f-89a7-23e8c8df4650/main/27b8ccac-5c6a-48a8-a88b-4df067b2b3a4.webp",
-      "source_git_blob": "48422c1359b289f6ded53775ff25efdd4167d110",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
+      "output": "products/fa7adb75-b967-404f-89a7-23e8c8df4650/generated/main__27b8ccac-5c6a-48a8-a88b-4df067b2b3a4__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1199,
+        1312
+      ],
+      "sha256": "15637d4ad35d8a0a6965675095fb5b8b481c993c6f422abb4997da15e724366a",
+      "variant_color": "Pale blush beige",
+      "request_id": "b76b5e4b-bc90-48e9-9e99-543a77087736",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": "PASS",
+        "construction": "High-rise shape, broad waistband and horizontal seam, curved bound legs and transverse lower seam match originals",
+        "material_and_coverage": "Opaque soft smooth-knit texture and full-coverage shape match",
+        "color": "Pale blush beige main visually matched",
+        "branding": "Brown genuine newstart serif mark on upper-right waistband, relative size and placement visually matched",
+        "studio": "Warm-gray seamless, white non-human form, daylight from camera left; entire garment visible",
+        "limitations": [
+          "Visual color match, not calibrated.",
+          "Tiny wordmark sublettering not independently certified."
+        ]
+      }
     },
     {
       "source": "products/fa7adb75-b967-404f-89a7-23e8c8df4650/colors/07b6d2c9-aa62-4cde-a2dc-d17e10cd764e.webp",
-      "source_git_blob": "b4391e8d2caa7a6863b4100ed4ba674e57cf7a89",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
+      "output": "products/fa7adb75-b967-404f-89a7-23e8c8df4650/generated/color__07b6d2c9-aa62-4cde-a2dc-d17e10cd764e__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1199,
+        1312
+      ],
+      "sha256": "450670e4cad3b59053eb0f4d51388ceac2639ff1a542c787c58b282dc569030b",
+      "variant_color": "Light peach beige",
+      "request_id": "f5d18756-c883-455b-867d-a675b4011583",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": "PASS",
+        "construction": "Broad smooth waistband and seam, bound curved legs and lower seam visually match original",
+        "material_and_coverage": "Opaque smooth knit and full high-rise coverage match",
+        "color": "Light peach beige matches individual original visually",
+        "branding": "Genuine newstart serif mark, correct relative position and size; ivory golden-brown ink retained",
+        "scene_consistency": "Same white non-human hip form, gray studio, light direction and framing",
+        "added_text_or_items": "None",
+        "limitations": [
+          "Visual color match, not calibrated.",
+          "Tiny brand sublettering not independently certified."
+        ]
+      }
     },
     {
       "source": "products/fa7adb75-b967-404f-89a7-23e8c8df4650/colors/1a3a3dbe-2ca5-42b2-b89c-fa8ea3ccd799.webp",
-      "source_git_blob": "5fabed730cef03cc3833b6dc70abb07c2e467e3e",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
+      "output": "products/fa7adb75-b967-404f-89a7-23e8c8df4650/generated/color__1a3a3dbe-2ca5-42b2-b89c-fa8ea3ccd799__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1199,
+        1312
+      ],
+      "sha256": "f256d5b458bca95d9d12fe773dac4482aaf7271e6e948ceaf7579bc4374ebe2c",
+      "variant_color": "Ivory beige",
+      "request_id": "89d16058-3c82-4a14-8e94-4f990f00c9ee",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": "PASS",
+        "construction": "Broad smooth waistband and seam, bound curved legs and lower seam visually match original",
+        "material_and_coverage": "Opaque smooth knit and full high-rise coverage match",
+        "color": "Ivory beige matches individual original visually",
+        "branding": "Genuine newstart serif mark, correct relative position and size; ivory golden-brown ink retained",
+        "scene_consistency": "Same white non-human hip form, gray studio, light direction and framing",
+        "added_text_or_items": "None",
+        "limitations": [
+          "Visual color match, not calibrated.",
+          "Tiny brand sublettering not independently certified."
+        ]
+      }
     },
     {
       "source": "products/fa7adb75-b967-404f-89a7-23e8c8df4650/colors/cf66b05d-1466-42ee-b335-a2e9e0ce6bde.webp",
-      "source_git_blob": "6d2299a15f98ee4b49cecadb0dfd0fb689961c0c",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
-    }
-  ],
-  "blockers": [
-    "Model-worn submissions withheld after an equivalent presentation for the first brief in this batch was blocked at input moderation."
-  ],
-  "rerun_checks": [
-    {
-      "run_id": "image-empty-audit-2026-11-20",
-      "checked_at": "2026-11-20T08:03:49.997Z",
-      "selection": "generated folder has zero image files at run start; tracking files do not count as product images",
-      "source_count": 4,
-      "source_inventory_complete": true,
-      "source_versions_unchanged": true,
-      "all_sources_visually_reviewed": true,
-      "current_git_blobs": [
-        {
-          "path": "products/fa7adb75-b967-404f-89a7-23e8c8df4650/colors/07b6d2c9-aa62-4cde-a2dc-d17e10cd764e.webp",
-          "git_blob": "b4391e8d2caa7a6863b4100ed4ba674e57cf7a89",
-          "dimensions": [
-            1650,
-            2200
-          ],
-          "sha256": "3d378674f3612fd796efa82c4662646e227b4c2bc513fa672d425f4f6d7a081d"
-        },
-        {
-          "path": "products/fa7adb75-b967-404f-89a7-23e8c8df4650/colors/1a3a3dbe-2ca5-42b2-b89c-fa8ea3ccd799.webp",
-          "git_blob": "5fabed730cef03cc3833b6dc70abb07c2e467e3e",
-          "dimensions": [
-            1650,
-            2200
-          ],
-          "sha256": "71103bd08bed3935aead862c1607c01d0046a85b5447cb81ed07284b05fe8e1b"
-        },
-        {
-          "path": "products/fa7adb75-b967-404f-89a7-23e8c8df4650/colors/cf66b05d-1466-42ee-b335-a2e9e0ce6bde.webp",
-          "git_blob": "6d2299a15f98ee4b49cecadb0dfd0fb689961c0c",
-          "dimensions": [
-            1650,
-            2200
-          ],
-          "sha256": "142ab24c858a4ce71ea49a01119c0e7dce2b796ea7d095749fce4e4660c6d7e4"
-        },
-        {
-          "path": "products/fa7adb75-b967-404f-89a7-23e8c8df4650/main/27b8ccac-5c6a-48a8-a88b-4df067b2b3a4.webp",
-          "git_blob": "48422c1359b289f6ded53775ff25efdd4167d110",
-          "dimensions": [
-            1650,
-            2200
-          ],
-          "sha256": "068c44921e42c8ba5cadb06542138ddb76b469bd520dad3e4091a600ad492b43"
-        }
+      "output": "products/fa7adb75-b967-404f-89a7-23e8c8df4650/generated/color__cf66b05d-1466-42ee-b335-a2e9e0ce6bde__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1199,
+        1312
       ],
-      "new_model_requests": 0,
-      "new_moderation_rejections": 0,
-      "new_preview_requests": 0,
-      "decision": "AWAITING_MANNEQUIN_ACCEPTANCE",
-      "reason": "Existing model-worn moderation hold preserved; non-human catalog deliverable awaits explicit user acceptance."
+      "sha256": "8ba3f9620b65ebb5de729e83d5fee6f2bb72f55d9bff00318c3b29ebf8444d72",
+      "variant_color": "Rosy beige",
+      "request_id": "fcd24c50-b868-48d4-9eb3-8b202445387c",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": "PASS",
+        "construction": "Broad smooth waistband and seam, bound curved legs and lower seam visually match original",
+        "material_and_coverage": "Opaque smooth knit and full high-rise coverage match",
+        "color": "Rosy beige matches individual original visually",
+        "branding": "Genuine newstart serif mark, correct relative position and size; ivory golden-brown ink retained",
+        "scene_consistency": "Same white non-human hip form, gray studio, light direction and framing",
+        "added_text_or_items": "None",
+        "limitations": [
+          "Visual color match, not calibrated.",
+          "Tiny brand sublettering not independently certified."
+        ]
+      }
     }
-  ]
+  ],
+  "source_results": [
+    {
+      "source": "products/fa7adb75-b967-404f-89a7-23e8c8df4650/colors/07b6d2c9-aa62-4cde-a2dc-d17e10cd764e.webp",
+      "output": "products/fa7adb75-b967-404f-89a7-23e8c8df4650/generated/color__07b6d2c9-aa62-4cde-a2dc-d17e10cd764e__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": "PASS",
+        "construction": "Broad smooth waistband and seam, bound curved legs and lower seam visually match original",
+        "material_and_coverage": "Opaque smooth knit and full high-rise coverage match",
+        "color": "Light peach beige matches individual original visually",
+        "branding": "Genuine newstart serif mark, correct relative position and size; ivory golden-brown ink retained",
+        "scene_consistency": "Same white non-human hip form, gray studio, light direction and framing",
+        "added_text_or_items": "None",
+        "limitations": [
+          "Visual color match, not calibrated.",
+          "Tiny brand sublettering not independently certified."
+        ]
+      }
+    },
+    {
+      "source": "products/fa7adb75-b967-404f-89a7-23e8c8df4650/colors/1a3a3dbe-2ca5-42b2-b89c-fa8ea3ccd799.webp",
+      "output": "products/fa7adb75-b967-404f-89a7-23e8c8df4650/generated/color__1a3a3dbe-2ca5-42b2-b89c-fa8ea3ccd799__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": "PASS",
+        "construction": "Broad smooth waistband and seam, bound curved legs and lower seam visually match original",
+        "material_and_coverage": "Opaque smooth knit and full high-rise coverage match",
+        "color": "Ivory beige matches individual original visually",
+        "branding": "Genuine newstart serif mark, correct relative position and size; ivory golden-brown ink retained",
+        "scene_consistency": "Same white non-human hip form, gray studio, light direction and framing",
+        "added_text_or_items": "None",
+        "limitations": [
+          "Visual color match, not calibrated.",
+          "Tiny brand sublettering not independently certified."
+        ]
+      }
+    },
+    {
+      "source": "products/fa7adb75-b967-404f-89a7-23e8c8df4650/colors/cf66b05d-1466-42ee-b335-a2e9e0ce6bde.webp",
+      "output": "products/fa7adb75-b967-404f-89a7-23e8c8df4650/generated/color__cf66b05d-1466-42ee-b335-a2e9e0ce6bde__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": "PASS",
+        "construction": "Broad smooth waistband and seam, bound curved legs and lower seam visually match original",
+        "material_and_coverage": "Opaque smooth knit and full high-rise coverage match",
+        "color": "Rosy beige matches individual original visually",
+        "branding": "Genuine newstart serif mark, correct relative position and size; ivory golden-brown ink retained",
+        "scene_consistency": "Same white non-human hip form, gray studio, light direction and framing",
+        "added_text_or_items": "None",
+        "limitations": [
+          "Visual color match, not calibrated.",
+          "Tiny brand sublettering not independently certified."
+        ]
+      }
+    },
+    {
+      "source": "products/fa7adb75-b967-404f-89a7-23e8c8df4650/main/27b8ccac-5c6a-48a8-a88b-4df067b2b3a4.webp",
+      "output": "products/fa7adb75-b967-404f-89a7-23e8c8df4650/generated/main__27b8ccac-5c6a-48a8-a88b-4df067b2b3a4__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": "PASS",
+        "construction": "High-rise shape, broad waistband and horizontal seam, curved bound legs and transverse lower seam match originals",
+        "material_and_coverage": "Opaque soft smooth-knit texture and full-coverage shape match",
+        "color": "Pale blush beige main visually matched",
+        "branding": "Brown genuine newstart serif mark on upper-right waistband, relative size and placement visually matched",
+        "studio": "Warm-gray seamless, white non-human form, daylight from camera left; entire garment visible",
+        "limitations": [
+          "Visual color match, not calibrated.",
+          "Tiny wordmark sublettering not independently certified."
+        ]
+      }
+    }
+  ],
+  "blockers": [],
+  "counts_scope": "Current replacement run only; old attempts, refusals and deleted outputs retained in replacement_history.",
+  "completion_scope": "Owner-delegated uniform non-human mannequin replacement",
+  "source_review": "Every main and color photo visually inspected in this run; all source hashes unchanged.",
+  "scene_consistency": "PASS: same-product locked white form, neutral studio, lighting, framing.",
+  "original_model_requirement": "BLOCKED historical model-worn hold retained; no new model requests.",
+  "final_reconciliation": {
+    "sources": 4,
+    "saved_outputs": 4,
+    "source_integrity": "PASS",
+    "individual_mapping_reconciliation": "PASS",
+    "scene_consistency": "PASS",
+    "same_product_reference_paths": "PASS",
+    "all_images_directly_in_generated": true
+  },
+  "superseded_image_paths": []
 }

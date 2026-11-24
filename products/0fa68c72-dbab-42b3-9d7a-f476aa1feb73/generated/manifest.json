@@ -1,16 +1,14 @@
 {
   "product_id": "0fa68c72-dbab-42b3-9d7a-f476aa1feb73",
   "product_name": "3XL Floral High-Rise Briefs",
-  "product_name_basis": "Description and visible garment construction",
+  "source_revision": "bd0e6dc0da2cdc20646f4fdec34a32a75a7be56d",
   "workflow": "AGENTS.md",
-  "workflow_git_blob": "ff1216a3fe7ae20f32a8abff94203ba2716ceaf1",
-  "source_revision": "76e16b0e214dfffaf92fc98b8e6ce2b105657057",
-  "status": "PARTIAL",
-  "preflight_decision": "moderation_blocked",
+  "status": "COMPLETE",
+  "preflight_decision": "ready_mannequin_catalog",
   "catalog_mode": "non_human_mannequin",
   "garment_spec": {
     "pieces": 1,
-    "construction": "Wide smooth waistband, small multicolored flower motifs arranged in an arc across the upper front, full seat coverage and matching leg binding."
+    "construction": "One full-coverage high-rise soft opaque knit brief with broad smooth waistband, bound curved leg openings and lower front gusset seam. Arc of genuine daisies, two butterflies and dotted curling blue trails on upper front; color-specific motif colors, including yellow flowers on coral-red source."
   },
   "source_metadata": [
     {
@@ -38,7 +36,9 @@
       "aspect_ratio": "3:4",
       "duplicate_reference_paths": [
         "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/main/e5dfb5ad-dbd6-40a9-a7c7-9635ed908d11.webp"
-      ]
+      ],
+      "sha256": "afa17e05864d40d4b7eb26f4f7a88a92cbedb38ca65c0ea3bd108adfacc6effb",
+      "visually_reviewed_at": "2026-11-24T12:14:58.494461+00:00"
     },
     {
       "path": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/36a3a7eb-aa1d-4e3e-8abd-382fa15e29e8.webp",
@@ -53,7 +53,9 @@
       "uploaded_at": "2026-11-18T16:59:12.008Z",
       "original_upload_name": "IMG_20261118_222430.jpg",
       "aspect_ratio": "3:4",
-      "duplicate_reference_paths": []
+      "duplicate_reference_paths": [],
+      "sha256": "61ff71084b6be46d9e2e352add907b554063ffdb0236e43df47226ba9f202669",
+      "visually_reviewed_at": "2026-11-24T12:14:58.494496+00:00"
     },
     {
       "path": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/510e7409-16bc-4210-9b1c-2d96c3bfd724.webp",
@@ -70,7 +72,9 @@
       "aspect_ratio": "3:4",
       "duplicate_reference_paths": [
         "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/bc5ea94e-4d07-48d0-a980-b4b08ca2e2f6.webp"
-      ]
+      ],
+      "sha256": "3ee1b473102888fae8384f60d782f115b58a909ecc268928cdb88899b1c36f47",
+      "visually_reviewed_at": "2026-11-24T12:14:58.494503+00:00"
     },
     {
       "path": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/7e4c3d78-a5ba-48ad-aff5-e6c841b3f9a0.webp",
@@ -87,7 +91,9 @@
       "aspect_ratio": "3:4",
       "duplicate_reference_paths": [
         "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/39ffd1dc-4889-48fa-9093-18bc3c4343e8.webp"
-      ]
+      ],
+      "sha256": "8cafcc7769fc3f305ff73cd880c56923c141151545b78db7782072f506657543",
+      "visually_reviewed_at": "2026-11-24T12:14:58.494508+00:00"
     },
     {
       "path": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/c830d6ff-4284-4771-9b8b-8cc4e9e3acb3.webp",
@@ -104,7 +110,9 @@
       "aspect_ratio": "3:4",
       "duplicate_reference_paths": [
         "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/ad767310-92e1-4be0-b398-c08c8cebf0a7.webp"
-      ]
+      ],
+      "sha256": "6b55bdc1338539411c37e996121bb03139dba489e455aedec997f731b7c0dec0",
+      "visually_reviewed_at": "2026-11-24T12:14:58.494512+00:00"
     },
     {
       "path": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/de3fc058-7bc2-4f69-a06e-7ccb19a0df54.webp",
@@ -114,14 +122,16 @@
         "width": 1650,
         "height": 2200
       },
-      "color": "Dusty blush-beige",
+      "color": "Dusty blush beige",
       "presentation": "unfolded laid out",
       "uploaded_at": "2026-11-18T16:59:12.008Z",
       "original_upload_name": "IMG_20261118_222336.jpg",
       "aspect_ratio": "3:4",
       "duplicate_reference_paths": [
         "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/7f1bdb4a-7a70-428e-a56b-d6d8e8598b6e.webp"
-      ]
+      ],
+      "sha256": "bf000aee8d393fa7d13044b3310fef7b7da06d2164761f59a011d7a8f854fcd1",
+      "visually_reviewed_at": "2026-11-24T12:14:58.494516+00:00"
     },
     {
       "path": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/f288ac22-5fb5-468f-a0d9-db2a30147316.webp",
@@ -138,64 +148,78 @@
       "aspect_ratio": "3:4",
       "duplicate_reference_paths": [
         "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/8f0285bb-dd23-4092-93f2-a15bbf78ae81.webp"
-      ]
+      ],
+      "sha256": "a693d2c4fc0f8c16594c5adff75f29617e69b6ca35ad297e5c2758d91139f01a",
+      "visually_reviewed_at": "2026-11-24T12:14:58.494520+00:00"
     }
   ],
   "construction_references": [
     "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp"
   ],
-  "scene_profile": {
-    "location": "Neutral commercial product studio",
-    "backdrop": "Pale warm-gray seamless paper",
-    "floor": "Matching matte warm-gray floor",
-    "lighting": "Diffuse daylight from camera left",
-    "camera": "Centered, straight-on 3:4 catalog frame",
-    "furniture": "None",
-    "status": "Used for the main display-form image",
-    "display_form": "Artificial ivory waist-and-hip form on a metal stand."
+  "owner_authorization": {
+    "time": "2026-11-24T12:14:03.492376+00:00",
+    "scope": "Owner requested deletion of existing generated images, full regeneration and publication for exactly these two products without questions. Use established delegated mannequin workflow; no new model-worn submissions.",
+    "generation_authorized": true,
+    "publication_authorized": true
   },
-  "model_profile": "Neutral adult model-worn catalog presentation on hold.",
+  "original_model_requirement": "BLOCKED",
+  "alternative_acceptance": "owner_delegated_full_replacement_workflow",
+  "scene_profile": {
+    "location": "Neutral commercial studio",
+    "backdrop": "Pale warm-gray seamless",
+    "floor": "Matching matte warm-gray",
+    "furniture": "None",
+    "lighting": "Diffuse neutral daylight from camera left",
+    "camera": "Centered straight-on complete-product framing",
+    "subject_position": "Centered",
+    "depth_of_field": "Entire garment sharp",
+    "mood": "Ordinary retail catalog",
+    "status": "Locked from accepted representative"
+  },
+  "model_profile": "Freestanding simplified matte-white non-human retail hip form",
   "camera_profile": {
-    "width": 1086,
-    "height": 1448,
-    "aspect_ratio": "3:4",
-    "status": "verified"
+    "view": "Straight-on centered",
+    "actual_dimensions": [
+      1312,
+      1199
+    ],
+    "note": "Actual returned framing accepted after representative QA; match for variants without stretching."
   },
   "pose_plan": [
     {
-      "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp",
-      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
-      "accepted": null
-    },
-    {
       "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/36a3a7eb-aa1d-4e3e-8abd-382fa15e29e8.webp",
-      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
-      "accepted": null
+      "planned": "Upright straight-on non-human form; complete garment unobstructed; human pose variety not applicable.",
+      "accepted": "Upright straight-on non-human hip form, complete garment visible."
     },
     {
       "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/510e7409-16bc-4210-9b1c-2d96c3bfd724.webp",
-      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
-      "accepted": null
+      "planned": "Upright straight-on non-human form; complete garment unobstructed; human pose variety not applicable.",
+      "accepted": "Upright straight-on non-human hip form, complete garment visible."
     },
     {
       "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/7e4c3d78-a5ba-48ad-aff5-e6c841b3f9a0.webp",
-      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
-      "accepted": null
+      "planned": "Upright straight-on non-human form; complete garment unobstructed; human pose variety not applicable.",
+      "accepted": "Upright straight-on non-human hip form, complete garment visible."
     },
     {
       "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/c830d6ff-4284-4771-9b8b-8cc4e9e3acb3.webp",
-      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
-      "accepted": null
+      "planned": "Upright straight-on non-human form; complete garment unobstructed; human pose variety not applicable.",
+      "accepted": "Upright straight-on non-human hip form, complete garment visible."
     },
     {
       "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/de3fc058-7bc2-4f69-a06e-7ccb19a0df54.webp",
-      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
-      "accepted": null
+      "planned": "Upright straight-on non-human form; complete garment unobstructed; human pose variety not applicable.",
+      "accepted": "Upright straight-on non-human hip form, complete garment visible."
     },
     {
       "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/f288ac22-5fb5-468f-a0d9-db2a30147316.webp",
-      "planned": "Upright neutral front or slight near-front stance with the full garment visible",
-      "accepted": null
+      "planned": "Upright straight-on non-human form; complete garment unobstructed; human pose variety not applicable.",
+      "accepted": "Upright straight-on non-human hip form, complete garment visible."
+    },
+    {
+      "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp",
+      "planned": "Upright straight-on non-human form; complete garment unobstructed; human pose variety not applicable.",
+      "accepted": "Upright straight-on non-human hip form, complete garment visible."
     }
   ],
   "moderation_failures": [
@@ -209,92 +233,1092 @@
     }
   ],
   "related_moderation": null,
-  "alternative_mode": "non_human_mannequin",
-  "alternative_acceptance": "approved_for_existing_main_image",
-  "alternative_preview": {
-    "status": "ALTERNATIVE_MANNEQUIN",
-    "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp",
-    "width": 1086,
-    "height": 1448,
-    "visual_qa": "Representative preview preserves the teal color, floral and butterfly arrangement, bound leg openings and full unfolded silhouette.",
-    "published": true,
-    "output": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/main__beb2f9a0-ace9-42b3-a9dc-bffa5286a43e__mannequin.webp",
-    "output_git_blob": "c2ee73af2560027d762773c3cfe7e34cf70fd2c3"
-  },
+  "alternative_outputs": [
+    {
+      "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp",
+      "output": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/main__beb2f9a0-ace9-42b3-a9dc-bffa5286a43e__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "sha256": "6bb9aee62af9685a62da43c27f93614777e8fc83d671871171cb3e7ea60cc516",
+      "variant_color": "Muted teal",
+      "request_id": "94553455-ae34-47e5-badd-0940a3829997",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": "PASS",
+        "construction": "Broad waistband, curved bound legs and lower seam visually match same-product references",
+        "material_and_coverage": "Opaque smooth knit and full-coverage shape match",
+        "color": "Muted teal matches main visually",
+        "print": "Daisy and butterfly order, relative scale and curved dotted trails visually match; no added graphic",
+        "studio": "Neutral warm-gray, upright white non-human form, full product visible",
+        "limitations": [
+          "Source lighting prevents colorimetric certification.",
+          "Fine dotted trail registration is visually assessed, not pixel-identical certification."
+        ]
+      }
+    },
+    {
+      "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/36a3a7eb-aa1d-4e3e-8abd-382fa15e29e8.webp",
+      "output": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/color__36a3a7eb-aa1d-4e3e-8abd-382fa15e29e8__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "sha256": "388f1711793b05645d3c873ecea79f85054d32affab575a6beed0c34aa18b54d",
+      "variant_color": "Coral red",
+      "request_id": "3c448155-0c53-409f-a2c4-69b057f92545",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": "PASS",
+        "construction": "Broad waistband, curved bound leg openings and lower seam match original",
+        "material_and_coverage": "Soft opaque knit and full-coverage silhouette match",
+        "color": "Coral red matches its individual source visually",
+        "print": "Actual variant daisy/butterfly identity, order, relative scale and dotted trail geometry compared against source",
+        "scene_consistency": "Same white non-human form, gray studio, camera-left light and framing",
+        "added_text_or_items": "None",
+        "limitations": [
+          "Visual color match, not colorimetrically calibrated.",
+          "Fine print registration visually assessed, not pixel-identical certification."
+        ],
+        "variant_specific_check": "Two yellow daisies and yellow butterfly body retained; not main-color recolor."
+      }
+    },
+    {
+      "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/510e7409-16bc-4210-9b1c-2d96c3bfd724.webp",
+      "output": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/color__510e7409-16bc-4210-9b1c-2d96c3bfd724__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "sha256": "d19cfe6faa82246ca4156228fd174de873634de9f634f0123763a1b6c7deefef",
+      "variant_color": "Rose pink",
+      "request_id": "a9a9a23f-45c2-4607-b53c-82762e15dafa",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": "PASS",
+        "construction": "Broad waistband, curved bound leg openings and lower seam match original",
+        "material_and_coverage": "Soft opaque knit and full-coverage silhouette match",
+        "color": "Rose pink matches its individual source visually",
+        "print": "Actual variant daisy/butterfly identity, order, relative scale and dotted trail geometry compared against source",
+        "scene_consistency": "Same white non-human form, gray studio, camera-left light and framing",
+        "added_text_or_items": "None",
+        "limitations": [
+          "Visual color match, not colorimetrically calibrated.",
+          "Fine print registration visually assessed, not pixel-identical certification."
+        ]
+      }
+    },
+    {
+      "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/7e4c3d78-a5ba-48ad-aff5-e6c841b3f9a0.webp",
+      "output": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/color__7e4c3d78-a5ba-48ad-aff5-e6c841b3f9a0__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "sha256": "092bcf2701fdcf064abd36e5221e816b2cf0ce949db4683ed6cdcb38fe3260b9",
+      "variant_color": "Black",
+      "request_id": "c638a879-969c-43dc-a00f-76ffe8bdd624",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": "PASS",
+        "construction": "Broad waistband, curved bound leg openings and lower seam match original",
+        "material_and_coverage": "Soft opaque knit and full-coverage silhouette match",
+        "color": "Black matches its individual source visually",
+        "print": "Actual variant daisy/butterfly identity, order, relative scale and dotted trail geometry compared against source",
+        "scene_consistency": "Same white non-human form, gray studio, camera-left light and framing",
+        "added_text_or_items": "None",
+        "limitations": [
+          "Visual color match, not colorimetrically calibrated.",
+          "Fine print registration visually assessed, not pixel-identical certification."
+        ]
+      }
+    },
+    {
+      "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/c830d6ff-4284-4771-9b8b-8cc4e9e3acb3.webp",
+      "output": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/color__c830d6ff-4284-4771-9b8b-8cc4e9e3acb3__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "sha256": "39257a16fa51da4b115544a7dd90585a95fef1eabdbfa9e9444a2a64dfbb6594",
+      "variant_color": "Slate gray",
+      "request_id": "90e3a8c2-335d-47c2-a637-12a04d74fc6c",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": "PASS",
+        "construction": "Broad waistband, curved bound leg openings and lower seam match original",
+        "material_and_coverage": "Soft opaque knit and full-coverage silhouette match",
+        "color": "Slate gray matches its individual source visually",
+        "print": "Actual variant daisy/butterfly identity, order, relative scale and dotted trail geometry compared against source",
+        "scene_consistency": "Same white non-human form, gray studio, camera-left light and framing",
+        "added_text_or_items": "None",
+        "limitations": [
+          "Visual color match, not colorimetrically calibrated.",
+          "Fine print registration visually assessed, not pixel-identical certification."
+        ],
+        "variant_specific_check": "Pale pink contrast seam stitching retained."
+      }
+    },
+    {
+      "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/de3fc058-7bc2-4f69-a06e-7ccb19a0df54.webp",
+      "output": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/color__de3fc058-7bc2-4f69-a06e-7ccb19a0df54__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "sha256": "d8c54e7d26a51302e8dbb03c623a95c61b7798f929bd399a1257292d119f3b8e",
+      "variant_color": "Dusty blush beige",
+      "request_id": "052d923e-b878-4414-a9e9-b1fd98a52a59",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": "PASS",
+        "construction": "Broad waistband, curved bound leg openings and lower seam match original",
+        "material_and_coverage": "Soft opaque knit and full-coverage silhouette match",
+        "color": "Dusty blush beige matches its individual source visually",
+        "print": "Actual variant daisy/butterfly identity, order, relative scale and dotted trail geometry compared against source",
+        "scene_consistency": "Same white non-human form, gray studio, camera-left light and framing",
+        "added_text_or_items": "None",
+        "limitations": [
+          "Visual color match, not colorimetrically calibrated.",
+          "Fine print registration visually assessed, not pixel-identical certification."
+        ]
+      }
+    },
+    {
+      "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/f288ac22-5fb5-468f-a0d9-db2a30147316.webp",
+      "output": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/color__f288ac22-5fb5-468f-a0d9-db2a30147316__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "sha256": "d9b9e54b604dac1bcb80242660554fbba7d3b313b798d531a64a717c62555a7e",
+      "variant_color": "Lavender",
+      "request_id": "e16a12b4-4e40-4a83-bf6b-2e88240c5298",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": "PASS",
+        "construction": "Broad waistband, curved bound leg openings and lower seam match original",
+        "material_and_coverage": "Soft opaque knit and full-coverage silhouette match",
+        "color": "Lavender matches its individual source visually",
+        "print": "Actual variant daisy/butterfly identity, order, relative scale and dotted trail geometry compared against source",
+        "scene_consistency": "Same white non-human form, gray studio, camera-left light and framing",
+        "added_text_or_items": "None",
+        "limitations": [
+          "Visual color match, not colorimetrically calibrated.",
+          "Fine print registration visually assessed, not pixel-identical certification."
+        ]
+      }
+    }
+  ],
+  "generation_attempts": [
+    {
+      "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp",
+      "role": "main",
+      "source_id": "beb2f9a0-ace9-42b3-a9dc-bffa5286a43e",
+      "cache_path": "/root/.hermes/profiles/lifestyle-image-studio/cache/generated/images/openai_codex_gpt-image-2-medium_20261124_131539_6eeca093.png",
+      "request_id": "94553455-ae34-47e5-badd-0940a3829997",
+      "color": "Muted teal",
+      "mode": "non_human_mannequin",
+      "tool": "image_generate",
+      "model": "gpt-image-2-medium",
+      "result": "qa_passed_saved",
+      "actual_dimensions": [
+        1312,
+        1199
+      ],
+      "reference_paths": [
+        "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp",
+        "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/f288ac22-5fb5-468f-a0d9-db2a30147316.webp"
+      ],
+      "retries": 0,
+      "time": "2026-11-24T12:16:22.905136+00:00",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": "PASS",
+        "construction": "Broad waistband, curved bound legs and lower seam visually match same-product references",
+        "material_and_coverage": "Opaque smooth knit and full-coverage shape match",
+        "color": "Muted teal matches main visually",
+        "print": "Daisy and butterfly order, relative scale and curved dotted trails visually match; no added graphic",
+        "studio": "Neutral warm-gray, upright white non-human form, full product visible",
+        "limitations": [
+          "Source lighting prevents colorimetric certification.",
+          "Fine dotted trail registration is visually assessed, not pixel-identical certification."
+        ]
+      },
+      "output": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/main__beb2f9a0-ace9-42b3-a9dc-bffa5286a43e__mannequin.png"
+    },
+    {
+      "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/36a3a7eb-aa1d-4e3e-8abd-382fa15e29e8.webp",
+      "role": "color",
+      "source_id": "36a3a7eb-aa1d-4e3e-8abd-382fa15e29e8",
+      "cache_path": "/root/.hermes/profiles/lifestyle-image-studio/cache/generated/images/openai_codex_gpt-image-2-medium_20261124_131753_3169e153.png",
+      "request_id": "3c448155-0c53-409f-a2c4-69b057f92545",
+      "color": "Coral red",
+      "mode": "non_human_mannequin",
+      "tool": "image_generate",
+      "model": "gpt-image-2-medium",
+      "result": "qa_passed_saved",
+      "actual_dimensions": [
+        1312,
+        1199
+      ],
+      "reference_paths": [
+        "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/main__beb2f9a0-ace9-42b3-a9dc-bffa5286a43e__mannequin.png",
+        "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/36a3a7eb-aa1d-4e3e-8abd-382fa15e29e8.webp"
+      ],
+      "retries": 0,
+      "time": "2026-11-24T12:19:43.346806+00:00",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": "PASS",
+        "construction": "Broad waistband, curved bound leg openings and lower seam match original",
+        "material_and_coverage": "Soft opaque knit and full-coverage silhouette match",
+        "color": "Coral red matches its individual source visually",
+        "print": "Actual variant daisy/butterfly identity, order, relative scale and dotted trail geometry compared against source",
+        "scene_consistency": "Same white non-human form, gray studio, camera-left light and framing",
+        "added_text_or_items": "None",
+        "limitations": [
+          "Visual color match, not colorimetrically calibrated.",
+          "Fine print registration visually assessed, not pixel-identical certification."
+        ],
+        "variant_specific_check": "Two yellow daisies and yellow butterfly body retained; not main-color recolor."
+      },
+      "output": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/color__36a3a7eb-aa1d-4e3e-8abd-382fa15e29e8__mannequin.png"
+    },
+    {
+      "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/510e7409-16bc-4210-9b1c-2d96c3bfd724.webp",
+      "role": "color",
+      "source_id": "510e7409-16bc-4210-9b1c-2d96c3bfd724",
+      "cache_path": "/root/.hermes/profiles/lifestyle-image-studio/cache/generated/images/openai_codex_gpt-image-2-medium_20261124_131803_87f7ba11.png",
+      "request_id": "a9a9a23f-45c2-4607-b53c-82762e15dafa",
+      "color": "Rose pink",
+      "mode": "non_human_mannequin",
+      "tool": "image_generate",
+      "model": "gpt-image-2-medium",
+      "result": "qa_passed_saved",
+      "actual_dimensions": [
+        1312,
+        1199
+      ],
+      "reference_paths": [
+        "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/main__beb2f9a0-ace9-42b3-a9dc-bffa5286a43e__mannequin.png",
+        "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/510e7409-16bc-4210-9b1c-2d96c3bfd724.webp"
+      ],
+      "retries": 0,
+      "time": "2026-11-24T12:19:43.833545+00:00",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": "PASS",
+        "construction": "Broad waistband, curved bound leg openings and lower seam match original",
+        "material_and_coverage": "Soft opaque knit and full-coverage silhouette match",
+        "color": "Rose pink matches its individual source visually",
+        "print": "Actual variant daisy/butterfly identity, order, relative scale and dotted trail geometry compared against source",
+        "scene_consistency": "Same white non-human form, gray studio, camera-left light and framing",
+        "added_text_or_items": "None",
+        "limitations": [
+          "Visual color match, not colorimetrically calibrated.",
+          "Fine print registration visually assessed, not pixel-identical certification."
+        ]
+      },
+      "output": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/color__510e7409-16bc-4210-9b1c-2d96c3bfd724__mannequin.png"
+    },
+    {
+      "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/7e4c3d78-a5ba-48ad-aff5-e6c841b3f9a0.webp",
+      "role": "color",
+      "source_id": "7e4c3d78-a5ba-48ad-aff5-e6c841b3f9a0",
+      "cache_path": "/root/.hermes/profiles/lifestyle-image-studio/cache/generated/images/openai_codex_gpt-image-2-medium_20261124_131805_1afd2473.png",
+      "request_id": "c638a879-969c-43dc-a00f-76ffe8bdd624",
+      "color": "Black",
+      "mode": "non_human_mannequin",
+      "tool": "image_generate",
+      "model": "gpt-image-2-medium",
+      "result": "qa_passed_saved",
+      "actual_dimensions": [
+        1312,
+        1199
+      ],
+      "reference_paths": [
+        "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/main__beb2f9a0-ace9-42b3-a9dc-bffa5286a43e__mannequin.png",
+        "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/7e4c3d78-a5ba-48ad-aff5-e6c841b3f9a0.webp"
+      ],
+      "retries": 0,
+      "time": "2026-11-24T12:19:44.562738+00:00",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": "PASS",
+        "construction": "Broad waistband, curved bound leg openings and lower seam match original",
+        "material_and_coverage": "Soft opaque knit and full-coverage silhouette match",
+        "color": "Black matches its individual source visually",
+        "print": "Actual variant daisy/butterfly identity, order, relative scale and dotted trail geometry compared against source",
+        "scene_consistency": "Same white non-human form, gray studio, camera-left light and framing",
+        "added_text_or_items": "None",
+        "limitations": [
+          "Visual color match, not colorimetrically calibrated.",
+          "Fine print registration visually assessed, not pixel-identical certification."
+        ]
+      },
+      "output": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/color__7e4c3d78-a5ba-48ad-aff5-e6c841b3f9a0__mannequin.png"
+    },
+    {
+      "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/c830d6ff-4284-4771-9b8b-8cc4e9e3acb3.webp",
+      "role": "color",
+      "source_id": "c830d6ff-4284-4771-9b8b-8cc4e9e3acb3",
+      "cache_path": "/root/.hermes/profiles/lifestyle-image-studio/cache/generated/images/openai_codex_gpt-image-2-medium_20261124_131756_bb1b443e.png",
+      "request_id": "90e3a8c2-335d-47c2-a637-12a04d74fc6c",
+      "color": "Slate gray",
+      "mode": "non_human_mannequin",
+      "tool": "image_generate",
+      "model": "gpt-image-2-medium",
+      "result": "qa_passed_saved",
+      "actual_dimensions": [
+        1312,
+        1199
+      ],
+      "reference_paths": [
+        "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/main__beb2f9a0-ace9-42b3-a9dc-bffa5286a43e__mannequin.png",
+        "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/c830d6ff-4284-4771-9b8b-8cc4e9e3acb3.webp"
+      ],
+      "retries": 0,
+      "time": "2026-11-24T12:19:45.088356+00:00",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": "PASS",
+        "construction": "Broad waistband, curved bound leg openings and lower seam match original",
+        "material_and_coverage": "Soft opaque knit and full-coverage silhouette match",
+        "color": "Slate gray matches its individual source visually",
+        "print": "Actual variant daisy/butterfly identity, order, relative scale and dotted trail geometry compared against source",
+        "scene_consistency": "Same white non-human form, gray studio, camera-left light and framing",
+        "added_text_or_items": "None",
+        "limitations": [
+          "Visual color match, not colorimetrically calibrated.",
+          "Fine print registration visually assessed, not pixel-identical certification."
+        ],
+        "variant_specific_check": "Pale pink contrast seam stitching retained."
+      },
+      "output": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/color__c830d6ff-4284-4771-9b8b-8cc4e9e3acb3__mannequin.png"
+    },
+    {
+      "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/de3fc058-7bc2-4f69-a06e-7ccb19a0df54.webp",
+      "role": "color",
+      "source_id": "de3fc058-7bc2-4f69-a06e-7ccb19a0df54",
+      "cache_path": "/root/.hermes/profiles/lifestyle-image-studio/cache/generated/images/openai_codex_gpt-image-2-medium_20261124_131823_c9eff646.png",
+      "request_id": "052d923e-b878-4414-a9e9-b1fd98a52a59",
+      "color": "Dusty blush beige",
+      "mode": "non_human_mannequin",
+      "tool": "image_generate",
+      "model": "gpt-image-2-medium",
+      "result": "qa_passed_saved",
+      "actual_dimensions": [
+        1312,
+        1199
+      ],
+      "reference_paths": [
+        "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/main__beb2f9a0-ace9-42b3-a9dc-bffa5286a43e__mannequin.png",
+        "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/de3fc058-7bc2-4f69-a06e-7ccb19a0df54.webp"
+      ],
+      "retries": 0,
+      "time": "2026-11-24T12:19:45.573879+00:00",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": "PASS",
+        "construction": "Broad waistband, curved bound leg openings and lower seam match original",
+        "material_and_coverage": "Soft opaque knit and full-coverage silhouette match",
+        "color": "Dusty blush beige matches its individual source visually",
+        "print": "Actual variant daisy/butterfly identity, order, relative scale and dotted trail geometry compared against source",
+        "scene_consistency": "Same white non-human form, gray studio, camera-left light and framing",
+        "added_text_or_items": "None",
+        "limitations": [
+          "Visual color match, not colorimetrically calibrated.",
+          "Fine print registration visually assessed, not pixel-identical certification."
+        ]
+      },
+      "output": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/color__de3fc058-7bc2-4f69-a06e-7ccb19a0df54__mannequin.png"
+    },
+    {
+      "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/f288ac22-5fb5-468f-a0d9-db2a30147316.webp",
+      "role": "color",
+      "source_id": "f288ac22-5fb5-468f-a0d9-db2a30147316",
+      "cache_path": "/root/.hermes/profiles/lifestyle-image-studio/cache/generated/images/openai_codex_gpt-image-2-medium_20261124_131927_a93ede26.png",
+      "request_id": "e16a12b4-4e40-4a83-bf6b-2e88240c5298",
+      "color": "Lavender",
+      "mode": "non_human_mannequin",
+      "tool": "image_generate",
+      "model": "gpt-image-2-medium",
+      "result": "qa_passed_saved",
+      "actual_dimensions": [
+        1312,
+        1199
+      ],
+      "reference_paths": [
+        "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/main__beb2f9a0-ace9-42b3-a9dc-bffa5286a43e__mannequin.png",
+        "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/f288ac22-5fb5-468f-a0d9-db2a30147316.webp"
+      ],
+      "retries": 0,
+      "time": "2026-11-24T12:19:46.165083+00:00",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": "PASS",
+        "construction": "Broad waistband, curved bound leg openings and lower seam match original",
+        "material_and_coverage": "Soft opaque knit and full-coverage silhouette match",
+        "color": "Lavender matches its individual source visually",
+        "print": "Actual variant daisy/butterfly identity, order, relative scale and dotted trail geometry compared against source",
+        "scene_consistency": "Same white non-human form, gray studio, camera-left light and framing",
+        "added_text_or_items": "None",
+        "limitations": [
+          "Visual color match, not colorimetrically calibrated.",
+          "Fine print registration visually assessed, not pixel-identical certification."
+        ]
+      },
+      "output": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/color__f288ac22-5fb5-468f-a0d9-db2a30147316__mannequin.png"
+    }
+  ],
+  "mappings": [
+    {
+      "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/36a3a7eb-aa1d-4e3e-8abd-382fa15e29e8.webp",
+      "output": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/color__36a3a7eb-aa1d-4e3e-8abd-382fa15e29e8__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": "PASS",
+        "construction": "Broad waistband, curved bound leg openings and lower seam match original",
+        "material_and_coverage": "Soft opaque knit and full-coverage silhouette match",
+        "color": "Coral red matches its individual source visually",
+        "print": "Actual variant daisy/butterfly identity, order, relative scale and dotted trail geometry compared against source",
+        "scene_consistency": "Same white non-human form, gray studio, camera-left light and framing",
+        "added_text_or_items": "None",
+        "limitations": [
+          "Visual color match, not colorimetrically calibrated.",
+          "Fine print registration visually assessed, not pixel-identical certification."
+        ],
+        "variant_specific_check": "Two yellow daisies and yellow butterfly body retained; not main-color recolor."
+      }
+    },
+    {
+      "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/510e7409-16bc-4210-9b1c-2d96c3bfd724.webp",
+      "output": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/color__510e7409-16bc-4210-9b1c-2d96c3bfd724__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": "PASS",
+        "construction": "Broad waistband, curved bound leg openings and lower seam match original",
+        "material_and_coverage": "Soft opaque knit and full-coverage silhouette match",
+        "color": "Rose pink matches its individual source visually",
+        "print": "Actual variant daisy/butterfly identity, order, relative scale and dotted trail geometry compared against source",
+        "scene_consistency": "Same white non-human form, gray studio, camera-left light and framing",
+        "added_text_or_items": "None",
+        "limitations": [
+          "Visual color match, not colorimetrically calibrated.",
+          "Fine print registration visually assessed, not pixel-identical certification."
+        ]
+      }
+    },
+    {
+      "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/7e4c3d78-a5ba-48ad-aff5-e6c841b3f9a0.webp",
+      "output": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/color__7e4c3d78-a5ba-48ad-aff5-e6c841b3f9a0__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": "PASS",
+        "construction": "Broad waistband, curved bound leg openings and lower seam match original",
+        "material_and_coverage": "Soft opaque knit and full-coverage silhouette match",
+        "color": "Black matches its individual source visually",
+        "print": "Actual variant daisy/butterfly identity, order, relative scale and dotted trail geometry compared against source",
+        "scene_consistency": "Same white non-human form, gray studio, camera-left light and framing",
+        "added_text_or_items": "None",
+        "limitations": [
+          "Visual color match, not colorimetrically calibrated.",
+          "Fine print registration visually assessed, not pixel-identical certification."
+        ]
+      }
+    },
+    {
+      "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/c830d6ff-4284-4771-9b8b-8cc4e9e3acb3.webp",
+      "output": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/color__c830d6ff-4284-4771-9b8b-8cc4e9e3acb3__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": "PASS",
+        "construction": "Broad waistband, curved bound leg openings and lower seam match original",
+        "material_and_coverage": "Soft opaque knit and full-coverage silhouette match",
+        "color": "Slate gray matches its individual source visually",
+        "print": "Actual variant daisy/butterfly identity, order, relative scale and dotted trail geometry compared against source",
+        "scene_consistency": "Same white non-human form, gray studio, camera-left light and framing",
+        "added_text_or_items": "None",
+        "limitations": [
+          "Visual color match, not colorimetrically calibrated.",
+          "Fine print registration visually assessed, not pixel-identical certification."
+        ],
+        "variant_specific_check": "Pale pink contrast seam stitching retained."
+      }
+    },
+    {
+      "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/de3fc058-7bc2-4f69-a06e-7ccb19a0df54.webp",
+      "output": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/color__de3fc058-7bc2-4f69-a06e-7ccb19a0df54__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": "PASS",
+        "construction": "Broad waistband, curved bound leg openings and lower seam match original",
+        "material_and_coverage": "Soft opaque knit and full-coverage silhouette match",
+        "color": "Dusty blush beige matches its individual source visually",
+        "print": "Actual variant daisy/butterfly identity, order, relative scale and dotted trail geometry compared against source",
+        "scene_consistency": "Same white non-human form, gray studio, camera-left light and framing",
+        "added_text_or_items": "None",
+        "limitations": [
+          "Visual color match, not colorimetrically calibrated.",
+          "Fine print registration visually assessed, not pixel-identical certification."
+        ]
+      }
+    },
+    {
+      "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/f288ac22-5fb5-468f-a0d9-db2a30147316.webp",
+      "output": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/color__f288ac22-5fb5-468f-a0d9-db2a30147316__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": "PASS",
+        "construction": "Broad waistband, curved bound leg openings and lower seam match original",
+        "material_and_coverage": "Soft opaque knit and full-coverage silhouette match",
+        "color": "Lavender matches its individual source visually",
+        "print": "Actual variant daisy/butterfly identity, order, relative scale and dotted trail geometry compared against source",
+        "scene_consistency": "Same white non-human form, gray studio, camera-left light and framing",
+        "added_text_or_items": "None",
+        "limitations": [
+          "Visual color match, not colorimetrically calibrated.",
+          "Fine print registration visually assessed, not pixel-identical certification."
+        ]
+      }
+    },
+    {
+      "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp",
+      "output": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/main__beb2f9a0-ace9-42b3-a9dc-bffa5286a43e__mannequin.png",
+      "status": "ALTERNATIVE_MANNEQUIN",
+      "qa": {
+        "decision": "PASS",
+        "complete_unfolded_single_garment": "PASS",
+        "construction": "Broad waistband, curved bound legs and lower seam visually match same-product references",
+        "material_and_coverage": "Opaque smooth knit and full-coverage shape match",
+        "color": "Muted teal matches main visually",
+        "print": "Daisy and butterfly order, relative scale and curved dotted trails visually match; no added graphic",
+        "studio": "Neutral warm-gray, upright white non-human form, full product visible",
+        "limitations": [
+          "Source lighting prevents colorimetric certification.",
+          "Fine dotted trail registration is visually assessed, not pixel-identical certification."
+        ]
+      }
+    }
+  ],
   "counts": {
     "main_sources": 1,
     "color_sources": 6,
     "accounted_for_sources": 7,
-    "submitted_generation_attempts": 2,
-    "moderated_requests": 1,
-    "returned_image_files": 1,
+    "submitted_generation_attempts": 7,
+    "moderated_requests": 0,
+    "returned_image_files": 7,
     "approved_model_images": 0,
-    "approved_mannequin_alternatives": 1,
-    "display_form_previews": 1,
-    "published_mannequin_images": 1
+    "approved_mannequin_alternatives": 7,
+    "approved_main_alternatives": 1,
+    "approved_color_alternatives": 6,
+    "approved_detail_images": 0
   },
-  "mappings": [
+  "counts_scope": "Current replacement run only; old attempts, refusals and deleted outputs retained in replacement_history.",
+  "replacement_history": [
     {
-      "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp",
-      "source_git_blob": "8db560d5a98f1ef607ceb1e71c5e9e9bcb3c0dbc",
-      "output": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/main__beb2f9a0-ace9-42b3-a9dc-bffa5286a43e__mannequin.webp",
-      "status": "ALTERNATIVE_MANNEQUIN",
-      "model_worn_attempts": 1,
-      "output_git_blob": "c2ee73af2560027d762773c3cfe7e34cf70fd2c3",
-      "output_dimensions": {
-        "width": 1086,
-        "height": 1448
+      "time": "2026-11-24T12:14:03.492376+00:00",
+      "reason": "Owner-authorized replacement",
+      "deleted_images": [
+        {
+          "path": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/main__beb2f9a0-ace9-42b3-a9dc-bffa5286a43e__mannequin.webp",
+          "dimensions": [
+            1086,
+            1448
+          ],
+          "sha256": "1e7cd628b13f2486b6deab7ec944ddeefa28124254e55079dff99dac1178bb92"
+        }
+      ],
+      "previous_manifest": {
+        "product_id": "0fa68c72-dbab-42b3-9d7a-f476aa1feb73",
+        "product_name": "3XL Floral High-Rise Briefs",
+        "product_name_basis": "Description and visible garment construction",
+        "workflow": "AGENTS.md",
+        "workflow_git_blob": "ff1216a3fe7ae20f32a8abff94203ba2716ceaf1",
+        "source_revision": "76e16b0e214dfffaf92fc98b8e6ce2b105657057",
+        "status": "PARTIAL",
+        "preflight_decision": "moderation_blocked",
+        "catalog_mode": "non_human_mannequin",
+        "garment_spec": {
+          "pieces": 1,
+          "construction": "One full-coverage high-rise soft opaque knit brief with broad smooth waistband, bound curved leg openings and lower front gusset seam. Arc of genuine daisies, two butterflies and dotted curling blue trails on upper front; color-specific motif colors, including yellow flowers on coral-red source."
+        },
+        "source_metadata": [
+          {
+            "path": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/description.txt",
+            "git_blob": "c54b64bc12d466f0157fc70b60572f582a0a878e"
+          },
+          {
+            "path": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/updates.txt",
+            "git_blob": "94ff40ffd22206a9433fe6971cf8127f5cd3a6cd"
+          }
+        ],
+        "source_inventory": [
+          {
+            "path": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp",
+            "git_blob": "8db560d5a98f1ef607ceb1e71c5e9e9bcb3c0dbc",
+            "role": "main",
+            "dimensions": {
+              "width": 1650,
+              "height": 2200
+            },
+            "color": "Muted teal",
+            "presentation": "unfolded on shop form",
+            "uploaded_at": "2026-11-18T16:59:12.008Z",
+            "original_upload_name": "IMG_20261118_222315.jpg",
+            "aspect_ratio": "3:4",
+            "duplicate_reference_paths": [
+              "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/main/e5dfb5ad-dbd6-40a9-a7c7-9635ed908d11.webp"
+            ],
+            "sha256": "afa17e05864d40d4b7eb26f4f7a88a92cbedb38ca65c0ea3bd108adfacc6effb",
+            "visually_reviewed_at": "2026-11-24T12:14:58.494461+00:00"
+          },
+          {
+            "path": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/36a3a7eb-aa1d-4e3e-8abd-382fa15e29e8.webp",
+            "git_blob": "08c5c48443d7aa58e5e2539863c7f06cfea7a6ec",
+            "role": "color",
+            "dimensions": {
+              "width": 1650,
+              "height": 2200
+            },
+            "color": "Coral red",
+            "presentation": "unfolded laid out",
+            "uploaded_at": "2026-11-18T16:59:12.008Z",
+            "original_upload_name": "IMG_20261118_222430.jpg",
+            "aspect_ratio": "3:4",
+            "duplicate_reference_paths": [],
+            "sha256": "61ff71084b6be46d9e2e352add907b554063ffdb0236e43df47226ba9f202669",
+            "visually_reviewed_at": "2026-11-24T12:14:58.494496+00:00"
+          },
+          {
+            "path": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/510e7409-16bc-4210-9b1c-2d96c3bfd724.webp",
+            "git_blob": "0c34bbecdffa39cb6ea4999cf7dfcc753dc8f483",
+            "role": "color",
+            "dimensions": {
+              "width": 1650,
+              "height": 2200
+            },
+            "color": "Rose pink",
+            "presentation": "unfolded laid out",
+            "uploaded_at": "2026-11-18T16:59:12.008Z",
+            "original_upload_name": "IMG_20261118_222416.jpg",
+            "aspect_ratio": "3:4",
+            "duplicate_reference_paths": [
+              "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/bc5ea94e-4d07-48d0-a980-b4b08ca2e2f6.webp"
+            ],
+            "sha256": "3ee1b473102888fae8384f60d782f115b58a909ecc268928cdb88899b1c36f47",
+            "visually_reviewed_at": "2026-11-24T12:14:58.494503+00:00"
+          },
+          {
+            "path": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/7e4c3d78-a5ba-48ad-aff5-e6c841b3f9a0.webp",
+            "git_blob": "b57928466f08a03db10ef0e835d69951a7f14031",
+            "role": "color",
+            "dimensions": {
+              "width": 1650,
+              "height": 2200
+            },
+            "color": "Black",
+            "presentation": "unfolded laid out",
+            "uploaded_at": "2026-11-18T16:59:12.008Z",
+            "original_upload_name": "IMG_20261118_222509.jpg",
+            "aspect_ratio": "3:4",
+            "duplicate_reference_paths": [
+              "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/39ffd1dc-4889-48fa-9093-18bc3c4343e8.webp"
+            ],
+            "sha256": "8cafcc7769fc3f305ff73cd880c56923c141151545b78db7782072f506657543",
+            "visually_reviewed_at": "2026-11-24T12:14:58.494508+00:00"
+          },
+          {
+            "path": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/c830d6ff-4284-4771-9b8b-8cc4e9e3acb3.webp",
+            "git_blob": "df9465bd69c0e39d5b6816a3e7e4ad6eaba194ba",
+            "role": "color",
+            "dimensions": {
+              "width": 1650,
+              "height": 2200
+            },
+            "color": "Slate gray",
+            "presentation": "unfolded laid out",
+            "uploaded_at": "2026-11-18T16:59:12.008Z",
+            "original_upload_name": "IMG_20261118_222438.jpg",
+            "aspect_ratio": "3:4",
+            "duplicate_reference_paths": [
+              "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/ad767310-92e1-4be0-b398-c08c8cebf0a7.webp"
+            ],
+            "sha256": "6b55bdc1338539411c37e996121bb03139dba489e455aedec997f731b7c0dec0",
+            "visually_reviewed_at": "2026-11-24T12:14:58.494512+00:00"
+          },
+          {
+            "path": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/de3fc058-7bc2-4f69-a06e-7ccb19a0df54.webp",
+            "git_blob": "b231fe7c20d8f14b8cd012d146120639c4c83d44",
+            "role": "color",
+            "dimensions": {
+              "width": 1650,
+              "height": 2200
+            },
+            "color": "Dusty blush beige",
+            "presentation": "unfolded laid out",
+            "uploaded_at": "2026-11-18T16:59:12.008Z",
+            "original_upload_name": "IMG_20261118_222336.jpg",
+            "aspect_ratio": "3:4",
+            "duplicate_reference_paths": [
+              "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/7f1bdb4a-7a70-428e-a56b-d6d8e8598b6e.webp"
+            ],
+            "sha256": "bf000aee8d393fa7d13044b3310fef7b7da06d2164761f59a011d7a8f854fcd1",
+            "visually_reviewed_at": "2026-11-24T12:14:58.494516+00:00"
+          },
+          {
+            "path": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/f288ac22-5fb5-468f-a0d9-db2a30147316.webp",
+            "git_blob": "33bec4daeacf9ad140792bcf5db0549fb1f677eb",
+            "role": "color",
+            "dimensions": {
+              "width": 1650,
+              "height": 2200
+            },
+            "color": "Lavender",
+            "presentation": "unfolded laid out",
+            "uploaded_at": "2026-11-18T16:59:12.008Z",
+            "original_upload_name": "IMG_20261118_222322.jpg",
+            "aspect_ratio": "3:4",
+            "duplicate_reference_paths": [
+              "products/f85cef92-ea9e-402d-a1e6-a405d6a84b99/colors/8f0285bb-dd23-4092-93f2-a15bbf78ae81.webp"
+            ],
+            "sha256": "a693d2c4fc0f8c16594c5adff75f29617e69b6ca35ad297e5c2758d91139f01a",
+            "visually_reviewed_at": "2026-11-24T12:14:58.494520+00:00"
+          }
+        ],
+        "construction_references": [
+          "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp"
+        ],
+        "scene_profile": {
+          "location": "Neutral commercial product studio",
+          "backdrop": "Pale warm-gray seamless paper",
+          "floor": "Matching matte warm-gray floor",
+          "lighting": "Diffuse daylight from camera left",
+          "camera": "Centered, straight-on 3:4 catalog frame",
+          "furniture": "None",
+          "status": "Used for the main display-form image",
+          "display_form": "Artificial ivory waist-and-hip form on a metal stand."
+        },
+        "model_profile": "Neutral adult model-worn catalog presentation on hold.",
+        "camera_profile": {
+          "width": 1086,
+          "height": 1448,
+          "aspect_ratio": "3:4",
+          "status": "verified"
+        },
+        "pose_plan": [
+          {
+            "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp",
+            "planned": "Upright neutral front or slight near-front stance with the full garment visible",
+            "accepted": null
+          },
+          {
+            "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/36a3a7eb-aa1d-4e3e-8abd-382fa15e29e8.webp",
+            "planned": "Upright neutral front or slight near-front stance with the full garment visible",
+            "accepted": null
+          },
+          {
+            "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/510e7409-16bc-4210-9b1c-2d96c3bfd724.webp",
+            "planned": "Upright neutral front or slight near-front stance with the full garment visible",
+            "accepted": null
+          },
+          {
+            "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/7e4c3d78-a5ba-48ad-aff5-e6c841b3f9a0.webp",
+            "planned": "Upright neutral front or slight near-front stance with the full garment visible",
+            "accepted": null
+          },
+          {
+            "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/c830d6ff-4284-4771-9b8b-8cc4e9e3acb3.webp",
+            "planned": "Upright neutral front or slight near-front stance with the full garment visible",
+            "accepted": null
+          },
+          {
+            "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/de3fc058-7bc2-4f69-a06e-7ccb19a0df54.webp",
+            "planned": "Upright neutral front or slight near-front stance with the full garment visible",
+            "accepted": null
+          },
+          {
+            "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/f288ac22-5fb5-468f-a0d9-db2a30147316.webp",
+            "planned": "Upright neutral front or slight near-front stance with the full garment visible",
+            "accepted": null
+          }
+        ],
+        "moderation_failures": [
+          {
+            "stage": "input",
+            "category": "sexual",
+            "request_id": "132d53dc-f8e3-49af-ae53-61f9cad07ac2",
+            "recorded_at": "2026-11-18T20:30:43.152Z",
+            "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp",
+            "mode": "model_worn"
+          }
+        ],
+        "related_moderation": null,
+        "alternative_mode": "non_human_mannequin",
+        "alternative_acceptance": "approved_for_existing_main_image",
+        "alternative_preview": {
+          "status": "ALTERNATIVE_MANNEQUIN",
+          "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp",
+          "width": 1086,
+          "height": 1448,
+          "visual_qa": "Representative preview preserves the teal color, floral and butterfly arrangement, bound leg openings and full unfolded silhouette.",
+          "published": true,
+          "output": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/main__beb2f9a0-ace9-42b3-a9dc-bffa5286a43e__mannequin.webp",
+          "output_git_blob": "c2ee73af2560027d762773c3cfe7e34cf70fd2c3"
+        },
+        "counts": {
+          "main_sources": 1,
+          "color_sources": 6,
+          "accounted_for_sources": 7,
+          "submitted_generation_attempts": 2,
+          "moderated_requests": 1,
+          "returned_image_files": 1,
+          "approved_model_images": 0,
+          "approved_mannequin_alternatives": 1,
+          "display_form_previews": 1,
+          "published_mannequin_images": 1
+        },
+        "mappings": [
+          {
+            "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp",
+            "source_git_blob": "8db560d5a98f1ef607ceb1e71c5e9e9bcb3c0dbc",
+            "output": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/main__beb2f9a0-ace9-42b3-a9dc-bffa5286a43e__mannequin.webp",
+            "status": "ALTERNATIVE_MANNEQUIN",
+            "model_worn_attempts": 1,
+            "output_git_blob": "c2ee73af2560027d762773c3cfe7e34cf70fd2c3",
+            "output_dimensions": {
+              "width": 1086,
+              "height": 1448
+            },
+            "model_worn_status": "moderation_blocked",
+            "catalog_mode": "non_human_mannequin",
+            "validation": "pass"
+          },
+          {
+            "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/36a3a7eb-aa1d-4e3e-8abd-382fa15e29e8.webp",
+            "source_git_blob": "08c5c48443d7aa58e5e2539863c7f06cfea7a6ec",
+            "output": null,
+            "status": "not_submitted",
+            "model_worn_attempts": 0
+          },
+          {
+            "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/510e7409-16bc-4210-9b1c-2d96c3bfd724.webp",
+            "source_git_blob": "0c34bbecdffa39cb6ea4999cf7dfcc753dc8f483",
+            "output": null,
+            "status": "not_submitted",
+            "model_worn_attempts": 0
+          },
+          {
+            "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/7e4c3d78-a5ba-48ad-aff5-e6c841b3f9a0.webp",
+            "source_git_blob": "b57928466f08a03db10ef0e835d69951a7f14031",
+            "output": null,
+            "status": "not_submitted",
+            "model_worn_attempts": 0
+          },
+          {
+            "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/c830d6ff-4284-4771-9b8b-8cc4e9e3acb3.webp",
+            "source_git_blob": "df9465bd69c0e39d5b6816a3e7e4ad6eaba194ba",
+            "output": null,
+            "status": "not_submitted",
+            "model_worn_attempts": 0
+          },
+          {
+            "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/de3fc058-7bc2-4f69-a06e-7ccb19a0df54.webp",
+            "source_git_blob": "b231fe7c20d8f14b8cd012d146120639c4c83d44",
+            "output": null,
+            "status": "not_submitted",
+            "model_worn_attempts": 0
+          },
+          {
+            "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/f288ac22-5fb5-468f-a0d9-db2a30147316.webp",
+            "source_git_blob": "33bec4daeacf9ad140792bcf5db0549fb1f677eb",
+            "output": null,
+            "status": "not_submitted",
+            "model_worn_attempts": 0
+          }
+        ],
+        "blockers": [
+          "Model-worn request blocked at input moderation.",
+          "Six color variants remain without generated images."
+        ],
+        "model_worn_status": "BLOCKED"
       },
-      "model_worn_status": "moderation_blocked",
-      "catalog_mode": "non_human_mannequin",
-      "validation": "pass"
-    },
-    {
-      "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/36a3a7eb-aa1d-4e3e-8abd-382fa15e29e8.webp",
-      "source_git_blob": "08c5c48443d7aa58e5e2539863c7f06cfea7a6ec",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
-    },
-    {
-      "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/510e7409-16bc-4210-9b1c-2d96c3bfd724.webp",
-      "source_git_blob": "0c34bbecdffa39cb6ea4999cf7dfcc753dc8f483",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
-    },
-    {
-      "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/7e4c3d78-a5ba-48ad-aff5-e6c841b3f9a0.webp",
-      "source_git_blob": "b57928466f08a03db10ef0e835d69951a7f14031",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
-    },
-    {
-      "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/c830d6ff-4284-4771-9b8b-8cc4e9e3acb3.webp",
-      "source_git_blob": "df9465bd69c0e39d5b6816a3e7e4ad6eaba194ba",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
-    },
-    {
-      "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/de3fc058-7bc2-4f69-a06e-7ccb19a0df54.webp",
-      "source_git_blob": "b231fe7c20d8f14b8cd012d146120639c4c83d44",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
-    },
-    {
-      "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/f288ac22-5fb5-468f-a0d9-db2a30147316.webp",
-      "source_git_blob": "33bec4daeacf9ad140792bcf5db0549fb1f677eb",
-      "output": null,
-      "status": "not_submitted",
-      "model_worn_attempts": 0
+      "previous_quality_report": {
+        "product_id": "0fa68c72-dbab-42b3-9d7a-f476aa1feb73",
+        "status": "PARTIAL",
+        "source_review": "All main and color source photos visually reviewed. Each local image blob hash matched the repository inventory.",
+        "scene_consistency": "Main display-form image matches the neutral studio profile. Cross-variant QA remains pending.",
+        "result": "Main display-form image passed visual QA and was saved. Six color variants remain pending.",
+        "counts": {
+          "main_sources": 1,
+          "color_sources": 6,
+          "accounted_for_sources": 7,
+          "submitted_generation_attempts": 2,
+          "moderated_requests": 1,
+          "returned_image_files": 1,
+          "approved_model_images": 0,
+          "approved_mannequin_alternatives": 1,
+          "display_form_previews": 1,
+          "published_mannequin_images": 1
+        },
+        "moderation": {
+          "stage": "input",
+          "category": "sexual",
+          "request_id": "132d53dc-f8e3-49af-ae53-61f9cad07ac2",
+          "recorded_at": "2026-11-18T20:30:43.152Z",
+          "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp",
+          "mode": "model_worn"
+        },
+        "related_moderation": null,
+        "approved_outputs": [
+          {
+            "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp",
+            "source_git_blob": "8db560d5a98f1ef607ceb1e71c5e9e9bcb3c0dbc",
+            "path": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/main__beb2f9a0-ace9-42b3-a9dc-bffa5286a43e__mannequin.webp",
+            "git_blob": "c2ee73af2560027d762773c3cfe7e34cf70fd2c3",
+            "dimensions": {
+              "width": 1086,
+              "height": 1448
+            },
+            "catalog_mode": "non_human_mannequin",
+            "status": "ALTERNATIVE_MANNEQUIN",
+            "validation": "pass"
+          }
+        ],
+        "alternative_preview": {
+          "status": "ALTERNATIVE_MANNEQUIN",
+          "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp",
+          "width": 1086,
+          "height": 1448,
+          "visual_qa": "Representative preview preserves the teal color, floral and butterfly arrangement, bound leg openings and full unfolded silhouette.",
+          "published": true,
+          "output": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/main__beb2f9a0-ace9-42b3-a9dc-bffa5286a43e__mannequin.webp",
+          "output_git_blob": "c2ee73af2560027d762773c3cfe7e34cf70fd2c3"
+        },
+        "source_results": [
+          {
+            "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp",
+            "source_git_blob": "8db560d5a98f1ef607ceb1e71c5e9e9bcb3c0dbc",
+            "output": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/main__beb2f9a0-ace9-42b3-a9dc-bffa5286a43e__mannequin.webp",
+            "status": "ALTERNATIVE_MANNEQUIN",
+            "model_worn_attempts": 1,
+            "output_git_blob": "c2ee73af2560027d762773c3cfe7e34cf70fd2c3",
+            "output_dimensions": {
+              "width": 1086,
+              "height": 1448
+            },
+            "model_worn_status": "moderation_blocked",
+            "catalog_mode": "non_human_mannequin",
+            "validation": "pass"
+          },
+          {
+            "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/36a3a7eb-aa1d-4e3e-8abd-382fa15e29e8.webp",
+            "source_git_blob": "08c5c48443d7aa58e5e2539863c7f06cfea7a6ec",
+            "output": null,
+            "status": "not_submitted",
+            "model_worn_attempts": 0
+          },
+          {
+            "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/510e7409-16bc-4210-9b1c-2d96c3bfd724.webp",
+            "source_git_blob": "0c34bbecdffa39cb6ea4999cf7dfcc753dc8f483",
+            "output": null,
+            "status": "not_submitted",
+            "model_worn_attempts": 0
+          },
+          {
+            "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/7e4c3d78-a5ba-48ad-aff5-e6c841b3f9a0.webp",
+            "source_git_blob": "b57928466f08a03db10ef0e835d69951a7f14031",
+            "output": null,
+            "status": "not_submitted",
+            "model_worn_attempts": 0
+          },
+          {
+            "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/c830d6ff-4284-4771-9b8b-8cc4e9e3acb3.webp",
+            "source_git_blob": "df9465bd69c0e39d5b6816a3e7e4ad6eaba194ba",
+            "output": null,
+            "status": "not_submitted",
+            "model_worn_attempts": 0
+          },
+          {
+            "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/de3fc058-7bc2-4f69-a06e-7ccb19a0df54.webp",
+            "source_git_blob": "b231fe7c20d8f14b8cd012d146120639c4c83d44",
+            "output": null,
+            "status": "not_submitted",
+            "model_worn_attempts": 0
+          },
+          {
+            "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/colors/f288ac22-5fb5-468f-a0d9-db2a30147316.webp",
+            "source_git_blob": "33bec4daeacf9ad140792bcf5db0549fb1f677eb",
+            "output": null,
+            "status": "not_submitted",
+            "model_worn_attempts": 0
+          }
+        ],
+        "blockers": [
+          "Model-worn request blocked at input moderation.",
+          "Six color variants remain without generated images."
+        ],
+        "model_worn_status": "BLOCKED",
+        "alternative_acceptance": "approved_for_existing_main_image"
+      }
     }
   ],
-  "blockers": [
-    "Model-worn request blocked at input moderation.",
-    "Six color variants remain without generated images."
+  "superseded_image_paths": [
+    "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/main__beb2f9a0-ace9-42b3-a9dc-bffa5286a43e__mannequin.webp"
   ],
-  "model_worn_status": "BLOCKED"
+  "blockers": [],
+  "rerun_checks": [
+    {
+      "sources": 7,
+      "saved_outputs": 7,
+      "source_integrity": "PASS",
+      "individual_mapping_reconciliation": "PASS",
+      "scene_consistency": "PASS",
+      "same_product_reference_paths": "PASS",
+      "all_images_directly_in_generated": true
+    }
+  ],
+  "updated_at": "2026-11-24T12:20:30.453936+00:00",
+  "alternative_preview": {
+    "source": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/main/beb2f9a0-ace9-42b3-a9dc-bffa5286a43e.webp",
+    "output": "products/0fa68c72-dbab-42b3-9d7a-f476aa1feb73/generated/main__beb2f9a0-ace9-42b3-a9dc-bffa5286a43e__mannequin.png",
+    "status": "ALTERNATIVE_MANNEQUIN",
+    "dimensions": [
+      1312,
+      1199
+    ],
+    "sha256": "6bb9aee62af9685a62da43c27f93614777e8fc83d671871171cb3e7ea60cc516",
+    "variant_color": "Muted teal",
+    "request_id": "94553455-ae34-47e5-badd-0940a3829997",
+    "qa": {
+      "decision": "PASS",
+      "complete_unfolded_single_garment": "PASS",
+      "construction": "Broad waistband, curved bound legs and lower seam visually match same-product references",
+      "material_and_coverage": "Opaque smooth knit and full-coverage shape match",
+      "color": "Muted teal matches main visually",
+      "print": "Daisy and butterfly order, relative scale and curved dotted trails visually match; no added graphic",
+      "studio": "Neutral warm-gray, upright white non-human form, full product visible",
+      "limitations": [
+        "Source lighting prevents colorimetric certification.",
+        "Fine dotted trail registration is visually assessed, not pixel-identical certification."
+      ]
+    }
+  },
+  "completion_scope": "Owner-delegated uniform non-human mannequin replacement",
+  "alternative_status": "COMPLETE"
 }
